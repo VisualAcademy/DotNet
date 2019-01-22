@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNet.ListOfTypeSimpleMerge.ListOfTypeSimpleMerge</StartupObject>
+    <StartupObject>DotNet.ProcessStartDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="23_API\UsingStaticClassesDemo.cs" />
     <Compile Include="23_API\UsingStaticExample.cs" />
     <Compile Include="ListOfTypeSimpleMerge.cs" />
+    <Compile Include="ProcessStartDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
