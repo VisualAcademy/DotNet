@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>StreamReaderReadToEndDemo</StartupObject>
+    <StartupObject>DirectoryAndDirectoryInfo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,10 +49,17 @@
     <Compile Include="23_API\MathDemo.cs" />
     <Compile Include="23_API\UsingStaticClassesDemo.cs" />
     <Compile Include="23_API\UsingStaticExample.cs" />
+    <Compile Include="60_IO\PathClassDemo.cs" />
     <Compile Include="60_IO\StreamReaderReadToEndDemo.cs" />
+    <Compile Include="60_IO\_\파일명추출.cs" />
     <Compile Include="60_IO\_\파일처리_텍스트파일읽기.cs" />
     <Compile Include="60_IO\StreamWriterWriteLineDemo.cs" />
     <Compile Include="60_IO\_\파일처리_텍스트파일저장.cs" />
+    <Compile Include="60_IO\GetFileNameDemo.cs" />
+    <Compile Include="60_IO\_\파일처리_파일정보얻기.cs" />
+    <Compile Include="60_IO\_\파일처리_폴더정보얻기.cs" />
+    <Compile Include="60_IO\FileAndFileInfo.cs" />
+    <Compile Include="60_IO\DirectoryAndDirectoryInfo.cs" />
     <Compile Include="ListOfTypeSimpleMerge.cs" />
     <Compile Include="ProcessStartDemo.cs" />
     <Compile Include="Program.cs" />
