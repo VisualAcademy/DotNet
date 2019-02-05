@@ -15,13 +15,13 @@
             switch (month)
             {
                 case 1:
-                    r = new OneTwo { One = 91.8, Two = 110.12 };
+                    r = new OneTwo { One = 11, Two = 111 };
                     break;
                 case 2:
-                    r = new OneTwo { One = 90.3, Two = 110.56 };
+                    r = new OneTwo { One = 22, Two = 222 };
                     break;
                 case 3:
-                    r = new OneTwo { One = 101.15, Two = 101.03 };
+                    r = new OneTwo { One = 33, Two = 333 };
                     break;
                 default:
                     break;

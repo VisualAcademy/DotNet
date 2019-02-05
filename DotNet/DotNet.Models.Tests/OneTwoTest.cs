@@ -10,7 +10,7 @@ namespace DotNet.Models.Tests
         {
             var repository = new OneTwoRepository();
 
-            var expected = 101.03;
+            var expected = 333;
             var actual = repository.GetByMonth(3).Two;
 
             Assert.AreEqual(expected, actual);
