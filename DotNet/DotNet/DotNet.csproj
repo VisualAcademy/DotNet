@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ListOfChildToListOfParent.ListOfChildToListOfParent</StartupObject>
+    <StartupObject>DotNet.DictionaryOfString</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -155,6 +155,9 @@
     <Compile Include="60_IO\_\파일처리_폴더정보얻기.cs" />
     <Compile Include="60_IO\FileAndFileInfo.cs" />
     <Compile Include="60_IO\DirectoryAndDirectoryInfo.cs" />
+    <Compile Include="DictionaryGenericClassDemo.cs" />
+    <Compile Include="DictionaryOfString.cs" />
+    <Compile Include="DictionaryOfTypeNote.cs" />
     <Compile Include="LINQ\FromWhereSelect\FromWhereSelect.cs" />
     <Compile Include="LINQ\LinqAll\LinqAll.cs" />
     <Compile Include="LINQ\LinqAny\LinqAny.cs" />
