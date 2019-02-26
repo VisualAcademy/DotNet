@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DictionaryGenericClassDemo</StartupObject>
+    <StartupObject>CollectionInitializers.CollectionInitializers</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -142,7 +142,10 @@
     <Compile Include="40_Method\ParameterRef\ParameterRef.cs" />
     <Compile Include="40_Method\ParamsDemo\ParamsDemo.cs" />
     <Compile Include="40_Method\SingleExpression\SingleExpression.cs" />
+    <Compile Include="53_\CollectionInitializer.cs" />
+    <Compile Include="53_\CollectionInitializers.cs" />
     <Compile Include="53_\CollectionMerge.cs" />
+    <Compile Include="53_\ListOfCategory.cs" />
     <Compile Include="53_\StringArray.cs" />
     <Compile Include="55_ExtensionMethod\ExtensionFunction\ExtensionFunction.cs" />
     <Compile Include="60_IO\ListOfChildToListOfParent.cs" />
