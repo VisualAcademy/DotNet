@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>StringArray</StartupObject>
+    <StartupObject>DictionaryGenericClassDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -142,6 +142,7 @@
     <Compile Include="40_Method\ParameterRef\ParameterRef.cs" />
     <Compile Include="40_Method\ParamsDemo\ParamsDemo.cs" />
     <Compile Include="40_Method\SingleExpression\SingleExpression.cs" />
+    <Compile Include="53_\CollectionMerge.cs" />
     <Compile Include="53_\StringArray.cs" />
     <Compile Include="55_ExtensionMethod\ExtensionFunction\ExtensionFunction.cs" />
     <Compile Include="60_IO\ListOfChildToListOfParent.cs" />
@@ -156,7 +157,7 @@
     <Compile Include="60_IO\_\파일처리_폴더정보얻기.cs" />
     <Compile Include="60_IO\FileAndFileInfo.cs" />
     <Compile Include="60_IO\DirectoryAndDirectoryInfo.cs" />
-    <Compile Include="DictionaryGenericClassDemo.cs" />
+    <Compile Include="53_\DictionaryGenericClassDemo.cs" />
     <Compile Include="DictionaryOfString.cs" />
     <Compile Include="DictionaryOfTypeNote.cs" />
     <Compile Include="LINQ\FromWhereSelect\FromWhereSelect.cs" />
