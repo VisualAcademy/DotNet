@@ -33,7 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ExtensionMethodDemo.ExtensionMethodDemo</StartupObject>
+    <StartupObject>OutVariableDemo</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -163,6 +166,8 @@
     <Compile Include="60_IO\FileAndFileInfo.cs" />
     <Compile Include="60_IO\DirectoryAndDirectoryInfo.cs" />
     <Compile Include="53_\DictionaryGenericClassDemo.cs" />
+    <Compile Include="62_\OutVariable.cs" />
+    <Compile Include="62_\OutVariableDemo.cs" />
     <Compile Include="DictionaryOfString.cs" />
     <Compile Include="DictionaryOfTypeNote.cs" />
     <Compile Include="LINQ\FromWhereSelect\FromWhereSelect.cs" />
