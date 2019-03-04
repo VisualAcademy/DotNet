@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OutVariableDemo</StartupObject>
+    <StartupObject>EnvironmentExit</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -84,12 +84,15 @@
     <Compile Include="23_API\MathDemo.cs" />
     <Compile Include="23_API\UsingStaticClassesDemo.cs" />
     <Compile Include="23_API\UsingStaticExample.cs" />
+    <Compile Include="25_Enum\ConsoleColorDemo.cs" />
     <Compile Include="25_Enum\EnumAnimal\EnumAnimal.cs" />
     <Compile Include="25_Enum\EnumerationDemo\EnumerationDemo.cs" />
     <Compile Include="25_Enum\EnumerationPractice\EnumerationPractice.cs" />
     <Compile Include="25_Enum\EnumIndexChange\EnumIndexChange.cs" />
     <Compile Include="25_Enum\EnumIndex\EnumIndex.cs" />
     <Compile Include="25_Enum\EnumSwitch\EnumSwitch.cs" />
+    <Compile Include="26\EnvironmentDemo.cs" />
+    <Compile Include="26\EnvironmentExit.cs" />
     <Compile Include="26\MethodChaining\MethodChaining.cs" />
     <Compile Include="26\StringBuilderClass\StringBuilderClass.cs" />
     <Compile Include="26\StringBuilderDemo\StringBuilderDemo.cs" />
