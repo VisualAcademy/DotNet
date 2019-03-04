@@ -111,17 +111,17 @@
     <Compile Include="26\StringToCharArray\StringToCharArray.cs" />
     <Compile Include="26\StringValidation\StringValidation.cs" />
     <Compile Include="26\ToStringFormat\ToStringFormat.cs" />
-    <Compile Include="27\ExceptionDemo\ExceptionDemo.cs" />
-    <Compile Include="27\ExceptionHandling\ExceptionHandling.cs" />
-    <Compile Include="27\FormatExceptionDemo\FormatExceptionDemo.cs" />
-    <Compile Include="27\ThrowNote\ThrowNote.cs" />
-    <Compile Include="27\TryCatchDemo\TryCatchDemo.cs" />
-    <Compile Include="27\TryCatchFinallyDemo\TryCatchFinallyDemo1.cs" />
-    <Compile Include="27\TryCatchFinallyDemo\TryCatchFinallyDemo2.cs" />
-    <Compile Include="27\TryCatchFinallyDemo\TryCatchFinallyDemo3.cs" />
-    <Compile Include="27\TryCatchFinallyDemo\TryCatchFinallyDemo4.cs" />
-    <Compile Include="27\TryCatch\TryCatch.cs" />
-    <Compile Include="27\TryFinallyDemo\TryFinallyDemo.cs" />
+    <Compile Include="28_Exception\ExceptionDemo\ExceptionDemo.cs" />
+    <Compile Include="28_Exception\ExceptionHandling\ExceptionHandling.cs" />
+    <Compile Include="28_Exception\FormatExceptionDemo\FormatExceptionDemo.cs" />
+    <Compile Include="28_Exception\ThrowNote\ThrowNote.cs" />
+    <Compile Include="28_Exception\TryCatchDemo\TryCatchDemo.cs" />
+    <Compile Include="28_Exception\TryCatchFinallyDemo\TryCatchFinallyDemo1.cs" />
+    <Compile Include="28_Exception\TryCatchFinallyDemo\TryCatchFinallyDemo2.cs" />
+    <Compile Include="28_Exception\TryCatchFinallyDemo\TryCatchFinallyDemo3.cs" />
+    <Compile Include="28_Exception\TryCatchFinallyDemo\TryCatchFinallyDemo4.cs" />
+    <Compile Include="28_Exception\TryCatch\TryCatch.cs" />
+    <Compile Include="28_Exception\TryFinallyDemo\TryFinallyDemo.cs" />
     <Compile Include="28\ArrayClassDemo\ArrayClassDemo.cs" />
     <Compile Include="28\ArrayConvertAll\ArrayConvertAll.cs" />
     <Compile Include="28\ArrayListNote\ArrayListNote.cs" />
@@ -185,7 +185,7 @@
     <Compile Include="PartialClassDemo\PartialClassDemo.cs" />
     <Compile Include="PartialClassDemo\SecondDeveloper.cs" />
     <Compile Include="PartialClass\PartialClass.cs" />
-    <Compile Include="ProcessStartDemo.cs" />
+    <Compile Include="26\ProcessStartDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_Class\ClassAndMember\ClassAndMember.cs" />
@@ -322,6 +322,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="22_Interactive\" />
+    <Folder Include="27_String\" />
     <Folder Include="58_LINQ\" />
     <Folder Include="_Collections\" />
   </ItemGroup>
