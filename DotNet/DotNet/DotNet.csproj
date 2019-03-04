@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>EnvironmentExit</StartupObject>
+    <StartupObject>TryCatchFinallyDemo1</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -91,26 +91,26 @@
     <Compile Include="25_Enum\EnumIndexChange\EnumIndexChange.cs" />
     <Compile Include="25_Enum\EnumIndex\EnumIndex.cs" />
     <Compile Include="25_Enum\EnumSwitch\EnumSwitch.cs" />
-    <Compile Include="26\EnvironmentDemo.cs" />
-    <Compile Include="26\EnvironmentExit.cs" />
-    <Compile Include="26\MethodChaining\MethodChaining.cs" />
-    <Compile Include="26\StringBuilderClass\StringBuilderClass.cs" />
-    <Compile Include="26\StringBuilderDemo\StringBuilderDemo.cs" />
-    <Compile Include="26\StringBuilderPerformance\StringBuilderPerformance.cs" />
-    <Compile Include="26\StringClassNote\StringClassNote.cs" />
-    <Compile Include="26\StringClass\StringClass.cs" />
-    <Compile Include="26\StringCompareValue\StringCompareValue.cs" />
-    <Compile Include="26\StringConcat\StringConcat.cs" />
-    <Compile Include="26\StringDisplay\StringDisplay.cs" />
-    <Compile Include="26\StringEquals\StringEquals.cs" />
-    <Compile Include="26\StringFunction\StringFunction.cs" />
-    <Compile Include="26\StringIsNullOrEmptyDemo\StringIsNullOrEmptyDemo.cs" />
-    <Compile Include="26\StringLength\StringLength.cs" />
-    <Compile Include="26\StringPerformance\StringPerformance.cs" />
-    <Compile Include="26\StringSplit\StringSplit.cs" />
-    <Compile Include="26\StringToCharArray\StringToCharArray.cs" />
-    <Compile Include="26\StringValidation\StringValidation.cs" />
-    <Compile Include="26\ToStringFormat\ToStringFormat.cs" />
+    <Compile Include="26_Class\EnvironmentDemo.cs" />
+    <Compile Include="26_Class\EnvironmentExit.cs" />
+    <Compile Include="27_String\MethodChaining\MethodChaining.cs" />
+    <Compile Include="27_String\StringBuilderClass\StringBuilderClass.cs" />
+    <Compile Include="27_String\StringBuilderDemo\StringBuilderDemo.cs" />
+    <Compile Include="27_String\StringBuilderPerformance\StringBuilderPerformance.cs" />
+    <Compile Include="27_String\StringClassNote\StringClassNote.cs" />
+    <Compile Include="27_String\StringClass\StringClass.cs" />
+    <Compile Include="27_String\StringCompareValue\StringCompareValue.cs" />
+    <Compile Include="27_String\StringConcat\StringConcat.cs" />
+    <Compile Include="27_String\StringDisplay\StringDisplay.cs" />
+    <Compile Include="27_String\StringEquals\StringEquals.cs" />
+    <Compile Include="27_String\StringFunction\StringFunction.cs" />
+    <Compile Include="27_String\StringIsNullOrEmptyDemo\StringIsNullOrEmptyDemo.cs" />
+    <Compile Include="27_String\StringLength\StringLength.cs" />
+    <Compile Include="27_String\StringPerformance\StringPerformance.cs" />
+    <Compile Include="27_String\StringSplit\StringSplit.cs" />
+    <Compile Include="27_String\StringToCharArray\StringToCharArray.cs" />
+    <Compile Include="27_String\StringValidation\StringValidation.cs" />
+    <Compile Include="27_String\ToStringFormat\ToStringFormat.cs" />
     <Compile Include="28_Exception\ExceptionDemo\ExceptionDemo.cs" />
     <Compile Include="28_Exception\ExceptionHandling\ExceptionHandling.cs" />
     <Compile Include="28_Exception\FormatExceptionDemo\FormatExceptionDemo.cs" />
@@ -122,14 +122,15 @@
     <Compile Include="28_Exception\TryCatchFinallyDemo\TryCatchFinallyDemo4.cs" />
     <Compile Include="28_Exception\TryCatch\TryCatch.cs" />
     <Compile Include="28_Exception\TryFinallyDemo\TryFinallyDemo.cs" />
-    <Compile Include="28\ArrayClassDemo\ArrayClassDemo.cs" />
-    <Compile Include="28\ArrayConvertAll\ArrayConvertAll.cs" />
-    <Compile Include="28\ArrayListNote\ArrayListNote.cs" />
-    <Compile Include="28\ArraySort\ArraySort.cs" />
-    <Compile Include="28\StackClass\StackClass.cs" />
-    <Compile Include="28\StackDemo\StackDemo.cs" />
-    <Compile Include="28\StackNote\StackNote.cs" />
+    <Compile Include="29_Collection\ArrayClassDemo\ArrayClassDemo.cs" />
+    <Compile Include="29_Collection\ArrayConvertAll\ArrayConvertAll.cs" />
+    <Compile Include="29_Collection\ArrayListNote\ArrayListNote.cs" />
+    <Compile Include="29_Collection\ArraySort\ArraySort.cs" />
+    <Compile Include="29_Collection\StackClass\StackClass.cs" />
+    <Compile Include="29_Collection\StackDemo\StackDemo.cs" />
+    <Compile Include="29_Collection\StackNote\StackNote.cs" />
     <Compile Include="29\StackOfType\StackOfType.cs" />
+    <Compile Include="29_Collection\QueueDemo.cs" />
     <Compile Include="30_Etc\NullableTypeCheck.cs" />
     <Compile Include="30_Etc\NullCoalescing.cs" />
     <Compile Include="30_Etc\NullCoalescingNote.cs" />
@@ -185,7 +186,7 @@
     <Compile Include="PartialClassDemo\PartialClassDemo.cs" />
     <Compile Include="PartialClassDemo\SecondDeveloper.cs" />
     <Compile Include="PartialClass\PartialClass.cs" />
-    <Compile Include="26\ProcessStartDemo.cs" />
+    <Compile Include="26_Class\ProcessStartDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_Class\ClassAndMember\ClassAndMember.cs" />
@@ -322,7 +323,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="22_Interactive\" />
-    <Folder Include="27_String\" />
     <Folder Include="58_LINQ\" />
     <Folder Include="_Collections\" />
   </ItemGroup>
