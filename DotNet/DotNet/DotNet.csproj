@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>TryCatchFinallyDemo1</StartupObject>
@@ -172,8 +174,10 @@
     <Compile Include="53_\DictionaryGenericClassDemo.cs" />
     <Compile Include="62_\OutVariable.cs" />
     <Compile Include="62_\OutVariableDemo.cs" />
+    <Compile Include="BinaryLiteralNote.cs" />
     <Compile Include="DictionaryOfString.cs" />
     <Compile Include="DictionaryOfTypeNote.cs" />
+    <Compile Include="DigitSeparatorNote.cs" />
     <Compile Include="LINQ\FromWhereSelect\FromWhereSelect.cs" />
     <Compile Include="LINQ\LinqAll\LinqAll.cs" />
     <Compile Include="LINQ\LinqAny\LinqAny.cs" />
@@ -182,6 +186,7 @@
     <Compile Include="LINQ\LINQ_FromWhereSelect\LINQ_FromWhereSelect.cs" />
     <Compile Include="LINQ\Map\Map.cs" />
     <Compile Include="ListOfTypeSimpleMerge.cs" />
+    <Compile Include="MainMethodAsync.cs" />
     <Compile Include="PartialClassDemo\FirstDeveloper.cs" />
     <Compile Include="PartialClassDemo\PartialClassDemo.cs" />
     <Compile Include="PartialClassDemo\SecondDeveloper.cs" />
