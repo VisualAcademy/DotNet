@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TryCatchFinallyDemo1</StartupObject>
+    <StartupObject>LocalFunctionDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -80,6 +80,7 @@
     <Compile Include="15_Else\CharTest\CharTest.cs" />
     <Compile Include="21_Function\ArrowFunction\ArrowFunction.cs" />
     <Compile Include="21_Function\DefaultParameter\DefaultParameter.cs" />
+    <Compile Include="21_Function\LocalFunctionDemo.cs" />
     <Compile Include="21_Function\NamedParameter\NamedParameter.cs" />
     <Compile Include="23_API\MathDemo.cs" />
     <Compile Include="23_API\UsingStaticClassesDemo.cs" />
