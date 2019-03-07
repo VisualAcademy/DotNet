@@ -155,6 +155,8 @@
     <Compile Include="40_Method\SingleExpression\SingleExpression.cs" />
     <Compile Include="42_Property\AutoPropertyInitializers.cs" />
     <Compile Include="51_OOP\NullWithObject.cs" />
+    <Compile Include="AsyncAwaitSimple.cs" />
+    <Compile Include="AsyncAwaitWithHttpClient.cs" />
     <Compile Include="AwaitWithTryCatchFinally.cs" />
     <Compile Include="53_\CollectionInitializer.cs" />
     <Compile Include="53_\CollectionInitializers.cs" />
