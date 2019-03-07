@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AutoPropertyInitializers</StartupObject>
+    <StartupObject>NullWithObject.NullWithObject</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -154,6 +154,7 @@
     <Compile Include="40_Method\ParamsDemo\ParamsDemo.cs" />
     <Compile Include="40_Method\SingleExpression\SingleExpression.cs" />
     <Compile Include="42_Property\AutoPropertyInitializers.cs" />
+    <Compile Include="51_OOP\NullWithObject.cs" />
     <Compile Include="AwaitWithTryCatchFinally.cs" />
     <Compile Include="53_\CollectionInitializer.cs" />
     <Compile Include="53_\CollectionInitializers.cs" />
@@ -259,8 +260,8 @@
     <Compile Include="_Namespace\NamespaceDescription\NamespaceDescription.cs" />
     <Compile Include="_Namespace\NamespaceNote\NamespaceNote.cs" />
     <Compile Include="_Namespace\TypeDefinitionWithUsing\TypeDefinitionWithUsing.cs" />
-    <Compile Include="_OOP\EncapsulationNote\EncapsulationNote.cs" />
-    <Compile Include="_OOP\PolymorphismDemo\PolymorphismDemo.cs" />
+    <Compile Include="51_OOP\EncapsulationNote\EncapsulationNote.cs" />
+    <Compile Include="51_OOP\PolymorphismDemo\PolymorphismDemo.cs" />
     <Compile Include="42_Property\AnonymousClass\AnonymousClass.cs" />
     <Compile Include="42_Property\AnonymousType\AnonymousType.cs" />
     <Compile Include="42_Property\AutomaticallyImplementedProperty\AutomaticallyImplementedProperty.cs" />
