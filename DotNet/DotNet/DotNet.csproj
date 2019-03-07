@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LocalFunctionDemo</StartupObject>
+    <StartupObject>AutoPropertyInitializers</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -153,6 +153,8 @@
     <Compile Include="40_Method\ParameterRef\ParameterRef.cs" />
     <Compile Include="40_Method\ParamsDemo\ParamsDemo.cs" />
     <Compile Include="40_Method\SingleExpression\SingleExpression.cs" />
+    <Compile Include="42_Property\AutoPropertyInitializers.cs" />
+    <Compile Include="AwaitWithTryCatchFinally.cs" />
     <Compile Include="53_\CollectionInitializer.cs" />
     <Compile Include="53_\CollectionInitializers.cs" />
     <Compile Include="53_\CollectionMerge.cs" />
@@ -259,28 +261,28 @@
     <Compile Include="_Namespace\TypeDefinitionWithUsing\TypeDefinitionWithUsing.cs" />
     <Compile Include="_OOP\EncapsulationNote\EncapsulationNote.cs" />
     <Compile Include="_OOP\PolymorphismDemo\PolymorphismDemo.cs" />
-    <Compile Include="_Property\AnonymousClass\AnonymousClass.cs" />
-    <Compile Include="_Property\AnonymousType\AnonymousType.cs" />
-    <Compile Include="_Property\AutomaticallyImplementedProperty\AutomaticallyImplementedProperty.cs" />
-    <Compile Include="_Property\AutoPropertyDemo\AutoPropertyDemo.cs" />
-    <Compile Include="_Property\AutoProperty\AutoProperty.cs" />
-    <Compile Include="_Property\NameOfDemo\NameOfDemo.cs" />
-    <Compile Include="_Property\NameOfOperator\NameOfOperator.cs" />
-    <Compile Include="_Property\ObjectInitializerNote\ObjectInitializerNote.cs" />
-    <Compile Include="_Property\ObjectInitializerNote\ObjectInitializerNote.Person.cs" />
-    <Compile Include="_Property\ObjectInitializerPractice\ObjectInitializerPractice.cs" />
-    <Compile Include="_Property\ObjectInitializers\ObjectInitializers.cs" />
-    <Compile Include="_Property\ObjectInitializer\ObjectInitializer.cs" />
-    <Compile Include="_Property\PetDemo\PetDemo.cs" />
-    <Compile Include="_Property\PropertyAll\PropertyAll.cs" />
-    <Compile Include="_Property\PropertyFull\PropertyFull.cs" />
-    <Compile Include="_Property\PropertyNote\PropertyNote.Car.cs" />
-    <Compile Include="_Property\PropertyNote\PropertyNote.Person.cs" />
-    <Compile Include="_Property\PropertyNote\PropertyNote.PropertyNote.cs" />
-    <Compile Include="_Property\PropertyPractice\PropertyPractice.cs" />
-    <Compile Include="_Property\PropertyValidation\PropertyValidation.cs" />
-    <Compile Include="_Property\Property\Property.cs" />
-    <Compile Include="_Property\Property_AutoImplemented\Property_AutoImplemented.cs" />
+    <Compile Include="42_Property\AnonymousClass\AnonymousClass.cs" />
+    <Compile Include="42_Property\AnonymousType\AnonymousType.cs" />
+    <Compile Include="42_Property\AutomaticallyImplementedProperty\AutomaticallyImplementedProperty.cs" />
+    <Compile Include="42_Property\AutoPropertyDemo\AutoPropertyDemo.cs" />
+    <Compile Include="42_Property\AutoProperty\AutoProperty.cs" />
+    <Compile Include="42_Property\NameOfDemo\NameOfDemo.cs" />
+    <Compile Include="42_Property\NameOfOperator\NameOfOperator.cs" />
+    <Compile Include="42_Property\ObjectInitializerNote\ObjectInitializerNote.cs" />
+    <Compile Include="42_Property\ObjectInitializerNote\ObjectInitializerNote.Person.cs" />
+    <Compile Include="42_Property\ObjectInitializerPractice\ObjectInitializerPractice.cs" />
+    <Compile Include="42_Property\ObjectInitializers\ObjectInitializers.cs" />
+    <Compile Include="42_Property\ObjectInitializer\ObjectInitializer.cs" />
+    <Compile Include="42_Property\PetDemo\PetDemo.cs" />
+    <Compile Include="42_Property\PropertyAll\PropertyAll.cs" />
+    <Compile Include="42_Property\PropertyFull\PropertyFull.cs" />
+    <Compile Include="42_Property\PropertyNote\PropertyNote.Car.cs" />
+    <Compile Include="42_Property\PropertyNote\PropertyNote.Person.cs" />
+    <Compile Include="42_Property\PropertyNote\PropertyNote.PropertyNote.cs" />
+    <Compile Include="42_Property\PropertyPractice\PropertyPractice.cs" />
+    <Compile Include="42_Property\PropertyValidation\PropertyValidation.cs" />
+    <Compile Include="42_Property\Property\Property.cs" />
+    <Compile Include="42_Property\Property_AutoImplemented\Property_AutoImplemented.cs" />
     <Compile Include="_Reflection\TypeAndActivator.cs" />
     <Compile Include="_Struct\CharStruct\CharStruct.cs" />
     <Compile Include="_Struct\DateTimeDemo\DateTimeDemo.cs" />
