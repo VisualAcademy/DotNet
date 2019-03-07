@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="03_\WriteLineDemo.cs" />
     <Compile Include="04_Syntax\PlaceHolderChange\PlaceHolderChange.cs" />
     <Compile Include="04_Syntax\PlaceHolderMulti\PlaceHolderMulti.cs" />
     <Compile Include="04_Syntax\PlaceHolderTwice\PlaceHolderTwice.cs" />
