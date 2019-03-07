@@ -157,6 +157,7 @@
     <Compile Include="51_OOP\NullWithObject.cs" />
     <Compile Include="AsyncAwaitSimple.cs" />
     <Compile Include="AsyncAwaitWithHttpClient.cs" />
+    <Compile Include="AsyncMain.cs" />
     <Compile Include="AwaitWithTryCatchFinally.cs" />
     <Compile Include="53_\CollectionInitializer.cs" />
     <Compile Include="53_\CollectionInitializers.cs" />
