@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>NullWithObject.NullWithObject</StartupObject>
+    <StartupObject>HashtableDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -135,6 +135,7 @@
     <Compile Include="29_Collection\StackNote\StackNote.cs" />
     <Compile Include="29\StackOfType\StackOfType.cs" />
     <Compile Include="29_Collection\QueueDemo.cs" />
+    <Compile Include="29_Collection\HashtableDemo.cs" />
     <Compile Include="30_Etc\NullableTypeCheck.cs" />
     <Compile Include="30_Etc\NullCoalescing.cs" />
     <Compile Include="30_Etc\NullCoalescingNote.cs" />
