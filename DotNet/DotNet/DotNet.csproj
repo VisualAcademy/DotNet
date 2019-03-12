@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ListOfString</StartupObject>
+    <StartupObject>EnumerableDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -142,6 +142,7 @@
     <Compile Include="30_Etc\NullCoalescingOperator.cs" />
     <Compile Include="30_Etc\NullConditional.cs" />
     <Compile Include="30_Etc\QuestionMarkDot.cs" />
+    <Compile Include="30_GenericClass\EnumerableDemo.cs" />
     <Compile Include="30_GenericClass\ListOfString.cs" />
     <Compile Include="40_Method\DateTimeTryParse\DateTimeTryParse.cs" />
     <Compile Include="40_Method\ExpressionBodiedFunction\ExpressionBodiedFunction.cs" />
