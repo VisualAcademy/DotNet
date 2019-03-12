@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>NullCoalescingWithCollection</StartupObject>
+    <StartupObject>NullConditionalWithCollection</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -145,7 +145,7 @@
     <Compile Include="30_GenericClass\EnumerableDemo.cs" />
     <Compile Include="30_GenericClass\ListOfString.cs" />
     <Compile Include="30_GenericClass\NullCoalescingWithCollection.cs" />
-    <Compile Include="30_GenericClass\Null_조건부_연산자.cs" />
+    <Compile Include="30_GenericClass\NullConditionalWithCollection.cs" />
     <Compile Include="40_Method\DateTimeTryParse\DateTimeTryParse.cs" />
     <Compile Include="40_Method\ExpressionBodiedFunction\ExpressionBodiedFunction.cs" />
     <Compile Include="40_Method\ExpressionBodiedMethodDemo\ExpressionBodiedMethodDemo.cs" />
