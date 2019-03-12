@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>EnumerableDemo</StartupObject>
+    <StartupObject>NullCoalescingWithCollection</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -136,14 +136,16 @@
     <Compile Include="29\StackOfType\StackOfType.cs" />
     <Compile Include="29_Collection\QueueDemo.cs" />
     <Compile Include="29_Collection\HashtableDemo.cs" />
-    <Compile Include="30_Etc\NullableTypeCheck.cs" />
-    <Compile Include="30_Etc\NullCoalescing.cs" />
-    <Compile Include="30_Etc\NullCoalescingNote.cs" />
-    <Compile Include="30_Etc\NullCoalescingOperator.cs" />
-    <Compile Include="30_Etc\NullConditional.cs" />
-    <Compile Include="30_Etc\QuestionMarkDot.cs" />
+    <Compile Include="30_GenericClass\NullableTypeCheck.cs" />
+    <Compile Include="30_GenericClass\NullCoalescing.cs" />
+    <Compile Include="30_GenericClass\NullCoalescingNote.cs" />
+    <Compile Include="30_GenericClass\NullCoalescingOperator.cs" />
+    <Compile Include="30_GenericClass\NullConditional.cs" />
+    <Compile Include="30_GenericClass\QuestionMarkDot.cs" />
     <Compile Include="30_GenericClass\EnumerableDemo.cs" />
     <Compile Include="30_GenericClass\ListOfString.cs" />
+    <Compile Include="30_GenericClass\NullCoalescingWithCollection.cs" />
+    <Compile Include="30_GenericClass\Null_조건부_연산자.cs" />
     <Compile Include="40_Method\DateTimeTryParse\DateTimeTryParse.cs" />
     <Compile Include="40_Method\ExpressionBodiedFunction\ExpressionBodiedFunction.cs" />
     <Compile Include="40_Method\ExpressionBodiedMethodDemo\ExpressionBodiedMethodDemo.cs" />
@@ -339,6 +341,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="22_Interactive\" />
+    <Folder Include="30_Etc\" />
     <Folder Include="58_LINQ\" />
     <Folder Include="_Collections\" />
   </ItemGroup>
