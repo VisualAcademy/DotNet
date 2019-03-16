@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>NullConditionalWithCollection</StartupObject>
+    <StartupObject>RandomClassDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -171,6 +171,8 @@
     <Compile Include="31_LINQ\Map.cs" />
     <Compile Include="31_LINQ\MinAndMax.cs" />
     <Compile Include="31_LINQ\QuerySyntaxMethodSyntax.cs" />
+    <Compile Include="32_ClassEtc\RandomDemo.cs" />
+    <Compile Include="32_ClassEtc\RandomClassDemo.cs" />
     <Compile Include="40_Method\DateTimeTryParse\DateTimeTryParse.cs" />
     <Compile Include="40_Method\ExpressionBodiedFunction\ExpressionBodiedFunction.cs" />
     <Compile Include="40_Method\ExpressionBodiedMethodDemo\ExpressionBodiedMethodDemo.cs" />
@@ -227,20 +229,21 @@
     <Compile Include="26_Class\ProcessStartDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="_Class\ClassAndMember\ClassAndMember.cs" />
-    <Compile Include="_Class\ClassArray\ClassArray.cs" />
-    <Compile Include="_Class\ClassDemo\ClassDemo.cs" />
-    <Compile Include="_Class\ClassDemo\ClassOne.cs" />
-    <Compile Include="_Class\ClassDemo\ClassTwo.cs" />
-    <Compile Include="_Class\ClassDescription\ClassDescription.cs" />
-    <Compile Include="_Class\ClassMethod\ClassMethod.cs" />
-    <Compile Include="_Class\ClassNote\ClassNote.cs" />
-    <Compile Include="_Class\ClassPass\ClassPass.cs" />
-    <Compile Include="_Class\InstanceWithVar\InstanceWithVar.cs" />
-    <Compile Include="_Class\MyFirstClass\MyFirstClass.cs" />
-    <Compile Include="_Class\ObjectNote\ObjectNote.cs" />
-    <Compile Include="_Class\StaticAndInstance\StaticAndInstance.cs" />
-    <Compile Include="_Class\ToStringMethod\ToStringMethod.cs" />
+    <Compile Include="33_Class\ClassAndMember.cs" />
+    <Compile Include="33_Class\ClassArray\ClassArray.cs" />
+    <Compile Include="33_Class\ClassDemo\ClassDemo.cs" />
+    <Compile Include="33_Class\ClassDemo\ClassOne.cs" />
+    <Compile Include="33_Class\ClassDemo\ClassTwo.cs" />
+    <Compile Include="33_Class\ClassDescription.cs" />
+    <Compile Include="33_Class\ClassMethod.cs" />
+    <Compile Include="33_Class\ClassNote.cs" />
+    <Compile Include="33_Class\ClassPass.cs" />
+    <Compile Include="33_Class\InstanceWithVar\InstanceWithVar.cs" />
+    <Compile Include="33_Class\MyFirstClass.cs" />
+    <Compile Include="33_Class\ObjectDemo.cs" />
+    <Compile Include="33_Class\ObjectNote.cs" />
+    <Compile Include="33_Class\StaticAndInstance.cs" />
+    <Compile Include="33_Class\ToStringMethod\ToStringMethod.cs" />
     <Compile Include="_Constructor\ClassAndInstance\ClassAndInstance.cs" />
     <Compile Include="_Constructor\ConstructorAll\ConstructorAll.cs" />
     <Compile Include="_Constructor\ConstructorDemo\ConstructorDemo.cs" />
