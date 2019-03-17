@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PartialClassDemo.PartialClassDemo</StartupObject>
+    <StartupObject>RockPaperScissors</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -97,6 +97,7 @@
     <Compile Include="25_Enum\EnumSwitch\EnumSwitch.cs" />
     <Compile Include="26_Class\EnvironmentDemo.cs" />
     <Compile Include="26_Class\EnvironmentExit.cs" />
+    <Compile Include="26_Class\RockPaperScissors.cs" />
     <Compile Include="27_String\MethodChaining\MethodChaining.cs" />
     <Compile Include="27_String\StringBuilderClass\StringBuilderClass.cs" />
     <Compile Include="27_String\StringBuilderDemo\StringBuilderDemo.cs" />
