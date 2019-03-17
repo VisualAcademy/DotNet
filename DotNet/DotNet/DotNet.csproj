@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>RandomClassDemo</StartupObject>
+    <StartupObject>PartialClassDemo.PartialClassDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -222,9 +222,9 @@
     <Compile Include="31_LINQ\LinqSelect.cs" />
     <Compile Include="ListOfTypeSimpleMerge.cs" />
     <Compile Include="MainMethodAsync.cs" />
-    <Compile Include="PartialClassDemo\FirstDeveloper.cs" />
-    <Compile Include="PartialClassDemo\PartialClassDemo.cs" />
-    <Compile Include="PartialClassDemo\SecondDeveloper.cs" />
+    <Compile Include="33_Namespace\PartialClassDemo\FirstDeveloper.cs" />
+    <Compile Include="33_Namespace\PartialClassDemo\PartialClassDemo.cs" />
+    <Compile Include="33_Namespace\PartialClassDemo\SecondDeveloper.cs" />
     <Compile Include="PartialClass\PartialClass.cs" />
     <Compile Include="26_Class\ProcessStartDemo.cs" />
     <Compile Include="Program.cs" />
