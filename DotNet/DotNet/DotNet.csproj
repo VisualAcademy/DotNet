@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>RockPaperScissors</StartupObject>
+    <StartupObject>StopwatchDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -92,12 +92,15 @@
     <Compile Include="25_Enum\EnumAnimal\EnumAnimal.cs" />
     <Compile Include="25_Enum\EnumerationDemo\EnumerationDemo.cs" />
     <Compile Include="25_Enum\EnumerationPractice\EnumerationPractice.cs" />
+    <Compile Include="25_Enum\EnumGetNames.cs" />
     <Compile Include="25_Enum\EnumIndexChange\EnumIndexChange.cs" />
     <Compile Include="25_Enum\EnumIndex\EnumIndex.cs" />
+    <Compile Include="25_Enum\EnumParse.cs" />
     <Compile Include="25_Enum\EnumSwitch\EnumSwitch.cs" />
     <Compile Include="26_Class\EnvironmentDemo.cs" />
     <Compile Include="26_Class\EnvironmentExit.cs" />
     <Compile Include="26_Class\RockPaperScissors.cs" />
+    <Compile Include="26_Class\StopwatchDemo\StopwatchDemo.cs" />
     <Compile Include="27_String\MethodChaining\MethodChaining.cs" />
     <Compile Include="27_String\StringBuilderClass\StringBuilderClass.cs" />
     <Compile Include="27_String\StringBuilderDemo\StringBuilderDemo.cs" />
