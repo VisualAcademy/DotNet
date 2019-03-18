@@ -85,9 +85,9 @@
     <Compile Include="21_Function\DefaultParameter\DefaultParameter.cs" />
     <Compile Include="21_Function\LocalFunctionDemo.cs" />
     <Compile Include="21_Function\NamedParameter\NamedParameter.cs" />
-    <Compile Include="23_API\MathDemo.cs" />
-    <Compile Include="23_API\UsingStaticClassesDemo.cs" />
-    <Compile Include="23_API\UsingStaticExample.cs" />
+    <Compile Include="23_API\MathDemo\MathDemo.cs" />
+    <Compile Include="23_API\UsingStaticClassesDemo\UsingStaticClassesDemo.cs" />
+    <Compile Include="23_API\UsingStaticExample\UsingStaticExample.cs" />
     <Compile Include="25_Enum\ConsoleColorDemo.cs" />
     <Compile Include="25_Enum\EnumAnimal\EnumAnimal.cs" />
     <Compile Include="25_Enum\EnumerationDemo\EnumerationDemo.cs" />
