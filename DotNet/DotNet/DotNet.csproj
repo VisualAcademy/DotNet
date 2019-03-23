@@ -375,6 +375,17 @@
     <Compile Include="__Etc__\필드은폐\필드은폐.cs" />
     <Compile Include="__Etc__\함수_정의_호출\함수_정의_호출.cs" />
     <Compile Include="__Etc__\형식변환\형식변환.cs" />
+    <Compile Include="구조체\구조체.cs" />
+    <Compile Include="구조체\구조체_날짜관련.cs" />
+    <Compile Include="구조체\구조체_날짜및시간관련구조체.cs" />
+    <Compile Include="구조체\구조체_날짜차이구하기.cs" />
+    <Compile Include="구조체\구조체_문자관련구조체.cs" />
+    <Compile Include="구조체\구조체_성적처리_막대그래프.cs" />
+    <Compile Include="구조체\구조체데모.cs" />
+    <Compile Include="구조체\구조체매개변수.cs" />
+    <Compile Include="구조체\날짜와시간관련구조체.cs" />
+    <Compile Include="데이터형식과변수\데이터형식_부호없는_정수.cs" />
+    <Compile Include="데이터형식과변수\데이터형식_부호없는_정수_.cs" />
     <Compile Include="배열\배열.cs" />
     <Compile Include="배열\배열_명령줄인수.cs" />
     <Compile Include="배열\배열_배열의배열.cs" />
@@ -428,6 +439,13 @@
     <Compile Include="알고리즘\알고리즘_합계_4의배수.cs" />
     <Compile Include="알고리즘\알고리즘_합계_기본.cs" />
     <Compile Include="알고리즘\알고리즘_합계_팩토리얼.cs" />
+    <Compile Include="제어문\구구단_가로출력.cs" />
+    <Compile Include="제어문\선택문.cs" />
+    <Compile Include="제어문\선행반복.cs" />
+    <Compile Include="제어문\제어문_구간반복.cs" />
+    <Compile Include="제어문\제어문_배수의합.cs" />
+    <Compile Include="제어문\제어문_조건반복.cs" />
+    <Compile Include="제어문\제어문_짝수의합.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
