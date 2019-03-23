@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DigitSeparatorNote</StartupObject>
+    <StartupObject>DotNet.RefReturn</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -319,6 +319,7 @@
     <Compile Include="35_Constructor\ConstructorParameter\ConstructorParameter.cs" />
     <Compile Include="35_Constructor\ConstructorThis\ConstructorThis.cs" />
     <Compile Include="35_Constructor\ReadOnlyNote\ReadOnlyNote.cs" />
+    <Compile Include="RefReturn.cs" />
     <Compile Include="_Delegate\DelegateNote\DelegateNote.cs" />
     <Compile Include="34_Field\FieldArray\FieldArray.cs" />
     <Compile Include="34_Field\FieldInitializer\FieldInitializer.cs" />
