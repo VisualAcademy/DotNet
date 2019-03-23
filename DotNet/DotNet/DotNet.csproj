@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ArrowDemo</StartupObject>
+    <StartupObject>GetterSetter</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -191,7 +191,9 @@
     <Compile Include="40_Method\SingleExpression\SingleExpression.cs" />
     <Compile Include="40_Property\ArrowDemo\ArrowDemo.cs" />
     <Compile Include="40_Property\AutoPropertyInitializers\AutoPropertyInitializers.cs" />
+    <Compile Include="40_Property\GetterSetter\GetterSetter.cs" />
     <Compile Include="51_OOP\NullWithObject.cs" />
+    <Compile Include="51_OOP\POCO\POCO.cs" />
     <Compile Include="AsyncAwaitSimple.cs" />
     <Compile Include="AsyncAwaitWithHttpClient.cs" />
     <Compile Include="AsyncMain.cs" />
