@@ -242,6 +242,10 @@
     <Compile Include="57_Dynamic\Dynamic.cs" />
     <Compile Include="57_Dynamic\DynamicallyTypedObjects.cs" />
     <Compile Include="57_Dynamic\DynamicDemo.cs" />
+    <Compile Include="63_PatternMatching\PatternMatchingIf.cs" />
+    <Compile Include="63_PatternMatching\PatternMatchingSwitch.cs" />
+    <Compile Include="63_PatternMatching\PatternMatchingWithIf.cs" />
+    <Compile Include="63_PatternMatching\PatternMatchingWithSwitch.cs" />
     <Compile Include="AsyncAwaitSimple.cs" />
     <Compile Include="AsyncAwaitWithHttpClient.cs" />
     <Compile Include="AsyncMain.cs" />
@@ -504,15 +508,15 @@
     <Compile Include="제어문\제어문_배수의합.cs" />
     <Compile Include="제어문\제어문_조건반복.cs" />
     <Compile Include="제어문\제어문_짝수의합.cs" />
-    <Compile Include="튜플\TupleClass.cs" />
-    <Compile Include="튜플\TupleClassDemo.cs" />
-    <Compile Include="튜플\TupleDeconstructionDescription.cs" />
-    <Compile Include="튜플\TupleDefault.cs" />
-    <Compile Include="튜플\TupleLiteral.cs" />
-    <Compile Include="튜플\TupleLiteralDescription.cs" />
-    <Compile Include="튜플\TupleNamed.cs" />
-    <Compile Include="튜플\TupleReturnDescription.cs" />
-    <Compile Include="튜플\TupleReturnName.cs" />
+    <Compile Include="62_Tuple\TupleClass.cs" />
+    <Compile Include="62_Tuple\TupleClassDemo.cs" />
+    <Compile Include="62_Tuple\TupleDeconstructionDescription.cs" />
+    <Compile Include="62_Tuple\TupleDefault.cs" />
+    <Compile Include="62_Tuple\TupleLiteral\TupleLiteral.cs" />
+    <Compile Include="62_Tuple\TupleLiteralDescription.cs" />
+    <Compile Include="62_Tuple\TupleNamed.cs" />
+    <Compile Include="62_Tuple\TupleReturnDescription.cs" />
+    <Compile Include="62_Tuple\TupleReturnName.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

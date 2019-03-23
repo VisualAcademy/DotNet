@@ -1,5 +1,4 @@
-﻿// System.ValueTuple.dll 파일 참조 필요
-using static System.Console;
+﻿using static System.Console;
 
 class TupleLiteral
 {
