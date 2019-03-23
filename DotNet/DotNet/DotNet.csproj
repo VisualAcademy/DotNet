@@ -80,6 +80,15 @@
     <Compile Include="08_ReadLine\TypeConversion\TypeConversion.cs" />
     <Compile Include="08_ReadLine\VarInput\VarInput.cs" />
     <Compile Include="08_ReadLine\Var\Var.cs" />
+    <Compile Include="13_ConditionalOperator\ConditionalOperator.cs" />
+    <Compile Include="13_ConditionalOperator\OperatorPrecedence.cs" />
+    <Compile Include="13_ConditionalOperator\Operator_MaxSize.cs" />
+    <Compile Include="13_ConditionalOperator\PrecedenceQuiz.cs" />
+    <Compile Include="13_ConditionalOperator\SizeOf.cs" />
+    <Compile Include="13_ConditionalOperator\TernaryExam.cs" />
+    <Compile Include="13_ConditionalOperator\TernaryOperator.cs" />
+    <Compile Include="13_ConditionalOperator\TernaryPractice.cs" />
+    <Compile Include="13_ConditionalOperator\TernaryQuiz.cs" />
     <Compile Include="15_Else\CharTest\CharTest.cs" />
     <Compile Include="20_Array\ArrayDemo.cs" />
     <Compile Include="20_Array\ArrayDescription.cs" />
