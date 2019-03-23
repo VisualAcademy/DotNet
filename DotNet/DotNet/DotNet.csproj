@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DynamicDemo</StartupObject>
+    <StartupObject>DigitSeparatorNote</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -67,6 +67,12 @@
     <Compile Include="05_Variable\VariablePractice\VariablePractice.cs" />
     <Compile Include="05_Variable\VariableSameValue\VariableSameValue.cs" />
     <Compile Include="05_Variable\Variable\Variable.cs" />
+    <Compile Include="06_Number\IntegerDemo.cs" />
+    <Compile Include="06_Number\IntegerExam.cs" />
+    <Compile Include="06_Number\IntegerOverflow.cs" />
+    <Compile Include="06_Number\IntegerPractice.cs" />
+    <Compile Include="06_Number\SignedInteger.cs" />
+    <Compile Include="06_Number\UnsignedInteger.cs" />
     <Compile Include="08_ReadLine\ConsoleReadDemo\ConsoleReadDemo.cs" />
     <Compile Include="08_ReadLine\ConsoleReadLineDemo\ConsoleReadLineDemo.cs" />
     <Compile Include="08_ReadLine\GetTypeDemo\GetTypeDemo.cs" />
@@ -276,7 +282,7 @@
     <Compile Include="BinaryLiteralNote.cs" />
     <Compile Include="DictionaryOfString.cs" />
     <Compile Include="DictionaryOfTypeNote.cs" />
-    <Compile Include="DigitSeparatorNote.cs" />
+    <Compile Include="06_Number\DigitSeparatorNote.cs" />
     <Compile Include="31_LINQ\FromWhereSelect.cs" />
     <Compile Include="31_LINQ\LinqSelect.cs" />
     <Compile Include="ListOfTypeSimpleMerge.cs" />
