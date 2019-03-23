@@ -104,6 +104,7 @@
     <Compile Include="21_Function\DefaultParameter\DefaultParameter.cs" />
     <Compile Include="21_Function\LocalFunctionDemo.cs" />
     <Compile Include="21_Function\NamedParameter\NamedParameter.cs" />
+    <Compile Include="21_Function\_함수\재귀함수.cs" />
     <Compile Include="21_Function\_함수\함수.cs" />
     <Compile Include="21_Function\_함수\함수오버로드.cs" />
     <Compile Include="23_API\MathDemo\MathDemo.cs" />
@@ -486,6 +487,7 @@
     <Compile Include="알고리즘\알고리즘_합계_4의배수.cs" />
     <Compile Include="알고리즘\알고리즘_합계_기본.cs" />
     <Compile Include="알고리즘\알고리즘_합계_팩토리얼.cs" />
+    <Compile Include="알고리즘\차이.cs" />
     <Compile Include="제어문\구구단_가로출력.cs" />
     <Compile Include="제어문\선택문.cs" />
     <Compile Include="제어문\선행반복.cs" />
@@ -493,6 +495,15 @@
     <Compile Include="제어문\제어문_배수의합.cs" />
     <Compile Include="제어문\제어문_조건반복.cs" />
     <Compile Include="제어문\제어문_짝수의합.cs" />
+    <Compile Include="튜플\TupleClass.cs" />
+    <Compile Include="튜플\TupleClassDemo.cs" />
+    <Compile Include="튜플\TupleDeconstructionDescription.cs" />
+    <Compile Include="튜플\TupleDefault.cs" />
+    <Compile Include="튜플\TupleLiteral.cs" />
+    <Compile Include="튜플\TupleLiteralDescription.cs" />
+    <Compile Include="튜플\TupleNamed.cs" />
+    <Compile Include="튜플\TupleReturnDescription.cs" />
+    <Compile Include="튜플\TupleReturnName.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
