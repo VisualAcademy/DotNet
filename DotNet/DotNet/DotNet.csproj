@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PassMethodAsParameter</StartupObject>
+    <StartupObject>FuncDelegate</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -244,7 +244,10 @@
     <Compile Include="41_Indexer\인덱서확장.cs" />
     <Compile Include="42_Delegate\DelegateDemo.cs" />
     <Compile Include="42_Delegate\DelegateParameter.cs" />
+    <Compile Include="42_Delegate\FuncDemo.cs" />
+    <Compile Include="42_Delegate\FuncDelegate.cs" />
     <Compile Include="42_Delegate\PassMethodAsParameter.cs" />
+    <Compile Include="42_Delegate\_\Func대리자.cs" />
     <Compile Include="42_Delegate\대리자.cs" />
     <Compile Include="42_Delegate\대리자설명.cs" />
     <Compile Include="51_OOP\NullWithObject.cs" />
