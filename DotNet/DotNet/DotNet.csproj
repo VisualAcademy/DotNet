@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ProcessGetCurrentProcess</StartupObject>
+    <StartupObject>SendMailTest</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -336,6 +336,7 @@
     <Compile Include="34_Field\LocalVariable\LocalVariable.cs" />
     <Compile Include="34_Field\PublicField\PublicField.cs" />
     <Compile Include="34_Field\VariableScope\VariableScope.cs" />
+    <Compile Include="SendMailTest.cs" />
     <Compile Include="_GenericMake\GenericNote\GenericNote.cs" />
     <Compile Include="_GenericMake\GenericsDemo\GenericsDemo.cs" />
     <Compile Include="_GenericMake\ListNote\ListNote.cs" />

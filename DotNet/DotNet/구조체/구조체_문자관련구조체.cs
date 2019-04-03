@@ -5,7 +5,8 @@ class 구조체_문자관련구조체
     static void Main()
     {
         char a = 'A'; char b = 'a';
-        char c = '1'; char d = '\t'; // 이스케이프 시퀀스도 한문자로 인식
+        char c = '1';
+        //char d = '\t'; // 이스케이프 시퀀스도 한문자로 인식
 
         if (Char.IsUpper(a))
         { // 대문자
@@ -20,6 +21,7 @@ class 구조체_문자관련구조체
             Console.WriteLine("{0}는 숫자형", c);
         }
 
+       
         Console.WriteLine(Char.ToLower(a)); // A -> a
         Console.WriteLine(Char.ToUpper(b)); // a -> A
 
