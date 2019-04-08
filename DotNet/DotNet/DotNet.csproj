@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SendMailTest</StartupObject>
+    <StartupObject>AsDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -136,8 +136,12 @@
     <Compile Include="25_Enum\EnumIndex\EnumIndex.cs" />
     <Compile Include="25_Enum\EnumParse.cs" />
     <Compile Include="25_Enum\EnumSwitch\EnumSwitch.cs" />
+    <Compile Include="26_Class\As.cs" />
+    <Compile Include="26_Class\AsDemo.cs" />
     <Compile Include="26_Class\EnvironmentDemo.cs" />
     <Compile Include="26_Class\EnvironmentExit.cs" />
+    <Compile Include="26_Class\Is.cs" />
+    <Compile Include="26_Class\IsDemo.cs" />
     <Compile Include="26_Class\RockPaperScissors.cs" />
     <Compile Include="26_Class\StopwatchDemo\StopwatchDemo.cs" />
     <Compile Include="27_String\MethodChaining\MethodChaining.cs" />
