@@ -30,7 +30,7 @@ public class WeatherForecastService
     }
 }
 
-public class WeatherForecastApp
+class WeatherForecastApp
 {
     static async Task Main()
     {
