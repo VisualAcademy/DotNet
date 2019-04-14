@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AsDemo</StartupObject>
+    <StartupObject>EnvironmentDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -131,18 +131,20 @@
     <Compile Include="25_Enum\EnumAnimal\EnumAnimal.cs" />
     <Compile Include="25_Enum\EnumerationDemo\EnumerationDemo.cs" />
     <Compile Include="25_Enum\EnumerationPractice\EnumerationPractice.cs" />
-    <Compile Include="25_Enum\EnumGetNames.cs" />
+    <Compile Include="25_Enum\EnumGetNames\EnumGetNames.cs" />
     <Compile Include="25_Enum\EnumIndexChange\EnumIndexChange.cs" />
     <Compile Include="25_Enum\EnumIndex\EnumIndex.cs" />
-    <Compile Include="25_Enum\EnumParse.cs" />
+    <Compile Include="25_Enum\EnumParse\EnumParse.cs" />
     <Compile Include="25_Enum\EnumSwitch\EnumSwitch.cs" />
     <Compile Include="26_Class\As.cs" />
     <Compile Include="26_Class\AsDemo.cs" />
-    <Compile Include="26_Class\EnvironmentDemo.cs" />
-    <Compile Include="26_Class\EnvironmentExit.cs" />
+    <Compile Include="26_Class\EnvironmentDemo\EnvironmentDemo.cs" />
+    <Compile Include="26_Class\EnvironmentExit\EnvironmentExit.cs" />
     <Compile Include="26_Class\Is.cs" />
     <Compile Include="26_Class\IsDemo.cs" />
-    <Compile Include="26_Class\RockPaperScissors.cs" />
+    <Compile Include="26_Class\RegexDemo\RegexDemo.cs" />
+    <Compile Include="26_Class\RegexReplace\RegexReplace.cs" />
+    <Compile Include="26_Class\RockPaperScissors\RockPaperScissors.cs" />
     <Compile Include="26_Class\StopwatchDemo\StopwatchDemo.cs" />
     <Compile Include="27_String\MethodChaining\MethodChaining.cs" />
     <Compile Include="27_String\StringBuilderClass\StringBuilderClass.cs" />
@@ -218,8 +220,8 @@
     <Compile Include="31_LINQ\Map.cs" />
     <Compile Include="31_LINQ\MinAndMax.cs" />
     <Compile Include="31_LINQ\QuerySyntaxMethodSyntax.cs" />
-    <Compile Include="32_ClassEtc\RandomDemo.cs" />
-    <Compile Include="32_ClassEtc\RandomClassDemo.cs" />
+    <Compile Include="26_Class\RandomDemo\RandomDemo.cs" />
+    <Compile Include="26_Class\RandomClassDemo\RandomClassDemo.cs" />
     <Compile Include="34_Field\필드.cs" />
     <Compile Include="35_Constructor\ConstructorToDestructor.cs" />
     <Compile Include="35_Constructor\생성자_메서드_소멸자.cs" />
@@ -294,6 +296,7 @@
     <Compile Include="62_\OutVariable.cs" />
     <Compile Include="62_\OutVariableDemo.cs" />
     <Compile Include="BinaryLiteralNote.cs" />
+    <Compile Include="CsharpInteractive.cs" />
     <Compile Include="DictionaryOfString.cs" />
     <Compile Include="DictionaryOfTypeNote.cs" />
     <Compile Include="06_Number\DigitSeparatorNote.cs" />
@@ -305,7 +308,7 @@
     <Compile Include="33_Namespace\PartialClassDemo\PartialClassDemo.cs" />
     <Compile Include="33_Namespace\PartialClassDemo\SecondDeveloper.cs" />
     <Compile Include="PartialClass\PartialClass.cs" />
-    <Compile Include="26_Class\ProcessStartDemo.cs" />
+    <Compile Include="26_Class\ProcessStartDemo\ProcessStartDemo.cs" />
     <Compile Include="ProcessGetCurrentProcess.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
