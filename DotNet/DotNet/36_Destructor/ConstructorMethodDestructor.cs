@@ -1,39 +1,32 @@
-﻿// 메서드: 동작/행위 : 자동차의 동작/기능
-// 생성자(Constructor) 메서드: 클래스에서 제일 먼저 실행, 자동차 조립/시동걸기
-// 소멸자(Desctructor) 메서드: 클래스에서 제일 마지막에 실행, 자동차 폐차/시동끄기
-using System;
+﻿using System;
 
-namespace 생성자_메서드_소멸자
+namespace ConstructorMethodDestructor
 {
     public class Car
     {
-        // 필드
+        // [1] 필드
         private string color;
-        // 생성자
+        // [2][1] 생성자: 기본 생성자
         public Car()
         {
             color = "검정";
             Console.WriteLine("{0}색 자동차를 조립합니다.", color);
         }
+        // [2][2] 생성자: 매개 변수가 있는 생성자
         public Car(string color)
         {
             this.color = color; // this.필드 = 매개변수;
             Console.WriteLine("{0}색 자동차를 조립합니다.", color);
         }
-        // 메서드
-        public void Go()
-        {
-            Console.WriteLine("{0}색 자동차가 달립니다.", color);
-        }
-        // 소멸자: GC 엔진 알아서 소멸시킴
-        ~Car()
-        {
-            Console.WriteLine("{0}색 자동차를 폐차합니다.", this.color);
-        }
+        // [3] 메서드
+        public void Go() => Console.WriteLine("{0}색 자동차가 달립니다.", color);
+        // [4] 소멸자: GC 엔진 알아서 소멸시킴
+        ~Car() => Console.WriteLine("{0}색 자동차를 폐차합니다.", this.color);
     }
-    class 생성자_메서드_소멸자
+
+    class ConstructorMethodDestructor
     {
-        static void Main(string[] args)
+        static void Main()
         {
             // Car 클래스의 인스턴스 생성
             Car car = new Car(); // 생성
