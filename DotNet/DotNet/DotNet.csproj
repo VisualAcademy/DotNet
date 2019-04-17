@@ -247,6 +247,7 @@
     <Compile Include="37_Method\_\명명된매개변수.cs" />
     <Compile Include="38_Property\ArrowDemo\ArrowDemo.cs" />
     <Compile Include="38_Property\AutoPropertyInitializers\AutoPropertyInitializers.cs" />
+    <Compile Include="38_Property\DataClass.cs" />
     <Compile Include="38_Property\GetterSetter\GetterSetter.cs" />
     <Compile Include="41_Indexer\FavoriteLanguage.cs" />
     <Compile Include="41_Indexer\NickNameDemo\NickName.cs" />
