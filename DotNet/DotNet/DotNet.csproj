@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>EnvironmentDemo</StartupObject>
+    <StartupObject>DestructorDemo.DestructorDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -223,9 +223,10 @@
     <Compile Include="26_Class\RandomDemo\RandomDemo.cs" />
     <Compile Include="26_Class\RandomClassDemo\RandomClassDemo.cs" />
     <Compile Include="34_Field\필드.cs" />
-    <Compile Include="35_Constructor\ConstructorToDestructor.cs" />
-    <Compile Include="35_Constructor\생성자_메서드_소멸자.cs" />
-    <Compile Include="35_Constructor\생성자_필드초기화.cs" />
+    <Compile Include="36_Destructor\ConstructorToDestructor.cs" />
+    <Compile Include="36_Destructor\생성자_메서드_소멸자.cs" />
+    <Compile Include="36_Destructor\생성자_필드초기화.cs" />
+    <Compile Include="36_Destructor\DestructorDemo.cs" />
     <Compile Include="40_Method\DateTimeTryParse\DateTimeTryParse.cs" />
     <Compile Include="40_Method\ExpressionBodiedFunction\ExpressionBodiedFunction.cs" />
     <Compile Include="40_Method\ExpressionBodiedMethodDemo\ExpressionBodiedMethodDemo.cs" />

@@ -16,22 +16,10 @@ namespace DotNet
 
     class CsharpInteractive
     {
+        public static void Main(string[] args)
+        {
 
+        }
     }
 }
-enum Align
-{
-    Top = 0,
-    Bottom = 2,
-    Left = 4,
-    Right = 8
-}
 
-enum Weekday
-{
-    Sunday,     Monday,    Tuesday,    Wednesday,    Thursday,    Friday,    Saturday
-}
-enum CoffeeSize
-{
-    Small,    Medium,    Large
-}

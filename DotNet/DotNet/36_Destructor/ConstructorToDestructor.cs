@@ -1,9 +1,9 @@
 ﻿using static System.Console;
 
-public class Test
+public class DestructorTest
 {
     // 생성자
-    public Test()
+    public DestructorTest()
     {
         WriteLine("[1] 생성");
     }
@@ -13,7 +13,7 @@ public class Test
         WriteLine("[2] 실행");
     }
     // 소멸자: GC
-    ~Test()
+    ~DestructorTest()
     {
         WriteLine("[3] 소멸");
     }
@@ -23,9 +23,8 @@ class ConstructorToDestructor
 {
     static void Main()
     {
-        OutputEncoding = System.Text.Encoding.UTF8;
-        Test test = new Test();
-        test.Run();
-        // System.GC.Collect(); 
+        DestructorTest test = new DestructorTest(); // 생성
+        test.Run(); // 실행
+        // GC.Collect(); // 소멸
     }
 }
