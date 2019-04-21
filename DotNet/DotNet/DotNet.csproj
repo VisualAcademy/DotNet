@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AnonymousMethod.AnonymousMethod</StartupObject>
+    <StartupObject>ImmutableTypeDemo.ImmutableTypeDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -256,18 +256,23 @@
     <Compile Include="39_Indexer\YieldReturn.cs" />
     <Compile Include="39_Indexer\인덱서설명.cs" />
     <Compile Include="39_Indexer\인덱서확장.cs" />
-    <Compile Include="42_Delegate\AnonymousDelegate.cs" />
-    <Compile Include="42_Delegate\DelegateDemo\DelegateDemo.cs" />
-    <Compile Include="42_Delegate\DelegateParameter.cs" />
-    <Compile Include="42_Delegate\FuncDemo\FuncDemo.cs" />
-    <Compile Include="42_Delegate\FuncDelegate.cs" />
-    <Compile Include="42_Delegate\PassMethodAsParameter.cs" />
-    <Compile Include="42_Delegate\_\Func대리자.cs" />
-    <Compile Include="42_Delegate\_\무명메서드.cs" />
-    <Compile Include="42_Delegate\_\대리자.cs" />
-    <Compile Include="42_Delegate\DelegatePractice.cs" />
-    <Compile Include="42_Delegate\_\대리자설명.cs" />
-    <Compile Include="42_Delegate\AnonymousMethod.cs" />
+    <Compile Include="41_Event\_\이벤트.cs" />
+    <Compile Include="41_Event\EventDemo.cs" />
+    <Compile Include="40_Delegate\AnonymousDelegate.cs" />
+    <Compile Include="40_Delegate\DelegateDemo\DelegateDemo.cs" />
+    <Compile Include="40_Delegate\DelegateParameter.cs" />
+    <Compile Include="40_Delegate\FuncDemo\FuncDemo.cs" />
+    <Compile Include="40_Delegate\FuncDelegate.cs" />
+    <Compile Include="40_Delegate\PassMethodAsParameter.cs" />
+    <Compile Include="40_Delegate\_\Func대리자.cs" />
+    <Compile Include="40_Delegate\_\무명메서드.cs" />
+    <Compile Include="40_Delegate\_\대리자.cs" />
+    <Compile Include="40_Delegate\DelegatePractice.cs" />
+    <Compile Include="40_Delegate\_\대리자설명.cs" />
+    <Compile Include="40_Delegate\AnonymousMethod.cs" />
+    <Compile Include="42_ClassEtc\ImmutableTypeDemo.cs" />
+    <Compile Include="42_ClassEtc\PointFunctional.cs" />
+    <Compile Include="42_ClassEtc\PointImperative.cs" />
     <Compile Include="51_OOP\NullWithObject.cs" />
     <Compile Include="51_OOP\POCO\POCO.cs" />
     <Compile Include="55_ExtensionMethod\확장메서드.cs" />
@@ -317,7 +322,7 @@
     <Compile Include="33_Namespace\PartialClassDemo\FirstDeveloper.cs" />
     <Compile Include="33_Namespace\PartialClassDemo\PartialClassDemo.cs" />
     <Compile Include="33_Namespace\PartialClassDemo\SecondDeveloper.cs" />
-    <Compile Include="PartialClass\PartialClass.cs" />
+    <Compile Include="42_ClassEtc\PartialClass\PartialClass.cs" />
     <Compile Include="26_Class\ProcessStartDemo\ProcessStartDemo.cs" />
     <Compile Include="ProcessGetCurrentProcess.cs" />
     <Compile Include="Program.cs" />
@@ -348,7 +353,7 @@
     <Compile Include="35_Constructor\ConstructorThis\ConstructorThis.cs" />
     <Compile Include="35_Constructor\ReadOnlyNote\ReadOnlyNote.cs" />
     <Compile Include="RefReturn.cs" />
-    <Compile Include="42_Delegate\DelegateNote\DelegateNote.cs" />
+    <Compile Include="40_Delegate\DelegateNote\DelegateNote.cs" />
     <Compile Include="34_Field\FieldArray\FieldArray.cs" />
     <Compile Include="34_Field\FieldInitializer\FieldInitializer.cs" />
     <Compile Include="34_Field\FieldNote\FieldNote.cs" />
