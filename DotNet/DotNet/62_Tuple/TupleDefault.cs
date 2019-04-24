@@ -1,5 +1,4 @@
-﻿// System.ValueTuple NuGet 패키지 참조 필요
-using System;
+﻿using System;
 
 class TupleDefault
 {
@@ -9,7 +8,7 @@ class TupleDefault
         Console.WriteLine($"{t.Item1}, {t.Item2}"); // 0, 0
     }
 
-    // static (int, int) Tally()
+    // static (int, int) ZeroZero()
     // {
     //     return default((int, int));
     // }
