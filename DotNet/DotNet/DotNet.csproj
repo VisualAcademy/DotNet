@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TupleLiteralDescription</StartupObject>
+    <StartupObject>LocalFunctionDescription</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -279,6 +279,7 @@
     <Compile Include="57_Dynamic\Dynamic.cs" />
     <Compile Include="57_Dynamic\DynamicallyTypedObjects.cs" />
     <Compile Include="57_Dynamic\DynamicDemo.cs" />
+    <Compile Include="62_Tuple\LocalFunctionDescription\LocalFunctionDescription.cs" />
     <Compile Include="63_PatternMatching\PatternMatchingIf.cs" />
     <Compile Include="63_PatternMatching\PatternMatchingSwitch.cs" />
     <Compile Include="63_PatternMatching\PatternMatchingWithIf.cs" />
@@ -550,14 +551,14 @@
     <Compile Include="제어문\제어문_배수의합.cs" />
     <Compile Include="제어문\제어문_조건반복.cs" />
     <Compile Include="제어문\제어문_짝수의합.cs" />
-    <Compile Include="62_Tuple\TupleClass.cs" />
-    <Compile Include="62_Tuple\TupleClassDemo.cs" />
+    <Compile Include="62_Tuple\TupleClass\TupleClass.cs" />
+    <Compile Include="62_Tuple\TupleClassDemo\TupleClassDemo.cs" />
     <Compile Include="62_Tuple\TupleDeconstructionDescription.cs" />
     <Compile Include="62_Tuple\TupleDefault.cs" />
     <Compile Include="62_Tuple\TupleLiteral\TupleLiteral.cs" />
     <Compile Include="62_Tuple\TupleLiteralDescription.cs" />
-    <Compile Include="62_Tuple\TupleNamed.cs" />
-    <Compile Include="62_Tuple\TupleReturnDescription.cs" />
+    <Compile Include="62_Tuple\TupleNamed\TupleNamed.cs" />
+    <Compile Include="62_Tuple\TupleReturnDescription\TupleReturnDescription.cs" />
     <Compile Include="62_Tuple\TupleReturnName.cs" />
   </ItemGroup>
   <ItemGroup>

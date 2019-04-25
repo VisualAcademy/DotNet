@@ -10,14 +10,13 @@ class TupleReturnDescription
         WriteLine($"Sum: {t2.Sum}, Count: {t2.Count}");
     }
 
-    // 튜플 리턴(Tuple Return) 형식: (int, int) 
+    // [1] 튜플 리턴(Tuple Return) 형식: (int, int) 
     static (int, int) Tally1()
     {
-        var r = (12, 3);
-
-        return r;
+        var r = (12, 3); // [A] 튜플 리터럴에 2개의 값 담기 
+        return r; // [B] 튜플 리터럴 반환
     }
 
-    // 튜플 리턴에 이름 값 지정 가능
+    // [2] 튜플 리턴에 이름 값 지정 가능
     static (int Sum, int Count) Tally2() => (45, 6); 
 }
