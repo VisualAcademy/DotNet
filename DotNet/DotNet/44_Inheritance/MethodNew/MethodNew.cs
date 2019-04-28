@@ -4,19 +4,13 @@ namespace MethodNew
 {
     class Parent
     {
-        public void Work()
-        {
-            Console.WriteLine("프로그래머");
-        }
+        public void Work() => Console.WriteLine("프로그래머");
     }
 
     class Child : Parent
     {
         // 기본 멤버 숨기기: new -> 새롭게 정의, 다시 정의 
-        public new void Work()
-        {
-            Console.WriteLine("프로게이머");
-        }
+        public new void Work() => Console.WriteLine("프로게이머");
     }
 
     class MethodNew

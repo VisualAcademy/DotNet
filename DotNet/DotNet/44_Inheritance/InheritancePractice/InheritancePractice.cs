@@ -12,18 +12,12 @@ namespace InheritancePractice
 
     class WebDeveloper : Developer
     {
-        public override string ToString()
-        {
-            return "웹 개발자";
-        }
+        public override string ToString() => "웹 개발자";
     }
 
     class MobileDeveloper : Developer
     {
-        public override string ToString()
-        {
-            return "모바일 개발자";
-        }
+        public override string ToString() => "모바일 개발자";
     }
 
     class InheritancePractice
