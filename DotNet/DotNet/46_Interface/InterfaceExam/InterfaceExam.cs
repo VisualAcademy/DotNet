@@ -9,10 +9,7 @@ interface IPerson
 // 클래스
 class Person : IPerson
 {
-    public void Work()
-    {
-        Console.WriteLine("일을 합니다.");
-    }
+    public void Work() => Console.WriteLine("일을 합니다.");
 }
 
 // 메인
