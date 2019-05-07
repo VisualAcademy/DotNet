@@ -73,6 +73,7 @@
     <Compile Include="06_Number\IntegerPractice.cs" />
     <Compile Include="06_Number\SignedInteger.cs" />
     <Compile Include="06_Number\UnsignedInteger.cs" />
+    <Compile Include="07_BoolCharString\BooleanDemo\BooleanDemo.cs" />
     <Compile Include="08_ReadLine\ConsoleReadDemo\ConsoleReadDemo.cs" />
     <Compile Include="08_ReadLine\ConsoleReadLineDemo\ConsoleReadLineDemo.cs" />
     <Compile Include="08_ReadLine\GetTypeDemo\GetTypeDemo.cs" />
@@ -109,6 +110,13 @@
     <Compile Include="13_ConditionalOperator\TernaryPractice.cs" />
     <Compile Include="13_ConditionalOperator\TernaryQuiz.cs" />
     <Compile Include="15_Else\CharTest\CharTest.cs" />
+    <Compile Include="19_BreakContinueGoto\BreakDemo\BreakDemo.cs" />
+    <Compile Include="19_BreakContinueGoto\BreakFor\BreakFor.cs" />
+    <Compile Include="19_BreakContinueGoto\BreakInfiniteLoop\BreakInfiniteLoop.cs" />
+    <Compile Include="19_BreakContinueGoto\BreakPractice\BreakPractice.cs" />
+    <Compile Include="19_BreakContinueGoto\ContinueDemo\ContinueDemo.cs" />
+    <Compile Include="19_BreakContinueGoto\ContinueExam\ContinueExam.cs" />
+    <Compile Include="19_BreakContinueGoto\GoToDemo\GoToDemo.cs" />
     <Compile Include="20_Array\ArrayDemo.cs" />
     <Compile Include="20_Array\ArrayDescription.cs" />
     <Compile Include="20_Array\ArrayEmpty.cs" />
