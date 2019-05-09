@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IDisposableDemo</StartupObject>
+    <StartupObject>InterfaceFriends.InterfaceFriends</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -302,7 +302,7 @@
     <Compile Include="45_Override\VirtualOverrideBase\VirtualOverrideBase.cs" />
     <Compile Include="45_Override\VirtualOverride\VirtualOverride.cs" />
     <Compile Include="45_Override\_\메서드오버라이드.cs" />
-    <Compile Include="46_Interface\_\인터페이스.cs" />
+    <Compile Include="46_Interface\InterfaceFriends.cs" />
     <Compile Include="47_AbstractAndInterface\IDisposableDemo\IDisposableDemo.cs" />
     <Compile Include="47_AbstractAndInterface\IEnumeratorDemo\IEnumeratorDemo.cs" />
     <Compile Include="51_OOP\NullWithObject.cs" />
@@ -441,7 +441,7 @@
     <Compile Include="46_Interface\Interface.cs" />
     <Compile Include="46_Interface\InterfaceDemo\InterfaceDemo.cs" />
     <Compile Include="46_Interface\InterfaceExam\InterfaceExam.cs" />
-    <Compile Include="46_Interface\InterfaceExplicit.cs" />
+    <Compile Include="46_Interface\InterfaceExplicit\InterfaceExplicit.cs" />
     <Compile Include="46_Interface\InterfaceInheritance\InterfaceInheritance.cs" />
     <Compile Include="46_Interface\InterfaceNote\InterfaceNote.cs" />
     <Compile Include="46_Interface\InterfacePractice\InterfacePractice.cs" />
