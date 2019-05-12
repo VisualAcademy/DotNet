@@ -305,6 +305,7 @@
     <Compile Include="46_Interface\InterfaceFriends.cs" />
     <Compile Include="47_AbstractAndInterface\IDisposableDemo\IDisposableDemo.cs" />
     <Compile Include="47_AbstractAndInterface\IEnumeratorDemo\IEnumeratorDemo.cs" />
+    <Compile Include="48_Attribute\AttributeNote.cs" />
     <Compile Include="48_Attribute\ConditionalDemo.cs" />
     <Compile Include="48_Attribute\ObsoleteDemo.cs" />
     <Compile Include="51_OOP\NullWithObject.cs" />
