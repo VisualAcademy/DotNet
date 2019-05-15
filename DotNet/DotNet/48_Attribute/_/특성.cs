@@ -22,7 +22,7 @@ class 특성
     }
     static void Main(string[] args)
     {
-        Say1(); // 이 메서드 호출시 경고 또는 에러 발생
+        //Say1(); // 이 메서드 호출시 경고 또는 에러 발생
         Say2();
     }
 }

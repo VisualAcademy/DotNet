@@ -56,10 +56,10 @@ namespace 메서드오버라이드
     class Child : Parent
     {
         // 내가 새롭게 정의해서 사용하겠다.
-        public void Say()
-        {
-            Console.WriteLine("자식이 말하다.");
-        }
+        //public void Say()
+        //{
+        //    Console.WriteLine("자식이 말하다.");
+        //}
         // 새롭게 정의 : 오버라이드
         public new void Hi()
         {

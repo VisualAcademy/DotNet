@@ -26,7 +26,7 @@ namespace MethodOverridePractice
     class Child : Parent
     {
         // 내가 새롭게 정의해서 사용하겠다.
-        public void Say() => Console.WriteLine("자식이 말하다.");
+        //public void Say() => Console.WriteLine("자식이 말하다.");
         // 새롭게 정의 : 오버라이드
         public new void Hi() => Console.WriteLine("자식이 인사하다.");
         // 새롭게 정의 : 오버라이드(override):재정의
