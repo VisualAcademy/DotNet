@@ -51,7 +51,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="03_\WriteLineDemo.cs" />
+    <Compile Include="03_HelloWorld\CaseSensitive.cs" />
+    <Compile Include="03_HelloWorld\HelloWorld.cs" />
+    <Compile Include="03_HelloWorld\HelloWorldExam.cs" />
+    <Compile Include="03_HelloWorld\HelloWorldPractice.cs" />
+    <Compile Include="03_HelloWorld\UsingDemo.cs" />
+    <Compile Include="03_HelloWorld\Whitespace.cs" />
+    <Compile Include="03_HelloWorld\WriteLineDemo.cs" />
+    <Compile Include="03_HelloWorld\_\중괄호위치.cs" />
+    <Compile Include="03_HelloWorld\BraceLocation.cs" />
     <Compile Include="04_Syntax\PlaceHolderChange\PlaceHolderChange.cs" />
     <Compile Include="04_Syntax\PlaceHolderMulti\PlaceHolderMulti.cs" />
     <Compile Include="04_Syntax\PlaceHolderTwice\PlaceHolderTwice.cs" />
@@ -620,10 +628,11 @@
     <Compile Include="62_Tuple\TupleReturnName.cs" />
     <Compile Include="클래스와개체.cs" />
     <Compile Include="클래스와객체.cs" />
-    <Compile Include="클래스이름.cs" />
+    <Compile Include="03_HelloWorld\ClassName.cs" />
+    <Compile Include="03_HelloWorld\_\클래스이름.cs" />
     <Compile Include="키보드입력.cs" />
-    <Compile Include="특성\특성.cs" />
-    <Compile Include="특성\특성_사용자정의특성.cs" />
+    <Compile Include="48_Attribute\_\특성.cs" />
+    <Compile Include="48_Attribute\_\특성_사용자정의특성.cs" />
     <Compile Include="파일처리_파일리스트_특정폴더.cs" />
     <Compile Include="파일처리_파일처리관련.cs" />
     <Compile Include="파일처리_폴더의_모든파일명_일괄변경.cs" />
