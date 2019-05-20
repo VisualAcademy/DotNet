@@ -108,6 +108,7 @@
     <Compile Include="08_ReadLine\TypeConversion\TypeConversion.cs" />
     <Compile Include="08_ReadLine\VarInput\VarInput.cs" />
     <Compile Include="08_ReadLine\Var\Var.cs" />
+    <Compile Include="100_Debug\DebugDemo.cs" />
     <Compile Include="12_BitAndShift\BitAnd\BitAnd.cs" />
     <Compile Include="12_BitAndShift\BitExam\BitExam.cs" />
     <Compile Include="12_BitAndShift\BitNot\BitNot.cs" />
