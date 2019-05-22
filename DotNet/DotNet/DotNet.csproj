@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CarWorld.CarWorld</StartupObject>
+    <StartupObject>OptionalParameterDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -288,6 +288,8 @@
     <Compile Include="37_Method\SingleExpression\SingleExpression.cs" />
     <Compile Include="37_Method\_\GreeterDemo.cs" />
     <Compile Include="37_Method\_\명명된매개변수.cs" />
+    <Compile Include="37_Method\_\선택적매개변수.cs" />
+    <Compile Include="37_Method\OptionalParameterDemo.cs" />
     <Compile Include="38_Property\ArrowDemo\ArrowDemo.cs" />
     <Compile Include="38_Property\AutoPropertyInitializers\AutoPropertyInitializers.cs" />
     <Compile Include="38_Property\DataClass.cs" />
@@ -334,6 +336,11 @@
     <Compile Include="48_Attribute\ConditionalDemo.cs" />
     <Compile Include="48_Attribute\ObsoleteDemo.cs" />
     <Compile Include="48_Attribute\NickNameAttributeTest.cs" />
+    <Compile Include="48_Attribute\_\리플렉션_멤버정보.cs" />
+    <Compile Include="48_Attribute\_\리플렉션_멤버호출.cs" />
+    <Compile Include="48_Attribute\ReflectionGetProperty.cs" />
+    <Compile Include="48_Attribute\ReflectionGetMembers.cs" />
+    <Compile Include="48_Attribute\ReflectionGetMethod.cs" />
     <Compile Include="50_GenericMake\GenericClassPractice.cs" />
     <Compile Include="50_GenericMake\ListOfObject.cs" />
     <Compile Include="50_GenericMake\_\Generic_PairOfType.cs" />
