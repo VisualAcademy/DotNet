@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet", "DotNet\DotNet.csproj", "{0F9D793B-BE42-4F69-9608-913A1A21719F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.Models", "DotNet.Models\DotNet.Models.csproj", "{B1EF6333-0ACD-46D3-B83A-698CF77C2ACC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.Models", "DotNet.Models\DotNet.Models.csproj", "{B1EF6333-0ACD-46D3-B83A-698CF77C2ACC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.Models.Tests", "DotNet.Models.Tests\DotNet.Models.Tests.csproj", "{32A2F51C-EB77-4652-A12A-829EBFD08389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.Models.Tests", "DotNet.Models.Tests\DotNet.Models.Tests.csproj", "{32A2F51C-EB77-4652-A12A-829EBFD08389}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dul.Data", "Dul.Data\Dul.Data.csproj", "{F9332B05-DB4F-445D-B444-B5306DADC966}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryDatabase", "InMemoryDatabase\InMemoryDatabase.csproj", "{841E4BBF-8882-4DB0-A0A3-E7F61E50FFED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{32A2F51C-EB77-4652-A12A-829EBFD08389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32A2F51C-EB77-4652-A12A-829EBFD08389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32A2F51C-EB77-4652-A12A-829EBFD08389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9332B05-DB4F-445D-B444-B5306DADC966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9332B05-DB4F-445D-B444-B5306DADC966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9332B05-DB4F-445D-B444-B5306DADC966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9332B05-DB4F-445D-B444-B5306DADC966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841E4BBF-8882-4DB0-A0A3-E7F61E50FFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841E4BBF-8882-4DB0-A0A3-E7F61E50FFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841E4BBF-8882-4DB0-A0A3-E7F61E50FFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841E4BBF-8882-4DB0-A0A3-E7F61E50FFED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,66 @@
+﻿제목: 나만의 라이브러리 또는 프레임워크 만들기
+
+모델 클래스: 지금까지 사용해 왔던 클래스 개념
+	모델 클래스:
+		T, Model, ViewModel, Entity, Dto, ...
+
+유틸리티 클래스: 유용한 관련 메서드를 모아 놓은 클래스
+	StringLibrary.cs
+	FileUtility.cs
+	HtmlUtility.cs
+	...	
+
+라이브러리: 유틸리티 클래스 + 관련된 클래스, 열거형 등을 클래스 라이브러리 프로젝트로 묶어서 관리
+	Dul.dll : (Development Utitlity Library)
+
+컴포넌트: 라이브러리 + UI
+
+프레임워크
+	유틸리티, 라이브러리, 컴포넌트 등의 전체 집합
+	.NET Framework
+	.NET Core
+
+개체 지향 프로그래맹(Object Oriented Programming)
+	재사용 개념 포함(공통) => 라이브러리 또는 프레임워크화 시킬 가능성
+
+나만의 라이브러리 또는 프레임워크 만들기
+	일반적으로 많이 사용하는 단어들:
+		Base, Common, Core, ...
+		Utility, Library, Framework ...
+	기능상으로 많이 사용하는 단어들:
+		Repository
+		Component
+		Controller
+		Handler
+		Manager
+
+.NET API Explorer
+	System 네임스페이스 => System.dll
+		System.Web 네임스페이스 => System.Web.dll
+	Microsoft 네임스페이스
+		Microsoft.CSharp => Microsoft.CSharp.dll
+
+나만의 라이브러리(프레임워크)
+	XXX 네임스페이스 => XXX.dll
+	
+	System.Data 네임스페이스 => System.Data.dll
+
+	상품 이름 형태: System.XXX 모방
+		Dul 네임스페이스 => Dul.dll
+		Dul.Data 네임스페이스 => Dul.Data.dll
+			OrderOption.cs
+			IBreadShop.cs
+		RedPlus.Library.dll 
+
+	회사 이름 형태: Microsoft.XXX 모방
+		All.dll
+		Hawaso.dll
+			Hawaso.Standard.dll
+				...
+
+Dul.Data 클래스 라이브러리(.NET Standard) 프로젝트
+	- 레거시(Windows Forms, Web Forms) 시스템에서 사용
+		클래스 라이브러리 프로젝트
+
+	- 최신(.NET Core) 시스템에서 사용
+		닷넷 스탠다드 프로젝트
