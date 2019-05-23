@@ -35,12 +35,15 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OptionalParameterDemo</StartupObject>
+    <StartupObject>JsonConvertDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -409,6 +412,7 @@
     <Compile Include="06_Number\DigitSeparatorNote.cs" />
     <Compile Include="31_LINQ\FromWhereSelect.cs" />
     <Compile Include="31_LINQ\LinqSelect.cs" />
+    <Compile Include="JsonConvertDemo.cs" />
     <Compile Include="ListOfTypeSimpleMerge.cs" />
     <Compile Include="MainMethodAsync.cs" />
     <Compile Include="33_Namespace\PartialClassDemo\FirstDeveloper.cs" />
@@ -671,6 +675,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="22_Interactive\" />
