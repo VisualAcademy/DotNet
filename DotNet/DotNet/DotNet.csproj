@@ -134,6 +134,16 @@
     <Compile Include="13_ConditionalOperator\TernaryOperator.cs" />
     <Compile Include="13_ConditionalOperator\TernaryPractice.cs" />
     <Compile Include="13_ConditionalOperator\TernaryQuiz.cs" />
+    <Compile Include="14_If\If.cs" />
+    <Compile Include="14_If\IfAnd.cs" />
+    <Compile Include="14_If\IfDemo.cs" />
+    <Compile Include="14_If\IfExam.cs" />
+    <Compile Include="14_If\IfNested.cs" />
+    <Compile Include="14_If\IfNot.cs" />
+    <Compile Include="14_If\IfPractice.cs" />
+    <Compile Include="14_If\SequenceDemo.cs" />
+    <Compile Include="14_If\SingleMultiple.cs" />
+    <Compile Include="14_If\StringCompare.cs" />
     <Compile Include="15_Else\CharTest\CharTest.cs" />
     <Compile Include="19_BreakContinueGoto\BreakDemo\BreakDemo.cs" />
     <Compile Include="19_BreakContinueGoto\BreakFor\BreakFor.cs" />
