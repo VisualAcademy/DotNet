@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Array_Languages
+class ArrayLanguages
 {
     static void Main()
     {
