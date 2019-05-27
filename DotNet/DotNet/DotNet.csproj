@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GenericPros</StartupObject>
+    <StartupObject>DotNet.TextToCollection</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -160,6 +160,7 @@
     <Compile Include="20_Array\ArrayIndex\ArrayIndex.cs" />
     <Compile Include="20_Array\WhyArray.cs" />
     <Compile Include="34_Field\읽기전용필드.cs" />
+    <Compile Include="57_IO\TextToCollection\TextToCollection.cs" />
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="20_Array\ArrayMultiPractice\ArrayMultiPractice.cs" />
     <Compile Include="20_Array\ArrayOne\ArrayOne1.cs" />
@@ -380,8 +381,8 @@
     <Compile Include="57_Dynamic\Dynamic.cs" />
     <Compile Include="57_Dynamic\DynamicallyTypedObjects.cs" />
     <Compile Include="57_Dynamic\DynamicDemo.cs" />
-    <Compile Include="60_IO\_\텍스트데이터를컬렉션데이터로\Record.cs" />
-    <Compile Include="60_IO\_\텍스트데이터를컬렉션데이터로\텍스트데이터를컬렉션데이터로.cs" />
+    <Compile Include="57_IO\_\텍스트데이터를컬렉션데이터로\Record.cs" />
+    <Compile Include="57_IO\_\텍스트데이터를컬렉션데이터로\텍스트데이터를컬렉션데이터로.cs" />
     <Compile Include="62_Tuple\LocalFunctionDescription\LocalFunctionDescription.cs" />
     <Compile Include="63_PatternMatching\PatternMatchingIf\PatternMatchingIf.cs" />
     <Compile Include="63_PatternMatching\PatternMatchingSwitch.cs" />
@@ -412,18 +413,18 @@
     <Compile Include="55_ExtensionMethod\ExtensionFunction\ExtensionFunction.cs" />
     <Compile Include="55_ExtensionMethod\ExtensionMethodDemo\ExtensionMethodDemo.cs" />
     <Compile Include="55_ExtensionMethod\ExtensionMethodDescription\ExtensionMethodDescription.cs" />
-    <Compile Include="60_IO\ListOfChildToListOfParent.cs" />
-    <Compile Include="60_IO\PathClassDemo.cs" />
-    <Compile Include="60_IO\StreamReaderReadToEndDemo.cs" />
-    <Compile Include="60_IO\_\파일명추출.cs" />
-    <Compile Include="60_IO\_\파일처리_텍스트파일읽기.cs" />
-    <Compile Include="60_IO\StreamWriterWriteLineDemo.cs" />
-    <Compile Include="60_IO\_\파일처리_텍스트파일저장.cs" />
-    <Compile Include="60_IO\GetFileNameDemo.cs" />
-    <Compile Include="60_IO\_\파일처리_파일정보얻기.cs" />
-    <Compile Include="60_IO\_\파일처리_폴더정보얻기.cs" />
-    <Compile Include="60_IO\FileAndFileInfo.cs" />
-    <Compile Include="60_IO\DirectoryAndDirectoryInfo.cs" />
+    <Compile Include="ListOfChildToListOfParent.cs" />
+    <Compile Include="57_IO\PathClassDemo\PathClassDemo.cs" />
+    <Compile Include="57_IO\StreamReaderReadToEndDemo\StreamReaderReadToEndDemo.cs" />
+    <Compile Include="57_IO\_\파일명추출.cs" />
+    <Compile Include="57_IO\_\파일처리_텍스트파일읽기.cs" />
+    <Compile Include="57_IO\StreamWriterWriteLineDemo\StreamWriterWriteLineDemo.cs" />
+    <Compile Include="57_IO\_\파일처리_텍스트파일저장.cs" />
+    <Compile Include="57_IO\GetFileNameDemo\GetFileNameDemo.cs" />
+    <Compile Include="57_IO\_\파일처리_파일정보얻기.cs" />
+    <Compile Include="57_IO\_\파일처리_폴더정보얻기.cs" />
+    <Compile Include="57_IO\FileAndFileInfo.cs" />
+    <Compile Include="57_IO\DirectoryAndDirectoryInfo.cs" />
     <Compile Include="50_GenericMake\DictionaryGenericClassDemo.cs" />
     <Compile Include="62_\OutVariable.cs" />
     <Compile Include="62_\OutVariableDemo.cs" />
@@ -734,7 +735,8 @@
     <Folder Include="_Collections\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="60_IO\_\텍스트데이터를컬렉션데이터로\Src.txt" />
+    <Content Include="57_IO\TextToCollection\Src.txt" />
+    <Content Include="57_IO\_\텍스트데이터를컬렉션데이터로\Src.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
