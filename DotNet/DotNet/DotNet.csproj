@@ -159,7 +159,12 @@
     <Compile Include="20_Array\ArrayForEach\ArrayForEach.cs" />
     <Compile Include="20_Array\ArrayIndex\ArrayIndex.cs" />
     <Compile Include="20_Array\WhyArray.cs" />
+    <Compile Include="21_Function\_함수\명령줄인수_더하기.cs" />
+    <Compile Include="21_Function\_함수\명령줄인수_짝수의합.cs" />
     <Compile Include="34_Field\읽기전용필드.cs" />
+    <Compile Include="37_Method\_\메서드.cs" />
+    <Compile Include="37_Method\_\메서드의매개변수형식.cs" />
+    <Compile Include="39_Indexer\반복기.cs" />
     <Compile Include="57_IO\TextToCollection\TextToCollection.cs" />
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="20_Array\ArrayMultiPractice\ArrayMultiPractice.cs" />
@@ -635,6 +640,9 @@
     <Compile Include="20_Array\_\일차원배열2.cs" />
     <Compile Include="20_Array\_\일차원배열3.cs" />
     <Compile Include="20_Array\_\일차원배열4.cs" />
+    <Compile Include="람다식.cs" />
+    <Compile Include="람다식_소개.cs" />
+    <Compile Include="리스트제네릭클래스.cs" />
     <Compile Include="변환연산자.cs" />
     <Compile Include="분할클래스.cs" />
     <Compile Include="스레드.cs" />
