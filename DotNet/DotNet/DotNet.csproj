@@ -62,6 +62,7 @@
     <Compile Include="03_HelloWorld\UsingDemo.cs" />
     <Compile Include="03_HelloWorld\Whitespace.cs" />
     <Compile Include="03_HelloWorld\WriteLineDemo.cs" />
+    <Compile Include="03_HelloWorld\_\HelloWorldCSharp.cs" />
     <Compile Include="03_HelloWorld\_\중괄호위치.cs" />
     <Compile Include="03_HelloWorld\BraceLocation.cs" />
     <Compile Include="04_Syntax\Comment.cs" />
@@ -126,6 +127,7 @@
     <Compile Include="11_Operator\PostfixOperator.cs" />
     <Compile Include="11_Operator\PrefixOperator.cs" />
     <Compile Include="11_Operator\RelationalOperator.cs" />
+    <Compile Include="11_Operator\Remainder.cs" />
     <Compile Include="11_Operator\ShortcutOperator.cs" />
     <Compile Include="11_Operator\ShortcutOperatorDemo.cs" />
     <Compile Include="11_Operator\UnaryOperator.cs" />
@@ -229,6 +231,7 @@
     <Compile Include="15_Else\IfElseAll.cs" />
     <Compile Include="15_Else\IfElseIfElse.cs" />
     <Compile Include="15_Else\IfElseScoreGrade.cs" />
+    <Compile Include="15_Else\ScoreGrade.cs" />
     <Compile Include="16_For\For.cs" />
     <Compile Include="16_For\ForDemo.cs" />
     <Compile Include="16_For\ForDemo_CountDown.cs" />
@@ -326,12 +329,14 @@
     <Compile Include="35_Constructor\CircleClass.cs" />
     <Compile Include="35_Constructor\ExpressionBodiedConstructor.cs" />
     <Compile Include="37_Method\ExpressionBodiedMethod.cs" />
+    <Compile Include="37_Method\RectangleClass.cs" />
     <Compile Include="37_Method\_\메서드.cs" />
     <Compile Include="37_Method\_\메서드의매개변수형식.cs" />
     <Compile Include="38_Property\ClassPropertyMethod.cs" />
     <Compile Include="38_Property\PropertyPrivateSet.cs" />
     <Compile Include="39_Indexer\반복기.cs" />
     <Compile Include="42_ClassEtc\PartialClassPerson.cs" />
+    <Compile Include="55_ExtensionMethod\RelatedArticleOptionDemo.cs" />
     <Compile Include="57_IO\TextToCollection\TextToCollection.cs" />
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="20_Array\ArrayMultiPractice\ArrayMultiPractice.cs" />
@@ -675,9 +680,14 @@
     <Compile Include="34_Field\LocalVariable\LocalVariable.cs" />
     <Compile Include="34_Field\PublicField\PublicField.cs" />
     <Compile Include="34_Field\VariableScope\VariableScope.cs" />
+    <Compile Include="RepositoryPatternDemo.cs" />
     <Compile Include="SendMailTest.cs" />
+    <Compile Include="SignBaseSignRepository.cs" />
+    <Compile Include="SquareClass.cs" />
     <Compile Include="StringConverterDemo.cs" />
     <Compile Include="SyncDemo.cs" />
+    <Compile Include="TypeAssertion.cs" />
+    <Compile Include="UserRegister.cs" />
     <Compile Include="WeatherForecastApp.cs" />
     <Compile Include="50_GenericMake\GenericClass.cs" />
     <Compile Include="50_GenericMake\GenericNote\GenericNote.cs" />
@@ -739,6 +749,9 @@
     <Compile Include="38_Property\Property\Property.cs" />
     <Compile Include="38_Property\Property_AutoImplemented\Property_AutoImplemented.cs" />
     <Compile Include="50_GenericMake\_\제네릭_장점.cs" />
+    <Compile Include="WebClientDemo.cs" />
+    <Compile Include="WrapperType.cs" />
+    <Compile Include="XElementDemo.cs" />
     <Compile Include="_Reflection\TypeAndActivator.cs" />
     <Compile Include="24_Struct\CharStruct\CharStruct.cs" />
     <Compile Include="24_Struct\DateTimeDemo\DateTimeDemo.cs" />
