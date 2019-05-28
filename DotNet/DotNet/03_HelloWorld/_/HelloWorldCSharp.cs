@@ -1,4 +1,4 @@
-﻿public class HelloWorld
+﻿public class HelloWorldCSharp
 {
     public static void Main(string[] args)
     {

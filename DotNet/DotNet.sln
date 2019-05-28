@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dul.Data", "Dul.Data\Dul.Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryDatabase", "InMemoryDatabase\InMemoryDatabase.csproj", "{841E4BBF-8882-4DB0-A0A3-E7F61E50FFED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassDiagramDemo", "ClassDiagramDemo\ClassDiagramDemo\ClassDiagramDemo.csproj", "{2CC66A18-F9BA-407E-8C32-86971F8FFF2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{841E4BBF-8882-4DB0-A0A3-E7F61E50FFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{841E4BBF-8882-4DB0-A0A3-E7F61E50FFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{841E4BBF-8882-4DB0-A0A3-E7F61E50FFED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC66A18-F9BA-407E-8C32-86971F8FFF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC66A18-F9BA-407E-8C32-86971F8FFF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC66A18-F9BA-407E-8C32-86971F8FFF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC66A18-F9BA-407E-8C32-86971F8FFF2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
