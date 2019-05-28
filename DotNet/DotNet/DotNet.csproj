@@ -97,6 +97,9 @@
     <Compile Include="06_Number\FloatMinMax.cs" />
     <Compile Include="06_Number\IntToByte.cs" />
     <Compile Include="06_Number\NumberDemo.cs" />
+    <Compile Include="06_Number\RealNumberExam.cs" />
+    <Compile Include="06_Number\RealNumberPractice.cs" />
+    <Compile Include="08_ReadLine\ReadLineDemo.cs" />
     <Compile Include="11_Operator\OperatorAdd.cs" />
     <Compile Include="11_Operator\OperatorDescription.cs" />
     <Compile Include="11_Operator\OperatorDivide.cs" />
@@ -108,6 +111,11 @@
     <Compile Include="11_Operator\OperatorSubtract.cs" />
     <Compile Include="11_Operator\Operator_Arithmetic.cs" />
     <Compile Include="11_Operator\OrOperator.cs" />
+    <Compile Include="11_Operator\PercentOperator.cs" />
+    <Compile Include="11_Operator\PlusOperator.cs" />
+    <Compile Include="11_Operator\PostfixOperator.cs" />
+    <Compile Include="11_Operator\PrefixOperator.cs" />
+    <Compile Include="15_Else\PositiveNegativeZero.cs" />
     <Compile Include="15_Else\NumDifference.cs" />
     <Compile Include="07_BoolCharString\CharacterDemo.cs" />
     <Compile Include="07_BoolCharString\CharacterExam.cs" />
@@ -229,6 +237,15 @@
     <Compile Include="17_Do\ForEach.cs" />
     <Compile Include="17_Do\ForEachDemo.cs" />
     <Compile Include="17_Do\ForEachUp.cs" />
+    <Compile Include="17_Do\WhileDecrement.cs" />
+    <Compile Include="17_Do\WhileDemo.cs" />
+    <Compile Include="17_Do\WhileDescription.cs" />
+    <Compile Include="17_Do\WhileEven.cs" />
+    <Compile Include="17_Do\WhileExam.cs" />
+    <Compile Include="17_Do\WhileFibonacci.cs" />
+    <Compile Include="17_Do\WhileLoop.cs" />
+    <Compile Include="17_Do\WhilePractice.cs" />
+    <Compile Include="17_Do\WhileSum.cs" />
     <Compile Include="19_BreakContinueGoto\BreakDemo\BreakDemo.cs" />
     <Compile Include="19_BreakContinueGoto\BreakFor\BreakFor.cs" />
     <Compile Include="19_BreakContinueGoto\BreakInfiniteLoop\BreakInfiniteLoop.cs" />
@@ -237,6 +254,7 @@
     <Compile Include="19_BreakContinueGoto\ContinueExam\ContinueExam.cs" />
     <Compile Include="19_BreakContinueGoto\ForIfContinue.cs" />
     <Compile Include="19_BreakContinueGoto\GoToDemo\GoToDemo.cs" />
+    <Compile Include="19_BreakContinueGoto\WhileBreak.cs" />
     <Compile Include="20_Array\ArrayDemo\ArrayDemo.cs" />
     <Compile Include="20_Array\ArrayDescription\ArrayDescription.cs" />
     <Compile Include="20_Array\ArrayEmpty\ArrayEmpty.cs" />
@@ -263,6 +281,7 @@
     <Compile Include="21_Function\_함수\CommandLineParameterDemo.cs" />
     <Compile Include="21_Function\_함수\명령줄인수_더하기.cs" />
     <Compile Include="21_Function\_함수\명령줄인수_짝수의합.cs" />
+    <Compile Include="26_Class\RandomPractice.cs" />
     <Compile Include="29_Collection\ListDemo.cs" />
     <Compile Include="30_GenericClass\ListOfInt.cs" />
     <Compile Include="31_LINQ\LinqDemo.cs" />
@@ -281,7 +300,9 @@
     <Compile Include="37_Method\_\메서드.cs" />
     <Compile Include="37_Method\_\메서드의매개변수형식.cs" />
     <Compile Include="38_Property\ClassPropertyMethod.cs" />
+    <Compile Include="38_Property\PropertyPrivateSet.cs" />
     <Compile Include="39_Indexer\반복기.cs" />
+    <Compile Include="42_ClassEtc\PartialClassPerson.cs" />
     <Compile Include="57_IO\TextToCollection\TextToCollection.cs" />
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="20_Array\ArrayMultiPractice\ArrayMultiPractice.cs" />
@@ -615,6 +636,8 @@
     <Compile Include="35_Constructor\ConstructorParameter\ConstructorParameter.cs" />
     <Compile Include="35_Constructor\ConstructorThis\ConstructorThis.cs" />
     <Compile Include="35_Constructor\ReadOnlyNote\ReadOnlyNote.cs" />
+    <Compile Include="PublicAndPrivate.cs" />
+    <Compile Include="PublicPrivate.cs" />
     <Compile Include="RefReturn.cs" />
     <Compile Include="40_Delegate\DelegateNote\DelegateNote.cs" />
     <Compile Include="34_Field\FieldArray\FieldArray.cs" />
