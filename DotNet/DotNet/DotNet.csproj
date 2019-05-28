@@ -81,6 +81,10 @@
     <Compile Include="04_Syntax\PlaceHolder\PlaceHolder.cs" />
     <Compile Include="04_Syntax\Quotes.cs" />
     <Compile Include="04_Syntax\SingleLineComment.cs" />
+    <Compile Include="04_Syntax\SquarePractice.cs" />
+    <Compile Include="04_Syntax\TermExam.cs" />
+    <Compile Include="04_Syntax\TermPractice.cs" />
+    <Compile Include="04_Syntax\TriangleExam.cs" />
     <Compile Include="04_Syntax\WriteLineDemo2.cs" />
     <Compile Include="04_Syntax\WriteLineDemo1.cs" />
     <Compile Include="05_Variable\Constant.cs" />
@@ -99,6 +103,12 @@
     <Compile Include="06_Number\NumberDemo.cs" />
     <Compile Include="06_Number\RealNumberExam.cs" />
     <Compile Include="06_Number\RealNumberPractice.cs" />
+    <Compile Include="06_Number\TryParseDemo.cs" />
+    <Compile Include="07_BoolCharString\StringFormatDemo.cs" />
+    <Compile Include="07_BoolCharString\StringInterpolation.cs" />
+    <Compile Include="07_BoolCharString\StringInterpolationDemo.cs" />
+    <Compile Include="07_BoolCharString\StringInterpolationDescription.cs" />
+    <Compile Include="07_BoolCharString\StringKeyword.cs" />
     <Compile Include="08_ReadLine\ReadLineDemo.cs" />
     <Compile Include="11_Operator\OperatorAdd.cs" />
     <Compile Include="11_Operator\OperatorDescription.cs" />
@@ -115,6 +125,10 @@
     <Compile Include="11_Operator\PlusOperator.cs" />
     <Compile Include="11_Operator\PostfixOperator.cs" />
     <Compile Include="11_Operator\PrefixOperator.cs" />
+    <Compile Include="11_Operator\RelationalOperator.cs" />
+    <Compile Include="11_Operator\ShortcutOperator.cs" />
+    <Compile Include="11_Operator\ShortcutOperatorDemo.cs" />
+    <Compile Include="11_Operator\UnaryOperator.cs" />
     <Compile Include="15_Else\PositiveNegativeZero.cs" />
     <Compile Include="15_Else\NumDifference.cs" />
     <Compile Include="07_BoolCharString\CharacterDemo.cs" />
@@ -231,6 +245,9 @@
     <Compile Include="16_For\ForTest.cs" />
     <Compile Include="16_For\ForTriangle.cs" />
     <Compile Include="16_For\InfiniteLoop.cs" />
+    <Compile Include="16_For\SeeSharpSum100.cs" />
+    <Compile Include="16_For\TimesTable.cs" />
+    <Compile Include="16_For\TimesTables.cs" />
     <Compile Include="17_Do\DoWhile.cs" />
     <Compile Include="17_Do\DoWhileDemo.cs" />
     <Compile Include="17_Do\DoWhileSum.cs" />
@@ -246,6 +263,14 @@
     <Compile Include="17_Do\WhileLoop.cs" />
     <Compile Include="17_Do\WhilePractice.cs" />
     <Compile Include="17_Do\WhileSum.cs" />
+    <Compile Include="18_Switch\SignalLight.cs" />
+    <Compile Include="18_Switch\Switch.cs" />
+    <Compile Include="18_Switch\SwitchExam.cs" />
+    <Compile Include="18_Switch\SwitchExpression.cs" />
+    <Compile Include="18_Switch\SwitchPractice.cs" />
+    <Compile Include="18_Switch\SwitchQuiz.cs" />
+    <Compile Include="18_Switch\SwitchStatement.cs" />
+    <Compile Include="18_Switch\SwitchWeather.cs" />
     <Compile Include="19_BreakContinueGoto\BreakDemo\BreakDemo.cs" />
     <Compile Include="19_BreakContinueGoto\BreakFor\BreakFor.cs" />
     <Compile Include="19_BreakContinueGoto\BreakInfiniteLoop\BreakInfiniteLoop.cs" />
@@ -261,6 +286,7 @@
     <Compile Include="20_Array\ArrayExam\ArrayExam.cs" />
     <Compile Include="20_Array\ArrayForEach\ArrayForEach.cs" />
     <Compile Include="20_Array\ArrayIndex\ArrayIndex.cs" />
+    <Compile Include="20_Array\TwoDimensionalArray.cs" />
     <Compile Include="20_Array\WhyArray.cs" />
     <Compile Include="21_Function\CommandLineArgument.cs" />
     <Compile Include="21_Function\FunctionAddNumbers.cs" />
@@ -278,6 +304,9 @@
     <Compile Include="21_Function\MaxMinFunction.cs" />
     <Compile Include="21_Function\MethodOverload.cs" />
     <Compile Include="21_Function\MethodOverloadNumber.cs" />
+    <Compile Include="21_Function\RecursionDemo.cs" />
+    <Compile Include="21_Function\RecursionPower.cs" />
+    <Compile Include="21_Function\ReturnValue.cs" />
     <Compile Include="21_Function\_함수\CommandLineParameterDemo.cs" />
     <Compile Include="21_Function\_함수\명령줄인수_더하기.cs" />
     <Compile Include="21_Function\_함수\명령줄인수_짝수의합.cs" />
@@ -647,6 +676,7 @@
     <Compile Include="34_Field\PublicField\PublicField.cs" />
     <Compile Include="34_Field\VariableScope\VariableScope.cs" />
     <Compile Include="SendMailTest.cs" />
+    <Compile Include="StringConverterDemo.cs" />
     <Compile Include="SyncDemo.cs" />
     <Compile Include="WeatherForecastApp.cs" />
     <Compile Include="50_GenericMake\GenericClass.cs" />
