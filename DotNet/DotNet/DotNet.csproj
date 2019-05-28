@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="03_HelloWorld\CaseSensitive.cs" />
+    <Compile Include="03_HelloWorld\FileNew.cs" />
     <Compile Include="03_HelloWorld\HelloWorld.cs" />
     <Compile Include="03_HelloWorld\HelloWorldExam.cs" />
     <Compile Include="03_HelloWorld\HelloWorldPractice.cs" />
@@ -65,6 +66,8 @@
     <Compile Include="03_HelloWorld\BraceLocation.cs" />
     <Compile Include="04_Syntax\Comment.cs" />
     <Compile Include="04_Syntax\ConsoleWrite.cs" />
+    <Compile Include="04_Syntax\EmptyStatement.cs" />
+    <Compile Include="04_Syntax\EscapeSequence.cs" />
     <Compile Include="04_Syntax\FormatExam.cs" />
     <Compile Include="04_Syntax\FormatPractice.cs" />
     <Compile Include="04_Syntax\Indent.cs" />
@@ -88,6 +91,9 @@
     <Compile Include="06_Number\DigitSeparatorDemo.cs" />
     <Compile Include="06_Number\DigitSeparatorDescription.cs" />
     <Compile Include="06_Number\DoubleDemo.cs" />
+    <Compile Include="06_Number\DoubleMinMax.cs" />
+    <Compile Include="06_Number\FloatDemo.cs" />
+    <Compile Include="06_Number\FloatMinMax.cs" />
     <Compile Include="07_BoolCharString\CharacterDemo.cs" />
     <Compile Include="07_BoolCharString\CharacterExam.cs" />
     <Compile Include="07_BoolCharString\CharacterPractice.cs" />
@@ -162,12 +168,40 @@
     <Compile Include="14_If\SingleMultiple.cs" />
     <Compile Include="14_If\StringCompare.cs" />
     <Compile Include="15_Else\CharTest\CharTest.cs" />
+    <Compile Include="15_Else\Else.cs" />
+    <Compile Include="15_Else\ElseExam.cs" />
+    <Compile Include="15_Else\ElseIf.cs" />
+    <Compile Include="15_Else\ElseNested.cs" />
+    <Compile Include="15_Else\ElsePractice.cs" />
+    <Compile Include="15_Else\ElseQuiz.cs" />
+    <Compile Include="16_For\For.cs" />
+    <Compile Include="16_For\ForDemo.cs" />
+    <Compile Include="16_For\ForDemo_CountDown.cs" />
+    <Compile Include="16_For\ForDescription.cs" />
+    <Compile Include="16_For\ForEven.cs" />
+    <Compile Include="16_For\ForExam.cs" />
+    <Compile Include="16_For\ForFactorial.cs" />
+    <Compile Include="16_For\ForIncrement.cs" />
+    <Compile Include="16_For\ForPractice.cs" />
+    <Compile Include="16_For\ForQuiz.cs" />
+    <Compile Include="16_For\ForSum.cs" />
+    <Compile Include="16_For\ForSumEven.cs" />
+    <Compile Include="16_For\ForSumMultiple.cs" />
+    <Compile Include="16_For\ForTest.cs" />
+    <Compile Include="16_For\ForTriangle.cs" />
+    <Compile Include="17_Do\DoWhile.cs" />
+    <Compile Include="17_Do\DoWhileDemo.cs" />
+    <Compile Include="17_Do\DoWhileSum.cs" />
+    <Compile Include="17_Do\ForEach.cs" />
+    <Compile Include="17_Do\ForEachDemo.cs" />
+    <Compile Include="17_Do\ForEachUp.cs" />
     <Compile Include="19_BreakContinueGoto\BreakDemo\BreakDemo.cs" />
     <Compile Include="19_BreakContinueGoto\BreakFor\BreakFor.cs" />
     <Compile Include="19_BreakContinueGoto\BreakInfiniteLoop\BreakInfiniteLoop.cs" />
     <Compile Include="19_BreakContinueGoto\BreakPractice\BreakPractice.cs" />
     <Compile Include="19_BreakContinueGoto\ContinueDemo\ContinueDemo.cs" />
     <Compile Include="19_BreakContinueGoto\ContinueExam\ContinueExam.cs" />
+    <Compile Include="19_BreakContinueGoto\ForIfContinue.cs" />
     <Compile Include="19_BreakContinueGoto\GoToDemo\GoToDemo.cs" />
     <Compile Include="20_Array\ArrayDemo\ArrayDemo.cs" />
     <Compile Include="20_Array\ArrayDescription\ArrayDescription.cs" />
@@ -182,6 +216,8 @@
     <Compile Include="21_Function\_함수\명령줄인수_짝수의합.cs" />
     <Compile Include="34_Field\읽기전용필드.cs" />
     <Compile Include="35_Constructor\CircleClass.cs" />
+    <Compile Include="35_Constructor\ExpressionBodiedConstructor.cs" />
+    <Compile Include="37_Method\ExpressionBodiedMethod.cs" />
     <Compile Include="37_Method\_\메서드.cs" />
     <Compile Include="37_Method\_\메서드의매개변수형식.cs" />
     <Compile Include="38_Property\ClassPropertyMethod.cs" />
@@ -443,6 +479,7 @@
     <Compile Include="Character_EscapeSequence.cs" />
     <Compile Include="ConvertClass.cs" />
     <Compile Include="DefaultExpression.cs" />
+    <Compile Include="EscapeSequenceDemo.cs" />
     <Compile Include="ListOfChildToListOfParent.cs" />
     <Compile Include="57_IO\PathClassDemo\PathClassDemo.cs" />
     <Compile Include="57_IO\StreamReaderReadToEndDemo\StreamReaderReadToEndDemo.cs" />
