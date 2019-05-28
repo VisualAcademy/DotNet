@@ -97,6 +97,17 @@
     <Compile Include="06_Number\FloatMinMax.cs" />
     <Compile Include="06_Number\IntToByte.cs" />
     <Compile Include="06_Number\NumberDemo.cs" />
+    <Compile Include="11_Operator\OperatorAdd.cs" />
+    <Compile Include="11_Operator\OperatorDescription.cs" />
+    <Compile Include="11_Operator\OperatorDivide.cs" />
+    <Compile Include="11_Operator\OperatorMultiply.cs" />
+    <Compile Include="11_Operator\OperatorQuiz.cs" />
+    <Compile Include="11_Operator\OperatorRelational.cs" />
+    <Compile Include="11_Operator\OperatorRemainder.cs" />
+    <Compile Include="11_Operator\OperatorRemainderPractice.cs" />
+    <Compile Include="11_Operator\OperatorSubtract.cs" />
+    <Compile Include="11_Operator\Operator_Arithmetic.cs" />
+    <Compile Include="11_Operator\OrOperator.cs" />
     <Compile Include="15_Else\NumDifference.cs" />
     <Compile Include="07_BoolCharString\CharacterDemo.cs" />
     <Compile Include="07_BoolCharString\CharacterExam.cs" />
