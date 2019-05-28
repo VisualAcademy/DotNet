@@ -94,6 +94,7 @@
     <Compile Include="06_Number\DoubleMinMax.cs" />
     <Compile Include="06_Number\FloatDemo.cs" />
     <Compile Include="06_Number\FloatMinMax.cs" />
+    <Compile Include="06_Number\IntToByte.cs" />
     <Compile Include="07_BoolCharString\CharacterDemo.cs" />
     <Compile Include="07_BoolCharString\CharacterExam.cs" />
     <Compile Include="07_BoolCharString\CharacterPractice.cs" />
@@ -101,6 +102,11 @@
     <Compile Include="07_BoolCharString\CharStringBoolean.cs" />
     <Compile Include="11_Operator\DecrementNumber.cs" />
     <Compile Include="11_Operator\DecrementOperator.cs" />
+    <Compile Include="11_Operator\GreaterThanEqual.cs" />
+    <Compile Include="11_Operator\IncrementDecrementExam.cs" />
+    <Compile Include="11_Operator\IncrementDecrementPractice.cs" />
+    <Compile Include="11_Operator\IncrementNumber.cs" />
+    <Compile Include="11_Operator\IncrementOperator.cs" />
     <Compile Include="13_ConditionalOperator\대소문자구분.cs" />
     <Compile Include="05_Variable\ConstantDemo\ConstantDemo.cs" />
     <Compile Include="05_Variable\IntegerValue\IntegerValue.cs" />
@@ -174,6 +180,10 @@
     <Compile Include="15_Else\ElseNested.cs" />
     <Compile Include="15_Else\ElsePractice.cs" />
     <Compile Include="15_Else\ElseQuiz.cs" />
+    <Compile Include="15_Else\IfElse.cs" />
+    <Compile Include="15_Else\IfElseAll.cs" />
+    <Compile Include="15_Else\IfElseIfElse.cs" />
+    <Compile Include="15_Else\IfElseScoreGrade.cs" />
     <Compile Include="16_For\For.cs" />
     <Compile Include="16_For\ForDemo.cs" />
     <Compile Include="16_For\ForDemo_CountDown.cs" />
@@ -189,6 +199,7 @@
     <Compile Include="16_For\ForSumMultiple.cs" />
     <Compile Include="16_For\ForTest.cs" />
     <Compile Include="16_For\ForTriangle.cs" />
+    <Compile Include="16_For\InfiniteLoop.cs" />
     <Compile Include="17_Do\DoWhile.cs" />
     <Compile Include="17_Do\DoWhileDemo.cs" />
     <Compile Include="17_Do\DoWhileSum.cs" />
@@ -218,7 +229,10 @@
     <Compile Include="21_Function\FunctionOverload.cs" />
     <Compile Include="21_Function\FunctionParameter.cs" />
     <Compile Include="21_Function\FunctionPractice.cs" />
+    <Compile Include="21_Function\FunctionReturnValue.cs" />
+    <Compile Include="21_Function\FunctionScope.cs" />
     <Compile Include="21_Function\Function_Abs.cs" />
+    <Compile Include="21_Function\GetSumTwoNumber.cs" />
     <Compile Include="21_Function\_함수\CommandLineParameterDemo.cs" />
     <Compile Include="21_Function\_함수\명령줄인수_더하기.cs" />
     <Compile Include="21_Function\_함수\명령줄인수_짝수의합.cs" />
@@ -488,6 +502,14 @@
     <Compile Include="ConvertClass.cs" />
     <Compile Include="DefaultExpression.cs" />
     <Compile Include="EscapeSequenceDemo.cs" />
+    <Compile Include="GreetingPage.cs" />
+    <Compile Include="HttpWebRequestDemo.cs" />
+    <Compile Include="Immutable.cs" />
+    <Compile Include="LambdaExpression.cs" />
+    <Compile Include="LambdaExpressionArgs.cs" />
+    <Compile Include="LambdaExpressionMultiLine.cs" />
+    <Compile Include="LambdaExpressionTypeDeclare.cs" />
+    <Compile Include="LambdaExpressionWithFunc.cs" />
     <Compile Include="ListOfChildToListOfParent.cs" />
     <Compile Include="57_IO\PathClassDemo\PathClassDemo.cs" />
     <Compile Include="57_IO\StreamReaderReadToEndDemo\StreamReaderReadToEndDemo.cs" />
