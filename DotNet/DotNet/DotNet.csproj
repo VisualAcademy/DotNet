@@ -211,6 +211,14 @@
     <Compile Include="20_Array\ArrayIndex\ArrayIndex.cs" />
     <Compile Include="20_Array\WhyArray.cs" />
     <Compile Include="21_Function\CommandLineArgument.cs" />
+    <Compile Include="21_Function\FunctionAddNumbers.cs" />
+    <Compile Include="21_Function\FunctionCall.cs" />
+    <Compile Include="21_Function\FunctionDemo.cs" />
+    <Compile Include="21_Function\FunctionExam.cs" />
+    <Compile Include="21_Function\FunctionOverload.cs" />
+    <Compile Include="21_Function\FunctionParameter.cs" />
+    <Compile Include="21_Function\FunctionPractice.cs" />
+    <Compile Include="21_Function\Function_Abs.cs" />
     <Compile Include="21_Function\_함수\CommandLineParameterDemo.cs" />
     <Compile Include="21_Function\_함수\명령줄인수_더하기.cs" />
     <Compile Include="21_Function\_함수\명령줄인수_짝수의합.cs" />
