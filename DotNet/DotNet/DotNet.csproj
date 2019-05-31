@@ -598,7 +598,7 @@
     <Compile Include="GreetingPage.cs" />
     <Compile Include="HttpWebRequestDemo.cs" />
     <Compile Include="Immutable.cs" />
-    <Compile Include="LambdaExpression.cs" />
+    <Compile Include="40_Delegate\LambdaExpression\LambdaExpression.cs" />
     <Compile Include="LambdaExpressionArgs.cs" />
     <Compile Include="LambdaExpressionMultiLine.cs" />
     <Compile Include="LambdaExpressionTypeDeclare.cs" />
