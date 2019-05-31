@@ -599,7 +599,7 @@
     <Compile Include="HttpWebRequestDemo.cs" />
     <Compile Include="Immutable.cs" />
     <Compile Include="40_Delegate\LambdaExpression\LambdaExpression.cs" />
-    <Compile Include="LambdaExpressionArgs.cs" />
+    <Compile Include="40_Delegate\LambdaExpressionArgs\LambdaExpressionArgs.cs" />
     <Compile Include="LambdaExpressionMultiLine.cs" />
     <Compile Include="LambdaExpressionTypeDeclare.cs" />
     <Compile Include="LambdaExpressionWithFunc.cs" />
