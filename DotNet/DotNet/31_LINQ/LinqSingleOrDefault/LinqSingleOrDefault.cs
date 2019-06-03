@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-class LINQ_SingleOrDefault
+class LinqSingleOrDefault
 {
     static void Main()
     {

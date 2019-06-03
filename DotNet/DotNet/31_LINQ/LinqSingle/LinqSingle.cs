@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-class LINQ_Single
+class LinqSingle
 {
     static void Main()
     {
@@ -16,6 +16,8 @@ class LINQ_Single
         {
             // 없는 데이터 요청시 예외 발생
             string black = colors.Single(color => color == "Black");
+            //// 없는 데이터 요청시 null 값 반환
+            //string black = colors.SingleOrDefault(color => color == "Black");
         }
         catch (Exception ex)
         {

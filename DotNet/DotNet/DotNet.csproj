@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNet.TextToCollection</StartupObject>
+    <StartupObject>LinqSkipTake</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -317,12 +317,13 @@
     <Compile Include="29_Collection\ListDemo.cs" />
     <Compile Include="30_GenericClass\ListOfInt.cs" />
     <Compile Include="31_LINQ\LinqDemo.cs" />
-    <Compile Include="31_LINQ\LINQ_Any.cs" />
-    <Compile Include="31_LINQ\LINQ_Distinct.cs" />
+    <Compile Include="31_LINQ\LinqAnyNumber.cs" />
+    <Compile Include="31_LINQ\LinqDistinct\LinqDistinct.cs" />
+    <Compile Include="31_LINQ\LinqSkipTake\LinqSkipTake.cs" />
     <Compile Include="31_LINQ\LINQ_OrderBy.cs" />
-    <Compile Include="31_LINQ\LINQ_Single.cs" />
-    <Compile Include="31_LINQ\LINQ_SingleOrDefault.cs" />
-    <Compile Include="31_LINQ\LINQ_Take.cs" />
+    <Compile Include="31_LINQ\LinqSingle\LinqSingle.cs" />
+    <Compile Include="31_LINQ\LinqSingleOrDefault\LinqSingleOrDefault.cs" />
+    <Compile Include="31_LINQ\LinqTake\LinqTake.cs" />
     <Compile Include="31_LINQ\LINQ_Where.cs" />
     <Compile Include="31_LINQ\LINQ_Zip.cs" />
     <Compile Include="34_Field\읽기전용필드.cs" />
@@ -336,7 +337,7 @@
     <Compile Include="38_Property\PropertyPrivateSet.cs" />
     <Compile Include="39_Indexer\반복기.cs" />
     <Compile Include="42_ClassEtc\PartialClassPerson.cs" />
-    <Compile Include="55_ExtensionMethod\RelatedArticleOptionDemo.cs" />
+    <Compile Include="52_ExtensionMethod\RelatedArticleOptionDemo.cs" />
     <Compile Include="57_IO\TextToCollection\TextToCollection.cs" />
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="20_Array\ArrayMultiPractice\ArrayMultiPractice.cs" />
@@ -554,7 +555,7 @@
     <Compile Include="51_OOP\POCO\POCO.cs" />
     <Compile Include="51_OOP\_\자동차클래스.cs" />
     <Compile Include="51_OOP\CarWorld.cs" />
-    <Compile Include="55_ExtensionMethod\확장메서드.cs" />
+    <Compile Include="52_ExtensionMethod\확장메서드.cs" />
     <Compile Include="57_Dynamic\Dynamic.cs" />
     <Compile Include="57_Dynamic\DynamicallyTypedObjects.cs" />
     <Compile Include="57_Dynamic\DynamicDemo.cs" />
@@ -587,9 +588,9 @@
     <Compile Include="50_GenericMake\CollectionMerge.cs" />
     <Compile Include="50_GenericMake\ListOfCategory.cs" />
     <Compile Include="50_GenericMake\StringArray.cs" />
-    <Compile Include="55_ExtensionMethod\ExtensionFunction\ExtensionFunction.cs" />
-    <Compile Include="55_ExtensionMethod\ExtensionMethodDemo\ExtensionMethodDemo.cs" />
-    <Compile Include="55_ExtensionMethod\ExtensionMethodDescription\ExtensionMethodDescription.cs" />
+    <Compile Include="52_ExtensionMethod\ExtensionFunction\ExtensionFunction.cs" />
+    <Compile Include="52_ExtensionMethod\ExtensionMethodDemo\ExtensionMethodDemo.cs" />
+    <Compile Include="52_ExtensionMethod\ExtensionMethodDescription\ExtensionMethodDescription.cs" />
     <Compile Include="CastingOperator.cs" />
     <Compile Include="Character_EscapeSequence.cs" />
     <Compile Include="ConvertClass.cs" />
@@ -602,7 +603,7 @@
     <Compile Include="40_Delegate\LambdaExpressionArgs\LambdaExpressionArgs.cs" />
     <Compile Include="40_Delegate\LambdaExpressionMultiLine\LambdaExpressionMultiLine.cs" />
     <Compile Include="40_Delegate\LambdaExpressionTypeDeclare\LambdaExpressionTypeDeclare.cs" />
-    <Compile Include="LambdaExpressionWithFunc.cs" />
+    <Compile Include="40_Delegate\LambdaExpressionWithFunc\LambdaExpressionWithFunc.cs" />
     <Compile Include="LicenseResult.cs" />
     <Compile Include="ListDictionaryDemo.cs" />
     <Compile Include="ListOfChildToListOfParent.cs" />
