@@ -319,6 +319,7 @@
     <Compile Include="31_LINQ\LinqDemo.cs" />
     <Compile Include="31_LINQ\LinqAnyNumber.cs" />
     <Compile Include="31_LINQ\LinqDistinct\LinqDistinct.cs" />
+    <Compile Include="31_LINQ\LinqFirst\LinqFirst.cs" />
     <Compile Include="31_LINQ\LinqSkipTake\LinqSkipTake.cs" />
     <Compile Include="31_LINQ\LINQ_OrderBy.cs" />
     <Compile Include="31_LINQ\LinqSingle\LinqSingle.cs" />
