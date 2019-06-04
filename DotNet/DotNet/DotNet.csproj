@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LinqWhereContains</StartupObject>
+    <StartupObject>LinqCollectionDemo.LinqCollectionDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -316,7 +316,7 @@
     <Compile Include="26_Class\RandomPractice.cs" />
     <Compile Include="29_Collection\ListDemo.cs" />
     <Compile Include="30_GenericClass\ListOfInt.cs" />
-    <Compile Include="31_LINQ\LinqDemo.cs" />
+    <Compile Include="49_Generic\LinqCollectionDemo\LinqCollectionDemo.cs" />
     <Compile Include="31_LINQ\LinqAnyNumber.cs" />
     <Compile Include="31_LINQ\LinqDistinct\LinqDistinct.cs" />
     <Compile Include="31_LINQ\LinqFirst\LinqFirst.cs" />
@@ -845,8 +845,8 @@
     <Compile Include="20_Array\_\일차원배열2.cs" />
     <Compile Include="20_Array\_\일차원배열3.cs" />
     <Compile Include="20_Array\_\일차원배열4.cs" />
-    <Compile Include="람다식.cs" />
-    <Compile Include="람다식_소개.cs" />
+    <Compile Include="40_Delegate\_\람다식.cs" />
+    <Compile Include="40_Delegate\_\람다식_소개.cs" />
     <Compile Include="리스트제네릭클래스.cs" />
     <Compile Include="변환연산자.cs" />
     <Compile Include="분할클래스.cs" />
