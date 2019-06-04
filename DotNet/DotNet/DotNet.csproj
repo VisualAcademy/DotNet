@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LinqSkipTake</StartupObject>
+    <StartupObject>LinqWhereContains</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -325,7 +325,7 @@
     <Compile Include="31_LINQ\LinqSingle\LinqSingle.cs" />
     <Compile Include="31_LINQ\LinqSingleOrDefault\LinqSingleOrDefault.cs" />
     <Compile Include="31_LINQ\LinqTake\LinqTake.cs" />
-    <Compile Include="31_LINQ\LINQ_Where.cs" />
+    <Compile Include="31_LINQ\LinqWhereContains\LinqWhereContains.cs" />
     <Compile Include="31_LINQ\LinqZip\LinqZip.cs" />
     <Compile Include="34_Field\읽기전용필드.cs" />
     <Compile Include="35_Constructor\CircleClass.cs" />

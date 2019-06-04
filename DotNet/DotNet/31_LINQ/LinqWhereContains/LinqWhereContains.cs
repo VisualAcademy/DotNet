@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 
-class LINQ_Where
+class LinqWhereContains
 {
     static void Main()
     {
-        List<string> names = new List<string> { "Angular", "Bootstrap", "C#" };
+        List<string> names = new List<string> { "ASP.NET", "Blazor", "C#" };
 
         IEnumerable<string> search = names.Where(n => n.Contains("a"));
 
