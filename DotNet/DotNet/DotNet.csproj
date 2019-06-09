@@ -550,7 +550,7 @@
     <Compile Include="48_Attribute\ReflectionGetMembers.cs" />
     <Compile Include="48_Attribute\ReflectionGetMethod.cs" />
     <Compile Include="50_GenericMake\GenericClassPractice.cs" />
-    <Compile Include="50_GenericMake\ListOfObject.cs" />
+    <Compile Include="49_Generic\ListOfObject\ListOfObject.cs" />
     <Compile Include="50_GenericMake\_\Generic_PairOfType.cs" />
     <Compile Include="51_OOP\NullWithObject.cs" />
     <Compile Include="51_OOP\POCO\POCO.cs" />
@@ -934,7 +934,7 @@
     <Compile Include="파일처리_파일처리관련.cs" />
     <Compile Include="파일처리_폴더의_모든파일명_일괄변경.cs" />
     <Compile Include="플레이스홀더.cs" />
-    <Compile Include="형식매개변수에대한제약조건.cs" />
+    <Compile Include="49_Generic\TypeConstraint.cs" />
     <Compile Include="환경변수.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -943,6 +943,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="22_Interactive\" />
+    <Folder Include="49_Generic\_\" />
     <Folder Include="58_LINQ\" />
     <Folder Include="LINQ\FromWhereSelect\" />
     <Folder Include="LINQ\LinqSelect\" />
