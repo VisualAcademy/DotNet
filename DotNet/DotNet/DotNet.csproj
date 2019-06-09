@@ -586,9 +586,9 @@
     <Compile Include="AwaitWithTryCatchFinally.cs" />
     <Compile Include="50_GenericMake\CollectionInitializer.cs" />
     <Compile Include="50_GenericMake\CollectionInitializers.cs" />
-    <Compile Include="50_GenericMake\CollectionMerge.cs" />
+    <Compile Include="49_Generic\CollectionMerge\CollectionMerge.cs" />
     <Compile Include="50_GenericMake\ListOfCategory.cs" />
-    <Compile Include="50_GenericMake\StringArray.cs" />
+    <Compile Include="49_Generic\StringArray\StringArray.cs" />
     <Compile Include="52_ExtensionMethod\ExtensionFunction\ExtensionFunction.cs" />
     <Compile Include="52_ExtensionMethod\ExtensionMethodDemo\ExtensionMethodDemo.cs" />
     <Compile Include="52_ExtensionMethod\ExtensionMethodDescription\ExtensionMethodDescription.cs" />
@@ -606,7 +606,7 @@
     <Compile Include="40_Delegate\LambdaExpressionTypeDeclare\LambdaExpressionTypeDeclare.cs" />
     <Compile Include="40_Delegate\LambdaExpressionWithFunc\LambdaExpressionWithFunc.cs" />
     <Compile Include="LicenseResult.cs" />
-    <Compile Include="ListDictionaryDemo.cs" />
+    <Compile Include="49_Generic\ListDictionaryDemo\ListDictionaryDemo.cs" />
     <Compile Include="ListOfChildToListOfParent.cs" />
     <Compile Include="57_IO\PathClassDemo\PathClassDemo.cs" />
     <Compile Include="57_IO\StreamReaderReadToEndDemo\StreamReaderReadToEndDemo.cs" />
@@ -619,7 +619,7 @@
     <Compile Include="57_IO\_\파일처리_폴더정보얻기.cs" />
     <Compile Include="57_IO\FileAndFileInfo.cs" />
     <Compile Include="57_IO\DirectoryAndDirectoryInfo.cs" />
-    <Compile Include="50_GenericMake\DictionaryGenericClassDemo.cs" />
+    <Compile Include="49_Generic\DictionaryGenericClassDemo\DictionaryGenericClassDemo.cs" />
     <Compile Include="62_\OutVariable.cs" />
     <Compile Include="62_\OutVariableDemo.cs" />
     <Compile Include="BinaryLiteral.cs" />
@@ -627,8 +627,8 @@
     <Compile Include="BinaryLiteralNote.cs" />
     <Compile Include="BinaryString.cs" />
     <Compile Include="CsharpInteractive.cs" />
-    <Compile Include="DictionaryOfString.cs" />
-    <Compile Include="DictionaryOfTypeNote.cs" />
+    <Compile Include="49_Generic\DictionaryOfString\DictionaryOfString.cs" />
+    <Compile Include="49_Generic\DictionaryOfTypeNote\DictionaryOfTypeNote.cs" />
     <Compile Include="06_Number\DigitSeparatorNote.cs" />
     <Compile Include="31_LINQ\FromWhereSelect.cs" />
     <Compile Include="31_LINQ\LinqSelect.cs" />
@@ -934,7 +934,7 @@
     <Compile Include="파일처리_파일처리관련.cs" />
     <Compile Include="파일처리_폴더의_모든파일명_일괄변경.cs" />
     <Compile Include="플레이스홀더.cs" />
-    <Compile Include="49_Generic\TypeConstraint.cs" />
+    <Compile Include="49_Generic\TypeConstraint\TypeConstraint.cs" />
     <Compile Include="환경변수.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -943,7 +943,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="22_Interactive\" />
-    <Folder Include="49_Generic\_\" />
     <Folder Include="58_LINQ\" />
     <Folder Include="LINQ\FromWhereSelect\" />
     <Folder Include="LINQ\LinqSelect\" />
