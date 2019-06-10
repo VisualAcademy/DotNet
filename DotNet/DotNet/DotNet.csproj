@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LicenseResult</StartupObject>
+    <StartupObject>XElementDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -633,7 +633,7 @@
     <Compile Include="06_Number\DigitSeparatorNote.cs" />
     <Compile Include="31_LINQ\FromWhereSelect.cs" />
     <Compile Include="31_LINQ\LinqSelect.cs" />
-    <Compile Include="JsonConvertDemo.cs" />
+    <Compile Include="55_XML_JSON\JsonConvertDemo\JsonConvertDemo.cs" />
     <Compile Include="ListOfTypeSimpleMerge.cs" />
     <Compile Include="MainMethodAsync.cs" />
     <Compile Include="33_Namespace\PartialClassDemo\FirstDeveloper.cs" />
@@ -754,7 +754,7 @@
     <Compile Include="49_GenericMake\_\제네릭_장점.cs" />
     <Compile Include="WebClientDemo.cs" />
     <Compile Include="WrapperType.cs" />
-    <Compile Include="XElementDemo.cs" />
+    <Compile Include="55_XML_JSON\XElementDemo\XElementDemo.cs" />
     <Compile Include="47_Attribute\TypeAndActivator\TypeAndActivator.cs" />
     <Compile Include="24_Struct\CharStruct\CharStruct.cs" />
     <Compile Include="24_Struct\DateTimeDemo\DateTimeDemo.cs" />

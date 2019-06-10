@@ -2,6 +2,13 @@
 using System;
 using System.Collections.Generic;
 
+public class Shirt
+{
+    public string Name { get; set; }
+    public DateTime Created { get; set; }
+    public List<string> Sizes { get; set; }
+}
+
 public class JsonConvertDemo
 {
     static void Main()
@@ -25,11 +32,4 @@ public class JsonConvertDemo
         Shirt shirt2 = JsonConvert.DeserializeObject<Shirt>(json2);
         Console.WriteLine($"{shirt2.Name} - {shirt2.Created}");
     }
-}
-
-public class Shirt
-{
-    public string Name { get; set; }
-    public DateTime Created { get; set; }
-    public List<string> Sizes { get; set; }
 }
