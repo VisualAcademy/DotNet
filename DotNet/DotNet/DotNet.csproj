@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TypeAndActivator.TypeAndActivator</StartupObject>
+    <StartupObject>LicenseResult</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -606,7 +606,7 @@
     <Compile Include="40_Delegate\LambdaExpressionMultiLine\LambdaExpressionMultiLine.cs" />
     <Compile Include="40_Delegate\LambdaExpressionTypeDeclare\LambdaExpressionTypeDeclare.cs" />
     <Compile Include="40_Delegate\LambdaExpressionWithFunc\LambdaExpressionWithFunc.cs" />
-    <Compile Include="LicenseResult.cs" />
+    <Compile Include="99_Tips\LicenseResult.cs" />
     <Compile Include="49_GenericMake\ListDictionaryDemo\ListDictionaryDemo.cs" />
     <Compile Include="ListOfChildToListOfParent.cs" />
     <Compile Include="57_IO\PathClassDemo\PathClassDemo.cs" />
