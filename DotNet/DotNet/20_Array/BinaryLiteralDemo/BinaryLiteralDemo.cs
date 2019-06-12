@@ -2,7 +2,7 @@
 
 class BinaryLiteralDemo
 {
-    static void Main(string[] args)
+    static void Main()
     {
         // Binary Literal
         //int[] numbers = {1, 2, 4, 8};
