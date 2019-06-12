@@ -340,6 +340,7 @@
     <Compile Include="39_Indexer\반복기.cs" />
     <Compile Include="42_ClassEtc\PartialClassPerson.cs" />
     <Compile Include="52_ExtensionMethod\RelatedArticleOptionDemo.cs" />
+    <Compile Include="56_PlaceHolder\PlaceHolderEtc.cs" />
     <Compile Include="57_IO\TextToCollection\TextToCollection.cs" />
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="20_Array\ArrayMultiPractice\ArrayMultiPractice.cs" />
@@ -897,7 +898,7 @@
     <Compile Include="인텔리센스.cs" />
     <Compile Include="자료구조_리스트.cs" />
     <Compile Include="자료구조_제네릭리스트.cs" />
-    <Compile Include="자리표시자.cs" />
+    <Compile Include="56_PlaceHolder\_\자리표시자.cs" />
     <Compile Include="전처리기지시문_조건부컴파일기호.cs" />
     <Compile Include="정적과인스턴스.cs" />
     <Compile Include="정적클래스와정적클래스멤버.cs" />
@@ -934,7 +935,7 @@
     <Compile Include="파일처리_파일리스트_특정폴더.cs" />
     <Compile Include="파일처리_파일처리관련.cs" />
     <Compile Include="파일처리_폴더의_모든파일명_일괄변경.cs" />
-    <Compile Include="플레이스홀더.cs" />
+    <Compile Include="56_PlaceHolder\_\플레이스홀더.cs" />
     <Compile Include="49_GenericMake\TypeConstraint\TypeConstraint.cs" />
     <Compile Include="환경변수.cs" />
   </ItemGroup>

@@ -2,7 +2,7 @@
 
 public class 자리표시자 // 자리 채움자(Place Holder)
 {
-    public static void Main(string[] args)
+    public static void Main()
     {
         Console.WriteLine("자리" + "표시자");
         Console.WriteLine(
