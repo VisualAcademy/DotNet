@@ -9,5 +9,9 @@ class LinqForEach
         var numbers = new List<int>() { 10, 20, 30, 40, 50 };
 
         numbers.Where(n => n <= 20).ToList().ForEach(n => Console.WriteLine(n));
+
+        var names = new List<string>() { "RedPlus", "Taeyo" };
+
+        names.ForEach(n => Console.WriteLine(n));
     }
 }

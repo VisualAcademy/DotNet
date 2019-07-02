@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LinqForEach</StartupObject>
+    <StartupObject>FunctionPointer</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -317,6 +317,7 @@
     <Compile Include="29_Collection\ListDemo.cs" />
     <Compile Include="30_GenericClass\ListOfInt.cs" />
     <Compile Include="31_LINQ\LinqForEach.cs" />
+    <Compile Include="40_Delegate\FunctionPointer.cs" />
     <Compile Include="49_GenericMake\GenericMethod.cs" />
     <Compile Include="49_GenericMake\LinqCollectionDemo\LinqCollectionDemo.cs" />
     <Compile Include="31_LINQ\LinqAnyNumber.cs" />
@@ -340,6 +341,7 @@
     <Compile Include="38_Property\PropertyPrivateSet.cs" />
     <Compile Include="39_Indexer\반복기.cs" />
     <Compile Include="42_ClassEtc\PartialClassPerson.cs" />
+    <Compile Include="52_ExtensionMethod\ExtensionMethodNote.cs" />
     <Compile Include="52_ExtensionMethod\RelatedArticleOptionDemo.cs" />
     <Compile Include="56_PlaceHolder\PlaceHolderEtc.cs" />
     <Compile Include="57_IO\TextToCollection\TextToCollection.cs" />
@@ -599,6 +601,7 @@
     <Compile Include="Character_EscapeSequence.cs" />
     <Compile Include="ConvertClass.cs" />
     <Compile Include="DefaultExpression.cs" />
+    <Compile Include="DefineDemo.cs" />
     <Compile Include="EscapeSequenceDemo.cs" />
     <Compile Include="GreetingPage.cs" />
     <Compile Include="HttpWebRequestDemo.cs" />
