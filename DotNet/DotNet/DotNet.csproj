@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SyncDemo</StartupObject>
+    <StartupObject>LinqForEach</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -316,6 +316,7 @@
     <Compile Include="26_Class\RandomPractice.cs" />
     <Compile Include="29_Collection\ListDemo.cs" />
     <Compile Include="30_GenericClass\ListOfInt.cs" />
+    <Compile Include="31_LINQ\LinqForEach.cs" />
     <Compile Include="49_GenericMake\GenericMethod.cs" />
     <Compile Include="49_GenericMake\LinqCollectionDemo\LinqCollectionDemo.cs" />
     <Compile Include="31_LINQ\LinqAnyNumber.cs" />
