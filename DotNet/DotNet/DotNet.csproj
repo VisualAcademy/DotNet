@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DoubleEqual</StartupObject>
+    <StartupObject>IfElse</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -132,8 +132,8 @@
     <Compile Include="11_Operator\ShortcutOperator.cs" />
     <Compile Include="11_Operator\ShortcutOperatorDemo.cs" />
     <Compile Include="11_Operator\UnaryOperator.cs" />
-    <Compile Include="15_Else\PositiveNegativeZero.cs" />
-    <Compile Include="15_Else\NumDifference.cs" />
+    <Compile Include="15_Else\PositiveNegativeZero\PositiveNegativeZero.cs" />
+    <Compile Include="15_Else\NumDifference\NumDifference.cs" />
     <Compile Include="07_BoolCharString\CharacterDemo.cs" />
     <Compile Include="07_BoolCharString\CharacterExam\CharacterExam.cs" />
     <Compile Include="07_BoolCharString\CharacterPractice\CharacterPractice.cs" />
@@ -211,28 +211,28 @@
     <Compile Include="13_ConditionalOperator\TernaryOperator.cs" />
     <Compile Include="13_ConditionalOperator\TernaryPractice.cs" />
     <Compile Include="13_ConditionalOperator\TernaryQuiz.cs" />
-    <Compile Include="14_If\If.cs" />
-    <Compile Include="14_If\IfAnd.cs" />
-    <Compile Include="14_If\IfDemo.cs" />
-    <Compile Include="14_If\IfExam.cs" />
-    <Compile Include="14_If\IfNested.cs" />
-    <Compile Include="14_If\IfNot.cs" />
-    <Compile Include="14_If\IfPractice.cs" />
-    <Compile Include="14_If\SequenceDemo.cs" />
-    <Compile Include="14_If\SingleMultiple.cs" />
-    <Compile Include="14_If\StringCompare.cs" />
+    <Compile Include="14_If\If\If.cs" />
+    <Compile Include="14_If\IfAnd\IfAnd.cs" />
+    <Compile Include="14_If\IfDemo\IfDemo.cs" />
+    <Compile Include="14_If\IfExam\IfExam.cs" />
+    <Compile Include="14_If\IfNested\IfNested.cs" />
+    <Compile Include="14_If\IfNot\IfNot.cs" />
+    <Compile Include="14_If\IfPractice\IfPractice.cs" />
+    <Compile Include="14_If\SequenceDemo\SequenceDemo.cs" />
+    <Compile Include="14_If\SingleMultiple\SingleMultiple.cs" />
+    <Compile Include="14_If\StringCompare\StringCompare.cs" />
     <Compile Include="15_Else\CharTest\CharTest.cs" />
-    <Compile Include="15_Else\Else.cs" />
-    <Compile Include="15_Else\ElseExam.cs" />
-    <Compile Include="15_Else\ElseIf.cs" />
-    <Compile Include="15_Else\ElseNested.cs" />
-    <Compile Include="15_Else\ElsePractice.cs" />
-    <Compile Include="15_Else\ElseQuiz.cs" />
-    <Compile Include="15_Else\IfElse.cs" />
-    <Compile Include="15_Else\IfElseAll.cs" />
-    <Compile Include="15_Else\IfElseIfElse.cs" />
-    <Compile Include="15_Else\IfElseScoreGrade.cs" />
-    <Compile Include="15_Else\ScoreGrade.cs" />
+    <Compile Include="15_Else\Else\Else.cs" />
+    <Compile Include="15_Else\ElseExam\ElseExam.cs" />
+    <Compile Include="15_Else\ElseIf\ElseIf.cs" />
+    <Compile Include="15_Else\ElseNested\ElseNested.cs" />
+    <Compile Include="15_Else\ElsePractice\ElsePractice.cs" />
+    <Compile Include="15_Else\ElseQuiz\ElseQuiz.cs" />
+    <Compile Include="15_Else\IfElse\IfElse.cs" />
+    <Compile Include="15_Else\IfElseAll\IfElseAll.cs" />
+    <Compile Include="15_Else\IfElseIfElse\IfElseIfElse.cs" />
+    <Compile Include="15_Else\IfElseScoreGrade\IfElseScoreGrade.cs" />
+    <Compile Include="15_Else\ScoreGrade\ScoreGrade.cs" />
     <Compile Include="17_For\For\For.cs" />
     <Compile Include="17_For\ForDemo\ForDemo.cs" />
     <Compile Include="17_For\ForDemoCountDown\ForDemoCountDown.cs" />
@@ -627,7 +627,7 @@
     <Compile Include="57_IO\FileAndFileInfo.cs" />
     <Compile Include="57_IO\DirectoryAndDirectoryInfo.cs" />
     <Compile Include="49_GenericMake\DictionaryGenericClassDemo\DictionaryGenericClassDemo.cs" />
-    <Compile Include="62_\OutVariable.cs" />
+    <Compile Include="14_If\OutVariable\OutVariable.cs" />
     <Compile Include="62_\OutVariableDemo.cs" />
     <Compile Include="13_ConditionalOperator\BinaryLiteral\BinaryLiteral.cs" />
     <Compile Include="20_Array\BinaryLiteralDemo\BinaryLiteralDemo.cs" />
