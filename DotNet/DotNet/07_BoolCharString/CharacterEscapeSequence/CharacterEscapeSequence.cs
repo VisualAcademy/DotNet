@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Character_EscapeSequence
+class CharacterEscapeSequence
 {
     static void Main()
     {

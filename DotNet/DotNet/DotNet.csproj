@@ -135,8 +135,8 @@
     <Compile Include="15_Else\NumDifference.cs" />
     <Compile Include="07_BoolCharString\CharacterDemo.cs" />
     <Compile Include="07_BoolCharString\CharacterExam.cs" />
-    <Compile Include="07_BoolCharString\CharacterPractice.cs" />
-    <Compile Include="07_BoolCharString\CharArrayToString.cs" />
+    <Compile Include="07_BoolCharString\CharacterPractice\CharacterPractice.cs" />
+    <Compile Include="07_BoolCharString\CharArrayToString\CharArrayToString.cs" />
     <Compile Include="07_BoolCharString\CharStringBoolean.cs" />
     <Compile Include="07_BoolCharString\MultiLineString.cs" />
     <Compile Include="11_Operator\DecrementNumber.cs" />
@@ -597,8 +597,8 @@
     <Compile Include="52_ExtensionMethod\ExtensionFunction\ExtensionFunction.cs" />
     <Compile Include="52_ExtensionMethod\ExtensionMethodDemo\ExtensionMethodDemo.cs" />
     <Compile Include="52_ExtensionMethod\ExtensionMethodDescription\ExtensionMethodDescription.cs" />
-    <Compile Include="CastingOperator.cs" />
-    <Compile Include="Character_EscapeSequence.cs" />
+    <Compile Include="09_Operator\CastingOperator\CastingOperator.cs" />
+    <Compile Include="07_BoolCharString\CharacterEscapeSequence\CharacterEscapeSequence.cs" />
     <Compile Include="ConvertClass.cs" />
     <Compile Include="DefaultExpression.cs" />
     <Compile Include="DefineDemo.cs" />
