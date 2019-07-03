@@ -3,12 +3,6 @@ using System;
 
 class MethodOverloadNumber
 {
-    static void Main()
-    {
-        GetNumber(1234);    // Int32: 1234
-        GetNumber(1234L);   // Int64: 1234
-    }
-
     // GetNumber 함수: int 매개 변수
     static void GetNumber(int number)
     {
@@ -19,5 +13,11 @@ class MethodOverloadNumber
     static void GetNumber(long number)
     {
         Console.WriteLine($"Int64: {number}");
+    }
+
+    static void Main()
+    {
+        GetNumber(1234);    // Int32: 1234
+        GetNumber(1234L);   // Int64: 1234
     }
 }

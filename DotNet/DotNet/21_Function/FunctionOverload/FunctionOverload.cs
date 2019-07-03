@@ -1,14 +1,8 @@
-﻿// 함수(메서드) 오버로드(Overload; 오버로딩) : 다중 정의/여러 번 정의/중복
+﻿// 함수(메서드) 오버로드(Overload; 오버로딩): 다중 정의/여러 번 정의/중복
 using System;
 
 class FunctionOverload
 {
-    static void Main()
-    {
-        Multi();
-        Multi("반갑습니다.");
-        Multi("또 만나요.", 3);
-    }
 
     static void Multi()
     {
@@ -26,5 +20,12 @@ class FunctionOverload
         {
             Console.WriteLine("{0}", message);
         }
+    }
+
+    static void Main()
+    {
+        Multi();
+        Multi("반갑습니다.");
+        Multi("또 만나요.", 3);
     }
 }

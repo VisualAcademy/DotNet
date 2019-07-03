@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ForDemo</StartupObject>
+    <StartupObject>FunctionAbs</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -112,21 +112,21 @@
     <Compile Include="07_BoolCharString\StringKeyword.cs" />
     <Compile Include="08_ReadLine\ReadLineDemo.cs" />
     <Compile Include="09_Operator\OperatorAdd\OperatorAdd.cs" />
-    <Compile Include="11_Operator\OperatorDescription.cs" />
+    <Compile Include="11_Operator\OperatorDescription\OperatorDescription.cs" />
     <Compile Include="09_Operator\OperatorDivide\OperatorDivide.cs" />
-    <Compile Include="09_Operator\OperatorMultiply.cs" />
+    <Compile Include="09_Operator\OperatorMultiply\OperatorMultiply.cs" />
     <Compile Include="11_Operator\OperatorQuiz.cs" />
-    <Compile Include="11_Operator\OperatorRelational.cs" />
+    <Compile Include="11_Operator\OperatorRelational\OperatorRelational.cs" />
     <Compile Include="09_Operator\OperatorRemainder\OperatorRemainder.cs" />
     <Compile Include="11_Operator\OperatorRemainderPractice.cs" />
     <Compile Include="09_Operator\OperatorSubtract.cs" />
     <Compile Include="11_Operator\Operator_Arithmetic.cs" />
-    <Compile Include="11_Operator\OrOperator.cs" />
+    <Compile Include="11_Operator\OrOperator\OrOperator.cs" />
     <Compile Include="11_Operator\PercentOperator.cs" />
     <Compile Include="11_Operator\PlusOperator\PlusOperator.cs" />
     <Compile Include="11_Operator\PostfixOperator.cs" />
     <Compile Include="11_Operator\PrefixOperator.cs" />
-    <Compile Include="11_Operator\RelationalOperator.cs" />
+    <Compile Include="11_Operator\RelationalOperator\RelationalOperator.cs" />
     <Compile Include="11_Operator\Remainder.cs" />
     <Compile Include="11_Operator\ShortcutOperator.cs" />
     <Compile Include="11_Operator\ShortcutOperatorDemo.cs" />
@@ -291,28 +291,28 @@
     <Compile Include="20_Array\ArrayIndex\ArrayIndex.cs" />
     <Compile Include="20_Array\TwoDimensionalArray.cs" />
     <Compile Include="20_Array\WhyArray.cs" />
-    <Compile Include="21_Function\CommandLineArgument.cs" />
-    <Compile Include="21_Function\FunctionAddNumbers.cs" />
-    <Compile Include="21_Function\FunctionCall.cs" />
-    <Compile Include="21_Function\FunctionDemo.cs" />
-    <Compile Include="21_Function\FunctionExam.cs" />
-    <Compile Include="21_Function\FunctionOverload.cs" />
-    <Compile Include="21_Function\FunctionParameter.cs" />
-    <Compile Include="21_Function\FunctionPractice.cs" />
-    <Compile Include="21_Function\FunctionReturnValue.cs" />
-    <Compile Include="21_Function\FunctionScope.cs" />
-    <Compile Include="21_Function\Function_Abs.cs" />
-    <Compile Include="21_Function\GetSumTwoNumber.cs" />
-    <Compile Include="21_Function\LocalFunctionAdd.cs" />
-    <Compile Include="21_Function\MaxMinFunction.cs" />
-    <Compile Include="21_Function\MethodOverload.cs" />
-    <Compile Include="21_Function\MethodOverloadNumber.cs" />
-    <Compile Include="21_Function\RecursionDemo.cs" />
-    <Compile Include="21_Function\RecursionPower.cs" />
-    <Compile Include="21_Function\ReturnValue.cs" />
-    <Compile Include="21_Function\_함수\CommandLineParameterDemo.cs" />
-    <Compile Include="21_Function\_함수\명령줄인수_더하기.cs" />
-    <Compile Include="21_Function\_함수\명령줄인수_짝수의합.cs" />
+    <Compile Include="21_Function\CommandLineArgument\CommandLineArgument.cs" />
+    <Compile Include="21_Function\FunctionAddNumbers\FunctionAddNumbers.cs" />
+    <Compile Include="21_Function\FunctionCall\FunctionCall.cs" />
+    <Compile Include="21_Function\FunctionDemo\FunctionDemo.cs" />
+    <Compile Include="21_Function\FunctionExam\FunctionExam.cs" />
+    <Compile Include="21_Function\FunctionOverload\FunctionOverload.cs" />
+    <Compile Include="21_Function\FunctionParameter\FunctionParameter.cs" />
+    <Compile Include="21_Function\FunctionPractice\FunctionPractice.cs" />
+    <Compile Include="21_Function\FunctionReturnValue\FunctionReturnValue.cs" />
+    <Compile Include="21_Function\FunctionScope\FunctionScope.cs" />
+    <Compile Include="21_Function\FunctionAbs\FunctionAbs.cs" />
+    <Compile Include="21_Function\GetSumTwoNumber\GetSumTwoNumber.cs" />
+    <Compile Include="21_Function\LocalFunctionAdd\LocalFunctionAdd.cs" />
+    <Compile Include="21_Function\MaxMinFunction\MaxMinFunction.cs" />
+    <Compile Include="21_Function\MethodOverload\MethodOverload.cs" />
+    <Compile Include="21_Function\MethodOverloadNumber\MethodOverloadNumber.cs" />
+    <Compile Include="21_Function\RecursionDemo\RecursionDemo.cs" />
+    <Compile Include="21_Function\RecursionPower\RecursionPower.cs" />
+    <Compile Include="21_Function\ReturnValue\ReturnValue.cs" />
+    <Compile Include="21_Function\CommandLineParameterDemo\CommandLineParameterDemo.cs" />
+    <Compile Include="21_Function\_\명령줄인수_더하기.cs" />
+    <Compile Include="21_Function\_\명령줄인수_짝수의합.cs" />
     <Compile Include="26_Class\RandomPractice.cs" />
     <Compile Include="29_Collection\ListDemo.cs" />
     <Compile Include="30_GenericClass\ListOfInt.cs" />
@@ -373,11 +373,11 @@
     <Compile Include="20_Array\ZigZag\ZigZag.cs" />
     <Compile Include="21_Function\ArrowFunction\ArrowFunction.cs" />
     <Compile Include="21_Function\DefaultParameter\DefaultParameter.cs" />
-    <Compile Include="21_Function\LocalFunctionDemo.cs" />
+    <Compile Include="21_Function\LocalFunctionDemo\LocalFunctionDemo.cs" />
     <Compile Include="21_Function\NamedParameter\NamedParameter.cs" />
-    <Compile Include="21_Function\_함수\재귀함수.cs" />
-    <Compile Include="21_Function\_함수\함수.cs" />
-    <Compile Include="21_Function\_함수\함수오버로드.cs" />
+    <Compile Include="21_Function\_\재귀함수.cs" />
+    <Compile Include="21_Function\_\함수.cs" />
+    <Compile Include="21_Function\_\함수오버로드.cs" />
     <Compile Include="23_API\MathDemo\MathDemo.cs" />
     <Compile Include="23_API\UsingStaticClassesDemo\UsingStaticClassesDemo.cs" />
     <Compile Include="23_API\UsingStaticExample\UsingStaticExample.cs" />

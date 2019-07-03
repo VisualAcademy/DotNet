@@ -3,11 +3,6 @@ using System;
 
 class MethodOverload
 {
-    static void Main()
-    {
-        Hi();
-        Hi("반갑습니다.");
-    }
 
     // 매개 변수가 없는 Hi() 함수
     static void Hi()
@@ -19,5 +14,11 @@ class MethodOverload
     static void Hi(string msg)
     {
         Console.WriteLine(msg);
+    }
+
+    static void Main()
+    {
+        Hi();
+        Hi("반갑습니다.");
     }
 }

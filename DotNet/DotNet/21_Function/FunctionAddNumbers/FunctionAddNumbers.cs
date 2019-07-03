@@ -2,14 +2,6 @@
 
 class FunctionAddNumbers
 {
-    static void Main()
-    {
-        int a = 3;
-        int b = 5;
-        int c = AddNumbers(3, 5);
-        Console.WriteLine($"{a} + {b} = {c}");
-    }
-
     /// <summary>
     /// 두 수를 더해서 그 결괏값을 반환시켜주는 함수
     /// </summary>
@@ -19,5 +11,13 @@ class FunctionAddNumbers
     static int AddNumbers(int a, int b)
     {
         return a + b;
+    }
+
+    static void Main()
+    {
+        int a = 3;
+        int b = 5;
+        int c = AddNumbers(3, 5);
+        Console.WriteLine($"{a} + {b} = {c}");
     }
 }
