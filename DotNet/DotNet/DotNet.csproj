@@ -134,7 +134,7 @@
     <Compile Include="15_Else\PositiveNegativeZero.cs" />
     <Compile Include="15_Else\NumDifference.cs" />
     <Compile Include="07_BoolCharString\CharacterDemo.cs" />
-    <Compile Include="07_BoolCharString\CharacterExam.cs" />
+    <Compile Include="07_BoolCharString\CharacterExam\CharacterExam.cs" />
     <Compile Include="07_BoolCharString\CharacterPractice\CharacterPractice.cs" />
     <Compile Include="07_BoolCharString\CharArrayToString\CharArrayToString.cs" />
     <Compile Include="07_BoolCharString\CharStringBoolean.cs" />
@@ -234,7 +234,7 @@
     <Compile Include="15_Else\ScoreGrade.cs" />
     <Compile Include="16_For\For.cs" />
     <Compile Include="16_For\ForDemo.cs" />
-    <Compile Include="16_For\ForDemo_CountDown.cs" />
+    <Compile Include="16_For\ForDemoCountDown.cs" />
     <Compile Include="16_For\ForDescription.cs" />
     <Compile Include="16_For\ForEven.cs" />
     <Compile Include="16_For\ForExam.cs" />

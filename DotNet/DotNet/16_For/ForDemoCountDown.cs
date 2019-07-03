@@ -1,6 +1,6 @@
 ﻿using System;
 
-class ForDemo_CountDown
+class ForDemoCountDown
 {
     static void Main()
     {
