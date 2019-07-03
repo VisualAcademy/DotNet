@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SwitchStatement</StartupObject>
+    <StartupObject>DoubleEqual</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -93,6 +93,7 @@
     <Compile Include="05_Variable\LiteralPractice.cs" />
     <Compile Include="06_Number\DecimalDemo.cs" />
     <Compile Include="06_Number\DecimalMinMax.cs" />
+    <Compile Include="11_Operator\DoubleEqual\DoubleEqual.cs" />
     <Compile Include="20_Array\DigitSeparator\DigitSeparator.cs" />
     <Compile Include="06_Number\DigitSeparatorDemo.cs" />
     <Compile Include="20_Array\DigitSeparatorDescription\DigitSeparatorDescription.cs" />
@@ -146,15 +147,15 @@
     <Compile Include="11_Operator\IncrementDecrementPractice.cs" />
     <Compile Include="11_Operator\IncrementNumber.cs" />
     <Compile Include="11_Operator\IncrementOperator.cs" />
-    <Compile Include="11_Operator\LogicalAnd.cs" />
-    <Compile Include="11_Operator\LogicalNegation.cs" />
-    <Compile Include="11_Operator\LogicalNot.cs" />
-    <Compile Include="11_Operator\LogicalOperator.cs" />
-    <Compile Include="11_Operator\LogicalOperatorExam.cs" />
-    <Compile Include="11_Operator\LogicalOperatorPractice.cs" />
-    <Compile Include="11_Operator\LogicalOr.cs" />
+    <Compile Include="11_Operator\LogicalAnd\LogicalAnd.cs" />
+    <Compile Include="11_Operator\LogicalNegation\LogicalNegation.cs" />
+    <Compile Include="11_Operator\LogicalNot\LogicalNot.cs" />
+    <Compile Include="11_Operator\LogicalOperator\LogicalOperator.cs" />
+    <Compile Include="11_Operator\LogicalOperatorExam\LogicalOperatorExam.cs" />
+    <Compile Include="11_Operator\LogicalOperatorPractice\LogicalOperatorPractice.cs" />
+    <Compile Include="11_Operator\LogicalOr\LogicalOr.cs" />
     <Compile Include="11_Operator\NotOperator.cs" />
-    <Compile Include="13_ConditionalOperator\대소문자구분.cs" />
+    <Compile Include="11_Operator\_\대소문자구분.cs" />
     <Compile Include="05_Variable\ConstantDemo\ConstantDemo.cs" />
     <Compile Include="05_Variable\IntegerValue\IntegerValue.cs" />
     <Compile Include="05_Variable\Literal\Literal.cs" />
