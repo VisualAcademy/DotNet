@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FunctionAbs</StartupObject>
+    <StartupObject>SwitchStatement</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -266,14 +266,14 @@
     <Compile Include="18_While_Do_ForEach\WhileLoop\WhileLoop.cs" />
     <Compile Include="18_While_Do_ForEach\WhilePractice\WhilePractice.cs" />
     <Compile Include="18_While_Do_ForEach\WhileSum\WhileSum.cs" />
-    <Compile Include="18_Switch\SignalLight.cs" />
-    <Compile Include="18_Switch\Switch.cs" />
-    <Compile Include="18_Switch\SwitchExam.cs" />
-    <Compile Include="18_Switch\SwitchExpression.cs" />
-    <Compile Include="18_Switch\SwitchPractice.cs" />
-    <Compile Include="18_Switch\SwitchQuiz.cs" />
-    <Compile Include="18_Switch\SwitchStatement.cs" />
-    <Compile Include="18_Switch\SwitchWeather.cs" />
+    <Compile Include="16_Switch\SignalLight\SignalLight.cs" />
+    <Compile Include="16_Switch\Switch\Switch.cs" />
+    <Compile Include="16_Switch\SwitchExam\SwitchExam.cs" />
+    <Compile Include="16_Switch\SwitchExpression\SwitchExpression.cs" />
+    <Compile Include="16_Switch\SwitchPractice\SwitchPractice.cs" />
+    <Compile Include="16_Switch\SwitchQuiz\SwitchQuiz.cs" />
+    <Compile Include="16_Switch\SwitchStatement\SwitchStatement.cs" />
+    <Compile Include="16_Switch\SwitchWeather\SwitchWeather.cs" />
     <Compile Include="19_BreakContinueGoto\BreakDemo\BreakDemo.cs" />
     <Compile Include="19_BreakContinueGoto\BreakFor\BreakFor.cs" />
     <Compile Include="19_BreakContinueGoto\BreakInfiniteLoop\BreakInfiniteLoop.cs" />
