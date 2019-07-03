@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FunctionPointer</StartupObject>
+    <StartupObject>ForDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -111,19 +111,19 @@
     <Compile Include="07_BoolCharString\StringInterpolationDescription.cs" />
     <Compile Include="07_BoolCharString\StringKeyword.cs" />
     <Compile Include="08_ReadLine\ReadLineDemo.cs" />
-    <Compile Include="09_Operator\OperatorAdd.cs" />
+    <Compile Include="09_Operator\OperatorAdd\OperatorAdd.cs" />
     <Compile Include="11_Operator\OperatorDescription.cs" />
-    <Compile Include="09_Operator\OperatorDivide.cs" />
+    <Compile Include="09_Operator\OperatorDivide\OperatorDivide.cs" />
     <Compile Include="09_Operator\OperatorMultiply.cs" />
     <Compile Include="11_Operator\OperatorQuiz.cs" />
     <Compile Include="11_Operator\OperatorRelational.cs" />
-    <Compile Include="11_Operator\OperatorRemainder.cs" />
+    <Compile Include="09_Operator\OperatorRemainder\OperatorRemainder.cs" />
     <Compile Include="11_Operator\OperatorRemainderPractice.cs" />
     <Compile Include="09_Operator\OperatorSubtract.cs" />
     <Compile Include="11_Operator\Operator_Arithmetic.cs" />
     <Compile Include="11_Operator\OrOperator.cs" />
     <Compile Include="11_Operator\PercentOperator.cs" />
-    <Compile Include="11_Operator\PlusOperator.cs" />
+    <Compile Include="11_Operator\PlusOperator\PlusOperator.cs" />
     <Compile Include="11_Operator\PostfixOperator.cs" />
     <Compile Include="11_Operator\PrefixOperator.cs" />
     <Compile Include="11_Operator\RelationalOperator.cs" />
@@ -251,21 +251,21 @@
     <Compile Include="16_For\SeeSharpSum100.cs" />
     <Compile Include="16_For\TimesTable.cs" />
     <Compile Include="16_For\TimesTables.cs" />
-    <Compile Include="17_Do\DoWhile.cs" />
-    <Compile Include="17_Do\DoWhileDemo.cs" />
-    <Compile Include="17_Do\DoWhileSum.cs" />
-    <Compile Include="17_Do\ForEach.cs" />
-    <Compile Include="17_Do\ForEachDemo.cs" />
-    <Compile Include="17_Do\ForEachUp.cs" />
-    <Compile Include="17_Do\WhileDecrement.cs" />
-    <Compile Include="17_Do\WhileDemo.cs" />
-    <Compile Include="17_Do\WhileDescription.cs" />
-    <Compile Include="17_Do\WhileEven.cs" />
-    <Compile Include="17_Do\WhileExam.cs" />
-    <Compile Include="17_Do\WhileFibonacci.cs" />
-    <Compile Include="17_Do\WhileLoop.cs" />
-    <Compile Include="17_Do\WhilePractice.cs" />
-    <Compile Include="17_Do\WhileSum.cs" />
+    <Compile Include="18_While_Do_ForEach\DoWhile.cs" />
+    <Compile Include="18_While_Do_ForEach\DoWhileDemo.cs" />
+    <Compile Include="18_While_Do_ForEach\DoWhileSum.cs" />
+    <Compile Include="18_While_Do_ForEach\ForEach\ForEach.cs" />
+    <Compile Include="18_While_Do_ForEach\ForEachDemo.cs" />
+    <Compile Include="18_While_Do_ForEach\ForEachUp\ForEachUp.cs" />
+    <Compile Include="18_While_Do_ForEach\WhileDecrement.cs" />
+    <Compile Include="18_While_Do_ForEach\WhileDemo.cs" />
+    <Compile Include="18_While_Do_ForEach\WhileDescription.cs" />
+    <Compile Include="18_While_Do_ForEach\WhileEven.cs" />
+    <Compile Include="18_While_Do_ForEach\WhileExam.cs" />
+    <Compile Include="18_While_Do_ForEach\WhileFibonacci.cs" />
+    <Compile Include="18_While_Do_ForEach\WhileLoop.cs" />
+    <Compile Include="18_While_Do_ForEach\WhilePractice.cs" />
+    <Compile Include="18_While_Do_ForEach\WhileSum.cs" />
     <Compile Include="18_Switch\SignalLight.cs" />
     <Compile Include="18_Switch\Switch.cs" />
     <Compile Include="18_Switch\SwitchExam.cs" />
