@@ -93,6 +93,7 @@
     <Compile Include="05_Variable\LiteralPractice.cs" />
     <Compile Include="06_Number\DecimalDemo.cs" />
     <Compile Include="06_Number\DecimalMinMax.cs" />
+    <Compile Include="07_BoolCharString\ConstDoubleString\ConstDoubleString.cs" />
     <Compile Include="11_Operator\DoubleEqual\DoubleEqual.cs" />
     <Compile Include="20_Array\DigitSeparator\DigitSeparator.cs" />
     <Compile Include="06_Number\DigitSeparatorDemo.cs" />
@@ -606,7 +607,7 @@
     <Compile Include="EscapeSequenceDemo.cs" />
     <Compile Include="GreetingPage.cs" />
     <Compile Include="HttpWebRequestDemo.cs" />
-    <Compile Include="Immutable.cs" />
+    <Compile Include="07_BoolCharString\Immutable\Immutable.cs" />
     <Compile Include="40_Delegate\LambdaExpression\LambdaExpression.cs" />
     <Compile Include="40_Delegate\LambdaExpressionArgs\LambdaExpressionArgs.cs" />
     <Compile Include="40_Delegate\LambdaExpressionMultiLine\LambdaExpressionMultiLine.cs" />
@@ -831,7 +832,7 @@
     <Compile Include="데이터형식과변수\데이터형식_부호있는_정수.cs" />
     <Compile Include="데이터형식과변수\데이터형식_실수.cs" />
     <Compile Include="데이터형식과변수\데이터형식과변수.cs" />
-    <Compile Include="데이터형식과변수\상수.cs" />
+    <Compile Include="07_BoolCharString\_\상수.cs" />
     <Compile Include="데이터형식과변수\상수_데모.cs" />
     <Compile Include="20_Array\_\배열.cs" />
     <Compile Include="20_Array\_\배열_명령줄인수.cs" />
