@@ -3,12 +3,11 @@ using System;
 
 class ExpressionBodiedMethodDemo
 {
-    static void Main(string[] args)
+    static void Main()
     {
         Hello(); // 반갑습니다. 
         Console.WriteLine(DoubleValue(4)); // 8
         Console.WriteLine(Sum(3, 5)); // 8
-
     }
 
     // Expression Bodied Methods: => Lambda Operator 사용

@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ClassyPropertyMethod.ClassyPropertyMethod</StartupObject>
+    <StartupObject>ExpressionBodiedMethod</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -341,8 +341,8 @@
     <Compile Include="31_LINQ\LinqZip\LinqZip.cs" />
     <Compile Include="34_Field\읽기전용필드.cs" />
     <Compile Include="35_Constructor\CircleClass.cs" />
-    <Compile Include="35_Constructor\ExpressionBodiedConstructor.cs" />
-    <Compile Include="37_Method\ExpressionBodiedMethod.cs" />
+    <Compile Include="35_Constructor\ExpressionBodiedConstructor\ExpressionBodiedConstructor.cs" />
+    <Compile Include="21_Function\ExpressionBodiedMethod\ExpressionBodiedMethod.cs" />
     <Compile Include="37_Method\RectangleClass\RectangleClass.cs" />
     <Compile Include="37_Method\_\메서드.cs" />
     <Compile Include="37_Method\_\메서드의매개변수형식.cs" />
