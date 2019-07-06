@@ -636,7 +636,7 @@
     <Compile Include="57_IO\DirectoryAndDirectoryInfo.cs" />
     <Compile Include="49_GenericMake\DictionaryGenericClassDemo\DictionaryGenericClassDemo.cs" />
     <Compile Include="14_If\OutVariable\OutVariable.cs" />
-    <Compile Include="62_\OutVariableDemo.cs" />
+    <Compile Include="OutVariableDemo.cs" />
     <Compile Include="13_ConditionalOperator\BinaryLiteral\BinaryLiteral.cs" />
     <Compile Include="20_Array\BinaryLiteralDemo\BinaryLiteralDemo.cs" />
     <Compile Include="20_Array\BinaryLiteralNote\BinaryLiteralNote.cs" />
@@ -697,9 +697,9 @@
     <Compile Include="34_Field\LocalVariable\LocalVariable.cs" />
     <Compile Include="34_Field\PublicField\PublicField.cs" />
     <Compile Include="34_Field\VariableScope\VariableScope.cs" />
-    <Compile Include="RepositoryPatternDemo.cs" />
+    <Compile Include="29_Pattern\RepositoryPatternDemo\RepositoryPatternDemo.cs" />
     <Compile Include="SendMailTest.cs" />
-    <Compile Include="SignBaseSignRepository.cs" />
+    <Compile Include="62_\SignBaseSignRepository\SignBaseSignRepository.cs" />
     <Compile Include="26_Class\_\SquareClass.cs" />
     <Compile Include="78_Security\StringConverterDemo\StringConverterDemo.cs" />
     <Compile Include="SyncDemo.cs" />
