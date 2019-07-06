@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-class LINQ_FromWhereSelect
+class LinqFromWhereSelect
 {
     static void Main()
     {

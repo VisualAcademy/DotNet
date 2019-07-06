@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ExpressionBodiedMethod</StartupObject>
+    <StartupObject>WebClientDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -82,7 +82,7 @@
     <Compile Include="04_Syntax\PlaceHolder\PlaceHolder.cs" />
     <Compile Include="04_Syntax\Quotes.cs" />
     <Compile Include="04_Syntax\SingleLineComment.cs" />
-    <Compile Include="04_Syntax\SquarePractice.cs" />
+    <Compile Include="04_Syntax\SquarePractice\SquarePractice.cs" />
     <Compile Include="04_Syntax\TermExam\TermExam.cs" />
     <Compile Include="04_Syntax\TermPractice\TermPractice.cs" />
     <Compile Include="04_Syntax\TriangleExam\TriangleExam.cs" />
@@ -291,7 +291,7 @@
     <Compile Include="20_Array\ArrayExam\ArrayExam.cs" />
     <Compile Include="20_Array\ArrayForEach\ArrayForEach.cs" />
     <Compile Include="20_Array\ArrayIndex\ArrayIndex.cs" />
-    <Compile Include="20_Array\TwoDimensionalArray.cs" />
+    <Compile Include="20_Array\_\TwoDimensionalArray.cs" />
     <Compile Include="20_Array\WhyArray.cs" />
     <Compile Include="21_Function\CommandLineArgument\CommandLineArgument.cs" />
     <Compile Include="21_Function\FunctionAddNumbers\FunctionAddNumbers.cs" />
@@ -480,7 +480,7 @@
     <Compile Include="31_LINQ\LinqSumOdd.cs" />
     <Compile Include="31_LINQ\LinqWhere.cs" />
     <Compile Include="31_LINQ\LinqWhereToList.cs" />
-    <Compile Include="31_LINQ\_\LINQ_FromWhereSelect.cs" />
+    <Compile Include="31_LINQ\LinqFromWhereSelect\LinqFromWhereSelect.cs" />
     <Compile Include="31_LINQ\_\LINQ_WhereMethod.cs" />
     <Compile Include="31_LINQ\Map.cs" />
     <Compile Include="31_LINQ\MinAndMax.cs" />
@@ -645,7 +645,7 @@
     <Compile Include="49_GenericMake\DictionaryOfString\DictionaryOfString.cs" />
     <Compile Include="49_GenericMake\DictionaryOfTypeNote\DictionaryOfTypeNote.cs" />
     <Compile Include="06_Number\DigitSeparator\DigitSeparatorNote.cs" />
-    <Compile Include="31_LINQ\FromWhereSelect.cs" />
+    <Compile Include="31_LINQ\FromWhereSelect\FromWhereSelect.cs" />
     <Compile Include="31_LINQ\LinqSelect.cs" />
     <Compile Include="55_XML_JSON\JsonConvertDemo\JsonConvertDemo.cs" />
     <Compile Include="ListOfTypeSimpleMerge.cs" />
@@ -700,10 +700,10 @@
     <Compile Include="RepositoryPatternDemo.cs" />
     <Compile Include="SendMailTest.cs" />
     <Compile Include="SignBaseSignRepository.cs" />
-    <Compile Include="SquareClass.cs" />
+    <Compile Include="26_Class\_\SquareClass.cs" />
     <Compile Include="78_Security\StringConverterDemo\StringConverterDemo.cs" />
     <Compile Include="SyncDemo.cs" />
-    <Compile Include="TypeAssertion.cs" />
+    <Compile Include="08_ReadLine\TypeAssertion\TypeAssertion.cs" />
     <Compile Include="UserRegister.cs" />
     <Compile Include="WeatherForecastApp.cs" />
     <Compile Include="49_GenericMake\GenericClass\GenericClass.cs" />
@@ -767,7 +767,7 @@
     <Compile Include="38_Property\Property_AutoImplemented\Property_AutoImplemented.cs" />
     <Compile Include="49_GenericMake\_\제네릭_장점.cs" />
     <Compile Include="WebClientDemo.cs" />
-    <Compile Include="WrapperType.cs" />
+    <Compile Include="07_BoolCharString\WrapperType\WrapperType.cs" />
     <Compile Include="55_XML_JSON\XElementDemo\XElementDemo.cs" />
     <Compile Include="47_Attribute\TypeAndActivator\TypeAndActivator.cs" />
     <Compile Include="24_Struct\CharStruct\CharStruct.cs" />
