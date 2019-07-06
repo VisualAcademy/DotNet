@@ -6,6 +6,6 @@ class TriangleExam
     {
         Console.WriteLine("*");
         Console.WriteLine("**");
-        Console.WriteLine("***");
+        System.Console.WriteLine("***");
     }
 }

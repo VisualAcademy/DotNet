@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IfElse</StartupObject>
+    <StartupObject>TriangleExam</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -85,12 +85,12 @@
     <Compile Include="04_Syntax\SquarePractice.cs" />
     <Compile Include="04_Syntax\TermExam\TermExam.cs" />
     <Compile Include="04_Syntax\TermPractice\TermPractice.cs" />
-    <Compile Include="04_Syntax\TriangleExam.cs" />
+    <Compile Include="04_Syntax\TriangleExam\TriangleExam.cs" />
     <Compile Include="04_Syntax\WriteLineDemo2.cs" />
     <Compile Include="04_Syntax\WriteLineDemo1.cs" />
     <Compile Include="05_Variable\Constant.cs" />
     <Compile Include="05_Variable\ConstantExam.cs" />
-    <Compile Include="05_Variable\LiteralPractice.cs" />
+    <Compile Include="07_BoolCharString\LiteralPractice\LiteralPractice.cs" />
     <Compile Include="06_Number\DecimalDemo\DecimalDemo.cs" />
     <Compile Include="06_Number\DecimalMinMax\DecimalMinMax.cs" />
     <Compile Include="07_BoolCharString\ConstDoubleString\ConstDoubleString.cs" />
@@ -103,7 +103,7 @@
     <Compile Include="06_Number\FloatDemo\FloatDemo.cs" />
     <Compile Include="06_Number\FloatMinMax\FloatMinMax.cs" />
     <Compile Include="06_Number\IntToByte.cs" />
-    <Compile Include="06_Number\NumberDemo.cs" />
+    <Compile Include="06_Number\NumberDemo\NumberDemo.cs" />
     <Compile Include="06_Number\RealNumberExam\RealNumberExam.cs" />
     <Compile Include="06_Number\RealNumberPractice\RealNumberPractice.cs" />
     <Compile Include="15_Else\TryParseDemo\TryParseDemo.cs" />
@@ -155,7 +155,7 @@
     <Compile Include="11_Operator\LogicalOperatorExam\LogicalOperatorExam.cs" />
     <Compile Include="11_Operator\LogicalOperatorPractice\LogicalOperatorPractice.cs" />
     <Compile Include="11_Operator\LogicalOr\LogicalOr.cs" />
-    <Compile Include="11_Operator\NotOperator.cs" />
+    <Compile Include="11_Operator\NotOperator\NotOperator.cs" />
     <Compile Include="11_Operator\_\대소문자구분.cs" />
     <Compile Include="05_Variable\ConstantDemo\ConstantDemo.cs" />
     <Compile Include="05_Variable\IntegerValue\IntegerValue.cs" />
@@ -316,8 +316,8 @@
     <Compile Include="21_Function\_\명령줄인수_더하기.cs" />
     <Compile Include="21_Function\_\명령줄인수_짝수의합.cs" />
     <Compile Include="26_Class\RandomPractice.cs" />
-    <Compile Include="29_Collection\ListDemo.cs" />
-    <Compile Include="30_GenericClass\ListOfInt.cs" />
+    <Compile Include="29_Collection\ListDemo\ListDemo.cs" />
+    <Compile Include="30_GenericClass\ListOfInt\ListOfInt.cs" />
     <Compile Include="31_LINQ\LinqForEach.cs" />
     <Compile Include="37_Method\RectangleClass\Rectangle.cs" />
     <Compile Include="40_Delegate\FunctionPointer.cs" />
