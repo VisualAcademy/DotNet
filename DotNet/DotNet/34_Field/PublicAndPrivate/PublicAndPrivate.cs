@@ -1,6 +1,6 @@
-﻿// 액세스 한정자(Access Modifiers) : 접근 권한
-// - public : 공용(제한 없음)
-// - private : 전용(해당 클래스내에서만 접근)
+﻿// 액세스 한정자(Access Modifiers): 접근 권한
+// - public: 공용(제한 없음)
+// - private: 전용(해당 클래스내에서만 접근)
 using System;
 
 namespace PublicAndPrivate
@@ -18,9 +18,9 @@ namespace PublicAndPrivate
         public static int GetAge() { return age; }
     }
 
-    public class PublicAndPrivate
+    class PublicAndPrivate
     {
-        public static void Main(string[] args)
+        static void Main()
         {
             // public 멤버는 항상 접근 가능
             //Car.Hi();
