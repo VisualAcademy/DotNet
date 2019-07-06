@@ -83,8 +83,8 @@
     <Compile Include="04_Syntax\Quotes.cs" />
     <Compile Include="04_Syntax\SingleLineComment.cs" />
     <Compile Include="04_Syntax\SquarePractice.cs" />
-    <Compile Include="04_Syntax\TermExam.cs" />
-    <Compile Include="04_Syntax\TermPractice.cs" />
+    <Compile Include="04_Syntax\TermExam\TermExam.cs" />
+    <Compile Include="04_Syntax\TermPractice\TermPractice.cs" />
     <Compile Include="04_Syntax\TriangleExam.cs" />
     <Compile Include="04_Syntax\WriteLineDemo2.cs" />
     <Compile Include="04_Syntax\WriteLineDemo1.cs" />
