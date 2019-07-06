@@ -6,7 +6,7 @@ class StringInterpolationDemo
     static void Main()
     {
         string name = "C#";
-        string version = "7.0";
+        string version = "8.0";
 
         // WriteLine() 메서드의 기본 제공 기능 사용
         Console.WriteLine("{0} {1}", name, version);

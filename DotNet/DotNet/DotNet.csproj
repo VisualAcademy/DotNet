@@ -68,7 +68,7 @@
     <Compile Include="04_Syntax\Comment.cs" />
     <Compile Include="04_Syntax\ConsoleWrite.cs" />
     <Compile Include="04_Syntax\EmptyStatement.cs" />
-    <Compile Include="04_Syntax\EscapeSequence.cs" />
+    <Compile Include="04_Syntax\EscapeSequence\EscapeSequence.cs" />
     <Compile Include="04_Syntax\FormatExam.cs" />
     <Compile Include="04_Syntax\FormatPractice.cs" />
     <Compile Include="04_Syntax\Indent.cs" />
@@ -107,11 +107,11 @@
     <Compile Include="06_Number\RealNumberExam\RealNumberExam.cs" />
     <Compile Include="06_Number\RealNumberPractice\RealNumberPractice.cs" />
     <Compile Include="15_Else\TryParseDemo\TryParseDemo.cs" />
-    <Compile Include="07_BoolCharString\StringFormatDemo.cs" />
-    <Compile Include="07_BoolCharString\StringInterpolation.cs" />
-    <Compile Include="07_BoolCharString\StringInterpolationDemo.cs" />
-    <Compile Include="07_BoolCharString\StringInterpolationDescription.cs" />
-    <Compile Include="07_BoolCharString\StringKeyword.cs" />
+    <Compile Include="07_BoolCharString\StringFormatDemo\StringFormatDemo.cs" />
+    <Compile Include="07_BoolCharString\StringInterpolation\StringInterpolation.cs" />
+    <Compile Include="07_BoolCharString\StringInterpolationDemo\StringInterpolationDemo.cs" />
+    <Compile Include="07_BoolCharString\StringInterpolationDescription\StringInterpolationDescription.cs" />
+    <Compile Include="07_BoolCharString\StringKeyword\StringKeyword.cs" />
     <Compile Include="08_ReadLine\ReadLineDemo.cs" />
     <Compile Include="09_Operator\OperatorAdd\OperatorAdd.cs" />
     <Compile Include="11_Operator\OperatorDescription\OperatorDescription.cs" />
@@ -130,8 +130,8 @@
     <Compile Include="10_Assignment\PrefixOperator\PrefixOperator.cs" />
     <Compile Include="11_Operator\RelationalOperator\RelationalOperator.cs" />
     <Compile Include="11_Operator\Remainder.cs" />
-    <Compile Include="11_Operator\ShortcutOperator.cs" />
-    <Compile Include="11_Operator\ShortcutOperatorDemo.cs" />
+    <Compile Include="10_Assignment\ShortcutOperator\ShortcutOperator.cs" />
+    <Compile Include="10_Assignment\ShortcutOperatorDemo\ShortcutOperatorDemo.cs" />
     <Compile Include="11_Operator\UnaryOperator\UnaryOperator.cs" />
     <Compile Include="15_Else\PositiveNegativeZero\PositiveNegativeZero.cs" />
     <Compile Include="15_Else\NumDifference\NumDifference.cs" />
@@ -140,7 +140,7 @@
     <Compile Include="07_BoolCharString\CharacterPractice\CharacterPractice.cs" />
     <Compile Include="07_BoolCharString\CharArrayToString\CharArrayToString.cs" />
     <Compile Include="07_BoolCharString\CharStringBoolean.cs" />
-    <Compile Include="07_BoolCharString\MultiLineString.cs" />
+    <Compile Include="07_BoolCharString\MultiLineString\MultiLineString.cs" />
     <Compile Include="11_Operator\DecrementNumber.cs" />
     <Compile Include="11_Operator\DecrementOperator.cs" />
     <Compile Include="11_Operator\GreaterThanEqual.cs" />
@@ -605,7 +605,7 @@
     <Compile Include="ConvertClass.cs" />
     <Compile Include="DefaultExpression.cs" />
     <Compile Include="DefineDemo.cs" />
-    <Compile Include="EscapeSequenceDemo.cs" />
+    <Compile Include="07_BoolCharString\EscapeSequenceDemo\EscapeSequenceDemo.cs" />
     <Compile Include="GreetingPage.cs" />
     <Compile Include="HttpWebRequestDemo.cs" />
     <Compile Include="07_BoolCharString\Immutable\Immutable.cs" />
@@ -695,7 +695,7 @@
     <Compile Include="SendMailTest.cs" />
     <Compile Include="SignBaseSignRepository.cs" />
     <Compile Include="SquareClass.cs" />
-    <Compile Include="StringConverterDemo.cs" />
+    <Compile Include="78_Security\StringConverterDemo\StringConverterDemo.cs" />
     <Compile Include="SyncDemo.cs" />
     <Compile Include="TypeAssertion.cs" />
     <Compile Include="UserRegister.cs" />

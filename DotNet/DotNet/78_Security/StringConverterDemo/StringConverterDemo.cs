@@ -1,4 +1,6 @@
 ﻿//[!] 초간단 문자열 인코딩 및 디코딩
+using System;
+
 namespace StringConverterDemo
 {
     /// <summary>
@@ -28,13 +30,13 @@ namespace StringConverterDemo
         static void Main(string[] args)
         {
             string s = "안녕하세요.";
-            System.Console.WriteLine("[1] 원본 : {0}", s);
+            Console.WriteLine("[1] 원본 : {0}", s);
 
             s = StringConverter.ConvertToSimpleEncoding(s); // 인코딩
-            System.Console.WriteLine("[2] 인코딩 : {0}", s);
+            Console.WriteLine("[2] 인코딩 : {0}", s);
 
             s = StringConverter.ConvertToSimpleDecoding(s); // 디코딩
-            System.Console.WriteLine("[3] 디코딩 : {0}", s); 
+            Console.WriteLine("[3] 디코딩 : {0}", s); 
         }
     }
 }

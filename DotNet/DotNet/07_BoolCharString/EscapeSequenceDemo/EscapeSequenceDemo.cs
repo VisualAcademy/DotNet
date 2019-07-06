@@ -18,7 +18,7 @@ class EscapeSequenceDemo
         // \\: 백(역)슬래시(\) 기호 자체를 표현
         Console.WriteLine(" \\: 백슬래시 표현");
         // 백슬래시 다음에 나오는 문자 하나는 이스케이프 문자로 본다.
-        Console.WriteLine(" C:\\Home\\DevLec\\Default.aspx ");
+        Console.WriteLine(" C:\\Home\\VisualAcademy\\Default.aspx ");
         // 문자열 앞에 @ 기호를 붙이면 공백/탭 포함 문자열 자체로 본다.
         Console.WriteLine(@"
 
@@ -26,7 +26,5 @@ class EscapeSequenceDemo
             반갑습니다.
         
         ");
-        // 더 많은 문자 이스케이스는 MSDN 온라인 사이트
-        // (http://www.microsoft.com/korea/msdn/)에서 검색해서 사용
     }
 }
