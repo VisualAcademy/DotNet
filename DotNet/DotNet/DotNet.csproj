@@ -106,7 +106,7 @@
     <Compile Include="06_Number\NumberDemo.cs" />
     <Compile Include="06_Number\RealNumberExam.cs" />
     <Compile Include="06_Number\RealNumberPractice.cs" />
-    <Compile Include="06_Number\TryParseDemo.cs" />
+    <Compile Include="15_Else\TryParseDemo\TryParseDemo.cs" />
     <Compile Include="07_BoolCharString\StringFormatDemo.cs" />
     <Compile Include="07_BoolCharString\StringInterpolation.cs" />
     <Compile Include="07_BoolCharString\StringInterpolationDemo.cs" />
@@ -319,6 +319,7 @@
     <Compile Include="29_Collection\ListDemo.cs" />
     <Compile Include="30_GenericClass\ListOfInt.cs" />
     <Compile Include="31_LINQ\LinqForEach.cs" />
+    <Compile Include="37_Method\RectangleClass\Rectangle.cs" />
     <Compile Include="40_Delegate\FunctionPointer.cs" />
     <Compile Include="49_GenericMake\GenericMethod.cs" />
     <Compile Include="49_GenericMake\LinqCollectionDemo\LinqCollectionDemo.cs" />
@@ -336,7 +337,7 @@
     <Compile Include="35_Constructor\CircleClass.cs" />
     <Compile Include="35_Constructor\ExpressionBodiedConstructor.cs" />
     <Compile Include="37_Method\ExpressionBodiedMethod.cs" />
-    <Compile Include="37_Method\RectangleClass.cs" />
+    <Compile Include="37_Method\RectangleClass\RectangleClass.cs" />
     <Compile Include="37_Method\_\메서드.cs" />
     <Compile Include="37_Method\_\메서드의매개변수형식.cs" />
     <Compile Include="38_Property\ClassPropertyMethod.cs" />

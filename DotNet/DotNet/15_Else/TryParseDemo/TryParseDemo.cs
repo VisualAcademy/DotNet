@@ -1,4 +1,4 @@
-﻿// TryParseDemo.cs : 특정 데이터형식으로 변환이 가능한지 판단
+﻿// 특정 데이터형식으로 변환이 가능한지 판단
 using System;
 
 namespace TryParseDemo
