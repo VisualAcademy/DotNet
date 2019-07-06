@@ -622,6 +622,7 @@
     <Compile Include="40_Delegate\LambdaExpressionWithFunc\LambdaExpressionWithFunc.cs" />
     <Compile Include="59_Tips\LicenseResult\LicenseResult.cs" />
     <Compile Include="49_GenericMake\ListDictionaryDemo\ListDictionaryDemo.cs" />
+    <Compile Include="LinqDemo.cs" />
     <Compile Include="ListOfChildToListOfParent.cs" />
     <Compile Include="57_IO\PathClassDemo\PathClassDemo.cs" />
     <Compile Include="57_IO\StreamReaderReadToEndDemo\StreamReaderReadToEndDemo.cs" />
@@ -658,7 +659,7 @@
     <Compile Include="06_Number\NullableDemo\NullableDemo.cs" />
     <Compile Include="30_GenericClass\NullableOf\NullableOf.cs" />
     <Compile Include="Nullable형식.cs" />
-    <Compile Include="NullDemo.cs" />
+    <Compile Include="73_Temp\NullDemo\NullDemo.cs" />
     <Compile Include="ProcessGetCurrentProcess.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
