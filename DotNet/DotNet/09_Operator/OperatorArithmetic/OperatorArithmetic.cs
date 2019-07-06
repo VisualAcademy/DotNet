@@ -1,7 +1,7 @@
 ﻿// +, -, *, /, %
 using System;
 
-class Operator_Arithmetic
+class OperatorArithmetic
 {
     static void Main()
     {
