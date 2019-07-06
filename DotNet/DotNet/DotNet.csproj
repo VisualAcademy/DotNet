@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TriangleExam</StartupObject>
+    <StartupObject>ReadLineDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -67,7 +67,7 @@
     <Compile Include="03_HelloWorld\BraceLocation.cs" />
     <Compile Include="04_Syntax\Comment.cs" />
     <Compile Include="04_Syntax\ConsoleWrite.cs" />
-    <Compile Include="04_Syntax\EmptyStatement.cs" />
+    <Compile Include="04_Syntax\EmptyStatement\EmptyStatement.cs" />
     <Compile Include="04_Syntax\EscapeSequence\EscapeSequence.cs" />
     <Compile Include="04_Syntax\FormatExam.cs" />
     <Compile Include="04_Syntax\FormatPractice.cs" />
@@ -88,8 +88,8 @@
     <Compile Include="04_Syntax\TriangleExam\TriangleExam.cs" />
     <Compile Include="04_Syntax\WriteLineDemo2.cs" />
     <Compile Include="04_Syntax\WriteLineDemo1.cs" />
-    <Compile Include="05_Variable\Constant.cs" />
-    <Compile Include="05_Variable\ConstantExam.cs" />
+    <Compile Include="07_BoolCharString\Constant\Constant.cs" />
+    <Compile Include="07_BoolCharString\ConstantExam\ConstantExam.cs" />
     <Compile Include="07_BoolCharString\LiteralPractice\LiteralPractice.cs" />
     <Compile Include="06_Number\DecimalDemo\DecimalDemo.cs" />
     <Compile Include="06_Number\DecimalMinMax\DecimalMinMax.cs" />
@@ -102,7 +102,7 @@
     <Compile Include="06_Number\DoubleMinMax\DoubleMinMax.cs" />
     <Compile Include="06_Number\FloatDemo\FloatDemo.cs" />
     <Compile Include="06_Number\FloatMinMax\FloatMinMax.cs" />
-    <Compile Include="06_Number\IntToByte.cs" />
+    <Compile Include="08_ReadLine\IntToByte\IntToByte.cs" />
     <Compile Include="06_Number\NumberDemo\NumberDemo.cs" />
     <Compile Include="06_Number\RealNumberExam\RealNumberExam.cs" />
     <Compile Include="06_Number\RealNumberPractice\RealNumberPractice.cs" />
@@ -112,7 +112,7 @@
     <Compile Include="07_BoolCharString\StringInterpolationDemo\StringInterpolationDemo.cs" />
     <Compile Include="07_BoolCharString\StringInterpolationDescription\StringInterpolationDescription.cs" />
     <Compile Include="07_BoolCharString\StringKeyword\StringKeyword.cs" />
-    <Compile Include="08_ReadLine\ReadLineDemo.cs" />
+    <Compile Include="08_ReadLine\ReadLineDemo\ReadLineDemo.cs" />
     <Compile Include="09_Operator\OperatorAdd\OperatorAdd.cs" />
     <Compile Include="11_Operator\OperatorDescription\OperatorDescription.cs" />
     <Compile Include="09_Operator\OperatorDivide\OperatorDivide.cs" />
@@ -141,13 +141,13 @@
     <Compile Include="07_BoolCharString\CharArrayToString\CharArrayToString.cs" />
     <Compile Include="07_BoolCharString\CharStringBoolean.cs" />
     <Compile Include="07_BoolCharString\MultiLineString\MultiLineString.cs" />
-    <Compile Include="11_Operator\DecrementNumber.cs" />
-    <Compile Include="11_Operator\DecrementOperator.cs" />
+    <Compile Include="10_Assignment\DecrementNumber\DecrementNumber.cs" />
+    <Compile Include="10_Assignment\DecrementOperator\DecrementOperator.cs" />
     <Compile Include="11_Operator\GreaterThanEqual.cs" />
-    <Compile Include="11_Operator\IncrementDecrementExam.cs" />
-    <Compile Include="11_Operator\IncrementDecrementPractice.cs" />
-    <Compile Include="11_Operator\IncrementNumber.cs" />
-    <Compile Include="11_Operator\IncrementOperator.cs" />
+    <Compile Include="10_Assignment\IncrementDecrementExam.cs" />
+    <Compile Include="10_Assignment\IncrementDecrementPractice.cs" />
+    <Compile Include="10_Assignment\IncrementNumber\IncrementNumber.cs" />
+    <Compile Include="10_Assignment\IncrementOperator\IncrementOperator.cs" />
     <Compile Include="11_Operator\LogicalAnd\LogicalAnd.cs" />
     <Compile Include="11_Operator\LogicalNegation\LogicalNegation.cs" />
     <Compile Include="11_Operator\LogicalNot\LogicalNot.cs" />
@@ -282,7 +282,7 @@
     <Compile Include="19_BreakContinueGoto\BreakPractice\BreakPractice.cs" />
     <Compile Include="19_BreakContinueGoto\ContinueDemo\ContinueDemo.cs" />
     <Compile Include="19_BreakContinueGoto\ContinueExam\ContinueExam.cs" />
-    <Compile Include="19_BreakContinueGoto\ForIfContinue.cs" />
+    <Compile Include="19_BreakContinueGoto\ForIfContinue\ForIfContinue.cs" />
     <Compile Include="19_BreakContinueGoto\GoToDemo\GoToDemo.cs" />
     <Compile Include="19_BreakContinueGoto\WhileBreak\WhileBreak.cs" />
     <Compile Include="20_Array\ArrayDemo\ArrayDemo.cs" />
@@ -319,15 +319,21 @@
     <Compile Include="29_Collection\ListDemo\ListDemo.cs" />
     <Compile Include="30_GenericClass\ListOfInt\ListOfInt.cs" />
     <Compile Include="31_LINQ\LinqForEach.cs" />
+    <Compile Include="31_LINQ\_\LINQ_Distinct.cs" />
+    <Compile Include="31_LINQ\_\LINQ_Single.cs" />
+    <Compile Include="31_LINQ\_\LINQ_SingleOrDefault.cs" />
+    <Compile Include="31_LINQ\_\LINQ_Take.cs" />
+    <Compile Include="31_LINQ\_\LINQ_Where.cs" />
+    <Compile Include="31_LINQ\_\LINQ_Zip.cs" />
     <Compile Include="37_Method\RectangleClass\Rectangle.cs" />
     <Compile Include="40_Delegate\FunctionPointer.cs" />
     <Compile Include="49_GenericMake\GenericMethod.cs" />
     <Compile Include="49_GenericMake\LinqCollectionDemo\LinqCollectionDemo.cs" />
-    <Compile Include="31_LINQ\LinqAnyNumber.cs" />
+    <Compile Include="31_LINQ\LinqAnyNumber\LinqAnyNumber.cs" />
     <Compile Include="31_LINQ\LinqDistinct\LinqDistinct.cs" />
     <Compile Include="31_LINQ\LinqFirst\LinqFirst.cs" />
     <Compile Include="31_LINQ\LinqSkipTake\LinqSkipTake.cs" />
-    <Compile Include="31_LINQ\LINQ_OrderBy.cs" />
+    <Compile Include="31_LINQ\_\LINQ_OrderBy.cs" />
     <Compile Include="31_LINQ\LinqSingle\LinqSingle.cs" />
     <Compile Include="31_LINQ\LinqSingleOrDefault\LinqSingleOrDefault.cs" />
     <Compile Include="31_LINQ\LinqTake\LinqTake.cs" />
@@ -457,7 +463,7 @@
     <Compile Include="31_LINQ\CountFunc.cs" />
     <Compile Include="31_LINQ\Filter.cs" />
     <Compile Include="31_LINQ\LinqAll.cs" />
-    <Compile Include="31_LINQ\LinqAny.cs" />
+    <Compile Include="31_LINQ\LinqAny\LinqAny.cs" />
     <Compile Include="31_LINQ\LinqAverage.cs" />
     <Compile Include="31_LINQ\LinqChaining.cs" />
     <Compile Include="31_LINQ\LinqCount.cs" />
@@ -474,8 +480,8 @@
     <Compile Include="31_LINQ\LinqSumOdd.cs" />
     <Compile Include="31_LINQ\LinqWhere.cs" />
     <Compile Include="31_LINQ\LinqWhereToList.cs" />
-    <Compile Include="31_LINQ\LINQ_FromWhereSelect.cs" />
-    <Compile Include="31_LINQ\LINQ_WhereMethod.cs" />
+    <Compile Include="31_LINQ\_\LINQ_FromWhereSelect.cs" />
+    <Compile Include="31_LINQ\_\LINQ_WhereMethod.cs" />
     <Compile Include="31_LINQ\Map.cs" />
     <Compile Include="31_LINQ\MinAndMax.cs" />
     <Compile Include="31_LINQ\QuerySyntaxMethodSyntax.cs" />
@@ -862,7 +868,7 @@
     <Compile Include="스레드.cs" />
     <Compile Include="스태틱과인스턴스.cs" />
     <Compile Include="안녕하세요.cs" />
-    <Compile Include="알고리즘\NearAll.cs" />
+    <Compile Include="알고리즘\NearAll\NearAll.cs" />
     <Compile Include="알고리즘\선택정렬복습.cs" />
     <Compile Include="알고리즘\알고리즘_가까운값.cs" />
     <Compile Include="알고리즘\알고리즘_가까운값2.cs" />

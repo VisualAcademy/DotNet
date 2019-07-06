@@ -4,6 +4,6 @@ class ReadLineDemo
 {
     static void Main()
     {
-        Console.ReadLine();
+        Console.ReadLine(); // <- 이 시점에서 대기하는 효과 
     }
 }

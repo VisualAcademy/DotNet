@@ -4,7 +4,7 @@ using System.Linq;
 
 class LinqAny
 {
-    static void Main(string[] args)
+    static void Main()
     {
         bool[] completes = { true, false, true };
 
