@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ReadLineDemo</StartupObject>
+    <StartupObject>ClassyPropertyMethod.ClassyPropertyMethod</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -124,7 +124,7 @@
     <Compile Include="09_Operator\OperatorSubtract\OperatorSubtract.cs" />
     <Compile Include="09_Operator\OperatorArithmetic\OperatorArithmetic.cs" />
     <Compile Include="11_Operator\OrOperator\OrOperator.cs" />
-    <Compile Include="11_Operator\PercentOperator.cs" />
+    <Compile Include="09_Operator\PercentOperator\PercentOperator.cs" />
     <Compile Include="09_Operator\PlusOperator\PlusOperator.cs" />
     <Compile Include="10_Assignment\PostfixOperator\PostfixOperator.cs" />
     <Compile Include="10_Assignment\PrefixOperator\PrefixOperator.cs" />
@@ -143,7 +143,7 @@
     <Compile Include="07_BoolCharString\MultiLineString\MultiLineString.cs" />
     <Compile Include="10_Assignment\DecrementNumber\DecrementNumber.cs" />
     <Compile Include="10_Assignment\DecrementOperator\DecrementOperator.cs" />
-    <Compile Include="11_Operator\GreaterThanEqual.cs" />
+    <Compile Include="15_Else\GreaterThanEqual\GreaterThanEqual.cs" />
     <Compile Include="10_Assignment\IncrementDecrementExam.cs" />
     <Compile Include="10_Assignment\IncrementDecrementPractice.cs" />
     <Compile Include="10_Assignment\IncrementNumber\IncrementNumber.cs" />
@@ -315,7 +315,7 @@
     <Compile Include="21_Function\CommandLineParameterDemo\CommandLineParameterDemo.cs" />
     <Compile Include="21_Function\_\명령줄인수_더하기.cs" />
     <Compile Include="21_Function\_\명령줄인수_짝수의합.cs" />
-    <Compile Include="26_Class\RandomPractice.cs" />
+    <Compile Include="26_Class\RandomPractice\RandomPractice.cs" />
     <Compile Include="29_Collection\ListDemo\ListDemo.cs" />
     <Compile Include="30_GenericClass\ListOfInt\ListOfInt.cs" />
     <Compile Include="31_LINQ\LinqForEach.cs" />
@@ -346,8 +346,8 @@
     <Compile Include="37_Method\RectangleClass\RectangleClass.cs" />
     <Compile Include="37_Method\_\메서드.cs" />
     <Compile Include="37_Method\_\메서드의매개변수형식.cs" />
-    <Compile Include="38_Property\ClassPropertyMethod.cs" />
-    <Compile Include="38_Property\PropertyPrivateSet.cs" />
+    <Compile Include="38_Property\ClassPropertyMethod\ClassPropertyMethod.cs" />
+    <Compile Include="38_Property\PropertyPrivateSet\PropertyPrivateSet.cs" />
     <Compile Include="39_Indexer\반복기.cs" />
     <Compile Include="42_ClassEtc\PartialClassPerson.cs" />
     <Compile Include="52_ExtensionMethod\ExtensionMethodNote.cs" />
@@ -538,7 +538,7 @@
     <Compile Include="40_Delegate\DelegatePractice.cs" />
     <Compile Include="40_Delegate\_\대리자설명.cs" />
     <Compile Include="40_Delegate\AnonymousMethod.cs" />
-    <Compile Include="42_ClassEtc\ImmutableTypeDemo.cs" />
+    <Compile Include="42_ClassEtc\ImmutableTypeDemo\ImmutableTypeDemo.cs" />
     <Compile Include="42_ClassEtc\PointFunctional.cs" />
     <Compile Include="42_ClassEtc\PointImperative.cs" />
     <Compile Include="43_Inheritance\MustInheritDemo.cs" />
@@ -608,11 +608,11 @@
     <Compile Include="52_ExtensionMethod\ExtensionMethodDescription\ExtensionMethodDescription.cs" />
     <Compile Include="09_Operator\CastingOperator\CastingOperator.cs" />
     <Compile Include="07_BoolCharString\CharacterEscapeSequence\CharacterEscapeSequence.cs" />
-    <Compile Include="ConvertClass.cs" />
-    <Compile Include="DefaultExpression.cs" />
+    <Compile Include="65_New\ConvertClass\ConvertClass.cs" />
+    <Compile Include="73_Temp\DefaultExpression\DefaultExpression.cs" />
     <Compile Include="DefineDemo.cs" />
     <Compile Include="07_BoolCharString\EscapeSequenceDemo\EscapeSequenceDemo.cs" />
-    <Compile Include="GreetingPage.cs" />
+    <Compile Include="37_Method\GreetingPage\GreetingPage.cs" />
     <Compile Include="HttpWebRequestDemo.cs" />
     <Compile Include="07_BoolCharString\Immutable\Immutable.cs" />
     <Compile Include="40_Delegate\LambdaExpression\LambdaExpression.cs" />
@@ -620,7 +620,7 @@
     <Compile Include="40_Delegate\LambdaExpressionMultiLine\LambdaExpressionMultiLine.cs" />
     <Compile Include="40_Delegate\LambdaExpressionTypeDeclare\LambdaExpressionTypeDeclare.cs" />
     <Compile Include="40_Delegate\LambdaExpressionWithFunc\LambdaExpressionWithFunc.cs" />
-    <Compile Include="99_Tips\LicenseResult.cs" />
+    <Compile Include="59_Tips\LicenseResult\LicenseResult.cs" />
     <Compile Include="49_GenericMake\ListDictionaryDemo\ListDictionaryDemo.cs" />
     <Compile Include="ListOfChildToListOfParent.cs" />
     <Compile Include="57_IO\PathClassDemo\PathClassDemo.cs" />
