@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>WebClientDemo</StartupObject>
+    <StartupObject>PredicateDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -327,6 +327,8 @@
     <Compile Include="31_LINQ\_\LINQ_Zip.cs" />
     <Compile Include="37_Method\RectangleClass\Rectangle.cs" />
     <Compile Include="40_Delegate\FunctionPointer.cs" />
+    <Compile Include="40_Delegate\PredicateDemo\PredicateDemo.cs" />
+    <Compile Include="40_Delegate\StronglyTypedDelegate\StronglyTypedDelegate.cs" />
     <Compile Include="49_GenericMake\GenericMethod.cs" />
     <Compile Include="49_GenericMake\LinqCollectionDemo\LinqCollectionDemo.cs" />
     <Compile Include="31_LINQ\LinqAnyNumber\LinqAnyNumber.cs" />
