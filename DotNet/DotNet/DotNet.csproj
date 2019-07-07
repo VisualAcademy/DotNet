@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PredicateDemo</StartupObject>
+    <StartupObject>LambdaExpressionWithFunc</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -326,6 +326,7 @@
     <Compile Include="31_LINQ\_\LINQ_Where.cs" />
     <Compile Include="31_LINQ\_\LINQ_Zip.cs" />
     <Compile Include="37_Method\RectangleClass\Rectangle.cs" />
+    <Compile Include="40_Delegate\FuncLambda\FuncLambda.cs" />
     <Compile Include="40_Delegate\FunctionPointer.cs" />
     <Compile Include="40_Delegate\PredicateDemo\PredicateDemo.cs" />
     <Compile Include="40_Delegate\StronglyTypedDelegate\StronglyTypedDelegate.cs" />
