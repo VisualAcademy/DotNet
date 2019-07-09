@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LambdaExpressionWithFunc</StartupObject>
+    <StartupObject>LambdaExpressionWithPredicate</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -327,7 +327,9 @@
     <Compile Include="31_LINQ\_\LINQ_Zip.cs" />
     <Compile Include="37_Method\RectangleClass\Rectangle.cs" />
     <Compile Include="40_Delegate\FuncLambda\FuncLambda.cs" />
+    <Compile Include="40_Delegate\FuncParameter\FuncParameter.cs" />
     <Compile Include="40_Delegate\FunctionPointer.cs" />
+    <Compile Include="40_Delegate\LambdaExpressionWithPredicate.cs" />
     <Compile Include="40_Delegate\PredicateDemo\PredicateDemo.cs" />
     <Compile Include="40_Delegate\StronglyTypedDelegate\StronglyTypedDelegate.cs" />
     <Compile Include="49_GenericMake\GenericMethod.cs" />
@@ -534,7 +536,7 @@
     <Compile Include="40_Delegate\DelegateParameter.cs" />
     <Compile Include="40_Delegate\FuncDemo\FuncDemo.cs" />
     <Compile Include="40_Delegate\FuncDelegate.cs" />
-    <Compile Include="40_Delegate\PassMethodAsParameter.cs" />
+    <Compile Include="40_Delegate\PassMethodAsParameter\PassMethodAsParameter.cs" />
     <Compile Include="40_Delegate\_\Func대리자.cs" />
     <Compile Include="40_Delegate\_\무명메서드.cs" />
     <Compile Include="40_Delegate\_\대리자.cs" />
