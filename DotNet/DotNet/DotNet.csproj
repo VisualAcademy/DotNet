@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IteratorFibonacci</StartupObject>
+    <StartupObject>HigherOrderFunction</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -619,6 +619,7 @@
     <Compile Include="DefineDemo.cs" />
     <Compile Include="07_BoolCharString\EscapeSequenceDemo\EscapeSequenceDemo.cs" />
     <Compile Include="37_Method\GreetingPage\GreetingPage.cs" />
+    <Compile Include="HigherOrderFunction.cs" />
     <Compile Include="HttpWebRequestDemo.cs" />
     <Compile Include="07_BoolCharString\Immutable\Immutable.cs" />
     <Compile Include="40_Delegate\LambdaExpression\LambdaExpression.cs" />
