@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>HigherOrderFunction</StartupObject>
+    <StartupObject>OutVariableDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -619,6 +619,7 @@
     <Compile Include="DefineDemo.cs" />
     <Compile Include="07_BoolCharString\EscapeSequenceDemo\EscapeSequenceDemo.cs" />
     <Compile Include="37_Method\GreetingPage\GreetingPage.cs" />
+    <Compile Include="EnvironmentVariable.cs" />
     <Compile Include="HigherOrderFunction.cs" />
     <Compile Include="HttpWebRequestDemo.cs" />
     <Compile Include="07_BoolCharString\Immutable\Immutable.cs" />
@@ -875,7 +876,7 @@
     <Compile Include="분할클래스.cs" />
     <Compile Include="스레드.cs" />
     <Compile Include="스태틱과인스턴스.cs" />
-    <Compile Include="안녕하세요.cs" />
+    <Compile Include="03_HelloWorld\_\안녕하세요.cs" />
     <Compile Include="알고리즘\NearAll\NearAll.cs" />
     <Compile Include="알고리즘\선택정렬복습.cs" />
     <Compile Include="알고리즘\알고리즘_가까운값.cs" />
@@ -914,7 +915,7 @@
     <Compile Include="알고리즘\알고리즘_합계_팩토리얼.cs" />
     <Compile Include="알고리즘\차이.cs" />
     <Compile Include="암시적으로형식화된로컬변수.cs" />
-    <Compile Include="열거형.cs" />
+    <Compile Include="25_Enum\_\열거형.cs" />
     <Compile Include="이스케이프시퀀스.cs" />
     <Compile Include="인텔리센스.cs" />
     <Compile Include="자료구조_리스트.cs" />
@@ -958,7 +959,7 @@
     <Compile Include="파일처리_폴더의_모든파일명_일괄변경.cs" />
     <Compile Include="56_PlaceHolder\_\플레이스홀더.cs" />
     <Compile Include="49_GenericMake\TypeConstraint\TypeConstraint.cs" />
-    <Compile Include="환경변수.cs" />
+    <Compile Include="32_Class\_\환경변수.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

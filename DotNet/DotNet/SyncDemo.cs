@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 동기 프로그램: 메서드가 호출되는 순서대로 대기하면서 실행
+using System;
 
 class SyncDemo
 {

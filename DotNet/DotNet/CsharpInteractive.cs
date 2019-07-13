@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿// C# Interactive를 사용하면 인터프리터 형태로 C# 코드 및 .NET API를 테스트 가능
 namespace DotNet
 {
     public class 기본클래스명

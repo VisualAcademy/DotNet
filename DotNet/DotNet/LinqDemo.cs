@@ -1,4 +1,4 @@
-﻿// LINQ(Language INtegrate Query) : 마치 SQL문을 사용하든 프로그램에서 사용하는 쿼리문
+﻿// LINQ(Language INtegrate Query): 마치 SQL문을 사용하는 것처럼 프로그램에서 사용하는 쿼리문
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ namespace LinqDemo
 {
     class LinqDemo
     {
-        static void Main(string[] args)
+        static void Main()
         {
             // 컬렉션에 담기
             List<Car> cars = new List<Car>() {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 콘솔로부터 2개의 실수를 입력 받은 후 간단한 산술 연산 진행
+using System;
 
 class ArithmeticExam
 {

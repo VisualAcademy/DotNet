@@ -5,7 +5,7 @@ namespace ArrayListDemo
 {
     class ArrayListDemo
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Car car1 = new Car(); car1.Make = "Benz"; car1.Model = "S600";
             Car car2 = new Car(); car2.Make = "BMW"; car2.Model = "BMW7";

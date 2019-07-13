@@ -5,11 +5,11 @@ class HigherOrderFunction
 {
     static void Main()
     {
-        //[A] Action<T> 매개 변수 전달
+        //[A] Action<T> 매개 변수 전달: 문자열을 받아 출력하는 함수 정의
         Action<string> action = message => Console.WriteLine(message);
         FunctionParameterWithAction(action, "고차 함수: 매개 변수");
 
-        //[B] Func<T> 매개 변수 전달
+        //[B] Func<T> 매개 변수 전달: 정수 값을 받아 두 번 곱한 후 다시 정수 값 반환
         Func<int, int> func = x => x * x;
         FunctionParameterWithFunc(func, 3);
 

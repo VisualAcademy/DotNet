@@ -9,6 +9,7 @@ class AsyncAwaitDescription
         Task.Run(() => DoPrint()); // 1, 2, 3, ...
         Console.WriteLine("[?] async await 사용 예제");
         Thread.Sleep(1);
+        //Console.ReadLine();
     } // end Main
 
     static async void DoPrint()
