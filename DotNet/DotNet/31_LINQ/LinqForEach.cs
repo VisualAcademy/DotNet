@@ -1,4 +1,5 @@
-﻿using System;
+﻿// ForEach() 확장 메서드를 사용하여 foreach 문을 LINQ 식에 포함하여 사용 가능
+using System;
 using System.Collections.Generic;
 using System.Linq;
 

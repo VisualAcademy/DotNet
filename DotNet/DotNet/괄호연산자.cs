@@ -1,4 +1,5 @@
-﻿using System;
+﻿// 괄호 연산자: 수학의 괄호 기능처럼 연산자의 우선 순위 변경 
+using System;
 
 class 괄호연산자
 {

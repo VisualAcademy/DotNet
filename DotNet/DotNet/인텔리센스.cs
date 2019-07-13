@@ -1,4 +1,4 @@
-﻿//[!] 인텔리센스(IntelliSense) : 코드 조각에 의한 자동 완성 기능
+﻿//[!] 인텔리센스(IntelliSense): 코드 조각에 의한 자동 완성 기능
 using System;
 
 // namespace 탭탭
