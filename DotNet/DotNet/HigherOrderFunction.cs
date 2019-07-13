@@ -5,18 +5,18 @@ class HigherOrderFunction
 {
     static void Main()
     {
-        //[1] Action<T> 매개 변수 전달
-        Action<string> action = msg => Console.WriteLine(msg);
+        //[A] Action<T> 매개 변수 전달
+        Action<string> action = message => Console.WriteLine(message);
         FunctionParameterWithAction(action, "고차 함수: 매개 변수");
 
-        //[2] Func<T> 매개 변수 전달
+        //[B] Func<T> 매개 변수 전달
         Func<int, int> func = x => x * x;
         FunctionParameterWithFunc(func, 3);
 
-        //[3] Action<T> 반환값 
+        //[C] Action<T> 반환값 
         FunctionReturnValueWithAction()("고차 함수: 반환값");
 
-        //[4] Func<T> 반환값
+        //[D] Func<T> 반환값
         int number = 3;
         int result = FunctionReturnValueWithFunc()(number);
         Console.WriteLine($"{number} * {number} = {result}"); // 9 
