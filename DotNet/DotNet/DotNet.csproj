@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OutVariableDemo</StartupObject>
+    <StartupObject>StringConverterDemo.StringConverterDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -360,6 +360,7 @@
     <Compile Include="52_ExtensionMethod\RelatedArticleOptionDemo.cs" />
     <Compile Include="56_PlaceHolder\PlaceHolderEtc.cs" />
     <Compile Include="57_IO\TextToCollection\TextToCollection.cs" />
+    <Compile Include="59_Tips\IntelliSenseDemo\IntelliSenseDemo.cs" />
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="20_Array\ArrayMultiPractice\ArrayMultiPractice.cs" />
     <Compile Include="20_Array\ArrayOne\ArrayOne1.cs" />
@@ -711,7 +712,7 @@
     <Compile Include="SendMailTest.cs" />
     <Compile Include="62_\SignBaseSignRepository\SignBaseSignRepository.cs" />
     <Compile Include="26_Class\_\SquareClass.cs" />
-    <Compile Include="78_Security\StringConverterDemo\StringConverterDemo.cs" />
+    <Compile Include="59_Tips\StringConverterDemo\StringConverterDemo.cs" />
     <Compile Include="SyncDemo.cs" />
     <Compile Include="08_ReadLine\TypeAssertion\TypeAssertion.cs" />
     <Compile Include="UserRegister.cs" />
@@ -918,7 +919,7 @@
     <Compile Include="암시적으로형식화된로컬변수.cs" />
     <Compile Include="25_Enum\_\열거형.cs" />
     <Compile Include="이스케이프시퀀스.cs" />
-    <Compile Include="인텔리센스.cs" />
+    <Compile Include="59_Tips\IntelliSenseDemo\_\인텔리센스.cs" />
     <Compile Include="자료구조_리스트.cs" />
     <Compile Include="자료구조_제네릭리스트.cs" />
     <Compile Include="56_PlaceHolder\_\자리표시자.cs" />

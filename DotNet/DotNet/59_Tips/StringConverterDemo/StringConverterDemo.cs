@@ -27,16 +27,16 @@ namespace StringConverterDemo
     }
     class StringConverterDemo
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string s = "안녕하세요.";
-            Console.WriteLine("[1] 원본 : {0}", s);
+            Console.WriteLine("[1] 원본: {0}", s);
 
             s = StringConverter.ConvertToSimpleEncoding(s); // 인코딩
-            Console.WriteLine("[2] 인코딩 : {0}", s);
+            Console.WriteLine("[2] 인코딩: {0}", s);
 
             s = StringConverter.ConvertToSimpleDecoding(s); // 디코딩
-            Console.WriteLine("[3] 디코딩 : {0}", s); 
+            Console.WriteLine("[3] 디코딩: {0}", s); 
         }
     }
 }
