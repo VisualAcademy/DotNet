@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SwapDemo</StartupObject>
+    <StartupObject>NullableTypeDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -319,6 +319,7 @@
     <Compile Include="26_Class\RandomPractice\RandomPractice.cs" />
     <Compile Include="29_Collection\ListDemo\ListDemo.cs" />
     <Compile Include="30_GenericClass\ListOfInt\ListOfInt.cs" />
+    <Compile Include="30_GenericClass\NullableTypeDemo\NullableTypeDemo.cs" />
     <Compile Include="31_LINQ\LinqForEach.cs" />
     <Compile Include="31_LINQ\_\LINQ_Distinct.cs" />
     <Compile Include="31_LINQ\_\LINQ_Single.cs" />
@@ -669,7 +670,7 @@
     <Compile Include="26_Class\ProcessStartDemo\ProcessStartDemo.cs" />
     <Compile Include="06_Number\NullableDemo\NullableDemo.cs" />
     <Compile Include="30_GenericClass\NullableOf\NullableOf.cs" />
-    <Compile Include="Nullable형식.cs" />
+    <Compile Include="30_GenericClass\NullableTypeDemo\_\Nullable형식.cs" />
     <Compile Include="73_Temp\NullDemo\NullDemo.cs" />
     <Compile Include="ProcessGetCurrentProcess.cs" />
     <Compile Include="Program.cs" />
