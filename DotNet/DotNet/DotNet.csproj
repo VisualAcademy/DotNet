@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>StringConverterDemo.StringConverterDemo</StartupObject>
+    <StartupObject>SwapDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -94,6 +94,7 @@
     <Compile Include="06_Number\DecimalDemo\DecimalDemo.cs" />
     <Compile Include="06_Number\DecimalMinMax\DecimalMinMax.cs" />
     <Compile Include="07_BoolCharString\ConstDoubleString\ConstDoubleString.cs" />
+    <Compile Include="10_Assignment\SwapDemo\SwapDemo.cs" />
     <Compile Include="11_Operator\DoubleEqual\DoubleEqual.cs" />
     <Compile Include="20_Array\DigitSeparator\DigitSeparator.cs" />
     <Compile Include="12_BitAndShift\DigitSeparatorDemo\DigitSeparatorDemo.cs" />
@@ -590,10 +591,10 @@
     <Compile Include="63_PatternMatching\PatternMatchingWithSwitch.cs" />
     <Compile Include="AbsoluteValue.cs" />
     <Compile Include="AdditionOperator.cs" />
-    <Compile Include="Algorithm\Algorithm_Count_Money.cs" />
-    <Compile Include="Algorithm\Algorithm_Merge.cs" />
-    <Compile Include="Algorithm\Algorithm_PerfectNumber.cs" />
-    <Compile Include="Algorithm\Algorithm_Sum_Parking.cs" />
+    <Compile Include="Algorithms\Algorithm_Count_Money.cs" />
+    <Compile Include="Algorithms\Algorithm_Merge.cs" />
+    <Compile Include="Algorithms\Algorithm_PerfectNumber.cs" />
+    <Compile Include="Algorithms\Algorithm_Sum_Parking.cs" />
     <Compile Include="AndOperator.cs" />
     <Compile Include="ArithmeticExam.cs" />
     <Compile Include="AssignmentOperator.cs" />
@@ -713,6 +714,7 @@
     <Compile Include="62_\SignBaseSignRepository\SignBaseSignRepository.cs" />
     <Compile Include="26_Class\_\SquareClass.cs" />
     <Compile Include="59_Tips\StringConverterDemo\StringConverterDemo.cs" />
+    <Compile Include="SingleResponsibilityPrinciple.cs" />
     <Compile Include="SyncDemo.cs" />
     <Compile Include="08_ReadLine\TypeAssertion\TypeAssertion.cs" />
     <Compile Include="UserRegister.cs" />
