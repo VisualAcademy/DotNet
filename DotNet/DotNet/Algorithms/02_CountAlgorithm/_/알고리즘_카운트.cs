@@ -7,7 +7,7 @@ public class 알고리즘_카운트
     {
         //[1] Input
         int[] data = { 10, 9, 4, 7, 6, 5 };
-        int count = 0; // 카운트 저장
+        int count = default; // 카운트 저장
 
         //[2] Process : COUNT
         for (int i = 0; i < data.Length; i++)
