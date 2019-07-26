@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CountAlgorithm</StartupObject>
+    <StartupObject>AverageAlgorithm</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -364,8 +364,36 @@
     <Compile Include="56_PlaceHolder\PlaceHolderEtc.cs" />
     <Compile Include="57_IO\TextToCollection\TextToCollection.cs" />
     <Compile Include="59_Tips\IntelliSenseDemo\IntelliSenseDemo.cs" />
+    <Compile Include="Algorithms\00_Start\01.합계.cs" />
+    <Compile Include="Algorithms\00_Start\02.카운트.cs" />
+    <Compile Include="Algorithms\00_Start\03.평균.cs" />
+    <Compile Include="Algorithms\00_Start\04.최댓값.cs" />
+    <Compile Include="Algorithms\00_Start\05.최솟값.cs" />
+    <Compile Include="Algorithms\00_Start\06.가까운값.cs" />
+    <Compile Include="Algorithms\00_Start\07.최빈값.cs" />
+    <Compile Include="Algorithms\00_Start\08.순위.cs" />
+    <Compile Include="Algorithms\00_Start\09.정렬.cs" />
+    <Compile Include="Algorithms\00_Start\10.검색.cs" />
+    <Compile Include="Algorithms\00_Start\11.병합.cs" />
+    <Compile Include="Algorithms\00_Start\12.그룹.cs" />
     <Compile Include="Algorithms\02_CountAlgorithm\CountAlgorithm.cs" />
     <Compile Include="Algorithms\01_SumAlgorithm\SumAlgorithm.cs" />
+    <Compile Include="Algorithms\03_AverageAlgorithm\AverageAlgorithm.cs" />
+    <Compile Include="Algorithms\03_AverageAlgorithm\_\LINQ_합계카운트평균.cs" />
+    <Compile Include="Algorithms\04_MaxAlgorithm\MaxAlgorithm.cs" />
+    <Compile Include="Algorithms\05_MinAlgorithm\MinAlgorithm.cs" />
+    <Compile Include="Algorithms\06_SortAlgorithm\SortAlgorithm.cs" />
+    <Compile Include="Algorithms\07_RankAlgorithm\RankAlgorithm.cs" />
+    <Compile Include="Algorithms\08_NearAlgorithm\NearAlgorithm.cs" />
+    <Compile Include="Algorithms\09_ModeAlgorithm\ModeAlgorithm.cs" />
+    <Compile Include="Algorithms\10_SearchAlgorithm\SearchAlgorithm.cs" />
+    <Compile Include="Algorithms\11_MergeAlgorithm\MergeAlgorithm.cs" />
+    <Compile Include="Algorithms\11_MergeAlgorithm\_\LINQ_병합알고리즘.cs" />
+    <Compile Include="Algorithms\12_GroupAlgorithm\GroupAlgorithm.cs" />
+    <Compile Include="Algorithms\12_GroupAlgorithm\_\LINQ_그룹알고리즘.cs" />
+    <Compile Include="Algorithms\간단수열.cs" />
+    <Compile Include="Algorithms\수열문제.cs" />
+    <Compile Include="Algorithms\수열퀴즈.cs" />
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="20_Array\ArrayMultiPractice\ArrayMultiPractice.cs" />
     <Compile Include="20_Array\ArrayOne\ArrayOne1.cs" />
@@ -596,7 +624,7 @@
     <Compile Include="AbsoluteValue.cs" />
     <Compile Include="AdditionOperator.cs" />
     <Compile Include="알고리즘\Algorithm_Count_Money.cs" />
-    <Compile Include="알고리즘\Algorithm_Merge.cs" />
+    <Compile Include="Algorithms\11_MergeAlgorithm\_\Algorithm_Merge.cs" />
     <Compile Include="알고리즘\Algorithm_PerfectNumber.cs" />
     <Compile Include="알고리즘\Algorithm_Sum_Parking.cs" />
     <Compile Include="AndOperator.cs" />
@@ -885,10 +913,12 @@
     <Compile Include="스레드.cs" />
     <Compile Include="스태틱과인스턴스.cs" />
     <Compile Include="03_HelloWorld\_\안녕하세요.cs" />
-    <Compile Include="알고리즘\NearAll\NearAll.cs" />
-    <Compile Include="알고리즘\선택정렬복습.cs" />
-    <Compile Include="알고리즘\알고리즘_가까운값.cs" />
-    <Compile Include="알고리즘\알고리즘_가까운값2.cs" />
+    <Compile Include="Algorithms\08_NearAlgorithm\NearAll\NearAll.cs" />
+    <Compile Include="Algorithms\06_SortAlgorithm\_\선택정렬복습.cs" />
+    <Compile Include="Algorithms\08_NearAlgorithm\_\알고리즘_가까운값.cs" />
+    <Compile Include="Algorithms\08_NearAlgorithm\_\알고리즘_가까운값2.cs" />
+    <Compile Include="알고리즘\반올림함수만들기\반올림.cs" />
+    <Compile Include="알고리즘\반올림함수만들기\수학관련함수.cs" />
     <Compile Include="알고리즘\알고리즘_구구단_기본출력.cs" />
     <Compile Include="Algorithms\01_SumAlgorithm\_\알고리즘_등차수열_홀수의합.cs" />
     <Compile Include="알고리즘\알고리즘_배열채우기_23456.cs" />
@@ -898,24 +928,24 @@
     <Compile Include="알고리즘\알고리즘_배열채우기_행우선.cs" />
     <Compile Include="알고리즘\알고리즘_배열패턴찾기.cs" />
     <Compile Include="알고리즘\알고리즘_보수.cs" />
-    <Compile Include="알고리즘\알고리즘_선택정렬.cs" />
+    <Compile Include="Algorithms\06_SortAlgorithm\_\알고리즘_선택정렬.cs" />
     <Compile Include="알고리즘\알고리즘_소수.cs" />
     <Compile Include="알고리즘\알고리즘_소수_개수.cs" />
     <Compile Include="알고리즘\알고리즘_수열_부호변경.cs" />
     <Compile Include="알고리즘\알고리즘_수열_팩토리얼.cs" />
-    <Compile Include="알고리즘\알고리즘_순위.cs" />
+    <Compile Include="Algorithms\07_RankAlgorithm\_\알고리즘_순위.cs" />
     <Compile Include="알고리즘\알고리즘_완전수.cs" />
     <Compile Include="알고리즘\알고리즘_요일별_비행기_스케줄.cs" />
     <Compile Include="알고리즘\알고리즘_천단위콤마.cs" />
     <Compile Include="알고리즘\알고리즘_최대최소합계평균.cs" />
-    <Compile Include="알고리즘\알고리즘_최댓값.cs" />
+    <Compile Include="Algorithms\04_MaxAlgorithm\_\알고리즘_최댓값.cs" />
     <Compile Include="알고리즘\알고리즘_최댓값과최솟값제외한평균값.cs" />
-    <Compile Include="알고리즘\알고리즘_최빈값.cs" />
-    <Compile Include="알고리즘\알고리즘_최솟값.cs" />
+    <Compile Include="Algorithms\09_ModeAlgorithm\_\알고리즘_최빈값.cs" />
+    <Compile Include="Algorithms\05_MinAlgorithm\_\알고리즘_최솟값.cs" />
     <Compile Include="Algorithms\02_CountAlgorithm\_\알고리즘_카운트.cs" />
     <Compile Include="알고리즘\알고리즘_통계_초과근무.cs" />
-    <Compile Include="알고리즘\알고리즘_평균.cs" />
-    <Compile Include="알고리즘\알고리즘_평균이상학생수.cs" />
+    <Compile Include="Algorithms\03_AverageAlgorithm\_\알고리즘_평균.cs" />
+    <Compile Include="Algorithms\03_AverageAlgorithm\_\알고리즘_평균이상학생수.cs" />
     <Compile Include="알고리즘\알고리즘_피보나치수열.cs" />
     <Compile Include="Algorithms\01_SumAlgorithm\_\알고리즘_합계.cs" />
     <Compile Include="Algorithms\01_SumAlgorithm\_\알고리즘_합계_4의배수.cs" />
@@ -976,8 +1006,7 @@
   <ItemGroup>
     <Folder Include="22_Interactive\" />
     <Folder Include="58_LINQ\" />
-    <Folder Include="LINQ\FromWhereSelect\" />
-    <Folder Include="LINQ\LinqSelect\" />
+    <Folder Include="Algorithms\13_Etc\" />
     <Folder Include="_Collections\" />
   </ItemGroup>
   <ItemGroup>
