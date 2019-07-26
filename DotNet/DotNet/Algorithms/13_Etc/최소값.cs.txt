@@ -1,0 +1,21 @@
+﻿using System;
+
+public class 최소값
+{
+  public static void Main()
+  {
+    //[1] Input
+    int[] intNum = new int[5] { -3, -11, -7, -5, -4 };
+    int min = int.MaxValue; // 최소값이 저장될 변수
+    //[2] Process : MIN(최소값) : 범위내에서 가장 작은 값
+    for (int i = 0; i < intNum.Length; i++)
+    {
+      if (intNum[i] < min)
+      {
+        min = intNum[i]; // Min         
+      }
+    }
+    //[3] Output
+    Console.WriteLine("최소값 : {0}", min);
+  }
+}

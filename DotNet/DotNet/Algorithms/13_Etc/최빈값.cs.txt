@@ -1,0 +1,31 @@
+﻿// 최빈값(MODE) : 가장 많이 나온 데이터
+// 배열의 인덱스의 카운터 알고리즘의 최대값 알고리즘
+using System;
+
+public class 최빈값
+{
+  public static void Main()
+  { 
+    //[1] Input
+    int[] intNum = {5, 5, 2, 1, 5 };
+    int mode = 0;// 최빈값이 담길 그릇
+    int[] intMode = new int[intNum.Length + 1];
+    //[2] Process : 최빈값 알고리즘
+    //[a] 인덱스의 카운터 알고리즘
+    for (int i = 0; i < intNum.Length; i++) {
+        intMode[intNum[i]] = intMode[intNum[i]]+1;  
+    }
+    //[b] 카운터의 최대값 알고리즘
+    int intMax = int.MinValue;
+    for (int i = 0; i < intMode.Length; i++) {
+      if (intMode[i] > intMax) {
+        intMax = intMode[i];
+        mode = i;// 카운터가 최대값일 때의 인덱스:최빈값
+      }  
+    }
+    Console.WriteLine(intMax);//2
+    //[3] Output
+    Console.WriteLine(
+    "가장 많은 빈도수로 나온 수 : {0}", mode);//3이두번
+  }
+}

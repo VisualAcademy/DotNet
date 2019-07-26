@@ -1,0 +1,30 @@
+﻿//[1] 합계(Sum) : 주어진 범위내에서 조건에 맞는 데이터의 합계
+//[2] 건수(Count) : 데이터의 건수
+//[3] 평균(Avg) : Sum / (double)Count
+using System;
+
+public class 합계카운트평균
+{
+  public static void Main()
+  { 
+    //[1] Input : 짝수의 합, 개수, 평균?
+    int[] intNum = { 2, 5, 3, 1, 4 };
+    int sum = 0;
+    int count = 0;
+    double avg = 0.0;
+    //[2] Process:알고리즘(문제해결능력):SUM,COUNT,AVG
+    for (int i = 0; i < intNum.Length; i++)
+    {
+      if (intNum[i] % 2 == 0)
+      {
+        sum += intNum[i]; // SUM
+        count++; // COUNT
+      }  
+    }
+    avg = sum / (double)count; // AVG
+    //[3] Output
+    Console.WriteLine(
+      "짝수의 합 : {0}, 개수 : {1}, 평균 : {2}",
+      sum, count, avg);
+  }
+}

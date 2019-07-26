@@ -1,0 +1,27 @@
+using System;
+public class MySort {
+	public static void SelectionSort(ref int[] intNum) {
+		int temp = 0;
+		for (int i = 0; i < intNum.Length - 1; i++) {
+			for (int j = i + 1; j < intNum.Length; j++) {
+				if (intNum[i] > intNum[j]) {
+					temp = intNum[i];
+					intNum[i] = intNum[j];
+					intNum[j] = temp;
+				}
+			}
+		}
+	}
+}
+public class 선택정렬 {
+  public static void Main() { 
+		//[1] Input
+		int[] intNum = {3, 2, 1, 6, 3, 2, 9, 10, 5, 4};
+		//[2] Process : Select Sort
+		MySort.SelectionSort(ref intNum);
+		//[3] Output
+		for (int i = 0; i < intNum.Length; i++) {
+			Console.WriteLine(intNum[i]);	
+		}
+  }
+}

@@ -1,0 +1,24 @@
+﻿//아래 로직(피보나치 수열)을 처리하는 프로그램을 작성하시오...
+//1 + 1 + 2 + 3 + 5 + 8 + 13 = ?
+using System;
+public class 피보나치수열 {
+  public static void Main() {
+    //[1] Init/Input
+    // 아래 두줄은 사용자 정의 규칙
+    int prev = 1; // prev : 앞
+    int next = 1; // next : 뒤 
+    int sum = prev + next; // 전체 합
+    int temp = 0; // prev+next 임시 보관
+    int n = 7; // 총 반복횟수
+    //[2] Process
+    for (int i = 2; i < n; i++) {
+      temp = prev + next; // 임시 변수에 현재까지 합 구하기
+      sum += temp; // 
+      prev = next; // 이전 자료 = 다음 자료
+      next = temp; // 다음 자료 = (이전+다음)
+      Console.WriteLine(next);
+    }
+    //[3] Output
+    Console.WriteLine("수열합계 : {0}", sum);
+  }
+}

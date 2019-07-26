@@ -1,0 +1,41 @@
+﻿// 이분(이진) 검색 : 반씩 나눠서 검색, 정렬이 되어있어야 함. 
+using System;
+
+public class 이분탐색
+{
+  public static void Main(string[] args)
+  {
+    //[1] Input 
+    int[] intNum = {22, 33, 44, 55, 66 };
+    int search = 66;
+    bool flag = false;
+    int low = 0; // 낮은 인덱스
+    int high = intNum.Length - 1; // 높은 인덱스
+    int mid = 0; // 중간 인덱스
+    //[2] Process : Binary Search : Full Scan->Index Scan
+    while (low <= high) {
+      mid = (low + high) / 2; // 중간 인덱스 구하기
+      if (intNum[mid] == search) {
+        flag = true;
+        break;
+      }
+      if (intNum[mid] > search)
+      {
+        high = mid - 1;
+      }
+      if (intNum[mid] < search)
+      {
+        low = mid + 1;
+      }
+    }
+    //[3] Output
+    if (flag)
+    {
+      Console.WriteLine("찾았습니다.");  
+    }
+    else
+    {
+      Console.WriteLine("찾지 못했습니다.");
+    }
+  }
+}

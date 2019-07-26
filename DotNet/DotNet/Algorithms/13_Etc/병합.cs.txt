@@ -1,0 +1,60 @@
+﻿// 병합(Merge) 알고리즘 : 2개의 배열에 있는 데이터를 합치는 로직
+// 각각의 배열은 오름차순 정렬이 되어있어야 함...
+using System;
+
+public class 병합
+{
+  public static void Main()
+  {
+    //[1] Input
+    int[] a = { 2, 4, 5 }; int M = a.Length;
+    int[] b = { 1, 3 }; int N = b.Length;
+    int[] c = new int[M + N];
+    //[2] Process
+    #region 병합+정렬
+    //int k = 0;
+    //while (k < (M + N)) {
+    //  for (int i = 0; i < M; i++) {
+    //    c[i] = a[i];
+    //    k++;
+    //  }
+    //  for (int i = 0; i < N; i++) {
+    //    c[k] = b[i];
+    //    k++;
+    //  }
+    //}
+    //int temp = 0;
+    //for (int i = 0; i < c.Length - 1; i++) {
+    //  for (int j = i + 1; j < c.Length; j++) {
+    //    if (c[i] > c[j]) {
+    //      temp = c[i]; c[i] = c[j]; c[j] = temp;  
+    //    }  
+    //  }  
+    //} 
+    #endregion
+    int i, j, k; i = j = k = 0;
+    while (i < M && j < N)//a배열과 b배열중 하나가 완료되면 종료
+    {
+      if (a[i] <= b[j])
+      {
+        c[k] = a[i]; k++; i++;  
+      }
+      else
+      {
+        c[k++] = b[j++];
+      }
+    }
+    while (i < M) // a배열이 완료되지 않았을 때 마무리
+    {
+      c[k++] = a[i++];  
+    }
+    while (j < N) // b배열이 완료되지 않았을 때 마무리
+    {
+      c[k++] = b[j++];        
+    }
+    //[3] Output : c배열을 출력시 아래와 같이 출력
+    for (int l = 0; l < (M + N); l++) {
+      Console.WriteLine(c[l]);  
+    }
+  }
+}

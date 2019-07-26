@@ -1,0 +1,30 @@
+﻿// 순위(Rank) : 모든 데이터를 1등으로 초기화 후,
+// 해당 데이터보다 큰 데이터가 나오면 등수를 1증가
+using System;
+public class 순위
+{
+  public static void Main()
+  {
+    //[1] Input
+    int[] intNum = { 80, 100, 90, 77, 95 };
+    int[] intRank = new int[5] {0, 0, 0, 0, 0 };
+    //[2] Process : 순위 
+    for (int i = 0; i < intNum.Length; i++)
+    {
+      intRank[i] = 1; // 모든 등수를 1등으로 초기화
+      for (int j = 0; j < intNum.Length; j++)
+      {
+        if (intNum[i] < intNum[j])
+        {
+          intRank[i]++; // 순위 증가  
+        }  
+      }  
+    }
+    //[3] Output
+    for (int i = 0; i < intNum.Length; i++)
+    {
+      Console.WriteLine(
+        "{0,3} : {1}등", intNum[i], intRank[i]);  
+    }
+  }
+}

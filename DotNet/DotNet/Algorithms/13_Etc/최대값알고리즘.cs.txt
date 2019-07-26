@@ -1,0 +1,21 @@
+﻿using System;
+
+public class 최대값알고리즘
+{
+  public static void Main(string[] args)
+  {
+    //[1] Init/Input
+    int[] intNum = { -3, -1, -2, -5, -4 };
+    int max = int.MinValue; // 최대값이 들어갈 변수
+    //[2] Process : MAX
+    for (int i = 0; i < intNum.Length; i++)
+    {
+      if (intNum[i] > max) // 더 큰 값이 max변수에 담김
+      {
+        max = intNum[i]; // 최대값  
+      }  
+    }
+    //[3] Output
+    Console.WriteLine("최대값 : {0}", max);
+  }
+}

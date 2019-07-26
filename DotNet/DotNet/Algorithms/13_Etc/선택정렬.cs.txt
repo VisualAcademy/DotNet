@@ -1,0 +1,32 @@
+﻿// SORT(정렬)
+// ASCending : 1, 2, 3 순서로 출력
+// DESCending : C, B, A 순서로 역순으로 출력
+using System;
+
+public class 선택정렬
+{
+  public static void Main()
+  { 
+    //[1] Input
+    int[] intNum = { 3, 4, 5, 1, 2 };
+    //[2] Process
+    int temp;
+    for (int i = 0; i < intNum.Length - 1; i++)
+    {
+      for (int j = i + 1; j < intNum.Length; j++)
+      {
+        if (intNum[i] > intNum[j])
+        {
+          temp = intNum[i];
+          intNum[i] = intNum[j];
+          intNum[j] = temp;
+        }   
+      }  
+    } 
+    //[3] Output
+    for (int i = 0; i < intNum.Length; i++)
+    {
+      Console.WriteLine(intNum[i]);//1,2,3 출력  
+    }
+  }
+}

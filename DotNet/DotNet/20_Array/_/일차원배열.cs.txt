@@ -1,0 +1,17 @@
+﻿using System;
+
+public class 일차원배열
+{
+  public static void Main()
+  { 
+    //[1] 배열 선언
+    int[] intKor = {100, 90, 80 };
+    //[4] 배열 참조
+    for (int i = 0; i < intKor.Length; i++)
+    {
+      Console.WriteLine("{0}", intKor[i]);  
+    }
+    //[5] 배열의 크기
+    Console.WriteLine("{0}", intKor.Length);
+  }
+}

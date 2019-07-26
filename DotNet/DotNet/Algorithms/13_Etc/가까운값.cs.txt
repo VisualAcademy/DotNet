@@ -1,0 +1,30 @@
+﻿// 근사값(NEAR) : 차이값의 절대값의 최소값
+using System;
+
+public class 가까운값
+{
+  public static void Main()
+  { 
+    //[1] Input
+    int[] intNum = {3, 6, 9, 12, 15 };
+    int target = 10;//10에 가까운 값
+    int near = 0;//가까운값이 담길 그릇
+    int min = int.MaxValue;
+    int diff = 0; // 차이값 임시 저장
+    //[2] Process
+    for (int i = 0; i < intNum.Length; i++)
+    {
+      diff = intNum[i] - target;//차이 구하기
+      //diff = (diff < 0) ? -diff : diff;//절대값
+      diff = Math.Abs(diff);
+      if (diff < min)
+      {
+        min = diff; // 최소값
+        near = intNum[i]; // 가까운값
+      }  
+    }
+    //[3] Output
+    Console.WriteLine(
+      "{0}에 가까운값 : {1}", target, near);
+  }
+}

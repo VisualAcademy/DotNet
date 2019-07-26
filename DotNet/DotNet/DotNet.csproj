@@ -523,7 +523,7 @@
     <Compile Include="31_LINQ\LinqFromWhereSelect\LinqFromWhereSelect.cs" />
     <Compile Include="31_LINQ\_\LINQ_WhereMethod.cs" />
     <Compile Include="31_LINQ\Map.cs" />
-    <Compile Include="31_LINQ\MinAndMax.cs" />
+    <Compile Include="31_LINQ\MinAndMax\MinAndMax.cs" />
     <Compile Include="31_LINQ\QuerySyntaxMethodSyntax.cs" />
     <Compile Include="26_Class\RandomDemo\RandomDemo.cs" />
     <Compile Include="26_Class\RandomClassDemo\RandomClassDemo.cs" />
@@ -962,7 +962,7 @@
     <Compile Include="전처리기지시문_조건부컴파일기호.cs" />
     <Compile Include="정적과인스턴스.cs" />
     <Compile Include="정적클래스와정적클래스멤버.cs" />
-    <Compile Include="30_GenericClass\GenericPros.cs" />
+    <Compile Include="30_GenericClass\GenericPros\GenericPros.cs" />
     <Compile Include="49_GenericMake\_\제네릭메서드.cs" />
     <Compile Include="49_GenericMake\_\제네릭클래스.cs" />
     <Compile Include="제어문\구구단_가로출력.cs" />
@@ -1006,12 +1006,36 @@
   <ItemGroup>
     <Folder Include="22_Interactive\" />
     <Folder Include="58_LINQ\" />
-    <Folder Include="Algorithms\13_Etc\" />
     <Folder Include="_Collections\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="57_IO\TextToCollection\Src.txt" />
     <Content Include="57_IO\_\텍스트데이터를컬렉션데이터로\Src.txt" />
+    <Content Include="Algorithms\13_Etc\07.선택정렬.cs.txt" />
+    <Content Include="Algorithms\13_Etc\가까운값.cs.txt" />
+    <Content Include="Algorithms\13_Etc\구구단.cs.txt" />
+    <Content Include="20_Array\_\배열의배열.cs.txt" />
+    <Content Include="Algorithms\13_Etc\병합.cs.txt" />
+    <Content Include="Algorithms\13_Etc\분수합계.cs.txt" />
+    <Content Include="20_Array\_\삼차원배열.cs.txt" />
+    <Content Include="Algorithms\13_Etc\선택정렬.cs.txt" />
+    <Content Include="Algorithms\13_Etc\수열합계.cs.txt" />
+    <Content Include="Algorithms\13_Etc\순위.cs.txt" />
+    <Content Include="Algorithms\13_Etc\순차검색.cs.txt" />
+    <Content Include="Algorithms\13_Etc\이분탐색.cs.txt" />
+    <Content Include="20_Array\_\이차원배열.cs.txt" />
+    <Content Include="20_Array\_\일차원배열.cs.txt" />
+    <Content Include="Algorithms\13_Etc\최대값.cs.txt" />
+    <Content Include="Algorithms\13_Etc\최대값알고리즘.cs.txt" />
+    <Content Include="Algorithms\13_Etc\최빈값.cs.txt" />
+    <Content Include="Algorithms\13_Etc\최소값.cs.txt" />
+    <Content Include="Algorithms\13_Etc\최소값알고리즘.cs.txt" />
+    <Content Include="Algorithms\13_Etc\카운트알고리즘.cs.txt" />
+    <Content Include="Algorithms\13_Etc\평균알고리즘.cs.txt" />
+    <Content Include="Algorithms\13_Etc\피보나치수열.cs.txt" />
+    <Content Include="Algorithms\13_Etc\합계알고리즘.cs.txt" />
+    <Content Include="Algorithms\13_Etc\합계알고리즘적용.cs.txt" />
+    <Content Include="Algorithms\13_Etc\합계카운트평균.cs.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
