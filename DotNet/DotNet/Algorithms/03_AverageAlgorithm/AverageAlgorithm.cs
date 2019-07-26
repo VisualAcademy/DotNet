@@ -1,4 +1,4 @@
-﻿//[?] n명의 점수 중에서 80점 이상 95점 이하인인 점수의 평균
+﻿//[?] n명의 점수 중에서 80점 이상 95점 이하인 점수의 평균
 using System;
 
 /// <summary>
@@ -9,17 +9,17 @@ class AverageAlgorithm
     static void Main()
     {
         //[1] 입력: n명의 성적
-        int[] data = { 50, 65, 78, 90, 95 };
-        int sum = 0; // 합계 알고리즘
-        int count = 0; // 개수 알고리즘
+        int[] data = { 90, 65, 78, 50, 95 };
+        int sum = 0; // 합계 담는 그릇
+        int count = 0; // 개수 담는 그릇
 
         //[2] 처리: AVG = SUM / COUNT
         for (int i = 0; i < data.Length; i++)
         {
             if (data[i] >= 80 && data[i] <= 95)
             {
-                sum += data[i];
-                count++;
+                sum += data[i]; // SUM
+                count++; // COUNT
             }
         }
 
