@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AverageAlgorithm</StartupObject>
+    <StartupObject>MinAlgorithm</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -131,7 +131,7 @@
     <Compile Include="10_Assignment\PostfixOperator\PostfixOperator.cs" />
     <Compile Include="10_Assignment\PrefixOperator\PrefixOperator.cs" />
     <Compile Include="11_Operator\RelationalOperator\RelationalOperator.cs" />
-    <Compile Include="11_Operator\Remainder.cs" />
+    <Compile Include="09_Operator\Remainder\Remainder.cs" />
     <Compile Include="10_Assignment\ShortcutOperator\ShortcutOperator.cs" />
     <Compile Include="10_Assignment\ShortcutOperatorDemo\ShortcutOperatorDemo.cs" />
     <Compile Include="11_Operator\UnaryOperator\UnaryOperator.cs" />
@@ -211,7 +211,7 @@
     <Compile Include="13_ConditionalOperator\PrecedenceQuiz.cs" />
     <Compile Include="13_ConditionalOperator\SizeOf.cs" />
     <Compile Include="13_ConditionalOperator\TernaryExam.cs" />
-    <Compile Include="13_ConditionalOperator\TernaryOperator.cs" />
+    <Compile Include="13_ConditionalOperator\TernaryOperator\TernaryOperator.cs" />
     <Compile Include="13_ConditionalOperator\TernaryPractice.cs" />
     <Compile Include="13_ConditionalOperator\TernaryQuiz.cs" />
     <Compile Include="14_If\If\If.cs" />
@@ -488,8 +488,8 @@
     <Compile Include="29_Collection\StackDemo\StackDemo.cs" />
     <Compile Include="29_Collection\StackNote\StackNote.cs" />
     <Compile Include="30_GenericClass\StackOfType\StackOfType.cs" />
-    <Compile Include="29_Collection\QueueDemo.cs" />
-    <Compile Include="29_Collection\HashtableDemo.cs" />
+    <Compile Include="29_Collection\QueueDemo\QueueDemo.cs" />
+    <Compile Include="29_Collection\HashtableDemo\HashtableDemo.cs" />
     <Compile Include="30_GenericClass\NullableTypeCheck.cs" />
     <Compile Include="30_GenericClass\NullCoalescing.cs" />
     <Compile Include="30_GenericClass\NullCoalescingNote.cs" />
