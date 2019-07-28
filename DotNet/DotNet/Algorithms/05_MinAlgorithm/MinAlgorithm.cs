@@ -10,7 +10,7 @@ class MinAlgorithm
 {
     static void Main()
     {
-        //[1] Initialzie
+        //[1] Initialize
         var min = Int32.MaxValue; // 정수 형식의 데이터 중 가장 큰 값으로 초기화
 
         //[2] Input: 이진수로 표현 + 숫자 구분자

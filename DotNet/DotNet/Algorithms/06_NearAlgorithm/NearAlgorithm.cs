@@ -1,0 +1,36 @@
+﻿//[?] 원본 데이터 중에서 대상 데이터와 가장 가까운 값
+using System;
+
+/// <summary>
+/// 근삿값 알고리즘(Near Algorithm): 차잇값의 절댓값의 최솟값
+/// </summary>
+class NearAlgorithm
+{
+    static void Main()
+    {
+        //[0] 절댓값 구하기 로컬 함수: Math.Abs() 함수와 동일한 기능을 구현해 봄
+        int Abs(int num) => (num < 0) ? -num : num;
+
+        //[1] Initialize
+        int min = int.MaxValue; // 차잇값의 절댓값의 최솟값
+
+        //[2] Input: 2진수와 16진수로 표현 
+        int[] numbers = { 10, 20, 30, 27, 17 };
+        int target = 25; // target과 가까운 값
+        int near = default; // 가까운값 : 27
+
+        //[3] Process: NEAR
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            int abs = Abs(numbers[i] - target); // 차잇값의 절댓값
+            if (abs < min)
+            {
+                min = abs; // 최솟값 알고리즘
+                near = numbers[i]; // NEAR: 차잇값의 절댓값의 최솟값일 때의 값
+            }
+        }
+
+        //[4] Output
+        Console.WriteLine($"{target}와 가까운값: {near}"); // 25, 27
+    }
+}

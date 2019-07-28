@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MinAlgorithm</StartupObject>
+    <StartupObject>NearAlgorithm</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -384,7 +384,7 @@
     <Compile Include="Algorithms\05_MinAlgorithm\MinAlgorithm.cs" />
     <Compile Include="Algorithms\06_SortAlgorithm\SortAlgorithm.cs" />
     <Compile Include="Algorithms\07_RankAlgorithm\RankAlgorithm.cs" />
-    <Compile Include="Algorithms\08_NearAlgorithm\NearAlgorithm.cs" />
+    <Compile Include="Algorithms\06_NearAlgorithm\NearAlgorithm.cs" />
     <Compile Include="Algorithms\09_ModeAlgorithm\ModeAlgorithm.cs" />
     <Compile Include="Algorithms\10_SearchAlgorithm\SearchAlgorithm.cs" />
     <Compile Include="Algorithms\11_MergeAlgorithm\MergeAlgorithm.cs" />
@@ -913,10 +913,10 @@
     <Compile Include="스레드.cs" />
     <Compile Include="스태틱과인스턴스.cs" />
     <Compile Include="03_HelloWorld\_\안녕하세요.cs" />
-    <Compile Include="Algorithms\08_NearAlgorithm\NearAll\NearAll.cs" />
+    <Compile Include="Algorithms\06_NearAlgorithm\NearAll\NearAll.cs" />
     <Compile Include="Algorithms\06_SortAlgorithm\_\선택정렬복습.cs" />
-    <Compile Include="Algorithms\08_NearAlgorithm\_\알고리즘_가까운값.cs" />
-    <Compile Include="Algorithms\08_NearAlgorithm\_\알고리즘_가까운값2.cs" />
+    <Compile Include="Algorithms\06_NearAlgorithm\_\알고리즘_가까운값.cs" />
+    <Compile Include="Algorithms\06_NearAlgorithm\_\알고리즘_가까운값2.cs" />
     <Compile Include="알고리즘\반올림함수만들기\반올림.cs" />
     <Compile Include="알고리즘\반올림함수만들기\수학관련함수.cs" />
     <Compile Include="알고리즘\알고리즘_구구단_기본출력.cs" />
