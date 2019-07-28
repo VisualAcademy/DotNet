@@ -1,4 +1,4 @@
-﻿//[?] 가까운값 모두 구하기: 가까운값(NEAR): 차이의 절댓값의 최솟값 
+﻿//[?] 가까운 값 모두 구하기: 가까운값(NEAR): 차이의 절댓값의 최솟값 
 using System;
 using System.Collections.Generic;
 
