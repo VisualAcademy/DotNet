@@ -27,7 +27,7 @@ class NearAlgorithm
             int abs = Abs(numbers[i] - target); // 차잇값의 절댓값
             if (abs < min)
             {
-                min = abs; // 최솟값 알고리즘
+                min = abs; // MIN: 최솟값 알고리즘
                 near = numbers[i]; // NEAR: 차잇값의 절댓값의 최솟값일 때의 값
             }
         }
