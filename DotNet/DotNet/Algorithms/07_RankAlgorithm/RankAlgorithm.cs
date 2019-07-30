@@ -11,18 +11,18 @@ class RankAlgorithm
     {
         //[1] Input
         int[] scores = { 90, 87, 100, 95, 80 };
-        int[] rank = Enumerable.Repeat(1, 5).ToArray(); // 1로 초기화 
+        int[] rankings = Enumerable.Repeat(1, 5).ToArray(); // 모두 1로 초기화
 
         //[2] Process
         for (int i = 0; i < scores.Length; i++)
         {
-            rank[i] = 1; // 1등으로 초기화, 순위 배열을 매 회전마다 1등으로 초기화
+            rankings[i] = 1; // 1등으로 초기화, 순위 배열을 매 회전마다 1등으로 초기화
             for (int j = 0; j < scores.Length; j++)
             {
                 // 현재(i)와 나머지들(j) 비교
                 if (scores[i] < scores[j])
                 {
-                    rank[i]++; // COUNT -> RANK: 보다 큰 점수가 나오면 순위 1증가
+                    rankings[i]++; // RANK: 나 보다 큰 점수가 나오면 순위 1증가
                 }
             }
         }
@@ -30,7 +30,16 @@ class RankAlgorithm
         //[3] Output
         for (int i = 0; i < scores.Length; i++)
         {
-            Console.WriteLine("{0,3}점: {1}등", scores[i], rank[i]);
+            Console.WriteLine("{0,3}점: {1}등", scores[i], rankings[i]);
         }
     }
 }
+
+//int[] scores = { 90, 87, 100, 95, 80 };
+
+//var rankings = scores.Select(s => scores.Where(ss => ss > s).Count() + 1).ToArray();
+//rankings
+//int[5] { 3, 4, 1, 2, 5 }
+
+//var rankings = scores.Select(s => new { Score = s, Rank = scores.Where(ss => ss > s).Count() + 1 });
+//rankings
