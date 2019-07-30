@@ -34,11 +34,11 @@ class NearAlgorithm
 
         //[4] Output
         var minimum = numbers.Min(m => Math.Abs(m - target));
-        var closest = numbers.First(n => Math.Abs(target - n) == minimum);
+        var closest = numbers.First(c => Math.Abs(target - c) == minimum);
         WriteLine($"{target}와 가장 가까운 값(식): {closest}(차이: {minimum})");
         WriteLine($"{target}와 가장 가까운 값(문): {near}(차이: {min})");
     }
 }
 
-//numbers.First(n => Math.Abs(n - target) == numbers.Min(m => Math.Abs(m - target)))
+//numbers.First(c => Math.Abs(c - target) == numbers.Min(m => Math.Abs(m - target)))
 //27
