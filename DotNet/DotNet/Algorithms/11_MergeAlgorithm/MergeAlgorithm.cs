@@ -11,12 +11,12 @@ class MergeAlgorithm
         //[1] Input
         int[] first = { 1, 3, 5 };
         int[] second = { 2, 4 };
-        int[] merge = new int[first.Length + second.Length]; // MEARGE될 배열
-        int i = 0; int j = 0; int k = 0;
-        int M = first.Length; int N = second.Length;
+        int M = first.Length; int N = second.Length; // M:N 관행
+        int[] merge = new int[M + N]; // 병합된 배열
+        int i = 0; int j = 0; int k = 0; // i, j, k 관행
 
         //[2] Process
-        while (i < M && j < N)              // 모두 끝에 도달할 때까지
+        while (i < M && j < N) // 둘 중 하나라도 배열의 끝에 도달할 때까지
         {
             if (first[i] <= second[j])
             {
@@ -27,19 +27,20 @@ class MergeAlgorithm
                 merge[k++] = second[j++];
             }
         }
-        while (i < M)                       // 첫번째 배열이 끝까지 도달할 때까지
+        while (i < M) // 첫 번째 배열이 끝까지 도달할 때까지
         {
             merge[k++] = first[i++];
         }
-        while (j < N)                       // 두번째 배열이 끝까지 도달할 때까지
+        while (j < N) // 두 번째 배열이 끝까지 도달할 때까지
         {
             merge[k++] = second[j++];
         }
 
         //[3] Output
-        for (int index = 0; index < merge.Length; index++)
+        foreach (var m in merge)
         {
-            Console.Write("{0}\t", merge[index]);
+            Console.Write($"{m}\t");
+
         }
         Console.WriteLine();
     }
@@ -47,6 +48,6 @@ class MergeAlgorithm
 
 //int[] first = { 1, 3, 5 };
 //int[] second = { 2, 4 };
-//var result = (from f in first select f).Union(from s in second select s).OrderBy(x => x).ToArray();
-//result
+//var merge = (from f in first select f).Union(from s in second select s).OrderBy(x => x).ToArray();
+//merge
 //int[5] { 1, 2, 3, 4, 5 }
