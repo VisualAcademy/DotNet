@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Collections;
-namespace LINQ {
+namespace LINQ
+{
     public class ProductInfo {
         public string Name { get; set; }
         public int Quantity { get; set; }
