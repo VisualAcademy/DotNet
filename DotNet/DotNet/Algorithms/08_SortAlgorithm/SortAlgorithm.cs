@@ -27,7 +27,7 @@ class SortAlgorithm
         //[3] Output: Console, Desktop, Web, Mobile, ...
         for (int i = 0; i < N; i++)
         {
-            Console.Write($"{data[i]} ");
+            Console.Write($"{data[i]}\t");
         }
         Console.WriteLine();
     }
