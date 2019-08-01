@@ -1,4 +1,4 @@
-﻿//[?] 주어진(지정한 범위) 데이터의 순위를 구하는 로직
+﻿//[?] 주어진(지정한 범위) 데이터의 순위(등수)를 구하는 로직
 using System;
 using System.Linq;
 
@@ -10,10 +10,10 @@ class RankAlgorithm
     static void Main()
     {
         //[1] Input
-        int[] scores = { 90, 87, 100, 95, 80 };
+        int[] scores = { 90, 87, 100, 95, 80 }; // 등수: 3, 4, 1, 2, 5
         int[] rankings = Enumerable.Repeat(1, 5).ToArray(); // 모두 1로 초기화
 
-        //[2] Process
+        //[2] Process: RANK
         for (int i = 0; i < scores.Length; i++)
         {
             rankings[i] = 1; // 1등으로 초기화, 순위 배열을 매 회전마다 1등으로 초기화
@@ -29,7 +29,7 @@ class RankAlgorithm
         //[3] Output
         for (int i = 0; i < scores.Length; i++)
         {
-            Console.WriteLine("{0,3}점: {1}등", scores[i], rankings[i]);
+            Console.WriteLine($"{scores[i],3}점: {rankings[i]}등");
         }
     }
 }
@@ -42,3 +42,4 @@ class RankAlgorithm
 
 //var rankings = scores.Select(s => new { Score = s, Rank = scores.Where(ss => ss > s).Count() + 1 });
 //rankings
+//Enumerable.WhereSelectArrayIterator<int, <>f__AnonymousType0#5<int, int>> { \{ Score = 90, Rank = 3 }, \{ Score = 87, Rank = 4 }, \{ Score = 100, Rank = 1 }, \{ Score = 95, Rank = 2 }, \{ Score = 80, Rank = 5 } }
