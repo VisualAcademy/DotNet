@@ -38,7 +38,7 @@ class SearchAlgorithm
         //[3] Output    
         if (flag)
         {
-            Console.WriteLine($"{search}를 {index}위치에서 찾았습니다.");
+            Console.WriteLine($"{search}을(를) {index}위치에서 찾았습니다.");
         }
         else
         {

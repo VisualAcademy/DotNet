@@ -46,8 +46,13 @@ class MergeAlgorithm
     }
 }
 
-//int[] first = { 1, 3, 5 };
-//int[] second = { 2, 4 };
-//var merge = (from f in first select f).Union(from s in second select s).OrderBy(x => x).ToArray();
+//int[] data1 = { 3, 5, 4 };
+//int[] data2 = { 2, 1 };
+//int[] result =
+//    (from o in data1 select o).Union(from t in data2 select t)
+//    .OrderBy(x => x).ToArray();
+//result
+//int[5] { 1, 2, 3, 4, 5 }
+//int[] merge = data1.Union(data2).OrderBy(x => x).ToArray();
 //merge
 //int[5] { 1, 2, 3, 4, 5 }
