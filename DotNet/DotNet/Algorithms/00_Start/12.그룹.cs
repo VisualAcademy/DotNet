@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections;
 namespace 알고리즘
 {
     public class ProductInfo
