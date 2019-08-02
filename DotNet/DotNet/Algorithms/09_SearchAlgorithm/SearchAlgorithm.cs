@@ -25,13 +25,13 @@ class SearchAlgorithm
             {
                 flag = true; index = mid; break; // 찾으면 플래그, 인덱스 저장 후 종료
             }
-            if (data[mid] < search)
+            if (data[mid] > search)
             {
-                low = mid + 1; // 찾을 데이터가 크면 오른쪽 영역으로 이동
+                high = mid - 1; // 찾을 데이터가 작으면 왼쪽 영역으로 이동 
             }
             else
             {
-                high = mid - 1; // 찾을 데이터가 작으면 왼쪽 영역으로 이동 
+                low = mid + 1; // 찾을 데이터가 크면 오른쪽 영역으로 이동
             }
         }
 
