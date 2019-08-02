@@ -1,4 +1,5 @@
-﻿using System;
+﻿// 중복제거
+using System;
 
 class ModeAlgorithm
 {

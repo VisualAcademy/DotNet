@@ -33,11 +33,11 @@ class SortAlgorithm
     }
 }
 
-//int[5] { 3, 2, 1, 5, 4 }
+//int[] data = { 3, 2, 1, 5, 4 };
 //Array.Sort(data);
 //data
 //int[5] { 1, 2, 3, 4, 5 }
-
+//int[] data = { 3, 2, 1, 5, 4 };
 //var sort = data.OrderBy(n => n).ToArray();
 //sort
 //int[5] { 1, 2, 3, 4, 5 }

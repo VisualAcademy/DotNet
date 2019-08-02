@@ -34,12 +34,18 @@ class RankAlgorithm
     }
 }
 
-//int[] scores = { 90, 87, 100, 95, 80 };
-
-//var rankings = scores.Select(s => scores.Where(ss => ss > s).Count() + 1).ToArray();
-//rankings
+//> int[] scores = { 90, 87, 100, 95, 80 };
+//> var rankings = scores.Select(s => scores.Where(ss => ss > s).Count() + 1).ToArray();
+//> rankings
 //int[5] { 3, 4, 1, 2, 5 }
-
-//var rankings = scores.Select(s => new { Score = s, Rank = scores.Where(ss => ss > s).Count() + 1 });
-//rankings
-//Enumerable.WhereSelectArrayIterator<int, <>f__AnonymousType0#5<int, int>> { \{ Score = 90, Rank = 3 }, \{ Score = 87, Rank = 4 }, \{ Score = 100, Rank = 1 }, \{ Score = 95, Rank = 2 }, \{ Score = 80, Rank = 5 } }
+//> var rankings = scores.Select(s =>
+//.   new { Score = s, Rank = scores.Where(ss => ss > s).Count() + 1 });
+//> foreach (var r in rankings)
+//. {
+//.     Console.WriteLine($"{r.Score,3} - {r.Rank}");
+//. }
+// 90 - 3
+// 87 - 4
+//100 - 1
+// 95 - 2
+// 80 – 5
