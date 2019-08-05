@@ -1,4 +1,4 @@
-﻿//[?] 2개의 정수 배열 합치기, 단 2개의 배열은 오름차순으로 정렬되어 있다고 가정
+﻿//[?] 2개의 정수 배열 합치기: 단, 2개의 배열은 오름차순으로 정렬되어 있다고 가정 
 using System;
 
 /// <summary>
@@ -15,10 +15,10 @@ class MergeAlgorithm
         int[] merge = new int[M + N]; // 병합된 배열
         int i = 0; int j = 0; int k = 0; // i, j, k 관행
 
-        //[2] Process
+        //[2] Process: MERGE
         while (i < M && j < N) // 둘 중 하나라도 배열의 끝에 도달할 때까지
         {
-            if (first[i] <= second[j])
+            if (first[i] <= second[j]) // 작은 값을 merge 배열에 저장
             {
                 merge[k++] = first[i++];
             }
