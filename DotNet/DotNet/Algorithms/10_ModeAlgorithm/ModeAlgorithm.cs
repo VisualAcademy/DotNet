@@ -2,33 +2,33 @@
 using System;
 
 /// <summary>
-/// 최빈값 알고리즘(Mode Algorithm): 인덱스(0점~100점)의 개수(COUNT)의 최대값(MAX)
+/// 최빈값 알고리즘(Mode Algorithm): 점수 인덱스(0~n)의 개수(COUNT)의 최댓값(MAX)
 /// </summary>
 class ModeAlgorithm
 {
     static void Main()
     {
-        //[1] Input : 범위: 0부터 100점까지의 점수만 들어온다고 가정
-        int[] score = { 1, 3, 4, 3, 5 }; // 0~5까지만 들어온다고 가정
+        //[1] Input: 범위는 0부터 n점까지의 점수만 들어온다고 가정
+        int[] scores = { 1, 3, 4, 3, 5 }; // 0~5까지만 들어온다고 가정
+        int[] indexes = new int[5 + 1]; // 0~5까지 점수 인덱스의 개수 저장  
+        int max = int.MinValue; // MAX 알고리즘
         int mode = 0; // 최빈값이 담길 그릇
-        int[] index = new int[5 + 1]; // 0~5까지: 인덱스의 카운터  
-        int max = Int32.MinValue;
 
-        //[2] Process
-        for (int i = 0; i < score.Length; i++)
+        //[2] Process: Data -> Index -> Count -> Max -> Mode
+        for (int i = 0; i < scores.Length; i++)
         {
-            index[score[i]]++; // COUNT
+            indexes[scores[i]]++; // COUNT
         }
-        for (int i = 0; i < index.Length; i++)
+        for (int i = 0; i < indexes.Length; i++)
         {
-            if (index[i] > max)
+            if (indexes[i] > max)
             {
-                max = index[i]; // MAX
+                max = indexes[i]; // MAX
                 mode = i; // MODE
             }
         }
 
         //[3] Output
-        Console.WriteLine("최빈값: {0} - {1}번", mode, max); // 3, 2
+        Console.WriteLine($"최빈값: {mode} -> {max}번 나타남");
     }
 }
