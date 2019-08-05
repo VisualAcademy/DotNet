@@ -190,8 +190,8 @@
     <Compile Include="08_ReadLine\TypeConversion\TypeConversion.cs" />
     <Compile Include="08_ReadLine\VarInput\VarInput.cs" />
     <Compile Include="08_ReadLine\Var\Var.cs" />
-    <Compile Include="100_Debug\DebugDemo.cs" />
-    <Compile Include="100_Debug\디버깅.cs" />
+    <Compile Include="59_Debug\DebugDemo.cs" />
+    <Compile Include="59_Debug\디버깅.cs" />
     <Compile Include="12_BitAndShift\BitAnd\BitAnd.cs" />
     <Compile Include="12_BitAndShift\BitExam\BitExam.cs" />
     <Compile Include="12_BitAndShift\BitNot\BitNot.cs" />
@@ -363,7 +363,7 @@
     <Compile Include="51_ExtensionMethod\RelatedArticleOptionDemo.cs" />
     <Compile Include="56_PlaceHolder\PlaceHolderEtc.cs" />
     <Compile Include="53_IO\TextToCollection\TextToCollection.cs" />
-    <Compile Include="59_Tips\IntelliSenseDemo\IntelliSenseDemo.cs" />
+    <Compile Include="60_Tips\IntelliSenseDemo\IntelliSenseDemo.cs" />
     <Compile Include="32_Algorithms\00_Start\01.합계.cs" />
     <Compile Include="32_Algorithms\00_Start\02.카운트.cs" />
     <Compile Include="32_Algorithms\00_Start\03.평균.cs" />
@@ -662,7 +662,7 @@
     <Compile Include="41_Delegate\LambdaExpressionMultiLine\LambdaExpressionMultiLine.cs" />
     <Compile Include="41_Delegate\LambdaExpressionTypeDeclare\LambdaExpressionTypeDeclare.cs" />
     <Compile Include="41_Delegate\LambdaExpressionWithFunc\LambdaExpressionWithFunc.cs" />
-    <Compile Include="59_Tips\LicenseResult\LicenseResult.cs" />
+    <Compile Include="60_Tips\LicenseResult\LicenseResult.cs" />
     <Compile Include="50_GenericMake\ListDictionaryDemo\ListDictionaryDemo.cs" />
     <Compile Include="KeyboardInput.cs" />
     <Compile Include="LinqDemo.cs" />
@@ -745,7 +745,7 @@
     <Compile Include="SendMailTest.cs" />
     <Compile Include="62_\SignBaseSignRepository\SignBaseSignRepository.cs" />
     <Compile Include="26_Class\_\SquareClass.cs" />
-    <Compile Include="59_Tips\StringConverterDemo\StringConverterDemo.cs" />
+    <Compile Include="60_Tips\StringConverterDemo\StringConverterDemo.cs" />
     <Compile Include="SingleResponsibilityPrinciple.cs" />
     <Compile Include="SyncDemo.cs" />
     <Compile Include="08_ReadLine\TypeAssertion\TypeAssertion.cs" />
@@ -955,7 +955,7 @@
     <Compile Include="암시적으로형식화된로컬변수.cs" />
     <Compile Include="25_Enum\_\열거형.cs" />
     <Compile Include="이스케이프시퀀스.cs" />
-    <Compile Include="59_Tips\IntelliSenseDemo\_\인텔리센스.cs" />
+    <Compile Include="60_Tips\IntelliSenseDemo\_\인텔리센스.cs" />
     <Compile Include="자료구조_리스트.cs" />
     <Compile Include="자료구조_제네릭리스트.cs" />
     <Compile Include="56_PlaceHolder\_\자리표시자.cs" />
@@ -1007,6 +1007,8 @@
     <Folder Include="22_Interactive\" />
     <Folder Include="55_InMemory\" />
     <Folder Include="57_Functional\" />
+    <Folder Include="58_PlaceHolder\" />
+    <Folder Include="61_Email\" />
     <Folder Include="_Collections\" />
   </ItemGroup>
   <ItemGroup>
