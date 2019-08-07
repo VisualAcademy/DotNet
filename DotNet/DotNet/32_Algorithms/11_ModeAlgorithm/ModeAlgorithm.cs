@@ -1,5 +1,6 @@
 ﻿//[?] 주어진 데이터에서 가장 많이 나타난(중복된) 값
 using System;
+using System.Linq;
 
 /// <summary>
 /// 최빈값 알고리즘(Mode Algorithm): 점수 인덱스(0~n)의 개수(COUNT)의 최댓값(MAX)
@@ -29,7 +30,11 @@ class ModeAlgorithm
         }
 
         //[3] Output
-        Console.WriteLine($"최빈값: {mode} -> {max}번 나타남");
+        Console.WriteLine($"최빈값(문): {mode} -> {max}번 나타남");
+        var q = scores.GroupBy(v => v).OrderByDescending(g => g.Count()).First();
+        int modeCount = q.Count();
+        int frequency = q.Key; 
+        Console.WriteLine($"최빈값(식): {frequency} -> {modeCount}번 나타남");        
     }
 }
 
