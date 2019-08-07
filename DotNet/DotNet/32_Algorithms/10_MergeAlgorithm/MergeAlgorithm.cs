@@ -12,13 +12,13 @@ class MergeAlgorithm
         int[] first = { 1, 3, 5 }; // 오름차순 정렬됨
         int[] second = { 2, 4 }; // 오름차순 정렬됨
         int M = first.Length; int N = second.Length; // M:N 관행
-        int[] merge = new int[M + N]; // 병합된 배열
+        int[] merge = new int[M + N]; // 병합된 배열을 담을 그릇
         int i = 0; int j = 0; int k = 0; // i, j, k 관행
 
         //[2] Process: MERGE
         while (i < M && j < N) // 둘 중 하나라도 배열의 끝에 도달할 때까지
         {
-            if (first[i] <= second[j]) // 작은 값을 merge 배열에 저장
+            if (first[i] <= second[j]) // 더 작은 값을 merge 배열에 저장
             {
                 merge[k++] = first[i++];
             }
@@ -46,13 +46,11 @@ class MergeAlgorithm
     }
 }
 
-//int[] data1 = { 3, 5, 4 };
-//int[] data2 = { 2, 1 };
-//int[] result =
-//    (from o in data1 select o).Union(from t in data2 select t)
-//    .OrderBy(x => x).ToArray();
-//result
+//int[] first = { 1, 3, 5 };
+//int[] second = { 2, 4 };
+//int[] merge = (from o in first select o).Union(from t in second select t).OrderBy(m => m).ToArray();
+//merge
 //int[5] { 1, 2, 3, 4, 5 }
-//int[] merge = data1.Union(data2).OrderBy(x => x).ToArray();
+//int[] merge = first.Union(second).OrderBy(m => m).ToArray();
 //merge
 //int[5] { 1, 2, 3, 4, 5 }
