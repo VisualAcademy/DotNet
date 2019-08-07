@@ -32,3 +32,5 @@ class ModeAlgorithm
         Console.WriteLine($"최빈값: {mode} -> {max}번 나타남");
     }
 }
+
+//scores.ToList().GroupBy(v => v).OrderByDescending(g => g.Count()).First().Key
