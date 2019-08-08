@@ -32,8 +32,8 @@ class ModeAlgorithm
         //[3] Output
         Console.WriteLine($"최빈값(문): {mode} -> {max}번 나타남");
         var q = scores.GroupBy(v => v).OrderByDescending(g => g.Count()).First();
-        int modeCount = q.Count();
-        int frequency = q.Key; 
+        int modeCount = q.Count(); // 2
+        int frequency = q.Key; // 3
         Console.WriteLine($"최빈값(식): {frequency} -> {modeCount}번 나타남");        
     }
 }
