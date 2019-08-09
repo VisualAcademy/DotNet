@@ -1,7 +1,11 @@
-﻿using System;
+﻿//[?] 컬렉션 형태의 데이터를 특정 키 값으로 그룹화
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
+/// <summary>
+/// 그룹 알고리즘(Group Algorithm): 특정 키 값에 해당하는 그룹화된 합계 리스트 만들기
+/// </summary>
 class GroupAlgorithm
 {
     /// <summary>
@@ -69,6 +73,7 @@ class GroupAlgorithm
             if ((i + 1) == N || // 단락(short circuiting)이면 아래 조건 무시 
                 (records[i].Name != records[i + 1].Name))
             {
+                //[!] 다음 레코드가 없거나, 현재 레코드와 다음 레코드가 다르면 저장
                 groups.Add(new Record
                 {
                     Name = records[i].Name, // 한 그룹의 키(Key) 지정
