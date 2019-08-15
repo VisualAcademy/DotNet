@@ -19,7 +19,7 @@ class NearAlgorithm
         //[2] Input: 2진수와 16진수로 표현({ 10, 20, 30, 27, 17 }) 
         int[] numbers = { 0b1010, 0x14, 0b11110, 0x1B, 0b10001 }; 
         int target = 25; // target과 가까운 값
-        int near = default; // 가까운 값 : 27
+        int near = default; // 가까운 값: 27
 
         //[3] Process: NEAR
         for (int i = 0; i < numbers.Length; i++)
@@ -35,8 +35,8 @@ class NearAlgorithm
         //[4] Output
         var minimum = numbers.Min(m => Math.Abs(m - target));
         var closest = numbers.First(c => Math.Abs(target - c) == minimum);
-        WriteLine($"{target}와 가장 가까운 값(식): {closest}(차이: {minimum})");
-        WriteLine($"{target}와 가장 가까운 값(문): {near}(차이: {min})");
+        WriteLine($"{target}와/과 가장 가까운 값(식): {closest}(차이: {minimum})");
+        WriteLine($"{target}와/과 가장 가까운 값(문): {near}(차이: {min})");
     }
 }
 
