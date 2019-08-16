@@ -940,7 +940,7 @@
     <Compile Include="32_Algorithms\13_Etc\알고리즘_천단위콤마.cs" />
     <Compile Include="32_Algorithms\13_Etc\알고리즘_최대최소합계평균.cs" />
     <Compile Include="32_Algorithms\04_MaxAlgorithm\_\알고리즘_최댓값.cs" />
-    <Compile Include="32_Algorithms\13_Etc\알고리즘_최댓값과최솟값제외한평균값.cs" />
+    <Compile Include="32_Algorithms\05_MinAlgorithm\_\알고리즘_최댓값과최솟값제외한평균값.cs" />
     <Compile Include="32_Algorithms\11_ModeAlgorithm\_\알고리즘_최빈값.cs" />
     <Compile Include="32_Algorithms\05_MinAlgorithm\_\알고리즘_최솟값.cs" />
     <Compile Include="32_Algorithms\02_CountAlgorithm\_\알고리즘_카운트.cs" />
