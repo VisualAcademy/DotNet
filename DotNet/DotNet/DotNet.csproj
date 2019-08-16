@@ -623,6 +623,7 @@
     <Compile Include="63_PatternMatching\PatternMatchingWithSwitch.cs" />
     <Compile Include="AbsoluteValue.cs" />
     <Compile Include="AdditionOperator.cs" />
+    <Compile Include="가위바위보_CS.cs" />
     <Compile Include="알고리즘\Algorithm_Count_Money.cs" />
     <Compile Include="32_Algorithms\10_MergeAlgorithm\_\Algorithm_Merge.cs" />
     <Compile Include="알고리즘\Algorithm_PerfectNumber.cs" />
@@ -929,8 +930,8 @@
     <Compile Include="알고리즘\알고리즘_배열패턴찾기.cs" />
     <Compile Include="알고리즘\알고리즘_보수.cs" />
     <Compile Include="32_Algorithms\08_SortAlgorithm\_\알고리즘_선택정렬.cs" />
-    <Compile Include="알고리즘\알고리즘_소수.cs" />
-    <Compile Include="알고리즘\알고리즘_소수_개수.cs" />
+    <Compile Include="32_Algorithms\02_CountAlgorithm\_\알고리즘_소수.cs" />
+    <Compile Include="32_Algorithms\02_CountAlgorithm\_\알고리즘_소수_개수.cs" />
     <Compile Include="알고리즘\알고리즘_수열_부호변경.cs" />
     <Compile Include="알고리즘\알고리즘_수열_팩토리얼.cs" />
     <Compile Include="32_Algorithms\07_RankAlgorithm\_\알고리즘_순위.cs" />
