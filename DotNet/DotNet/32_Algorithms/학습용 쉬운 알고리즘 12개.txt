@@ -1,4 +1,4 @@
-﻿학습용 쉬운 알고리즘 12개
+﻿학습용 쉬운 알고리즘 12개: 
 
 - 합계 알고리즘: SumAlgorithm, 수열, ..., 
 - 개수 알고리즘: CountAlgorithm.cs, CountAlgorithm.java, CountAlgorithm.js, ...
@@ -13,13 +13,17 @@
 - 최빈값 알고리즘: ModeAlgorithm
 - 그룹 알고리즘: GroupAlgorithm
 
-개발 도구
+개발 도구:
 
 - 최신의 Visual Studio
 - 최신의 Visual Studio Code
 
-기타 알고리즘 강좌
+기타 알고리즘 강좌:
 
 - 참고
 - 구강좌
 - 복습
+
+강의 소스:
+
+- https://github.com/VisualAcademy
