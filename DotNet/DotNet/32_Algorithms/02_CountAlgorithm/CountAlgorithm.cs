@@ -16,7 +16,7 @@ class CountAlgorithm
         //[2] Process: 개수 알고리즘 영역: 주어진 범위에 주어진 조건(필터링)
         for (int i = 0; i < numbers.Length; i++)
         {
-            if (numbers[i] % 13 == 0)
+            if (numbers[i] % 13 == 0) // 13의 배수면 개수 증가
             {
                 //count = count + 1;
                 //count += 1;

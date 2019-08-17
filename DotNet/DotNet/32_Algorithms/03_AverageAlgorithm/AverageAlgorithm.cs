@@ -14,9 +14,9 @@ class AverageAlgorithm
         int count = 0; // 개수 담는 그릇
 
         //[2] 처리: AVG = SUM / COUNT
-        for (int i = 0; i < data.Length; i++)
+        for (int i = 0; i < data.Length; i++) // 주어진 범위
         {
-            if (data[i] >= 80 && data[i] <= 95)
+            if (data[i] >= 80 && data[i] <= 95) // 주어진 조건
             {
                 sum += data[i]; // SUM
                 count++; // COUNT
