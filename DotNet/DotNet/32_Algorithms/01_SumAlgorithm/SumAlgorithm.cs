@@ -1,4 +1,4 @@
-﻿//[?] n명의 국어 점수 중에서 80점 이상인 점수의 합계
+﻿//[?] n명의 점수 중에서 80점 이상인 점수의 합계
 using System;
 
 /// <summary>
@@ -8,7 +8,7 @@ class SumAlgorithm
 {
     static void Main()
     {
-        //[1] Input: n명의 국어 점수
+        //[1] Input: n명의 점수
         int[] scores = { 100, 75, 50, 37, 90, 95 };
         int sum = 0;
 

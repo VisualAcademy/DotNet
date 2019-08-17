@@ -18,7 +18,7 @@ class MaxAlgorithm
         //[3] Process: MAX
         for (int i = 0; i < numbers.Length; i++)
         {
-            if (numbers[i] > max)
+            if (numbers[i] > max) // 더 큰 데이터가 있다면
             {
                 max = numbers[i]; // MAX: 더 큰 값으로 할당 
             }
@@ -26,7 +26,7 @@ class MaxAlgorithm
 
         //[4] Output
         Console.WriteLine($"최댓값(식): {numbers.Max()}");
-        Console.WriteLine($"최댓값(문): {max}");
+        Console.WriteLine($"최댓값(문): {max}"); // -1 
     }
 }
 
