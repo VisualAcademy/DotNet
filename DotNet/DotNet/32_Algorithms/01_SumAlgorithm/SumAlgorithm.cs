@@ -13,9 +13,9 @@ class SumAlgorithm
         int sum = 0;
 
         //[2] Process: 합계 알고리즘 영역: 주어진 범위에 주어진 조건(필터링)
-        for (int i = 0; i < scores.Length; i++)
+        for (int i = 0; i < scores.Length; i++) // 주어진 범위
         {
-            if (scores[i] >= 80)
+            if (scores[i] >= 80) // 주어진 조건
             {
                 sum += scores[i]; // SUM
             }

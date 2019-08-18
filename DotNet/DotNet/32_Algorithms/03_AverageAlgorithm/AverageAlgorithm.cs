@@ -23,10 +23,14 @@ class AverageAlgorithm
             }
         }
 
-        double avg = sum / (double)count; // AVERAGE
+        double avg = 0.0f;
+        if (sum != 0 && count != 0) // 예외 처리
+        {
+            avg = sum / (double)count; // AVERAGE
+        }
 
         //[3] 출력
-        Console.WriteLine($"80점 이상 95점 이하인 자료의 평균: {avg}"); // 92.5
+        Console.WriteLine($"80점 이상 95점 이하인 자료의 평균: {avg:0.00}"); // 92.5
     }
 }
 
