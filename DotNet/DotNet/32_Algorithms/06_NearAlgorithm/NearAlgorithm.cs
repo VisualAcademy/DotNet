@@ -4,7 +4,7 @@ using System.Linq;
 using static System.Console;
 
 /// <summary>
-/// 근삿값 알고리즘(Near Algorithm): 차잇값의 절댓값의 최솟값
+/// 근삿값 알고리즘(Near Algorithm): 가까운 값 -> 차잇값의 절댓값의 최솟값
 /// </summary>
 class NearAlgorithm
 {
