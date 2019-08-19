@@ -1001,6 +1001,7 @@
     <Compile Include="33_Class\_\환경변수.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="32_Algorithms\알고리즘강의소개.pdf" />
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
