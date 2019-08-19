@@ -391,9 +391,9 @@
     <Compile Include="32_Algorithms\10_MergeAlgorithm\_\LINQ_병합알고리즘.cs" />
     <Compile Include="32_Algorithms\12_GroupAlgorithm\GroupAlgorithm.cs" />
     <Compile Include="32_Algorithms\12_GroupAlgorithm\_\LINQ_그룹알고리즘.cs" />
-    <Compile Include="32_Algorithms\01_SumAlgorithm\_\간단수열.cs" />
-    <Compile Include="32_Algorithms\01_SumAlgorithm\_\수열문제.cs" />
-    <Compile Include="32_Algorithms\01_SumAlgorithm\_\수열퀴즈.cs" />
+    <Compile Include="32_Algorithms\01_SumAlgorithm\_\01_06_간단수열.cs" />
+    <Compile Include="32_Algorithms\01_SumAlgorithm\_\01_07_수열문제.cs" />
+    <Compile Include="32_Algorithms\01_SumAlgorithm\_\01_07_수열퀴즈.cs" />
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="20_Array\ArrayMultiPractice\ArrayMultiPractice.cs" />
     <Compile Include="20_Array\ArrayOne\ArrayOne1.cs" />
@@ -918,8 +918,8 @@
     <Compile Include="32_Algorithms\08_SortAlgorithm\_\선택정렬복습.cs" />
     <Compile Include="32_Algorithms\06_NearAlgorithm\_\알고리즘_가까운값.cs" />
     <Compile Include="32_Algorithms\06_NearAlgorithm\_\알고리즘_가까운값2.cs" />
-    <Compile Include="32_Algorithms\03_AverageAlgorithm\_\반올림함수만들기\반올림.cs" />
-    <Compile Include="32_Algorithms\03_AverageAlgorithm\_\반올림함수만들기\수학관련함수.cs" />
+    <Compile Include="32_Algorithms\03_AverageAlgorithm\_\03_06_반올림함수만들기\반올림.cs" />
+    <Compile Include="32_Algorithms\03_AverageAlgorithm\_\03_06_반올림함수만들기\수학관련함수.cs" />
     <Compile Include="32_Algorithms\13_Etc\알고리즘_구구단_기본출력.cs" />
     <Compile Include="32_Algorithms\01_SumAlgorithm\_\01_03_알고리즘_등차수열_홀수의합.cs" />
     <Compile Include="32_Algorithms\13_Etc\알고리즘_배열채우기_23456.cs" />
@@ -1024,10 +1024,10 @@
     <Content Include="32_Algorithms\13_Etc\구구단.cs.txt" />
     <Content Include="20_Array\_\배열의배열.cs.txt" />
     <Content Include="32_Algorithms\13_Etc\병합.cs.txt" />
-    <Content Include="32_Algorithms\13_Etc\분수합계.cs.txt" />
+    <Compile Include="32_Algorithms\01_SumAlgorithm\_\01_05_분수합계.cs" />
     <Content Include="20_Array\_\삼차원배열.cs.txt" />
     <Content Include="32_Algorithms\13_Etc\선택정렬.cs.txt" />
-    <Content Include="32_Algorithms\13_Etc\수열합계.cs.txt" />
+    <Compile Include="32_Algorithms\01_SumAlgorithm\_\01_05_수열합계.cs" />
     <Content Include="32_Algorithms\13_Etc\순위.cs.txt" />
     <Content Include="32_Algorithms\13_Etc\순차검색.cs.txt" />
     <Content Include="32_Algorithms\13_Etc\이분탐색.cs.txt" />
@@ -1038,10 +1038,10 @@
     <Content Include="32_Algorithms\13_Etc\최빈값.cs.txt" />
     <Content Include="32_Algorithms\13_Etc\최소값.cs.txt" />
     <Content Include="32_Algorithms\13_Etc\최소값알고리즘.cs.txt" />
-    <Content Include="32_Algorithms\13_Etc\카운트알고리즘.cs.txt" />
-    <Content Include="32_Algorithms\13_Etc\평균알고리즘.cs.txt" />
+    <Compile Include="32_Algorithms\03_AverageAlgorithm\_\03_04_카운트알고리즘.cs" />
+    <Compile Include="32_Algorithms\03_AverageAlgorithm\_\03_04_평균알고리즘.cs" />
     <Content Include="32_Algorithms\13_Etc\피보나치수열.cs.txt" />
-    <Content Include="32_Algorithms\13_Etc\합계알고리즘.cs.txt" />
+    <Compile Include="32_Algorithms\03_AverageAlgorithm\_\03_04_합계알고리즘.cs" />
     <Content Include="32_Algorithms\13_Etc\합계알고리즘적용.cs.txt" />
     <Content Include="32_Algorithms\13_Etc\합계카운트평균.cs.txt" />
   </ItemGroup>
