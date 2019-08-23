@@ -1,4 +1,4 @@
-﻿//[?] 무작위 데이터를 순서대로 [오름차순|내림차순] 정렬
+﻿//[?] 무작위 데이터를 순서대로 [오름차순(ASC)|내림차순(DESC)] 정렬
 using System;
 
 /// <summary>
@@ -24,7 +24,7 @@ class SortAlgorithm
             }
         }
 
-        //[3] Output: Console, Desktop, Web, Mobile, ...
+        //[3] Output: UI(Console, Desktop, Web, Mobile, ...)
         for (int i = 0; i < N; i++)
         {
             Console.Write($"{data[i]}\t");
