@@ -21,7 +21,7 @@ class RankAlgorithm
             {                
                 if (scores[i] < scores[j]) // 현재(i)와 나머지들(j) 비교
                 {
-                    rankings[i]++; // RANK: 나 보다 큰 점수가 나오면 순위 1증가
+                    rankings[i]++; // RANK: 나보다 큰 점수가 나오면 순위 1증가
                 }
             }
         }
