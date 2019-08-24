@@ -69,7 +69,7 @@ class GroupAlgorithm
         int subtotal = 0; // 소계
         for (int i = 0; i < N; i++)
         {
-            subtotal += records[i].Quantity; // 같은 상품명의 판매량을 누적(SUM)
+            subtotal += records[i].Quantity; // 같은 상품명의 수량을 누적(SUM)
             if ((i + 1) == N || // 단락(short circuiting)이면 아래 조건 무시 
                 (records[i].Name != records[i + 1].Name))
             {
