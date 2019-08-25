@@ -40,7 +40,6 @@ class MergeAlgorithm
         foreach (var m in merge)
         {
             Console.Write($"{m}\t");
-
         }
         Console.WriteLine();
     }
