@@ -21,7 +21,7 @@ class SearchAlgorithm
         while (low <= high)
         {
             int mid = (low + high) / 2; // 중간 인덱스 구하기
-            if (data[mid] == search)
+            if (data[mid] == search) // 중간 인덱스에서 찾기
             {
                 flag = true; index = mid; break; // 찾으면 플래그, 인덱스 저장 후 종료
             }
