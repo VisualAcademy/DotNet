@@ -24,8 +24,8 @@ class ModeAlgorithm
         {
             if (indexes[i] > max)
             {
-                max = indexes[i]; // MAX
-                mode = i; // MODE
+                max = indexes[i]; // MAX -> 2
+                mode = i; // MODE -> 3
             }
         }
 
