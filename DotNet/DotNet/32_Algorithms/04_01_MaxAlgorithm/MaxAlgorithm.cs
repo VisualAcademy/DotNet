@@ -13,7 +13,7 @@ class MaxAlgorithm
         int max = int.MinValue; // 정수 형식의 데이터 중 가장 작은 값으로 초기화
 
         //[2] Input
-        int[] numbers = { -2, -5, -3, -7, -1 };
+        int[] numbers = { -2, -5, -3, -7, -1 }; // MAX: -1
 
         //[3] Process: MAX
         for (int i = 0; i < numbers.Length; i++)
