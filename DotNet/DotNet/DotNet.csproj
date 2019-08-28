@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SumAlgorithm</StartupObject>
+    <StartupObject>BubbleSortAlgorithm</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -190,6 +190,7 @@
     <Compile Include="08_ReadLine\TypeConversion\TypeConversion.cs" />
     <Compile Include="08_ReadLine\VarInput\VarInput.cs" />
     <Compile Include="08_ReadLine\Var\Var.cs" />
+    <Compile Include="32_Algorithms\08_01_SortAlgorithm\BubbleSortAlgorithm.cs" />
     <Compile Include="59_Debug\DebugDemo.cs" />
     <Compile Include="59_Debug\디버깅.cs" />
     <Compile Include="12_BitAndShift\BitAnd\BitAnd.cs" />
