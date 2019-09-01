@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>BubbleSortAlgorithm</StartupObject>
+    <StartupObject>RadixTransformation</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -256,21 +256,21 @@
     <Compile Include="17_For\SeeSharpSum100\SeeSharpSum100.cs" />
     <Compile Include="17_For\TimesTable\TimesTable.cs" />
     <Compile Include="17_For\TimesTables.cs" />
-    <Compile Include="18_While_Do_ForEach\DoWhile\DoWhile.cs" />
-    <Compile Include="18_While_Do_ForEach\DoWhileDemo\DoWhileDemo.cs" />
-    <Compile Include="18_While_Do_ForEach\DoWhileSum\DoWhileSum.cs" />
-    <Compile Include="18_While_Do_ForEach\ForEach\ForEach.cs" />
-    <Compile Include="18_While_Do_ForEach\ForEachDemo\ForEachDemo.cs" />
-    <Compile Include="18_While_Do_ForEach\ForEachUp\ForEachUp.cs" />
-    <Compile Include="18_While_Do_ForEach\WhileDecrement\WhileDecrement.cs" />
-    <Compile Include="18_While_Do_ForEach\WhileDemo\WhileDemo.cs" />
-    <Compile Include="18_While_Do_ForEach\WhileDescription\WhileDescription.cs" />
-    <Compile Include="18_While_Do_ForEach\WhileEven\WhileEven.cs" />
-    <Compile Include="18_While_Do_ForEach\WhileExam\WhileExam.cs" />
-    <Compile Include="18_While_Do_ForEach\WhileFibonacci\WhileFibonacci.cs" />
-    <Compile Include="18_While_Do_ForEach\WhileLoop\WhileLoop.cs" />
-    <Compile Include="18_While_Do_ForEach\WhilePractice\WhilePractice.cs" />
-    <Compile Include="18_While_Do_ForEach\WhileSum\WhileSum.cs" />
+    <Compile Include="18_WhileDoForEach\DoWhile\DoWhile.cs" />
+    <Compile Include="18_WhileDoForEach\DoWhileDemo\DoWhileDemo.cs" />
+    <Compile Include="18_WhileDoForEach\DoWhileSum\DoWhileSum.cs" />
+    <Compile Include="18_WhileDoForEach\ForEach\ForEach.cs" />
+    <Compile Include="18_WhileDoForEach\ForEachDemo\ForEachDemo.cs" />
+    <Compile Include="18_WhileDoForEach\ForEachUp\ForEachUp.cs" />
+    <Compile Include="18_WhileDoForEach\WhileDecrement\WhileDecrement.cs" />
+    <Compile Include="18_WhileDoForEach\WhileDemo\WhileDemo.cs" />
+    <Compile Include="18_WhileDoForEach\WhileDescription\WhileDescription.cs" />
+    <Compile Include="18_WhileDoForEach\WhileEven\WhileEven.cs" />
+    <Compile Include="18_WhileDoForEach\WhileExam\WhileExam.cs" />
+    <Compile Include="18_WhileDoForEach\WhileFibonacci\WhileFibonacci.cs" />
+    <Compile Include="18_WhileDoForEach\WhileLoop\WhileLoop.cs" />
+    <Compile Include="18_WhileDoForEach\WhilePractice\WhilePractice.cs" />
+    <Compile Include="18_WhileDoForEach\WhileSum\WhileSum.cs" />
     <Compile Include="16_Switch\SignalLight\SignalLight.cs" />
     <Compile Include="16_Switch\Switch\Switch.cs" />
     <Compile Include="16_Switch\SwitchExam\SwitchExam.cs" />
@@ -683,10 +683,10 @@
     <Compile Include="50_GenericMake\DictionaryGenericClassDemo\DictionaryGenericClassDemo.cs" />
     <Compile Include="14_If\OutVariable\OutVariable.cs" />
     <Compile Include="OutVariableDemo.cs" />
-    <Compile Include="13_ConditionalOperator\BinaryLiteral\BinaryLiteral.cs" />
+    <Compile Include="12_BitAndShift\BinaryLiteral\BinaryLiteral.cs" />
     <Compile Include="20_Array\BinaryLiteralDemo\BinaryLiteralDemo.cs" />
     <Compile Include="20_Array\BinaryLiteralNote\BinaryLiteralNote.cs" />
-    <Compile Include="BinaryString.cs" />
+    <Compile Include="12_BitAndShift\BinaryString\BinaryString.cs" />
     <Compile Include="CsharpInteractive.cs" />
     <Compile Include="50_GenericMake\DictionaryOfString\DictionaryOfString.cs" />
     <Compile Include="50_GenericMake\DictionaryOfTypeNote\DictionaryOfTypeNote.cs" />
@@ -984,7 +984,7 @@
     <Compile Include="54_Tuple\TupleReturnDescription\TupleReturnDescription.cs" />
     <Compile Include="54_Tuple\TupleReturnName.cs" />
     <Compile Include="주석문.cs" />
-    <Compile Include="진법변환.cs" />
+    <Compile Include="12_BitAndShift\RadixTransformation\RadixTransformation.cs" />
     <Compile Include="클래스복습.cs" />
     <Compile Include="클래스설계연습.cs" />
     <Compile Include="클래스와개체.cs" />
@@ -1007,7 +1007,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="22_Interactive\" />
     <Folder Include="32_Algorithms\13_01_Etc\03_03_ArraySumAverage\" />
     <Folder Include="55_InMemory\" />
     <Folder Include="57_Functional\" />
@@ -1017,6 +1016,7 @@
   <ItemGroup>
     <Content Include="01_DotNet_\DotNet.txt" />
     <Content Include="02_VisualStudio\VisualStudio.txt" />
+    <Content Include="22_Interactive\복습.txt" />
     <Content Include="32_Algorithms\학습용 쉬운 알고리즘 12개.txt" />
     <Content Include="53_IO\TextToCollection\Src.txt" />
     <Content Include="53_IO\_\텍스트데이터를컬렉션데이터로\Src.txt" />
