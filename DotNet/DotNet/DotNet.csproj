@@ -624,7 +624,7 @@
     <Compile Include="63_PatternMatching\PatternMatchingWithSwitch.cs" />
     <Compile Include="AbsoluteValue.cs" />
     <Compile Include="AdditionOperator.cs" />
-    <Compile Include="가위바위보_CS.cs" />
+    <Compile Include="26_Class\_\가위바위보_CS.cs" />
     <Compile Include="32_Algorithms\13_01_Etc\Algorithm_Count_Money.cs" />
     <Compile Include="32_Algorithms\10_01_MergeAlgorithm\_\Algorithm_Merge.cs" />
     <Compile Include="32_Algorithms\02_01_CountAlgorithm\_\02_04_Algorithm_PerfectNumber.cs" />
@@ -909,7 +909,7 @@
     <Compile Include="20_Array\_\일차원배열4.cs" />
     <Compile Include="41_Delegate\_\람다식.cs" />
     <Compile Include="41_Delegate\_\람다식_소개.cs" />
-    <Compile Include="리스트제네릭클래스.cs" />
+    <Compile Include="30_GenericClass\_\리스트제네릭클래스.cs" />
     <Compile Include="변환연산자.cs" />
     <Compile Include="분할클래스.cs" />
     <Compile Include="스레드.cs" />
@@ -958,7 +958,7 @@
     <Compile Include="25_Enum\_\열거형.cs" />
     <Compile Include="이스케이프시퀀스.cs" />
     <Compile Include="65_Tips\IntelliSenseDemo\_\인텔리센스.cs" />
-    <Compile Include="자료구조_리스트.cs" />
+    <Compile Include="29_Collection\_\자료구조_리스트.cs" />
     <Compile Include="자료구조_제네릭리스트.cs" />
     <Compile Include="63_PlaceHolder\_\자리표시자.cs" />
     <Compile Include="전처리기지시문_조건부컴파일기호.cs" />
@@ -983,7 +983,7 @@
     <Compile Include="54_Tuple\TupleNamed\TupleNamed.cs" />
     <Compile Include="54_Tuple\TupleReturnDescription\TupleReturnDescription.cs" />
     <Compile Include="54_Tuple\TupleReturnName.cs" />
-    <Compile Include="주석문.cs" />
+    <Compile Include="04_Syntax\_\주석문.cs" />
     <Compile Include="12_BitAndShift\RadixTransformation\RadixTransformation.cs" />
     <Compile Include="클래스복습.cs" />
     <Compile Include="클래스설계연습.cs" />
@@ -1012,7 +1012,6 @@
     <Folder Include="58_Modern\" />
     <Folder Include="62_TODO\" />
     <Folder Include="66_Email\" />
-    <Folder Include="제어문\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="01_DotNet_\DotNet.txt" />
