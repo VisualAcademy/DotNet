@@ -967,13 +967,13 @@
     <Compile Include="30_GenericClass\GenericPros\GenericPros.cs" />
     <Compile Include="50_Generic\_\제네릭메서드.cs" />
     <Compile Include="50_Generic\_\제네릭클래스.cs" />
-    <Compile Include="제어문\구구단_가로출력.cs" />
-    <Compile Include="제어문\선택문.cs" />
-    <Compile Include="제어문\선행반복.cs" />
-    <Compile Include="제어문\제어문_구간반복.cs" />
-    <Compile Include="제어문\제어문_배수의합.cs" />
-    <Compile Include="제어문\제어문_조건반복.cs" />
-    <Compile Include="제어문\제어문_짝수의합.cs" />
+    <Compile Include="17_For\_\구구단_가로출력.cs" />
+    <Compile Include="16_Switch\선택문.cs" />
+    <Compile Include="18_WhileDoForEach\_\선행반복.cs" />
+    <Compile Include="17_For\_\제어문_구간반복.cs" />
+    <Compile Include="17_For\_\제어문_배수의합.cs" />
+    <Compile Include="18_WhileDoForEach\_\제어문_조건반복.cs" />
+    <Compile Include="17_For\_\제어문_짝수의합.cs" />
     <Compile Include="54_Tuple\TupleClass\TupleClass.cs" />
     <Compile Include="54_Tuple\TupleClassDemo\TupleClassDemo.cs" />
     <Compile Include="54_Tuple\TupleDeconstructionDescription.cs" />
@@ -1012,6 +1012,7 @@
     <Folder Include="58_Modern\" />
     <Folder Include="62_TODO\" />
     <Folder Include="66_Email\" />
+    <Folder Include="제어문\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="01_DotNet_\DotNet.txt" />
