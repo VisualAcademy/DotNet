@@ -3,6 +3,26 @@ using System;
 
 class HigherOrderFunction
 {
+    //[1] 매개 변수가 Action<T>
+    static void FunctionParameterWithAction(Action<string> action, string message)
+    {
+        action(message);
+    }
+
+    //[2] 매개 변수가 Func<T>
+    static void FunctionParameterWithFunc(Func<int, int> func, int number)
+    {
+        int result = func(number);
+        Console.WriteLine($"{number} * {number} = {result}");
+    }
+
+    //[3] 반환값이 Action<T>
+    static Action<string> FunctionReturnValueWithAction() =>
+        msg => Console.WriteLine($"{msg}");
+
+    //[4] 반환값이 Func<T>
+    static Func<int, int> FunctionReturnValueWithFunc() => x => x * x;
+
     static void Main()
     {
         //[A] Action<T> 매개 변수 전달: 문자열을 받아 출력하는 함수 정의
@@ -21,24 +41,4 @@ class HigherOrderFunction
         int result = FunctionReturnValueWithFunc()(number);
         Console.WriteLine($"{number} * {number} = {result}"); // 9 
     }
-
-    //[1] 매개 변수가 Action<T>
-    static void FunctionParameterWithAction(Action<string> action, string message)
-    {
-        action(message);
-    }
-
-    //[2] 매개 변수가 Func<T>
-    static void FunctionParameterWithFunc(Func<int, int> func, int number)
-    {
-        int result = func(number);
-        Console.WriteLine($"{number} * {number} = {result}");
-    }
-
-    //[3] 반환값이 Action<T>
-    static Action<string> FunctionReturnValueWithAction() => 
-        msg => Console.WriteLine($"{msg}");
-
-    //[4] 반환값이 Func<T>
-    static Func<int, int> FunctionReturnValueWithFunc() => x => x * x; 
 }
