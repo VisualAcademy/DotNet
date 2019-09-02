@@ -664,7 +664,7 @@
     <Compile Include="41_Delegate\LambdaExpressionMultiLine\LambdaExpressionMultiLine.cs" />
     <Compile Include="41_Delegate\LambdaExpressionTypeDeclare\LambdaExpressionTypeDeclare.cs" />
     <Compile Include="41_Delegate\LambdaExpressionWithFunc\LambdaExpressionWithFunc.cs" />
-    <Compile Include="65_Tips\LicenseResult\LicenseResult.cs" />
+    <Compile Include="57_Functional\LicenseResult\LicenseResult.cs" />
     <Compile Include="50_Generic\ListDictionaryDemo\ListDictionaryDemo.cs" />
     <Compile Include="KeyboardInput.cs" />
     <Compile Include="LinqDemo.cs" />
@@ -1009,7 +1009,6 @@
   <ItemGroup>
     <Folder Include="32_Algorithms\13_01_Etc\03_03_ArraySumAverage\" />
     <Folder Include="55_InMemory\" />
-    <Folder Include="57_Functional\" />
     <Folder Include="58_Modern\" />
     <Folder Include="62_TODO\" />
     <Folder Include="66_Email\" />
