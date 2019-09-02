@@ -622,7 +622,7 @@
     <Compile Include="63_PatternMatching\PatternMatchingSwitch.cs" />
     <Compile Include="63_PatternMatching\PatternMatchingWithIf.cs" />
     <Compile Include="63_PatternMatching\PatternMatchingWithSwitch.cs" />
-    <Compile Include="AbsoluteValue.cs" />
+    <Compile Include="13_ConditionalOperator\AbsoluteValue\AbsoluteValue.cs" />
     <Compile Include="AdditionOperator.cs" />
     <Compile Include="26_Class\_\가위바위보_CS.cs" />
     <Compile Include="32_Algorithms\13_01_Etc\Algorithm_Count_Money.cs" />
@@ -749,7 +749,7 @@
     <Compile Include="26_Class\_\SquareClass.cs" />
     <Compile Include="65_Tips\StringConverterDemo\StringConverterDemo.cs" />
     <Compile Include="SingleResponsibilityPrinciple.cs" />
-    <Compile Include="SyncDemo.cs" />
+    <Compile Include="64_Async\SyncDemo\SyncDemo.cs" />
     <Compile Include="08_ReadLine\TypeAssertion\TypeAssertion.cs" />
     <Compile Include="UserRegister.cs" />
     <Compile Include="WeatherForecastApp.cs" />
@@ -954,7 +954,7 @@
     <Compile Include="32_Algorithms\01_01_SumAlgorithm\_\알고리즘_합계_기본.cs" />
     <Compile Include="32_Algorithms\13_01_Etc\알고리즘_합계_팩토리얼.cs" />
     <Compile Include="32_Algorithms\13_01_Etc\차이.cs" />
-    <Compile Include="암시적으로형식화된로컬변수.cs" />
+    <Compile Include="08_ReadLine\_\암시적으로형식화된로컬변수.cs" />
     <Compile Include="25_Enum\_\열거형.cs" />
     <Compile Include="04_Syntax\_\이스케이프시퀀스.cs" />
     <Compile Include="65_Tips\IntelliSenseDemo\_\인텔리센스.cs" />
