@@ -497,7 +497,7 @@
     <Compile Include="30_GenericClass\NullCoalescingOperator.cs" />
     <Compile Include="30_GenericClass\NullConditional.cs" />
     <Compile Include="30_GenericClass\QuestionMarkDot.cs" />
-    <Compile Include="30_GenericClass\EnumerableDemo.cs" />
+    <Compile Include="30_GenericClass\EnumerableDemo\EnumerableDemo.cs" />
     <Compile Include="30_GenericClass\ListOfString.cs" />
     <Compile Include="30_GenericClass\NullCoalescingWithCollection.cs" />
     <Compile Include="30_GenericClass\NullConditionalWithCollection.cs" />
@@ -695,7 +695,7 @@
     <Compile Include="31_LINQ\LinqSelect.cs" />
     <Compile Include="56_XmlAndJSON\JsonConvertDemo\JsonConvertDemo.cs" />
     <Compile Include="ListOfTypeSimpleMerge.cs" />
-    <Compile Include="MainMethodAsync.cs" />
+    <Compile Include="64_Async\MainMethodAsync.cs" />
     <Compile Include="34_Namespace\PartialClassDemo\FirstDeveloper.cs" />
     <Compile Include="34_Namespace\PartialClassDemo\PartialClassDemo.cs" />
     <Compile Include="34_Namespace\PartialClassDemo\SecondDeveloper.cs" />
