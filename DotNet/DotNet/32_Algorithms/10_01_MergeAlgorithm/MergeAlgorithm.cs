@@ -20,11 +20,11 @@ class MergeAlgorithm
         {
             if (first[i] <= second[j]) // 더 작은 값을 merge 배열에 저장
             {
-                merge[k++] = first[i++];
+                merge[k++] = first[i++]; // 작은 값 대입 후 각각의 인덱스 증가
             }
             else
             {
-                merge[k++] = second[j++];
+                merge[k++] = second[j++]; // 작은 값 대입 후 각각의 인덱스 증가
             }
         }
         while (i < M) // 첫 번째 배열이 끝까지 도달할 때까지
