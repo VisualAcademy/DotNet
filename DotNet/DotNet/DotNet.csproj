@@ -170,7 +170,7 @@
     <Compile Include="05_Variable\VariablePractice\VariablePractice.cs" />
     <Compile Include="05_Variable\VariableSameValue\VariableSameValue.cs" />
     <Compile Include="05_Variable\Variable\Variable.cs" />
-    <Compile Include="06_Number\IntegerDemo.cs" />
+    <Compile Include="06_Number\IntegerDemo\IntegerDemo.cs" />
     <Compile Include="06_Number\IntegerExam.cs" />
     <Compile Include="06_Number\IntegerOverflow.cs" />
     <Compile Include="06_Number\IntegerPractice.cs" />
@@ -690,7 +690,7 @@
     <Compile Include="22_Interactive\CsharpInteractive.cs" />
     <Compile Include="50_Generic\DictionaryOfString\DictionaryOfString.cs" />
     <Compile Include="50_Generic\DictionaryOfTypeNote\DictionaryOfTypeNote.cs" />
-    <Compile Include="06_Number\DigitSeparator\DigitSeparatorNote.cs" />
+    <Compile Include="06_Number\DigitSeparatorNote\DigitSeparatorNote.cs" />
     <Compile Include="31_LINQ\FromWhereSelect\FromWhereSelect.cs" />
     <Compile Include="31_LINQ\LinqSelect.cs" />
     <Compile Include="56_XmlAndJSON\JsonConvertDemo\JsonConvertDemo.cs" />
