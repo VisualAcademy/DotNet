@@ -870,7 +870,7 @@
     <Compile Include="99_Etc\함수_정의_호출\함수_정의_호출.cs" />
     <Compile Include="99_Etc\형식변환\형식변환.cs" />
     <Compile Include="개체.cs" />
-    <Compile Include="괄호연산자.cs" />
+    <Compile Include="13_ConditionalOperator\_\괄호연산자.cs" />
     <Compile Include="24_Struct\_구조체\구조체.cs" />
     <Compile Include="24_Struct\_구조체\구조체_날짜관련.cs" />
     <Compile Include="24_Struct\_구조체\구조체_날짜및시간관련구조체.cs" />

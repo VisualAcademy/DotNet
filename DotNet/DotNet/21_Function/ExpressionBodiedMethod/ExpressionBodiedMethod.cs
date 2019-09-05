@@ -1,5 +1,8 @@
 ﻿using System;
 
+/// <summary>
+/// 식 본문 메서드(Expression-Bodied Method) 
+/// </summary>
 class ExpressionBodiedMethod
 {
     static void Main()
