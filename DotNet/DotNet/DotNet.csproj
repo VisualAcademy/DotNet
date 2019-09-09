@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>GroupAlgorithm</StartupObject>
+    <StartupObject>ThreadDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -657,6 +657,7 @@
     <Compile Include="38_Method\GreetingPage\GreetingPage.cs" />
     <Compile Include="26_Class\EnvironmentVariable\EnvironmentVariable.cs" />
     <Compile Include="57_Functional\HigherOrderFunction\HigherOrderFunction.cs" />
+    <Compile Include="69_Thread\ThreadDemo\ThreadDemo.cs" />
     <Compile Include="73_Network\HttpWebRequestDemo\HttpWebRequestDemo.cs" />
     <Compile Include="07_BoolCharString\Immutable\Immutable.cs" />
     <Compile Include="41_Delegate\LambdaExpression\LambdaExpression.cs" />
@@ -912,7 +913,7 @@
     <Compile Include="30_GenericClass\_\리스트제네릭클래스.cs" />
     <Compile Include="변환연산자.cs" />
     <Compile Include="분할클래스.cs" />
-    <Compile Include="스레드.cs" />
+    <Compile Include="69_Thread\_\스레드.cs" />
     <Compile Include="스태틱과인스턴스.cs" />
     <Compile Include="03_HelloWorld\_\안녕하세요.cs" />
     <Compile Include="32_Algorithms\06_01_NearAlgorithm\06_02_NearAll\06_02_NearAll.cs" />
