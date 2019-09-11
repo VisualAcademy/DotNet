@@ -54,17 +54,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="03_HelloWorld\CaseSensitive\CaseSensitive.cs" />
-    <Compile Include="03_HelloWorld\_\FileNew.cs" />
-    <Compile Include="03_HelloWorld\HelloWorld\HelloWorld.cs" />
-    <Compile Include="03_HelloWorld\HelloWorldExam\HelloWorldExam.cs" />
-    <Compile Include="03_HelloWorld\HelloWorldPractice\HelloWorldPractice.cs" />
-    <Compile Include="03_HelloWorld\UsingDemo\UsingDemo.cs" />
-    <Compile Include="03_HelloWorld\Whitespace\Whitespace.cs" />
-    <Compile Include="03_HelloWorld\WriteLineDemo\WriteLineDemo.cs" />
-    <Compile Include="03_HelloWorld\_\HelloWorldCSharp.cs" />
-    <Compile Include="03_HelloWorld\_\중괄호위치.cs" />
-    <Compile Include="03_HelloWorld\BraceLocation\BraceLocation.cs" />
+    <Compile Include="03_HelloWorld_\CaseSensitive\CaseSensitive.cs" />
+    <Compile Include="03_HelloWorld_\_\FileNew.cs" />
+    <Compile Include="03_HelloWorld_\HelloWorld\HelloWorld.cs" />
+    <Compile Include="03_HelloWorld_\HelloWorldExam\HelloWorldExam.cs" />
+    <Compile Include="03_HelloWorld_\HelloWorldPractice\HelloWorldPractice.cs" />
+    <Compile Include="03_HelloWorld_\UsingDemo\UsingDemo.cs" />
+    <Compile Include="03_HelloWorld_\Whitespace\Whitespace.cs" />
+    <Compile Include="03_HelloWorld_\WriteLineDemo\WriteLineDemo.cs" />
+    <Compile Include="03_HelloWorld_\_\HelloWorldCSharp.cs" />
+    <Compile Include="03_HelloWorld_\_\중괄호위치.cs" />
+    <Compile Include="03_HelloWorld_\BraceLocation\BraceLocation.cs" />
     <Compile Include="04_Syntax\Comment.cs" />
     <Compile Include="04_Syntax\ConsoleWrite.cs" />
     <Compile Include="04_Syntax\EmptyStatement\EmptyStatement.cs" />
@@ -917,7 +917,7 @@
     <Compile Include="분할클래스.cs" />
     <Compile Include="69_Thread\_\스레드.cs" />
     <Compile Include="스태틱과인스턴스.cs" />
-    <Compile Include="03_HelloWorld\_\안녕하세요.cs" />
+    <Compile Include="03_HelloWorld_\_\안녕하세요.cs" />
     <Compile Include="32_Algorithms\06_01_NearAlgorithm\06_02_NearAll\06_02_NearAll.cs" />
     <Compile Include="32_Algorithms\08_01_SortAlgorithm\_\선택정렬복습.cs" />
     <Compile Include="32_Algorithms\06_01_NearAlgorithm\_\알고리즘_가까운값.cs" />
@@ -992,8 +992,8 @@
     <Compile Include="클래스설계연습.cs" />
     <Compile Include="클래스와개체.cs" />
     <Compile Include="클래스와객체.cs" />
-    <Compile Include="03_HelloWorld\ClassSimple\ClassSimple.cs" />
-    <Compile Include="03_HelloWorld\_\클래스이름.cs" />
+    <Compile Include="03_HelloWorld_\ClassSimple\ClassSimple.cs" />
+    <Compile Include="03_HelloWorld_\_\클래스이름.cs" />
     <Compile Include="클래스와인스턴스.cs" />
     <Compile Include="08_ReadLine\_\키보드입력.cs" />
     <Compile Include="48_Attribute\_\특성.cs" />
