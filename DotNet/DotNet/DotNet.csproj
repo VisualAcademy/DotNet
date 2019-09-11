@@ -59,9 +59,9 @@
     <Compile Include="03_HelloWorld\HelloWorld\HelloWorld.cs" />
     <Compile Include="03_HelloWorld\HelloWorldExam.cs" />
     <Compile Include="03_HelloWorld\HelloWorldPractice.cs" />
-    <Compile Include="03_HelloWorld\UsingDemo.cs" />
+    <Compile Include="03_HelloWorld\UsingDemo\UsingDemo.cs" />
     <Compile Include="03_HelloWorld\Whitespace.cs" />
-    <Compile Include="03_HelloWorld\WriteLineDemo.cs" />
+    <Compile Include="03_HelloWorld\WriteLineDemo\WriteLineDemo.cs" />
     <Compile Include="03_HelloWorld\_\HelloWorldCSharp.cs" />
     <Compile Include="03_HelloWorld\_\중괄호위치.cs" />
     <Compile Include="03_HelloWorld\BraceLocation.cs" />

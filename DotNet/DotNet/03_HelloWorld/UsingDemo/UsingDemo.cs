@@ -1,4 +1,4 @@
-﻿//// <using을 쓰지 않을 때의 코드 1>
+﻿//// <using을 쓰지 않을 때의 코드 />
 //class UsingDemo
 //{
 //    static void Main()
@@ -8,7 +8,7 @@
 //    }
 //}
 
-//<using을 썼을 때의 코드 2>
+//<using을 썼을 때의 코드 />
 using System;
 
 class UsingDemo
