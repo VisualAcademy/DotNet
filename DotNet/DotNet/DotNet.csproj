@@ -139,11 +139,11 @@
     <Compile Include="11_RelationalLogical\UnaryOperator\UnaryOperator.cs" />
     <Compile Include="15_Else_\PositiveNegativeZero\PositiveNegativeZero.cs" />
     <Compile Include="15_Else_\NumDifference\NumDifference.cs" />
-    <Compile Include="07_BoolCharString\CharacterDemo.cs" />
+    <Compile Include="07_BoolCharString\CharacterDemo\CharacterDemo.cs" />
     <Compile Include="07_BoolCharString\CharacterExam\CharacterExam.cs" />
     <Compile Include="07_BoolCharString\CharacterPractice\CharacterPractice.cs" />
     <Compile Include="07_BoolCharString\CharArrayToString\CharArrayToString.cs" />
-    <Compile Include="07_BoolCharString\CharStringBoolean.cs" />
+    <Compile Include="07_BoolCharString\CharStringBoolean\CharStringBoolean.cs" />
     <Compile Include="07_BoolCharString\MultiLineString\MultiLineString.cs" />
     <Compile Include="10_AssignmentIncrement\DecrementNumber\DecrementNumber.cs" />
     <Compile Include="10_AssignmentIncrement\DecrementOperator\DecrementOperator.cs" />
