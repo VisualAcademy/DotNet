@@ -992,7 +992,7 @@
     <Compile Include="클래스설계연습.cs" />
     <Compile Include="클래스와개체.cs" />
     <Compile Include="클래스와객체.cs" />
-    <Compile Include="03_HelloWorld\ClassName.cs" />
+    <Compile Include="03_HelloWorld\ClassSimple\ClassSimple.cs" />
     <Compile Include="03_HelloWorld\_\클래스이름.cs" />
     <Compile Include="클래스와인스턴스.cs" />
     <Compile Include="08_ReadLine\_\키보드입력.cs" />
