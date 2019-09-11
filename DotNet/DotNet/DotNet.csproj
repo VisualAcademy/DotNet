@@ -173,9 +173,9 @@
     <Compile Include="05_Variable_\VariableSameValue\VariableSameValue.cs" />
     <Compile Include="05_Variable_\Variable\Variable.cs" />
     <Compile Include="06_Number\IntegerDemo\IntegerDemo.cs" />
-    <Compile Include="06_Number\IntegerExam.cs" />
-    <Compile Include="06_Number\IntegerOverflow.cs" />
-    <Compile Include="06_Number\IntegerPractice.cs" />
+    <Compile Include="06_Number\IntegerExam\IntegerExam.cs" />
+    <Compile Include="06_Number\IntegerOverflow\IntegerOverflow.cs" />
+    <Compile Include="06_Number\IntegerPractice\IntegerPractice.cs" />
     <Compile Include="06_Number\SignedInteger\SignedInteger.cs" />
     <Compile Include="06_Number\UnsignedInteger\UnsignedInteger.cs" />
     <Compile Include="07_BoolCharString\BooleanDemo\BooleanDemo.cs" />
