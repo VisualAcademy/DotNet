@@ -88,6 +88,8 @@
     <Compile Include="04_Syntax_\TriangleExam\TriangleExam.cs" />
     <Compile Include="04_Syntax_\WriteLineDemo\WriteLineDemo2.cs" />
     <Compile Include="04_Syntax_\WriteLineDemo\WriteLineDemo1.cs" />
+    <Compile Include="06_Number\NumberMaxMin\NumberMaxMin.cs" />
+    <Compile Include="06_Number\UnsignedNumber\UnsignedNumber.cs" />
     <Compile Include="07_BoolCharString\Constant\Constant.cs" />
     <Compile Include="07_BoolCharString\ConstantExam\ConstantExam.cs" />
     <Compile Include="07_BoolCharString\LiteralPractice\LiteralPractice.cs" />
@@ -174,8 +176,8 @@
     <Compile Include="06_Number\IntegerExam.cs" />
     <Compile Include="06_Number\IntegerOverflow.cs" />
     <Compile Include="06_Number\IntegerPractice.cs" />
-    <Compile Include="06_Number\SignedInteger.cs" />
-    <Compile Include="06_Number\UnsignedInteger.cs" />
+    <Compile Include="06_Number\SignedInteger\SignedInteger.cs" />
+    <Compile Include="06_Number\UnsignedInteger\UnsignedInteger.cs" />
     <Compile Include="07_BoolCharString\BooleanDemo\BooleanDemo.cs" />
     <Compile Include="08_ReadLine\ConsoleReadDemo\ConsoleReadDemo.cs" />
     <Compile Include="08_ReadLine\ConsoleReadLineDemo\ConsoleReadLineDemo.cs" />
