@@ -2,7 +2,7 @@
 
 class KeyboardInput
 {
-    public static void Main()
+    static void Main()
     {
         Console.WriteLine("아무키나 누르세요.");
         // 키보드 키 값 입력

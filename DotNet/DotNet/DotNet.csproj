@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ReadLineInteger</StartupObject>
+    <StartupObject>KeyboardInput</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -671,7 +671,7 @@
     <Compile Include="41_Delegate\LambdaExpressionWithFunc\LambdaExpressionWithFunc.cs" />
     <Compile Include="57_Functional\LicenseResult\LicenseResult.cs" />
     <Compile Include="50_Generic\ListDictionaryDemo\ListDictionaryDemo.cs" />
-    <Compile Include="KeyboardInput.cs" />
+    <Compile Include="08_ReadLine\KeyboardInput\KeyboardInput.cs" />
     <Compile Include="31_LINQ\_\LinqDemo.cs" />
     <Compile Include="ListOfChildToListOfParent.cs" />
     <Compile Include="53_IO\PathClassDemo\PathClassDemo.cs" />
