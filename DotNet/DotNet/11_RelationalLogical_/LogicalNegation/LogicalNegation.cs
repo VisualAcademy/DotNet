@@ -5,7 +5,7 @@ class LogicalNegation
 {
     static void Main()
     {
-        bool bln = false;
+        var bln = false;
 
         Console.WriteLine(!bln); // true 
         Console.WriteLine(!!bln); // false

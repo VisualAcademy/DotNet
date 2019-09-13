@@ -1,13 +1,12 @@
-﻿using System;
-using static System.Console;
+﻿using static System.Console; // System.Console까지 생략 가능
 
 class LogicalOperator
 {
     static void Main()
     {
-        int i = 3;
-        int j = 5;
-        bool r = false;
+        var i = 3;
+        var j = 5;
+        var r = false;
 
         r = (i == 3) && (j != 3); // r = true && true => true
         WriteLine(r); // true
