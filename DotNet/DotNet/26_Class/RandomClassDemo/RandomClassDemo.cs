@@ -4,7 +4,7 @@ class RandomClassDemo
 {
     static void Main()
     {
-        Console.Write("금주의 로또: ");
+        Console.Write("이번 주의 로또: ");
         Random ran = new Random();
         int[] arr = new int[6]; // 6개 데이터
         int temp = 0;
