@@ -196,6 +196,7 @@
     <Compile Include="08_ReadLine\Var\Var.cs" />
     <Compile Include="31_LINQ\LinqWhereMethod\LinqWhereMethod.cs" />
     <Compile Include="32_Algorithms\08_01_SortAlgorithm\BubbleSortAlgorithm.cs" />
+    <Compile Include="33_Object\ClassAndObject\ClassAndObject.cs" />
     <Compile Include="64_Debug\DebugDemo.cs" />
     <Compile Include="64_Debug\디버깅.cs" />
     <Compile Include="12_BitAndShift\BitAnd\BitAnd.cs" />
@@ -722,13 +723,13 @@
     <Compile Include="33_Object\ClassDemo\ClassOne.cs" />
     <Compile Include="33_Object\ClassDemo\ClassTwo.cs" />
     <Compile Include="26_Class\ClassDescription\ClassDescription.cs" />
-    <Compile Include="33_Object\ClassMethod.cs" />
+    <Compile Include="33_Object\ClassMethod\ClassMethod.cs" />
     <Compile Include="26_Class\ClassNote\ClassNote.cs" />
-    <Compile Include="33_Object\ClassPass.cs" />
+    <Compile Include="33_Object\ClassPass\ClassPass.cs" />
     <Compile Include="33_Object\InstanceWithVar\InstanceWithVar.cs" />
     <Compile Include="26_Class\MyFirstClass\MyFirstClass.cs" />
-    <Compile Include="33_Object\ObjectDemo.cs" />
-    <Compile Include="33_Object\ObjectNote.cs" />
+    <Compile Include="33_Object\ObjectDemo\ObjectDemo.cs" />
+    <Compile Include="33_Object\ObjectNote\ObjectNote.cs" />
     <Compile Include="33_Object\StaticAndInstance\StaticAndInstance.cs" />
     <Compile Include="33_Object\ToStringMethod\ToStringMethod.cs" />
     <Compile Include="36_Constructor\ClassAndInstance\ClassAndInstance.cs" />
