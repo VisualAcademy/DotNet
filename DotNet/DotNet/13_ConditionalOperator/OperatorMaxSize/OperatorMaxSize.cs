@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Operator_MaxSize
+class OperatorMaxSize
 {
     static void Main()
     {
