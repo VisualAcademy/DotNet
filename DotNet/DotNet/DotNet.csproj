@@ -118,7 +118,7 @@
     <Compile Include="07_BoolCharString_\StringKeyword\StringKeyword.cs" />
     <Compile Include="08_ReadLine\ReadLineDemo\ReadLineDemo.cs" />
     <Compile Include="09_Operator_\OperatorAdd\OperatorAdd.cs" />
-    <Compile Include="11_RelationalLogical\OperatorDescription\OperatorDescription.cs" />
+    <Compile Include="09_Operator_\OperatorDescription\OperatorDescription.cs" />
     <Compile Include="09_Operator_\OperatorDivide\OperatorDivide.cs" />
     <Compile Include="09_Operator_\OperatorMultiply\OperatorMultiply.cs" />
     <Compile Include="09_Operator_\OperatorQuiz\OperatorQuiz.cs" />
@@ -136,7 +136,7 @@
     <Compile Include="09_Operator_\Remainder\Remainder.cs" />
     <Compile Include="10_AssignmentIncrement\ShortcutOperator\ShortcutOperator.cs" />
     <Compile Include="10_AssignmentIncrement\ShortcutOperatorDemo\ShortcutOperatorDemo.cs" />
-    <Compile Include="11_RelationalLogical\UnaryOperator\UnaryOperator.cs" />
+    <Compile Include="09_Operator_\UnaryOperator\UnaryOperator.cs" />
     <Compile Include="15_Else_\PositiveNegativeZero\PositiveNegativeZero.cs" />
     <Compile Include="15_Else_\NumDifference\NumDifference.cs" />
     <Compile Include="07_BoolCharString_\CharacterDemo\CharacterDemo.cs" />

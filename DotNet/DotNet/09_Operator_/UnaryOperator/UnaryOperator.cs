@@ -3,7 +3,7 @@ using System;
 
 class UnaryOperator
 {
-    static void Main(string[] args)
+    static void Main()
     {
         int value = 0;
 
