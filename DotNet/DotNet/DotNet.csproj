@@ -99,6 +99,7 @@
     <Compile Include="08_ReadLine\VariableDefault\VariableDefault.cs" />
     <Compile Include="10_AssignmentIncrement\SwapDemo\SwapDemo.cs" />
     <Compile Include="11_RelationalLogical\DoubleEqual\DoubleEqual.cs" />
+    <Compile Include="15_Else_\ElseNote\ElseNote.cs" />
     <Compile Include="20_Array\DigitSeparator\DigitSeparator.cs" />
     <Compile Include="12_BitAndShift\DigitSeparatorDemo\DigitSeparatorDemo.cs" />
     <Compile Include="20_Array\DigitSeparatorDescription\DigitSeparatorDescription.cs" />

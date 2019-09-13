@@ -10,23 +10,23 @@ class IfElseScoreGrade
 
         if (score >= 90)
         {
-            grade = "금상";
+            grade = "금메달";
         }
         else
         {
             if (score >= 80)
             {
-                grade = "은상";
+                grade = "은메달";
             }
             else
             {
                 if (score >= 70)
                 {
-                    grade = "동상";
+                    grade = "동메달";
                 }
                 else
                 {
-                    grade = "장려상";
+                    grade = "노메달";
                 }
             }
         }
