@@ -252,13 +252,13 @@
     <Compile Include="17_For\ForQuiz\ForQuiz.cs" />
     <Compile Include="17_For\ForSum\ForSum.cs" />
     <Compile Include="17_For\ForSumEven\ForSumEven.cs" />
-    <Compile Include="17_For\ForSumMultiple.cs" />
-    <Compile Include="17_For\ForTest.cs" />
+    <Compile Include="17_For\ForSumMultiple\ForSumMultiple.cs" />
+    <Compile Include="17_For\ForTest\ForTest.cs" />
     <Compile Include="17_For\ForTriangle\ForTriangle.cs" />
     <Compile Include="17_For\InfiniteLoop\InfiniteLoop.cs" />
     <Compile Include="17_For\SeeSharpSum100\SeeSharpSum100.cs" />
     <Compile Include="17_For\TimesTable\TimesTable.cs" />
-    <Compile Include="17_For\TimesTables.cs" />
+    <Compile Include="17_For\TimesTables\TimesTables.cs" />
     <Compile Include="18_WhileDoForEach\DoWhile\DoWhile.cs" />
     <Compile Include="18_WhileDoForEach\DoWhileDemo\DoWhileDemo.cs" />
     <Compile Include="18_WhileDoForEach\DoWhileSum\DoWhileSum.cs" />
