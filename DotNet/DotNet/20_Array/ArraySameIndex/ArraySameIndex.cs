@@ -12,7 +12,7 @@ class ArraySameIndex
             {
                 if (i == j)
                 {
-                    arr[i, j] = 1;
+                    arr[i, j] = 1; // 행과 열이 같으면 1로 채우기 
                 }
                 else
                 {

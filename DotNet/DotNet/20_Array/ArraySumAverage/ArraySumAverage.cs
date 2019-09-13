@@ -1,13 +1,13 @@
 ﻿using System;
 
-class ArraySumAverageAlgorithm
+class ArraySumAverage
 {
     static void Main()
     {
-        int[,] scores = 
-        { 
-            { 90, 100, 0, 0 }, 
-            { 80, 90, 0, 0 }, 
+        int[,] scores =
+        {
+            { 90, 100, 0, 0 },
+            { 80, 90, 0, 0 },
             { 100, 80, 0, 0 }
         };
 
@@ -22,7 +22,7 @@ class ArraySumAverageAlgorithm
         {
             for (int j = 0; j < 4; j++)
             {
-                Console.Write($"{scores[i, j], 4} ");
+                Console.Write($"{scores[i, j],4} ");
             }
             Console.WriteLine();
         }

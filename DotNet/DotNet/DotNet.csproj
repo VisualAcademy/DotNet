@@ -100,6 +100,7 @@
     <Compile Include="10_AssignmentIncrement\SwapDemo\SwapDemo.cs" />
     <Compile Include="11_RelationalLogical\DoubleEqual\DoubleEqual.cs" />
     <Compile Include="15_Else\ElseNote\ElseNote.cs" />
+    <Compile Include="20_Array\ArraySumAverage\ArraySumAverage.cs" />
     <Compile Include="20_Array\DigitSeparator\DigitSeparator.cs" />
     <Compile Include="12_BitAndShift\DigitSeparatorDemo\DigitSeparatorDemo.cs" />
     <Compile Include="20_Array\DigitSeparatorDescription\DigitSeparatorDescription.cs" />
@@ -298,7 +299,7 @@
     <Compile Include="20_Array\ArrayForEach\ArrayForEach.cs" />
     <Compile Include="20_Array\ArrayIndex\ArrayIndex.cs" />
     <Compile Include="20_Array\_\TwoDimensionalArray.cs" />
-    <Compile Include="20_Array\WhyArray.cs" />
+    <Compile Include="20_Array\WhyArray\WhyArray.cs" />
     <Compile Include="21_Function\CommandLineArgument\CommandLineArgument.cs" />
     <Compile Include="21_Function\FunctionAddNumbers\FunctionAddNumbers.cs" />
     <Compile Include="21_Function\FunctionCall\FunctionCall.cs" />

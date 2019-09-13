@@ -1,6 +1,4 @@
-﻿using System;
-
-class BreakFor
+﻿class BreakFor
 {
     static void Main()
     {
@@ -8,8 +6,8 @@ class BreakFor
         {
             if (i >= 0)
             {
-                break;
+                break; // 현재 코드를 만나면 현재 for 문을 종료함
             }
-        }
+        } // end of for
     }
 }
