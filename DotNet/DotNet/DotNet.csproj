@@ -148,8 +148,8 @@
     <Compile Include="10_AssignmentIncrement\DecrementNumber\DecrementNumber.cs" />
     <Compile Include="10_AssignmentIncrement\DecrementOperator\DecrementOperator.cs" />
     <Compile Include="15_Else_\GreaterThanEqual\GreaterThanEqual.cs" />
-    <Compile Include="10_AssignmentIncrement\IncrementDecrementExam.cs" />
-    <Compile Include="10_AssignmentIncrement\IncrementDecrementPractice.cs" />
+    <Compile Include="10_AssignmentIncrement\IncrementDecrementExam\IncrementDecrementExam.cs" />
+    <Compile Include="10_AssignmentIncrement\IncrementDecrementPractice\IncrementDecrementPractice.cs" />
     <Compile Include="10_AssignmentIncrement\IncrementNumber\IncrementNumber.cs" />
     <Compile Include="10_AssignmentIncrement\IncrementOperator\IncrementOperator.cs" />
     <Compile Include="11_RelationalLogical\LogicalAnd\LogicalAnd.cs" />
