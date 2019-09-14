@@ -355,7 +355,7 @@
     <Compile Include="31_LINQ\LinqTake\LinqTake.cs" />
     <Compile Include="31_LINQ\LinqWhereContains\LinqWhereContains.cs" />
     <Compile Include="31_LINQ\LinqZip\LinqZip.cs" />
-    <Compile Include="35_Field\읽기전용필드.cs" />
+    <Compile Include="35_Field\_\읽기전용필드.cs" />
     <Compile Include="36_Constructor\CircleClass.cs" />
     <Compile Include="36_Constructor\ExpressionBodiedConstructor\ExpressionBodiedConstructor.cs" />
     <Compile Include="21_Function\ExpressionBodiedMethod\ExpressionBodiedMethod.cs" />
@@ -534,7 +534,7 @@
     <Compile Include="31_LINQ\QuerySyntaxMethodSyntax\QuerySyntaxMethodSyntax.cs" />
     <Compile Include="26_Class\RandomDemo\RandomDemo.cs" />
     <Compile Include="26_Class\RandomClassDemo\RandomClassDemo.cs" />
-    <Compile Include="35_Field\필드.cs" />
+    <Compile Include="35_Field\_\필드.cs" />
     <Compile Include="37_Destructor\ConstructorMethodDestructor.cs" />
     <Compile Include="37_Destructor\ConstructorToDestructor.cs" />
     <Compile Include="37_Destructor\_\생성자_메서드_소멸자.cs" />
@@ -677,7 +677,7 @@
     <Compile Include="50_Generic\ListDictionaryDemo\ListDictionaryDemo.cs" />
     <Compile Include="08_ReadLine\KeyboardInput\KeyboardInput.cs" />
     <Compile Include="31_LINQ\_\LinqDemo.cs" />
-    <Compile Include="ListOfChildToListOfParent.cs" />
+    <Compile Include="46_Interface\ListOfChildToListOfParent.cs" />
     <Compile Include="53_IO\PathClassDemo\PathClassDemo.cs" />
     <Compile Include="53_IO\StreamReaderReadToEndDemo\StreamReaderReadToEndDemo.cs" />
     <Compile Include="53_IO\_\파일명추출.cs" />
