@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Method_MyMath
+namespace MethodMyMath
 {
     public class MyMath
     {
@@ -10,7 +10,7 @@ namespace Method_MyMath
         }
     }
 
-    class Method_MyMath
+    class MethodMyMath
     {
         static void Main()
         {
