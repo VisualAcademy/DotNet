@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IntParameterAndIntReturnDelegateClass</StartupObject>
+    <StartupObject>Is</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -879,7 +879,7 @@
     <Compile Include="99_Etc\필드은폐\필드은폐.cs" />
     <Compile Include="99_Etc\함수_정의_호출\함수_정의_호출.cs" />
     <Compile Include="99_Etc\형식변환\형식변환.cs" />
-    <Compile Include="개체.cs" />
+    <Compile Include="33_Object\_\개체.cs" />
     <Compile Include="13_ConditionalOperator\_\괄호연산자.cs" />
     <Compile Include="24_Struct\_구조체\구조체.cs" />
     <Compile Include="24_Struct\_구조체\구조체_날짜관련.cs" />
@@ -890,7 +890,7 @@
     <Compile Include="24_Struct\_구조체\구조체데모.cs" />
     <Compile Include="24_Struct\_구조체\구조체매개변수.cs" />
     <Compile Include="24_Struct\_구조체\날짜와시간관련구조체.cs" />
-    <Compile Include="국어점수_총점_평균_차이.cs" />
+    <Compile Include="32_Algorithms\13_01_Etc\국어점수_총점_평균_차이.cs" />
     <Compile Include="06_Number\_\데이터형식_부호없는_정수.cs" />
     <Compile Include="06_Number\_\데이터형식_부호없는_정수_.cs" />
     <Compile Include="06_Number\_\데이터형식_부호있는_정수.cs" />
@@ -921,7 +921,7 @@
     <Compile Include="41_Delegate\_\람다식_소개.cs" />
     <Compile Include="30_GenericClass\_\리스트제네릭클래스.cs" />
     <Compile Include="43_ClassEtc\_\변환연산자.cs" />
-    <Compile Include="분할클래스.cs" />
+    <Compile Include="43_ClassEtc\_\분할클래스.cs" />
     <Compile Include="69_Thread\_\스레드.cs" />
     <Compile Include="스태틱과인스턴스.cs" />
     <Compile Include="03_HelloWorld\_\안녕하세요.cs" />
@@ -969,7 +969,7 @@
     <Compile Include="04_Syntax\_\이스케이프시퀀스.cs" />
     <Compile Include="65_Tips\IntelliSenseDemo\_\인텔리센스.cs" />
     <Compile Include="29_Collection\_\자료구조_리스트.cs" />
-    <Compile Include="자료구조_제네릭리스트.cs" />
+    <Compile Include="30_GenericClass\_\자료구조_제네릭리스트.cs" />
     <Compile Include="63_PlaceHolder\_\자리표시자.cs" />
     <Compile Include="전처리기지시문_조건부컴파일기호.cs" />
     <Compile Include="정적과인스턴스.cs" />

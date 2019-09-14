@@ -1,11 +1,13 @@
-﻿namespace 개체
+﻿using System;
+
+namespace 개체
 {
     //[1] 클래스 생성
     public class MyClass
     {
         public void MyMember()
         {
-            System.Console.WriteLine("클래스의 인스턴스인 개체가 실행됩니다.");
+            Console.WriteLine("클래스의 인스턴스인 개체가 실행됩니다.");
         }
     }
 
