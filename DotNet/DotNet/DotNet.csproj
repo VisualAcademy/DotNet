@@ -336,7 +336,7 @@
     <Compile Include="31_LINQ\_\LINQ_Where.cs" />
     <Compile Include="31_LINQ\_\LINQ_Zip.cs" />
     <Compile Include="38_Method\RectangleClass\Rectangle.cs" />
-    <Compile Include="40_Indexer\IteratorFibonacci.cs" />
+    <Compile Include="40_Indexer\IteratorFibonacci\IteratorFibonacci.cs" />
     <Compile Include="41_Delegate\FuncLambda\FuncLambda.cs" />
     <Compile Include="41_Delegate\FuncParameter\FuncParameter.cs" />
     <Compile Include="41_Delegate\FunctionPointer\FunctionPointer.cs" />
@@ -567,7 +567,7 @@
     <Compile Include="40_Indexer\FavoriteLanguage\FavoriteLanguage.cs" />
     <Compile Include="40_Indexer\NickNameDemo\NickName.cs" />
     <Compile Include="40_Indexer\NickNameDemo\NickNameDemo.cs" />
-    <Compile Include="40_Indexer\WeekDemo.cs" />
+    <Compile Include="40_Indexer\WeekDemo\WeekDemo.cs" />
     <Compile Include="40_Indexer\YieldReturn\YieldReturn.cs" />
     <Compile Include="40_Indexer\_\인덱서설명.cs" />
     <Compile Include="40_Indexer\_\인덱서확장.cs" />
