@@ -356,7 +356,7 @@
     <Compile Include="31_LINQ\LinqWhereContains\LinqWhereContains.cs" />
     <Compile Include="31_LINQ\LinqZip\LinqZip.cs" />
     <Compile Include="35_Field\_\읽기전용필드.cs" />
-    <Compile Include="36_Constructor\CircleClass.cs" />
+    <Compile Include="36_Constructor\CircleClass\CircleClass.cs" />
     <Compile Include="36_Constructor\ExpressionBodiedConstructor\ExpressionBodiedConstructor.cs" />
     <Compile Include="21_Function\ExpressionBodiedMethod\ExpressionBodiedMethod.cs" />
     <Compile Include="38_Method\RectangleClass\RectangleClass.cs" />
