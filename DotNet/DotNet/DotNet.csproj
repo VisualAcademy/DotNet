@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>KeyboardInput</StartupObject>
+    <StartupObject>IteratorFibonacci</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -364,7 +364,7 @@
     <Compile Include="38_Method\_\메서드의매개변수형식.cs" />
     <Compile Include="39_Property\ClassPropertyMethod\ClassPropertyMethod.cs" />
     <Compile Include="39_Property\PropertyPrivateSet\PropertyPrivateSet.cs" />
-    <Compile Include="40_Indexer\반복기.cs" />
+    <Compile Include="40_Indexer\_\반복기.cs" />
     <Compile Include="43_ClassEtc\PartialClassPerson.cs" />
     <Compile Include="51_ExtensionMethod\ExtensionMethodNote.cs" />
     <Compile Include="51_ExtensionMethod\RelatedArticleOptionDemo.cs" />
@@ -564,13 +564,13 @@
     <Compile Include="39_Property\DataClass\DataClass.cs" />
     <Compile Include="39_Property\DuckTyping\DuckTyping.cs" />
     <Compile Include="39_Property\GetterSetter\GetterSetter.cs" />
-    <Compile Include="40_Indexer\FavoriteLanguage.cs" />
+    <Compile Include="40_Indexer\FavoriteLanguage\FavoriteLanguage.cs" />
     <Compile Include="40_Indexer\NickNameDemo\NickName.cs" />
     <Compile Include="40_Indexer\NickNameDemo\NickNameDemo.cs" />
     <Compile Include="40_Indexer\WeekDemo.cs" />
-    <Compile Include="40_Indexer\YieldReturn.cs" />
-    <Compile Include="40_Indexer\인덱서설명.cs" />
-    <Compile Include="40_Indexer\인덱서확장.cs" />
+    <Compile Include="40_Indexer\YieldReturn\YieldReturn.cs" />
+    <Compile Include="40_Indexer\_\인덱서설명.cs" />
+    <Compile Include="40_Indexer\_\인덱서확장.cs" />
     <Compile Include="42_Event\_\이벤트.cs" />
     <Compile Include="42_Event\EventDemo.cs" />
     <Compile Include="41_Delegate\AnonymousDelegate\AnonymousDelegate.cs" />

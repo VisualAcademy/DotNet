@@ -20,7 +20,7 @@ class IteratorFibonacci
     }
     static void Main()
     {
-        int count = 20;
+        int count = 7;
         int i = 0;
         foreach (var f in GetFibonacci())
         {
