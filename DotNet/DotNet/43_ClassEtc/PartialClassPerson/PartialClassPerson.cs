@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace PartialClassPerson
 {
     partial class Person

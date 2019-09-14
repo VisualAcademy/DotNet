@@ -366,7 +366,7 @@
     <Compile Include="39_Property\ClassPropertyMethod\ClassPropertyMethod.cs" />
     <Compile Include="39_Property\PropertyPrivateSet\PropertyPrivateSet.cs" />
     <Compile Include="40_Indexer\_\반복기.cs" />
-    <Compile Include="43_ClassEtc\PartialClassPerson.cs" />
+    <Compile Include="43_ClassEtc\PartialClassPerson\PartialClassPerson.cs" />
     <Compile Include="51_ExtensionMethod\ExtensionMethodNote.cs" />
     <Compile Include="51_ExtensionMethod\RelatedArticleOptionDemo.cs" />
     <Compile Include="63_PlaceHolder\PlaceHolderEtc.cs" />
@@ -587,8 +587,8 @@
     <Compile Include="41_Delegate\_\대리자설명.cs" />
     <Compile Include="41_Delegate\AnonymousMethod\AnonymousMethod.cs" />
     <Compile Include="43_ClassEtc\ImmutableTypeDemo\ImmutableTypeDemo.cs" />
-    <Compile Include="43_ClassEtc\PointFunctional.cs" />
-    <Compile Include="43_ClassEtc\PointImperative.cs" />
+    <Compile Include="43_ClassEtc\PointFunctional\PointFunctional.cs" />
+    <Compile Include="43_ClassEtc\PointImperative\PointImperative.cs" />
     <Compile Include="44_Inheritance\MustInheritDemo.cs" />
     <Compile Include="45_Override\ClassToString\ClassToString.cs" />
     <Compile Include="45_Override\MethodOverloading\MethodOverloading.cs" />
@@ -706,9 +706,9 @@
     <Compile Include="56_XmlAndJSON\JsonConvertDemo\JsonConvertDemo.cs" />
     <Compile Include="ListOfTypeSimpleMerge.cs" />
     <Compile Include="64_Async\MainMethodAsync.cs" />
-    <Compile Include="34_Namespace\PartialClassDemo\FirstDeveloper.cs" />
-    <Compile Include="34_Namespace\PartialClassDemo\PartialClassDemo.cs" />
-    <Compile Include="34_Namespace\PartialClassDemo\SecondDeveloper.cs" />
+    <Compile Include="43_ClassEtc\PartialClassDemo\FirstDeveloper.cs" />
+    <Compile Include="43_ClassEtc\PartialClassDemo\PartialClassDemo.cs" />
+    <Compile Include="43_ClassEtc\PartialClassDemo\SecondDeveloper.cs" />
     <Compile Include="43_ClassEtc\PartialClass\PartialClass.cs" />
     <Compile Include="26_Class\ProcessStartDemo\ProcessStartDemo.cs" />
     <Compile Include="06_Number\NullableDemo\NullableDemo.cs" />
@@ -920,7 +920,7 @@
     <Compile Include="41_Delegate\_\람다식.cs" />
     <Compile Include="41_Delegate\_\람다식_소개.cs" />
     <Compile Include="30_GenericClass\_\리스트제네릭클래스.cs" />
-    <Compile Include="변환연산자.cs" />
+    <Compile Include="43_ClassEtc\_\변환연산자.cs" />
     <Compile Include="분할클래스.cs" />
     <Compile Include="69_Thread\_\스레드.cs" />
     <Compile Include="스태틱과인스턴스.cs" />
