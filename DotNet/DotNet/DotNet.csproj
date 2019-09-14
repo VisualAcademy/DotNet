@@ -561,8 +561,8 @@
     <Compile Include="38_Method\OptionalParameterDemo\OptionalParameterDemo.cs" />
     <Compile Include="39_Property\ArrowDemo\ArrowDemo.cs" />
     <Compile Include="39_Property\AutoPropertyInitializers\AutoPropertyInitializers.cs" />
-    <Compile Include="39_Property\DataClass.cs" />
-    <Compile Include="39_Property\DuckTyping.cs" />
+    <Compile Include="39_Property\DataClass\DataClass.cs" />
+    <Compile Include="39_Property\DuckTyping\DuckTyping.cs" />
     <Compile Include="39_Property\GetterSetter\GetterSetter.cs" />
     <Compile Include="40_Indexer\FavoriteLanguage.cs" />
     <Compile Include="40_Indexer\NickNameDemo\NickName.cs" />
@@ -613,7 +613,7 @@
     <Compile Include="50_Generic\GenericClassPractice\GenericClassPractice.cs" />
     <Compile Include="50_Generic\ListOfObject\ListOfObject.cs" />
     <Compile Include="50_Generic\_\Generic_PairOfType.cs" />
-    <Compile Include="49_OOP\NullWithObject.cs" />
+    <Compile Include="39_Property\NullWithObject\NullWithObject.cs" />
     <Compile Include="49_OOP\POCO\POCO.cs" />
     <Compile Include="49_OOP\_\자동차클래스.cs" />
     <Compile Include="49_OOP\CarWorld.cs" />

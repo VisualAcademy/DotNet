@@ -3,9 +3,9 @@ using System;
 
 public class Customer
 {
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string City { get; set; }
+    public int Id { get; set; } // 번호
+    public string Name { get; set; } // 이름
+    public string City { get; set; } // 도시 
 }
 
 class DataClass
