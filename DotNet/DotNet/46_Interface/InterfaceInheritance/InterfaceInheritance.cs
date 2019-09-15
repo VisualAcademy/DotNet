@@ -12,7 +12,7 @@ namespace InterfaceInheritance
         void Yelp();
     }
 
-    class Dog : IAnimal, IDog
+    class Dog : IAnimal, IDog // 인터페이스를 사용한 다중 상속
     {
         public void Eat() => Console.WriteLine("먹다.");
         public void Yelp() => Console.WriteLine("짖다.");
