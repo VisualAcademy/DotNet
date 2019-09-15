@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Is</StartupObject>
+    <StartupObject>OperatorOverload.OperatorOverload</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -198,6 +198,7 @@
     <Compile Include="32_Algorithms\08_01_SortAlgorithm\BubbleSortAlgorithm.cs" />
     <Compile Include="33_Object\ClassAndObject\ClassAndObject.cs" />
     <Compile Include="41_Delegate\IntParameterAndIntReturnClass\IntParameterAndIntReturnClass.cs" />
+    <Compile Include="43_ClassEtc\OperatorOverload\OperatorOverload.cs" />
     <Compile Include="64_Debug\DebugDemo.cs" />
     <Compile Include="64_Debug\디버깅.cs" />
     <Compile Include="12_BitAndShift\BitAnd\BitAnd.cs" />
