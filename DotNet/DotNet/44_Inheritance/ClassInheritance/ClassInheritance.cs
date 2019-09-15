@@ -2,14 +2,15 @@
 
 namespace ClassInheritance
 {
-    public class ParentClass : Object
+    public class ParentClass : Object //[A] 모든 클래스는 Object 클래스로부터 상속
     {
         protected void Print1() => Console.WriteLine("부모 클래스에서 정의한 내용");
     }
 
-    public class ChildClass : ParentClass
+    public class ChildClass : ParentClass //[B] 콜론 기호로 부모 클래스 지정
     {
-        public void Print2() => base.Print1(); // 자식에서 base 키워드로 부모 요소에 접근
+        public void Print2() => 
+            base.Print1(); //[C] 자식에서 base 키워드로 부모 요소에 접근
     }
 
     class ClassInheritance : Object
