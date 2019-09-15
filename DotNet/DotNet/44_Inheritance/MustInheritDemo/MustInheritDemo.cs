@@ -3,11 +3,13 @@ using System;
 
 namespace MustInheritDemo
 {
+    // 부장님(?) 클래스 생성
     abstract class GeneralManager
     {
         public abstract void SayHumor(); // 메서드 본문 생략
     }
 
+    // 부장님 클래스를 상속하는 사람 클래스 생성
     class Person : GeneralManager
     {
         public override void SayHumor()

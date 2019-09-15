@@ -590,7 +590,7 @@
     <Compile Include="43_ClassEtc\ImmutableTypeDemo\ImmutableTypeDemo.cs" />
     <Compile Include="43_ClassEtc\PointFunctional\PointFunctional.cs" />
     <Compile Include="43_ClassEtc\PointImperative\PointImperative.cs" />
-    <Compile Include="44_Inheritance\MustInheritDemo.cs" />
+    <Compile Include="44_Inheritance\MustInheritDemo\MustInheritDemo.cs" />
     <Compile Include="45_Override\ClassToString\ClassToString.cs" />
     <Compile Include="45_Override\MethodOverloading\MethodOverloading.cs" />
     <Compile Include="45_Override\MethodOverridePractice\MethodOverridePractice.cs" />
