@@ -96,6 +96,7 @@
     <Compile Include="06_Number\DecimalDemo\DecimalDemo.cs" />
     <Compile Include="06_Number\DecimalMinMax\DecimalMinMax.cs" />
     <Compile Include="07_BoolCharString\ConstDoubleString\ConstDoubleString.cs" />
+    <Compile Include="08_ReadLine\IntParse\IntParse.cs" />
     <Compile Include="08_ReadLine\VariableDefault\VariableDefault.cs" />
     <Compile Include="10_AssignmentIncrement\SwapDemo\SwapDemo.cs" />
     <Compile Include="11_RelationalLogical\DoubleEqual\DoubleEqual.cs" />
