@@ -823,7 +823,7 @@
     <Compile Include="39_Property\PropertyPractice\PropertyPractice.cs" />
     <Compile Include="39_Property\PropertyValidation\PropertyValidation.cs" />
     <Compile Include="39_Property\Property\Property.cs" />
-    <Compile Include="39_Property\Property_AutoImplemented\Property_AutoImplemented.cs" />
+    <Compile Include="39_Property\PropertyAutoImplemented\PropertyAutoImplemented.cs" />
     <Compile Include="50_Generic\_\제네릭_장점.cs" />
     <Compile Include="73_Network\WebClientDemo\WebClientDemo.cs" />
     <Compile Include="07_BoolCharString\WrapperType\WrapperType.cs" />

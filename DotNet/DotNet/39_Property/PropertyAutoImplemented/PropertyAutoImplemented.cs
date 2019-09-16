@@ -1,7 +1,7 @@
 ﻿// 자동 구현 속성(C# 3.0): prop 코드 조각
 using System;
 
-namespace Property_AutoImplemented
+namespace PropertyAutoImplemented
 {
     class Exam
     {
@@ -9,7 +9,7 @@ namespace Property_AutoImplemented
         public string Title { get; set; }
     }
 
-    class Property_AutoImplemented
+    class PropertyAutoImplemented
     {
         static void Main()
         {
