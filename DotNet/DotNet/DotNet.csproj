@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OperatorOverload.OperatorOverload</StartupObject>
+    <StartupObject>NumberToString</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -92,12 +92,14 @@
     <Compile Include="06_Number\UnsignedNumber\UnsignedNumber.cs" />
     <Compile Include="07_BoolCharString\Constant\Constant.cs" />
     <Compile Include="07_BoolCharString\ConstantExam\ConstantExam.cs" />
+    <Compile Include="07_BoolCharString\DateTimePreview\DateTimePreview.cs" />
     <Compile Include="07_BoolCharString\LiteralPractice\LiteralPractice.cs" />
     <Compile Include="06_Number\DecimalDemo\DecimalDemo.cs" />
     <Compile Include="06_Number\DecimalMinMax\DecimalMinMax.cs" />
     <Compile Include="07_BoolCharString\ConstDoubleString\ConstDoubleString.cs" />
     <Compile Include="08_ReadLine\IntParse\IntParse.cs" />
     <Compile Include="08_ReadLine\VariableDefault\VariableDefault.cs" />
+    <Compile Include="09_Operator\NumberToString\NumberToString.cs" />
     <Compile Include="10_AssignmentIncrement\SwapDemo\SwapDemo.cs" />
     <Compile Include="11_RelationalLogical\DoubleEqual\DoubleEqual.cs" />
     <Compile Include="15_Else\ElseNote\ElseNote.cs" />
