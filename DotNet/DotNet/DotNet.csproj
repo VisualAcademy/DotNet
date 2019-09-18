@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>NumberToString</StartupObject>
+    <StartupObject>ArithmeticSequence</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -198,6 +198,7 @@
     <Compile Include="08_ReadLine\VarInput\VarInput.cs" />
     <Compile Include="08_ReadLine\Var\Var.cs" />
     <Compile Include="32_LINQ\LinqWhereMethod\LinqWhereMethod.cs" />
+    <Compile Include="33_Algorithms\01_01_SumAlgorithm\ArithmeticSequence.cs" />
     <Compile Include="33_Algorithms\08_01_SortAlgorithm\BubbleSortAlgorithm.cs" />
     <Compile Include="34_Object\ClassAndObject\ClassAndObject.cs" />
     <Compile Include="42_Delegate\IntParameterAndIntReturnClass\IntParameterAndIntReturnClass.cs" />
@@ -1021,7 +1022,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="33_Algorithms\13_01_Etc\03_03_ArraySumAverage\" />
     <Folder Include="55_InMemory\" />
     <Folder Include="58_Modern\" />
     <Folder Include="62_TODO\" />
