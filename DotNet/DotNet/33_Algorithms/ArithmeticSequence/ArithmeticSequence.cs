@@ -18,7 +18,7 @@ class ArithmeticSequence
             if (i % 2 != 0) // 주어진 조건: 필터링(홀수)
             {
                 sum += i; // SUM
-                Console.Write("{0, 2} ", i);
+                Console.Write("{0, 2} ", i); // SEQUENCE -> Arithmetic Sequence
             }
         }
 
