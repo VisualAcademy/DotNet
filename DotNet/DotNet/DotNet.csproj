@@ -105,7 +105,7 @@
     <Compile Include="15_Else\ElseNote\ElseNote.cs" />
     <Compile Include="20_Array\ArraySumAverage\ArraySumAverage.cs" />
     <Compile Include="20_Array\DigitSeparator\DigitSeparator.cs" />
-    <Compile Include="12_BitAndShift\DigitSeparatorDemo\DigitSeparatorDemo.cs" />
+    <Compile Include="08_ReadLine\DigitSeparatorDemo\DigitSeparatorDemo.cs" />
     <Compile Include="20_Array\DigitSeparatorDescription\DigitSeparatorDescription.cs" />
     <Compile Include="06_Number\DoubleDemo\DoubleDemo.cs" />
     <Compile Include="06_Number\DoubleMinMax\DoubleMinMax.cs" />
@@ -698,10 +698,10 @@
     <Compile Include="51_Generic\DictionaryGenericClassDemo\DictionaryGenericClassDemo.cs" />
     <Compile Include="14_If\OutVariable\OutVariable.cs" />
     <Compile Include="24_Struct\OutVariableDemo\OutVariableDemo.cs" />
-    <Compile Include="12_BitAndShift\BinaryLiteral\BinaryLiteral.cs" />
+    <Compile Include="08_ReadLine\BinaryLiteral\BinaryLiteral.cs" />
     <Compile Include="20_Array\BinaryLiteralDemo\BinaryLiteralDemo.cs" />
     <Compile Include="20_Array\BinaryLiteralNote\BinaryLiteralNote.cs" />
-    <Compile Include="12_BitAndShift\BinaryString\BinaryString.cs" />
+    <Compile Include="08_ReadLine\BinaryString\BinaryString.cs" />
     <Compile Include="22_Interactive\CsharpInteractive.cs" />
     <Compile Include="51_Generic\DictionaryOfString\DictionaryOfString.cs" />
     <Compile Include="51_Generic\DictionaryOfTypeNote\DictionaryOfTypeNote.cs" />
@@ -999,7 +999,7 @@
     <Compile Include="54_Tuple\TupleReturnDescription\TupleReturnDescription.cs" />
     <Compile Include="54_Tuple\TupleReturnName.cs" />
     <Compile Include="04_Syntax\_\주석문.cs" />
-    <Compile Include="12_BitAndShift\RadixTransformation\RadixTransformation.cs" />
+    <Compile Include="08_ReadLine\RadixTransformation\RadixTransformation.cs" />
     <Compile Include="클래스복습.cs" />
     <Compile Include="클래스설계연습.cs" />
     <Compile Include="클래스와개체.cs" />
