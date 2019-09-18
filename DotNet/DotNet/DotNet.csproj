@@ -198,7 +198,7 @@
     <Compile Include="08_ReadLine\VarInput\VarInput.cs" />
     <Compile Include="08_ReadLine\Var\Var.cs" />
     <Compile Include="32_LINQ\LinqWhereMethod\LinqWhereMethod.cs" />
-    <Compile Include="33_Algorithms\01_01_SumAlgorithm\ArithmeticSequence.cs" />
+    <Compile Include="33_Algorithms\ArithmeticSequence\ArithmeticSequence.cs" />
     <Compile Include="33_Algorithms\08_01_SortAlgorithm\BubbleSortAlgorithm.cs" />
     <Compile Include="34_Object\ClassAndObject\ClassAndObject.cs" />
     <Compile Include="42_Delegate\IntParameterAndIntReturnClass\IntParameterAndIntReturnClass.cs" />
