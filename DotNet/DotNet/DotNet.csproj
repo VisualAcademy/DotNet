@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ArithmeticSequence</StartupObject>
+    <StartupObject>PrimeNumber</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -200,6 +200,8 @@
     <Compile Include="32_LINQ\LinqWhereMethod\LinqWhereMethod.cs" />
     <Compile Include="33_Algorithms\ArithmeticSequence\ArithmeticSequence.cs" />
     <Compile Include="33_Algorithms\08_01_SortAlgorithm\BubbleSortAlgorithm.cs" />
+    <Compile Include="33_Algorithms\PrimeNumberCount\PrimeNumberCount.cs" />
+    <Compile Include="33_Algorithms\PrimeNumber\PrimeNumber.cs" />
     <Compile Include="34_Object\ClassAndObject\ClassAndObject.cs" />
     <Compile Include="42_Delegate\IntParameterAndIntReturnClass\IntParameterAndIntReturnClass.cs" />
     <Compile Include="44_ClassEtc\OperatorOverload\OperatorOverload.cs" />
