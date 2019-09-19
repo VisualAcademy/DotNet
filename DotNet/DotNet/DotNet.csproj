@@ -201,6 +201,7 @@
     <Compile Include="33_Algorithms\ArithmeticSequence\ArithmeticSequence.cs" />
     <Compile Include="33_Algorithms\08_01_SortAlgorithm\BubbleSortAlgorithm.cs" />
     <Compile Include="33_Algorithms\AverageCount\AverageCount.cs" />
+    <Compile Include="33_Algorithms\AverageExceptMaxAndMin\AverageExceptMaxAndMin.cs" />
     <Compile Include="33_Algorithms\PrimeNumberCount\PrimeNumberCount.cs" />
     <Compile Include="33_Algorithms\PrimeNumber\PrimeNumber.cs" />
     <Compile Include="34_Object\ClassAndObject\ClassAndObject.cs" />
