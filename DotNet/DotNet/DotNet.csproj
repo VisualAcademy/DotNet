@@ -147,6 +147,7 @@
     <Compile Include="07_BoolCharString\CharacterDemo\CharacterDemo.cs" />
     <Compile Include="07_BoolCharString\CharacterExam\CharacterExam.cs" />
     <Compile Include="07_BoolCharString\CharacterPractice\CharacterPractice.cs" />
+    <Compile Include="26_Class\ObjectToString\ObjectToString.cs" />
     <Compile Include="27_String\CharArrayToString\CharArrayToString.cs" />
     <Compile Include="07_BoolCharString\CharStringBoolean\CharStringBoolean.cs" />
     <Compile Include="07_BoolCharString\MultiLineString\MultiLineString.cs" />
@@ -626,7 +627,7 @@
     <Compile Include="51_Generic\_\Generic_PairOfType.cs" />
     <Compile Include="40_Property\NullWithObject\NullWithObject.cs" />
     <Compile Include="50_OOP\POCO\POCO.cs" />
-    <Compile Include="50_OOP\_\자동차클래스.cs" />
+    <Compile Include="50_OOP\_\자동차클래스\자동차클래스.cs" />
     <Compile Include="50_OOP\CarWorld.cs" />
     <Compile Include="51_ExtensionMethod\확장메서드.cs" />
     <Compile Include="52_Dynamic\Dynamic.cs" />
@@ -882,7 +883,7 @@
     <Compile Include="99_Etc\제어문_조건문\제어문_조건문.cs" />
     <Compile Include="99_Etc\추상클래스\추상클래스.cs" />
     <Compile Include="99_Etc\추상클래스와추상메서드\추상클래스와추상메서드.cs" />
-    <Compile Include="99_Etc\캡슐화\캡슐화.cs" />
+    <Compile Include="50_OOP\_\캡슐화\캡슐화.cs" />
     <Compile Include="99_Etc\클래스상속\클래스상속.cs" />
     <Compile Include="99_Etc\클래스와멤버\클래스와멤버.cs" />
     <Compile Include="99_Etc\프로퍼티\프로퍼티.cs" />

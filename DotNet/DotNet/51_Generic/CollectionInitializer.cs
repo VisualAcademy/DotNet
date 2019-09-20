@@ -1,4 +1,4 @@
-﻿// 컬렉션 이니셜라이저(C# 3.0 특징)
+﻿//[?] 컬렉션 이니셜라이저(C# 3.0 특징)
 using System;
 using System.Collections.Generic;
 
