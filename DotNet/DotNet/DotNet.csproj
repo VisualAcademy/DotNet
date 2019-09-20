@@ -852,7 +852,7 @@
     <Compile Include="99_Etc\개체이니셜라이저\개체이니셜라이저.cs" />
     <Compile Include="99_Etc\구조체배열\구조체배열.cs" />
     <Compile Include="99_Etc\널병합연산자\널병합연산자.cs" />
-    <Compile Include="99_Etc\네임스페이스\네임스페이스.cs" />
+    <Compile Include="35_Namespace\_\네임스페이스\네임스페이스.cs" />
     <Compile Include="99_Etc\문자열관련클래스\문자열관련클래스.cs" />
     <Compile Include="99_Etc\문자열관련클래스데모\문자열관련클래스데모.cs" />
     <Compile Include="99_Etc\문자열분리\문자열분리.cs" />

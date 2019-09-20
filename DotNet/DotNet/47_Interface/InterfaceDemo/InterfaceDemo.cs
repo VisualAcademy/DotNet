@@ -22,7 +22,7 @@ namespace InterfaceDemo
     {
         private IBattery _battery;
 
-        // [1] 생성자의 매개 변수로 인터페이스 형식 지정
+        //[1] 생성자의 매개 변수로 인터페이스 형식 지정
         public Car(IBattery battery)
         {
             _battery = battery; // 넘어온 개체가 _battery 필드에 저장
@@ -36,7 +36,7 @@ namespace InterfaceDemo
     {
         static void Main(string[] args)
         {
-            // [A] 넘겨주는 개체에 따라서 배터리 이름이 다르게 표시 
+            //[A] 넘겨주는 개체에 따라서 배터리 이름이 다르게 표시 
             var good = new Car(new Good()); good.Run();
             new Car(new Bad()).Run(); // 개체 만들기와 동시에 메서드 실행
         }

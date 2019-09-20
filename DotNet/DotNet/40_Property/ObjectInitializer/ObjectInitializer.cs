@@ -1,12 +1,12 @@
-﻿// 개체 이니셜라이저(C# 3.0 특징) 
+﻿//[?] 개체 이니셜라이저(C# 3.0 특징) 
 using System;
 
 namespace ObjectInitializer
 {
     class Course
     {
-        public int Id { get; set; }
-        public string Title { get; set; }
+        public int Id { get; set; } // Id 속성
+        public string Title { get; set; } // Title 속성
     }
 
     class ObjectInitializer

@@ -5,13 +5,13 @@ class PositiveNegativeZero
 {
     static void Main()
     {
-        int number = -10;
+        int number = -10; //[1] 원하는 정수 데이터 입력
 
-        if (number > 0)
+        if (number > 0) //[A] 양수 판단
         {
             Console.WriteLine($"{number}은 양수입니다.");
         }
-        else if (number < 0)
+        else if (number < 0) //[B] 음수 판단
         {
             Console.WriteLine($"{number}은 음수입니다."); // *
         }
