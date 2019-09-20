@@ -766,7 +766,7 @@
     <Compile Include="36_Field\VariableScope\VariableScope.cs" />
     <Compile Include="Pattern\RepositoryPatternDemo\RepositoryPatternDemo.cs" />
     <Compile Include="SendMailTest.cs" />
-    <Compile Include="74_Pattern\SignBaseSignRepository\SignBaseSignRepository.cs" />
+    <Compile Include="68_Pattern\SignBaseSignRepository\SignBaseSignRepository.cs" />
     <Compile Include="26_Class\_\SquareClass.cs" />
     <Compile Include="66_Tips\StringConverterDemo\StringConverterDemo.cs" />
     <Compile Include="SingleResponsibilityPrinciple.cs" />
@@ -911,7 +911,7 @@
     <Compile Include="05_Variable\_\상수_데모.cs" />
     <Compile Include="20_Array\_\배열.cs" />
     <Compile Include="20_Array\_\배열_명령줄인수.cs" />
-    <Compile Include="20_Array\_\배열_배열의배열.cs" />
+    <Compile Include="20_Array\_\배열_배열의배열\배열_배열의배열.cs" />
     <Compile Include="20_Array\_\배열_삼차원배열.cs" />
     <Compile Include="20_Array\_\배열_이차원배열.cs" />
     <Compile Include="20_Array\_\배열_일차원배열.cs" />
