@@ -382,7 +382,7 @@
     <Compile Include="51_ExtensionMethod\RelatedArticleOptionDemo.cs" />
     <Compile Include="63_PlaceHolder\PlaceHolderEtc.cs" />
     <Compile Include="53_IO\TextToCollection\TextToCollection.cs" />
-    <Compile Include="65_Tips\IntelliSenseDemo\IntelliSenseDemo.cs" />
+    <Compile Include="66_Tips\IntelliSenseDemo\IntelliSenseDemo.cs" />
     <Compile Include="33_Algorithms\00_01_Start\01.합계.cs" />
     <Compile Include="33_Algorithms\00_01_Start\02.카운트.cs" />
     <Compile Include="33_Algorithms\00_01_Start\03.평균.cs" />
@@ -546,7 +546,7 @@
     <Compile Include="32_LINQ\QuerySyntaxMethodSyntax\QuerySyntaxMethodSyntax.cs" />
     <Compile Include="26_Class\RandomDemo\RandomDemo.cs" />
     <Compile Include="26_Class\RandomClassDemo\RandomClassDemo.cs" />
-    <Compile Include="36_Field\_\필드.cs" />
+    <Compile Include="36_Field\_\필드\필드.cs" />
     <Compile Include="38_Destructor\ConstructorMethodDestructor\ConstructorMethodDestructor.cs" />
     <Compile Include="38_Destructor\ConstructorToDestructor\ConstructorToDestructor.cs" />
     <Compile Include="38_Destructor\_\생성자_메서드_소멸자.cs" />
@@ -670,7 +670,7 @@
     <Compile Include="07_BoolCharString\CharacterEscapeSequence\CharacterEscapeSequence.cs" />
     <Compile Include="65_New\ConvertClass\ConvertClass.cs" />
     <Compile Include="08_ReadLine\DefaultExpression\DefaultExpression.cs" />
-    <Compile Include="65_Tips\DefineDemo\DefineDemo.cs" />
+    <Compile Include="66_Tips\DefineDemo\DefineDemo.cs" />
     <Compile Include="07_BoolCharString\EscapeSequenceDemo\EscapeSequenceDemo.cs" />
     <Compile Include="39_Method\GreetingPage\GreetingPage.cs" />
     <Compile Include="26_Class\EnvironmentVariable\EnvironmentVariable.cs" />
@@ -768,7 +768,7 @@
     <Compile Include="SendMailTest.cs" />
     <Compile Include="74_Pattern\SignBaseSignRepository\SignBaseSignRepository.cs" />
     <Compile Include="26_Class\_\SquareClass.cs" />
-    <Compile Include="65_Tips\StringConverterDemo\StringConverterDemo.cs" />
+    <Compile Include="66_Tips\StringConverterDemo\StringConverterDemo.cs" />
     <Compile Include="SingleResponsibilityPrinciple.cs" />
     <Compile Include="64_Async\SyncDemo\SyncDemo.cs" />
     <Compile Include="08_ReadLine\TypeAssertion\TypeAssertion.cs" />
@@ -884,7 +884,7 @@
     <Compile Include="99_Etc\추상클래스\추상클래스.cs" />
     <Compile Include="99_Etc\추상클래스와추상메서드\추상클래스와추상메서드.cs" />
     <Compile Include="50_OOP\_\캡슐화\캡슐화.cs" />
-    <Compile Include="99_Etc\클래스상속\클래스상속.cs" />
+    <Compile Include="45_Inheritance\_\클래스상속\클래스상속.cs" />
     <Compile Include="99_Etc\클래스와멤버\클래스와멤버.cs" />
     <Compile Include="99_Etc\프로퍼티\프로퍼티.cs" />
     <Compile Include="99_Etc\필드은폐\필드은폐.cs" />
@@ -978,7 +978,7 @@
     <Compile Include="08_ReadLine\_\암시적으로형식화된로컬변수.cs" />
     <Compile Include="25_Enum\_\열거형.cs" />
     <Compile Include="04_Syntax\_\이스케이프시퀀스.cs" />
-    <Compile Include="65_Tips\IntelliSenseDemo\_\인텔리센스.cs" />
+    <Compile Include="66_Tips\IntelliSenseDemo\_\인텔리센스.cs" />
     <Compile Include="29_Collection\_\자료구조_리스트.cs" />
     <Compile Include="30_GenericClass\_\자료구조_제네릭리스트.cs" />
     <Compile Include="63_PlaceHolder\_\자리표시자.cs" />
