@@ -1,4 +1,4 @@
-﻿// 리스트 제네릭 클래스: List<T> => List<int>, List<string>, List<object>
+﻿//[?] 리스트 제네릭 클래스: List<T> => List<int>, List<string>, List<object>
 using System;
 using System.Collections.Generic;
 
@@ -6,19 +6,19 @@ class ListOfString
 {
     static void Main()
     {
-        // [0] 제네릭 리스트 사용을 위한 인스턴스 생성
+        //[0] 제네릭 리스트 사용을 위한 인스턴스 생성
         List<string> colors = new List<string>();
         colors.Add("Red");
         colors.Add("Green");
         colors.Add("Blue");
 
-        // [1] for 문으로 출력 예
+        //[1] for 문으로 출력 예
         for (int i = 0; i < colors.Count; i++)
         {
             Console.WriteLine(colors[i]);
         }
 
-        // [2] foreach 문으로 출력 예
+        //[2] foreach 문으로 출력 예
         foreach (var color in colors)
         {
             Console.WriteLine(color);

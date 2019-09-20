@@ -197,6 +197,7 @@
     <Compile Include="08_ReadLine\TypeConversion\TypeConversion.cs" />
     <Compile Include="08_ReadLine\VarInput\VarInput.cs" />
     <Compile Include="08_ReadLine\Var\Var.cs" />
+    <Compile Include="31_Null\NullableTypes\NullableTypes.cs" />
     <Compile Include="32_LINQ\LinqWhereMethod\LinqWhereMethod.cs" />
     <Compile Include="33_Algorithms\ArithmeticSequence\ArithmeticSequence.cs" />
     <Compile Include="33_Algorithms\08_01_SortAlgorithm\BubbleSortAlgorithm.cs" />
@@ -723,7 +724,7 @@
     <Compile Include="06_Number\NullableDemo\NullableDemo.cs" />
     <Compile Include="31_Null\NullableOf\NullableOf.cs" />
     <Compile Include="30_GenericClass\_\Nullable형식.cs" />
-    <Compile Include="73_Temp\NullDemo\NullDemo.cs" />
+    <Compile Include="31_Null\NullDemo\NullDemo.cs" />
     <Compile Include="26_Class\ProcessGetCurrentProcess\ProcessGetCurrentProcess.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
