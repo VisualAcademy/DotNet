@@ -648,7 +648,7 @@
     <Compile Include="49_Attribute\ReflectionGetMethod.cs" />
     <Compile Include="51_Generic\GenericClassPractice\GenericClassPractice.cs" />
     <Compile Include="51_Generic\ListOfObject\ListOfObject.cs" />
-    <Compile Include="51_Generic\_\Generic_PairOfType.cs" />
+    <Compile Include="51_Generic\_\Generic_PairOfType\Generic_PairOfType.cs" />
     <Compile Include="40_Property\NullWithObject\NullWithObject.cs" />
     <Compile Include="50_OOP\POCO\POCO.cs" />
     <Compile Include="50_OOP\_\자동차클래스\자동차클래스.cs" />
@@ -910,7 +910,7 @@
     <Compile Include="45_Inheritance\_\클래스상속\클래스상속.cs" />
     <Compile Include="26_Class\_\클래스와멤버\클래스와멤버.cs" />
     <Compile Include="40_Property\_\프로퍼티\프로퍼티.cs" />
-    <Compile Include="99_Etc\필드은폐\필드은폐.cs" />
+    <Compile Include="45_Inheritance\_\필드은폐\필드은폐.cs" />
     <Compile Include="99_Etc\함수_정의_호출\함수_정의_호출.cs" />
     <Compile Include="99_Etc\형식변환\형식변환.cs" />
     <Compile Include="34_Object\_\개체.cs" />
@@ -1009,8 +1009,8 @@
     <Compile Include="26_Class\_\정적과인스턴스\정적과인스턴스.cs" />
     <Compile Include="44_ClassEtc\_\정적클래스와정적클래스멤버.cs" />
     <Compile Include="30_GenericClass\GenericPros\GenericPros.cs" />
-    <Compile Include="51_Generic\_\제네릭메서드.cs" />
-    <Compile Include="51_Generic\_\제네릭클래스.cs" />
+    <Compile Include="51_Generic\_\제네릭메서드\제네릭메서드.cs" />
+    <Compile Include="51_Generic\_\제네릭클래스\제네릭클래스.cs" />
     <Compile Include="17_For\_\구구단_가로출력.cs" />
     <Compile Include="16_Switch\_\선택문\선택문.cs" />
     <Compile Include="18_WhileDoForEach\_\선행반복.cs" />
@@ -1051,6 +1051,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="39_Method\_\메서드의매개변수형식\" />
     <Folder Include="55_InMemory\" />
     <Folder Include="62_TODO\" />
   </ItemGroup>
