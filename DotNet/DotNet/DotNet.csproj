@@ -232,6 +232,7 @@
     <Compile Include="35_Namespace\_\새로운클래스.cs" />
     <Compile Include="42_Delegate\IntParameterAndIntReturnClass\IntParameterAndIntReturnClass.cs" />
     <Compile Include="44_ClassEtc\OperatorOverload\OperatorOverload.cs" />
+    <Compile Include="58_Modern\RefReturn.cs" />
     <Compile Include="64_Debug\DebugDemo.cs" />
     <Compile Include="64_Debug\디버깅.cs" />
     <Compile Include="12_BitAndShift\BitAnd\BitAnd.cs" />
@@ -779,7 +780,6 @@
     <Compile Include="37_Constructor\ReadOnlyNote\ReadOnlyNote.cs" />
     <Compile Include="36_Field\PublicAndPrivate\PublicAndPrivate.cs" />
     <Compile Include="36_Field\PublicPrivate\PublicPrivate.cs" />
-    <Compile Include="RefReturn.cs" />
     <Compile Include="42_Delegate\DelegateNote\DelegateNote.cs" />
     <Compile Include="36_Field\FieldArray\FieldArray.cs" />
     <Compile Include="36_Field\FieldInitializer\FieldInitializer.cs" />
@@ -788,15 +788,15 @@
     <Compile Include="36_Field\PublicField\PublicField.cs" />
     <Compile Include="36_Field\VariableScope\VariableScope.cs" />
     <Compile Include="Pattern\RepositoryPatternDemo\RepositoryPatternDemo.cs" />
-    <Compile Include="SendMailTest.cs" />
+    <Compile Include="66_Email\SendMailTest.cs" />
     <Compile Include="68_Pattern\SignBaseSignRepository\SignBaseSignRepository.cs" />
     <Compile Include="26_Class\_\SquareClass.cs" />
     <Compile Include="66_Tips\StringConverterDemo\StringConverterDemo.cs" />
-    <Compile Include="SingleResponsibilityPrinciple.cs" />
+    <Compile Include="68_Pattern\SingleResponsibilityPrinciple.cs" />
     <Compile Include="64_Async\SyncDemo\SyncDemo.cs" />
     <Compile Include="08_ReadLine\TypeAssertion\TypeAssertion.cs" />
     <Compile Include="24_Struct\_\UserRegister\UserRegister.cs" />
-    <Compile Include="WeatherForecastApp.cs" />
+    <Compile Include="64_Async\_\WeatherForecastApp.cs" />
     <Compile Include="51_Generic\GenericClass\GenericClass.cs" />
     <Compile Include="51_Generic\GenericNote\GenericNote.cs" />
     <Compile Include="51_Generic\GenericsDemo\GenericsDemo.cs" />
@@ -957,7 +957,7 @@
     <Compile Include="44_ClassEtc\_\변환연산자.cs" />
     <Compile Include="44_ClassEtc\_\분할클래스.cs" />
     <Compile Include="69_Thread\_\스레드.cs" />
-    <Compile Include="스태틱과인스턴스.cs" />
+    <Compile Include="26_Class\_\스태틱과인스턴스.cs" />
     <Compile Include="03_HelloWorld\_\안녕하세요.cs" />
     <Compile Include="33_Algorithms\06_01_NearAlgorithm\06_02_NearAll\06_02_NearAll.cs" />
     <Compile Include="33_Algorithms\08_01_SortAlgorithm\_\선택정렬복습.cs" />
@@ -1005,9 +1005,9 @@
     <Compile Include="29_Collection\_\자료구조_리스트.cs" />
     <Compile Include="30_GenericClass\_\자료구조_제네릭리스트.cs" />
     <Compile Include="63_PlaceHolder\_\자리표시자.cs" />
-    <Compile Include="전처리기지시문_조건부컴파일기호.cs" />
-    <Compile Include="정적과인스턴스.cs" />
-    <Compile Include="정적클래스와정적클래스멤버.cs" />
+    <Compile Include="99_Etc\전처리기지시문_조건부컴파일기호.cs" />
+    <Compile Include="26_Class\_\정적과인스턴스.cs" />
+    <Compile Include="44_ClassEtc\_\정적클래스와정적클래스멤버.cs" />
     <Compile Include="30_GenericClass\GenericPros\GenericPros.cs" />
     <Compile Include="51_Generic\_\제네릭메서드.cs" />
     <Compile Include="51_Generic\_\제네릭클래스.cs" />
@@ -1029,13 +1029,13 @@
     <Compile Include="54_Tuple\TupleReturnName.cs" />
     <Compile Include="04_Syntax\_\주석문.cs" />
     <Compile Include="08_ReadLine\RadixTransformation\RadixTransformation.cs" />
-    <Compile Include="클래스복습.cs" />
-    <Compile Include="클래스설계연습.cs" />
-    <Compile Include="클래스와개체.cs" />
-    <Compile Include="클래스와객체.cs" />
+    <Compile Include="50_OOP\_\클래스복습.cs" />
+    <Compile Include="50_OOP\_\클래스설계연습.cs" />
+    <Compile Include="34_Object\_\클래스와개체.cs" />
+    <Compile Include="34_Object\_\클래스와객체.cs" />
     <Compile Include="03_HelloWorld\ClassSimple\ClassSimple.cs" />
     <Compile Include="03_HelloWorld\_\클래스이름.cs" />
-    <Compile Include="클래스와인스턴스.cs" />
+    <Compile Include="34_Object\_\클래스와인스턴스.cs" />
     <Compile Include="08_ReadLine\_\키보드입력.cs" />
     <Compile Include="49_Attribute\_\특성.cs" />
     <Compile Include="53_IO\_\파일처리_파일리스트_특정폴더.cs" />
@@ -1052,9 +1052,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="55_InMemory\" />
-    <Folder Include="58_Modern\" />
     <Folder Include="62_TODO\" />
-    <Folder Include="66_Email\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="01_DotNet\_\DOS명령어.txt" />

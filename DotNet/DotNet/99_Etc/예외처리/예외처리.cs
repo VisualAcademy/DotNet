@@ -1,6 +1,6 @@
 ﻿using System;
 
-class 예외처리
+class 예외처리복습
 {
     static void Main(string[] args)
     {
