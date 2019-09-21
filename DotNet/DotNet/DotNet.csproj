@@ -232,6 +232,7 @@
     <Compile Include="35_Namespace\_\새로운클래스.cs" />
     <Compile Include="42_Delegate\IntParameterAndIntReturnClass\IntParameterAndIntReturnClass.cs" />
     <Compile Include="44_ClassEtc\OperatorOverload\OperatorOverload.cs" />
+    <Compile Include="59_Modern\CSharpSeven\CSharpSeven.cs" />
     <Compile Include="59_Modern\RefReturn.cs" />
     <Compile Include="64_Debug\DebugDemo.cs" />
     <Compile Include="64_Debug\디버깅.cs" />
@@ -391,7 +392,7 @@
     <Compile Include="32_LINQ\LinqTake\LinqTake.cs" />
     <Compile Include="32_LINQ\LinqWhereContains\LinqWhereContains.cs" />
     <Compile Include="32_LINQ\LinqZip\LinqZip.cs" />
-    <Compile Include="36_Field\_\읽기전용필드.cs" />
+    <Compile Include="36_Field\_\읽기전용필드\읽기전용필드.cs" />
     <Compile Include="37_Constructor\CircleClass\CircleClass.cs" />
     <Compile Include="37_Constructor\ExpressionBodiedConstructor\ExpressionBodiedConstructor.cs" />
     <Compile Include="21_Function\ExpressionBodiedMethod\ExpressionBodiedMethod.cs" />
@@ -607,7 +608,7 @@
     <Compile Include="41_Indexer\YieldReturn\YieldReturn.cs" />
     <Compile Include="41_Indexer\_\인덱서설명.cs" />
     <Compile Include="41_Indexer\_\인덱서확장.cs" />
-    <Compile Include="43_Event\_\이벤트.cs" />
+    <Compile Include="43_Event\_\이벤트\이벤트.cs" />
     <Compile Include="43_Event\EventDemo.cs" />
     <Compile Include="42_Delegate\AnonymousDelegate\AnonymousDelegate.cs" />
     <Compile Include="42_Delegate\DelegateDemo\DelegateDemo.cs" />
