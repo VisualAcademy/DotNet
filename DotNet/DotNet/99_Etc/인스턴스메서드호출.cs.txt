@@ -1,0 +1,28 @@
+using System;
+
+namespace 인스턴스메서드호출{
+	public class 안녕클래스{
+		public void 안녕하세요(){
+			Console.WriteLine("안녕하세요!!!");
+		}
+	}
+
+	public class 메롱클래스{
+		public void 메롱(){
+			Console.WriteLine("메롱~~~");
+		}
+	}
+
+	public class 인스턴스메서드호출{
+		public static void Main(){
+			//인스턴스(instance) 메서드 호출
+			안녕클래스 안녕인스턴스;
+			안녕인스턴스 = new 안녕클래스();
+			안녕인스턴스.안녕하세요();
+
+			메롱클래스 메롱인스턴스;
+			메롱인스턴스 = new 메롱클래스();
+			메롱인스턴스.메롱();
+		}
+	}
+}

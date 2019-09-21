@@ -1,0 +1,24 @@
+//output 매개변수
+using System;
+
+namespace 반환형인수
+{
+	public class 반환에의한전달
+	{
+		public static void 테스트메서드(out int 정수)
+		{
+			정수 = 10;
+			Console.WriteLine("1. 정수 : {0}", 정수);
+		}
+	}
+
+	public class output매개변수
+	{
+		public static void Main()
+		{
+			int 정수;
+			반환에의한전달.테스트메서드(out 정수);
+			Console.WriteLine("2. 정수 : {0}", 정수);
+		}
+	}
+}

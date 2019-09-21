@@ -1,0 +1,27 @@
+//가비지 컬렉션에 따른 소멸자의 기능을 확인
+using System;
+
+namespace 소멸자
+{
+	public class Memory
+	{
+		private object BrainCell;
+		public void Remember()
+		{
+			Console.WriteLine("{0}", BrainCell);
+		}
+		~Memory()
+		{
+			BrainCell = "기억을 삭제하겠습니다. ";
+			Remember();
+		}
+	}
+
+	public class Experience
+	{
+		public static void Main()
+		{
+			Memory xp = new Memory();
+		}
+	}
+}

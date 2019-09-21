@@ -1,0 +1,22 @@
+using System;
+
+namespace 한가지내용만기억하는클래스{
+	public class 기억{
+		private static object 뇌세포;
+		public static void 기억하다(object 경험){
+			뇌세포 = 경험;
+		}
+		public static void 기억해내다(){
+			Console.WriteLine("{0}", 뇌세포);
+		}
+	}
+	public class 경험{
+		public static void Main(){
+			Console.Write("무엇을 기억했습니까? ");
+			string 경험 = Console.ReadLine();
+			기억.기억하다(경험);
+			Console.Write("기억한 내용은 : ");
+			기억.기억해내다();
+		}
+	} 
+}

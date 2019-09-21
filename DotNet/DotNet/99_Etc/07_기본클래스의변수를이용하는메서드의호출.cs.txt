@@ -1,0 +1,45 @@
+using System;
+
+namespace 기본클래스의변수를이용하는메서드의호출
+{
+	public class Memory
+	{
+		private object BrainCell;
+		public void Memorize(object Experience)
+		{
+			Console.WriteLine("[Memory.Memorize()]");
+			BrainCell = Experience;
+		}
+		public object Remember()
+		{
+			Console.WriteLine("[Memory.Remember()]");
+			return BrainCell;
+		}
+	}
+
+	public class MemoryD : Memory
+	{
+		public new void Memorize(object Experience)
+		{
+			Console.WriteLine("[MemoryD.Memorize()");
+			base.Memorize(Experience);
+		}
+		public new object Remember()
+		{
+			Console.WriteLine("[MemoryD.Remember()");
+			return base.Remember();
+		}
+	}
+
+	public class Experience
+	{
+		public static void Main()
+		{
+			Console.Write("무엇을 기억했습니까? ");
+			string Experience = Console.ReadLine();
+			Memory xp = new MemoryD();
+			xp.Memorize(Experience);
+			Console.WriteLine("기억한 내용은 : {0}", xp.Remember());
+		}
+	}
+}

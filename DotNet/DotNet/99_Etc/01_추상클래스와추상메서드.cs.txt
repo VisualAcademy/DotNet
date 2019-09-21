@@ -1,0 +1,39 @@
+using System;
+
+namespace 추상클래스와추상메서드
+{
+	public abstract class Account : Object
+	{
+		public abstract void Deposit(int Amount);
+		public abstract void Withdraw(int Amount);
+		public string Hi(){ return "안녕"; }
+	}
+
+	public class Checking : Account
+	{
+		private int _Balance;
+		public override void Deposit(int Amount)
+		{
+			_Balance += Amount;
+			Console.WriteLine("[Deposit]현재 잔액 : {0}", _Balance);
+		}                      	
+		public override void Withdraw(int Amount)
+		{
+			_Balance -= Amount;
+			Console.WriteLine("[Withdraw]현재 잔액 : {0}", _Balance);
+		}                               
+	}
+
+	public class Banking : object
+	{
+		public static void Main(string[] args)
+		{
+			Checking c = new Checking();
+			c.Deposit(100);
+			c.Withdraw(50);
+			Console.WriteLine(
+				"추상 클래스는 추가적인 멤버 구현 가능 : {0}",
+				c.Hi());
+		}	
+	}
+}

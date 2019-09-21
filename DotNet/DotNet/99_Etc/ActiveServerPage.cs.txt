@@ -1,0 +1,20 @@
+using System;
+
+namespace ActiveServerPage{
+	/// <summary>
+	/// ASP3.0ÀÇ °´Ã¼ ¼³°è
+	/// </summary>
+	public class ActiveServerPage{
+		public static void Main(string[] args)
+		{
+			//<%   
+						
+			//%>
+		}
+	}
+	public class Response{}
+	public class Request{}
+	public class Server{}
+	public class Application{}
+	public class Session{}
+}

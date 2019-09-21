@@ -1,0 +1,24 @@
+using System;
+
+namespace 메서드오버라이드확인
+{
+	public class 메서드오버라이드확인
+	{
+		public static void Main()
+		{
+			integer int1 = 10;
+			integer int2 = 20;
+
+			int1++; 			
+			integer int3 = int1 + int2;
+            
+			Console.WriteLine(
+				"integer MinValue: {0} ~ Maxvalue: {1}"
+				, integer.Minvalue, integer.Maxvalue);
+
+			Console.WriteLine("int1 = {0}", int1);
+			Console.WriteLine("int2 = {0}", int2);
+			Console.WriteLine("int3 = {0}", int3);
+		}
+	}
+}

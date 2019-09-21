@@ -1,0 +1,37 @@
+using System;
+
+namespace 명시적으로인터페이스멤버구현
+{
+	public interface IFdd
+	{
+		void Save();
+	}
+	public interface IHdd
+	{
+		void Save();	
+	}
+	public class Certification : IFdd, IHdd
+	{
+		void IFdd.Save()
+		{
+			Console.WriteLine("공인인증서를 FDD에 저장합니다.");
+		}
+		void IHdd.Save()
+		{
+			Console.WriteLine("공인인증서를 HDD에 저장합니다.");
+		}
+	}                                                                                                                     
+	public class OnlineBanking : object
+	{
+		public static void Main(string[] args)
+		{
+			Certification c = new Certification();
+			//묵시적 형 변환 가능
+			IFdd f = c;
+			f.Save();
+			//명시적 형 변환 가능
+			IHdd h = (IHdd)c;
+			h.Save();
+		}	
+	}
+}

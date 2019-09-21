@@ -1,0 +1,25 @@
+using System;
+
+namespace 매개변수가있는대리자
+{
+	public class Sum
+	{
+		public static void Execute(int x, int y)
+		{
+			Console.WriteLine("{0} + {1} = {2}"
+				, x, y, (x + y));
+		}
+	}      
+	//[1] 델리게이트 선언
+	public delegate void Method(int x, int y);
+	public class 매개변수가있는대리자
+	{
+		public static void Main(string[] args)
+		{
+			//[2] 델리게이트 생성
+			Method m = new Method(Sum.Execute);
+			//[3] 델리게이트 실행
+			m(3, 5);		
+		}
+	}
+}                                         

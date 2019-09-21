@@ -1,0 +1,103 @@
+using System;
+
+namespace 클래스상속종합연습
+{
+	public abstract class Account : Object		//계좌 클래스(추상클래스)
+	{
+		//protected int _Balance;		//잔액 필드
+		private int _Balance;			//필드 은폐
+		//public int Balance				//잔액 속성
+		public virtual int Balance				//잔액 속성
+		{
+			get
+			{
+				return _Balance;
+			}
+		}
+		//public void Deposit(int Amount)	//입금 메서드
+		public void Deposit(int Amount)	//입금 메서드
+		{
+			_Balance += Amount;
+		}	
+		//public void Withdraw(int Amount)//출금 메서드
+		public virtual void Withdraw(int Amount)//출금 메서드
+		{
+			_Balance -= Amount;		
+		}
+		public Account() : this(0)
+		{
+		}
+		public Account(int _Balance)	//계좌 클래스 생성자
+		{
+			this._Balance = _Balance;
+		}
+	}
+
+	public class Checking : Account{	//당좌 클래스
+		//private int _Balance = 0;		//잔액 필드
+		//public int Balance				//잔액 속성
+		public override int Balance				//잔액 속성
+		{
+			get
+			{
+				//return _Balance;
+				return base.Balance;
+			}
+		}
+		//public void DepositD(int Amount)	//입금 메서드
+		//public void Deposit(int Amount)
+		public new void Deposit(int Amount)
+		{
+			//_Balance += Amount;
+			base.Deposit(Amount);
+		}	
+		//public void WithdrawD(int Amount)//출금 메서드
+		//public void Withdraw(int Amount)
+		public override sealed void Withdraw(int Amount)
+		{
+			//_Balance -= Amount;		
+			base.Withdraw(Amount);
+		}
+		public Checking() : this(0)
+		{
+		}
+		//public Checking(int _Balance) : base(0)	//당좌 클래스 생성자
+		public Checking(int _Balance) : base(_Balance)
+		{
+			//this._Balance = _Balance;//기본 클래스 생성자 호출 : base()
+		}
+	}
+
+//	sealed public class CheckingAccount : Checking
+//	{
+//		public override void Withdraw(int Amount)
+//		{
+//			//에러
+//		}
+//	}
+//	public class SeadedCheckingAccount : CheckingAccount
+//	{
+//		//에러
+//	}
+
+	public class Banking : object
+	{
+		public static void Main(string[] args)
+		{
+			//[1] 기본 클래스와 파생 클래스 사용
+			Account c = new Checking(100);
+			//c.DepositD(300);
+			//Console.WriteLine(c.BalanceD);
+			//[2] 기본 클래스의 메서드 실행하기
+			//c.Deposit(400);
+			//Console.WriteLine(c.Balance);
+			//[3] 이용할 필드의 단일화
+			//Console.WriteLine(c.BalanceD);
+			//[4] 필드 은폐
+			//[5] 메서드 오버라이드(virtual/override)
+			//[6] 메서드 오버라이드(new)
+			//[7] 상속 금지
+			Console.WriteLine(c.Balance); 
+		}
+	}
+}

@@ -1,0 +1,32 @@
+//가변형 매개변수
+using System;
+
+namespace 가변형인수
+{
+	public class 연습클래스
+	{
+		public static void 연습메서드(params int[] 정수배열)
+		{
+			foreach(int 정수변수 in 정수배열)
+			{
+				Console.Write("{0} ", 정수변수);
+			}
+			Console.WriteLine();
+		}
+	}
+
+	public class 메인클래스
+	{
+		public static void Main()
+		{
+			//[1] 값을 직접 설정하는 방법
+			연습클래스.연습메서드(10);
+			//[2] 배열을 설정하는 방법
+			int[] intNum = {10, 20};
+			연습클래스.연습메서드(intNum);
+			//[3] 배열의 참조를 넘겨주는 방법
+			연습클래스.연습메서드(
+				new int[]{10, 20, 30});
+		}
+	} 
+}

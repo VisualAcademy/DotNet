@@ -1,0 +1,34 @@
+//readonly 키워드를 사용한 프로그램
+using System;
+
+namespace 읽기전용필드사용
+{
+	public class Memory
+	{
+		public static readonly Memory Dog = 
+			new Memory("dog는 개입니다. ");
+		public static readonly object Cat = 
+			"cat은 고양이입니다. ";
+		private static object BrainCell;
+		public Memory(object Experience)
+		{
+			BrainCell = Experience;
+		}
+		public static void Remember()
+		{
+			Console.WriteLine("{0}", BrainCell);
+		}
+	}
+
+	public class Experience
+	{
+		public static void Main()
+		{
+			Console.Write("기억한 내용은 : ");
+			Console.WriteLine("{0}", Memory.Cat);
+			Memory xp = Memory.Dog;//중요!!!
+			Console.Write("기억한 내용은 : ");
+			Memory.Remember();                          
+		}
+	}
+}

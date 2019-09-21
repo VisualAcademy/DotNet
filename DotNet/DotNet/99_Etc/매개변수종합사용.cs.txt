@@ -1,0 +1,28 @@
+//매개변수 종합 사용
+using System;
+
+namespace 매개변수종합사용
+{
+	public class 연습클래스
+	{
+		public static void 연습메서드(int a, ref int b, out int c)
+		{
+			a = 30;
+			b = 40;
+			c = a + b;
+			Console.WriteLine("1. {0}, {1}, {2}", a, b, c);
+		}
+	}
+
+	public class 메인클래스
+	{
+		public static void Main()
+		{
+			int a = 10;
+			int b = 20;
+			int c;
+			연습클래스.연습메서드(a, ref b, out c);
+			Console.WriteLine("2. {0}, {1}, {2}", a, b, c);
+		}
+	}
+}

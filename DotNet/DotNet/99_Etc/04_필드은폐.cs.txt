@@ -1,0 +1,43 @@
+using System;
+
+namespace 필드은폐
+{              
+	public class Memory
+	{
+		private object BrainCell;
+		protected void Memorize(object Experience)
+		{
+			BrainCell = Experience;
+		}
+		public object Remember()
+		{
+			return BrainCell;
+		}
+	}
+
+	public class MemoryD : Memory
+	{
+		public void MemorizeD(object Experience)
+		{
+			//BrainCell = Experience;
+			Memorize(Experience);
+		}
+		public object RememberD()
+		{
+			//return BrainCell;
+			return Remember();
+		}
+	}
+
+	public class Experience
+	{
+		public static void Main()
+		{
+			Console.Write("무엇을 기억했습니까? ");
+			string Experience = Console.ReadLine();
+			MemoryD xp = new MemoryD();
+			xp.MemorizeD(Experience);
+			Console.WriteLine("기억한 내용은 : {0}", xp.RememberD());
+		}
+	}
+}

@@ -1,0 +1,44 @@
+using System;
+
+namespace 인스턴스메서드를사용한이벤트처리
+{
+	public delegate void EventHandler();
+
+	public class Button
+	{
+		public event EventHandler Push;
+		public void OnPush()
+		{
+			if(Push != null)
+				Push();
+		}
+	}
+
+	public class Watch
+	{
+		public static void Now()
+		{
+			Console.WriteLine("Time: {0}", DateTime.Now.ToString());
+		}
+		public void Today()
+		{
+			Console.WriteLine("Date: {0}", DateTime.Today.ToString());
+		}
+	}
+
+	public class WatchTest
+	{
+		public static void Main()
+		{
+			Button button = new Button();
+			Watch watch = new Watch();
+			button.Push += new EventHandler(Watch.Now);
+			button.Push += new EventHandler(watch.Today);
+			button.OnPush();
+			button.Push -= new EventHandler(Watch.Now);
+			button.Push -= new EventHandler(watch.Today);
+			button.OnPush();
+		}
+	}
+
+}

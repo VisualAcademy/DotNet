@@ -1,0 +1,52 @@
+using System;
+
+namespace 표준이벤트핸들러형식{
+	//Num 클래스
+	public class Num{
+		public string name;
+		//생성자
+		public Num(string name){
+			this.name = name;
+		}
+		//[1] 델리게이트 선언 : 이벤트 핸들러 선언
+		public delegate void EventHandler(
+			object sender, EventArgs e);
+		//[2] 이벤트 선언
+		public event EventHandler OnEvt;
+		//[3] 이벤트 발생 메서드
+		public void NumOn(){
+			if(OnEvt != null){
+				//null이 아니면 이벤트를 호출
+				EventArgs e = new EventArgs();
+				OnEvt(this, e);
+			}
+		}
+	}
+	public class 표준이벤트핸들러형식{
+		//[4] 이벤트 수행 함수
+		private static void OnNum(object sender, EventArgs e){
+			Num Num = (Num)sender;
+			//Num 이름 출력
+			Console.WriteLine("{0}의 이벤트 발생!!!", Num.name);
+		}
+		public static void Main(string[] args){
+			//Num 생성
+			Num num1 = new Num("짝수");
+			Num num2 = new Num("홀수");
+			//이벤트 추가
+			num1.OnEvt += new Num.EventHandler(OnNum);
+			num2.OnEvt += new Num.EventHandler(OnNum);
+			//사용자 정수 입력
+			Console.WriteLine("정수를 입력하세요.");
+			string strTemp = Console.ReadLine();
+			int intNum = Convert.ToInt32(strTemp);
+			//이벤트 발생
+			if(intNum % 2 == 0){
+				num1.NumOn();
+			}
+			else{
+				num2.NumOn();
+			}
+		}
+	}
+}

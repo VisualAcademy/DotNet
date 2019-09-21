@@ -1,0 +1,32 @@
+using System;
+
+namespace 생성자초기화리스트
+{
+	public class 기억
+	{
+		private static object 뇌세포;
+		public 기억() : this("초기화리스트에 의해서 생성자 호출"){}
+		public 기억(object 경험)
+		{
+			뇌세포 = 경험;
+		}
+		public void 기억해내다()
+		{
+			Console.WriteLine("{0}", 뇌세포);
+		}
+	}
+	public class 경험
+	{
+		public static void Main()
+		{
+			기억 기억인스턴스;
+			기억인스턴스 = new 기억();
+
+			기억인스턴스.기억해내다();
+          
+			기억인스턴스 = new 기억(
+				"매개변수가 있는 생성자 호출");
+			기억인스턴스.기억해내다();
+		}
+	} 
+}

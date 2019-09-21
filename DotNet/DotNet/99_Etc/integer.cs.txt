@@ -1,0 +1,42 @@
+using System;
+
+//[1] integer 클래스 선언
+public class integer
+{
+	//[2] 읽기 전용 필드
+	public static readonly int Minvalue = -2147483648;
+	//[3] 상수
+	public const int Maxvalue = 2147483647;
+	//[4] 데이터를 저장할 필드
+	public int value;
+	//[5] 생성자
+	public integer(int value)
+	{
+		this.value = value;
+	}   
+	//[6] 변환 연산자 : int 형에서 integer 형으로 묵시적(Implicit) 형 변환
+	public static implicit operator integer(int value)
+	{
+		return new integer(value);
+	}  
+	//[7] 단항 연산자의 오버로드(다중정의) : ++ 연산자
+	public static integer operator ++(integer value)
+	{
+		return ++value.value;
+	}                               
+	//[8] 이항 연산자의 오버로드 : + 연산자
+	public static integer operator +(integer value1, integer value2)
+	{
+		return value1.value + value2.value;
+	}   
+	//[9] 메서드의 오버라이드(재정의) : ToString() 메서드
+	public override string ToString()
+	{
+		return value.ToString();
+	}
+//	//[10] 명시적 형 변환(Implicit)
+//	public static explicit operator integer(int value)
+//	{
+//		return new integer(value);
+//	}
+}

@@ -1,0 +1,33 @@
+using System;
+
+namespace 델리게이트사용
+{      
+	public class Hello
+	{
+		public static void 안녕하세요()
+		{
+			Console.WriteLine("안녕하세요");
+		}
+		public static void 반갑습니다()
+		{
+			Console.WriteLine("반갑습니다");
+		}
+	}  
+	//[1]MyDelegate 만들기 : 접근수식자 delegate 반환수식자 MyDelegate();
+	public delegate void MyDelegate();
+	public class 델리게이트사용
+	{
+		public static void Main()
+		{
+			//[2]MyDelegate 변수를 선언
+			MyDelegate 델리게이트변수;
+
+			//[3] MyDelegate 변수에 여러개의 메서드 참조(1개 이상)
+			델리게이트변수 = new MyDelegate(Hello.안녕하세요);
+			델리게이트변수 += new MyDelegate(Hello.반갑습니다);
+
+			//[4]MyDelegate 변수를 통해서 다중 메서드 호출
+			델리게이트변수();//멀티캐스트 델리게이션
+		}
+	}
+}

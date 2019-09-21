@@ -1,0 +1,18 @@
+using System;
+
+namespace 기본기능확인
+{
+	public class 기본기능확인
+	{
+		public static void Main(string[] args)
+		{
+			integer int1 = new integer(1);
+
+			Console.WriteLine(
+				"integer Minvalue : {0} ~ Maxvalue : {1}"
+				, integer.Minvalue, integer.Maxvalue);
+			
+			Console.WriteLine("int1 = {0}", int1.value);
+		}
+	}
+}

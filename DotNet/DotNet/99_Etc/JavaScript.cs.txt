@@ -1,0 +1,21 @@
+using System;
+
+namespace 클래스{
+	/// <summary>
+	/// JavaScript1.2 설계도
+	/// </summary>
+	public class window{
+		public class JavaScript{
+			public static void Main(string[] args){
+				//<script language="JavaScript">
+
+				//</script>
+			}
+		}
+		public class document{}
+		public class history{}
+		public class location{}
+	}
+	public class Array{}
+	public class Date{}
+}

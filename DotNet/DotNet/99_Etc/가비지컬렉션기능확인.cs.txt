@@ -1,0 +1,40 @@
+//가비지 컬렉션의 동작을 확인하는 프로그램.
+using System;
+
+namespace 가비지컬렉션기능확인
+{
+	using System;
+
+	public class Memory
+	{
+		private object BrainCell;
+		public Memory(object Experience)
+		{
+			Console.Write("Memory() 기억한 내용은 : ");
+			BrainCell = Experience;
+			Remember();
+		}
+		public void Remember()
+		{
+			Console.WriteLine("{0}", BrainCell);
+		}
+		~Memory()
+		{
+			Console.Write("~Memory() 기억한 내용은 : ");
+			BrainCell = "기억을 삭제하겠습니다.";
+			Remember();
+		}
+	}
+
+	public class Experience
+	{
+		public static void Main()
+		{
+			Memory xp = new Memory("dog는 개입니다.");
+			xp = new Memory("cat은 고양이입니다.");
+			xp = new Memory("pig는 돼지입니다.");
+			GC.Collect();
+			GC.WaitForPendingFinalizers();
+		}
+	}
+}

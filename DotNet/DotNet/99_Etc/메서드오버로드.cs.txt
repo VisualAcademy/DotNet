@@ -1,0 +1,34 @@
+//메서드 재정의 : 메서드 오버로드
+using System;
+
+namespace 메서드오버로드{
+	public class CPrint{
+		public static void WriteLine(){
+			Console.WriteLine(
+				"매개변수도 없는 메서드 호출");
+		}
+		public static void WriteLine(
+			string strContent){
+			Console.WriteLine("{0}", strContent);
+		}
+		public static string WriteLine(
+			string strContent, int intCount){
+			string strResult = "";
+			for(int i = 0; i < intCount; i++){
+				strResult += strContent + " ";	
+			}
+			return strResult;
+		}
+	}
+	public class CMain{
+		public static void Main(){
+			CPrint.WriteLine();
+			CPrint.WriteLine(
+				"매개변수가 있는 메서드 호출");
+			string strReturn = 
+				CPrint.WriteLine(
+					"반환값이 있는 함수 호출", 2);
+			Console.WriteLine(strReturn);
+		}
+	} 
+}

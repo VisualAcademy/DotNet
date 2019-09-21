@@ -1,0 +1,30 @@
+using System;
+
+namespace 스태틱과인스턴스
+{
+	public class 테스트
+	{
+		public static void StaticMethod(string strTemp)
+		{
+			Console.WriteLine("static : {0}", strTemp);
+		}
+		public void InstanceMethod(string strTemp)
+		{
+			Console.WriteLine("instance : {0}", strTemp);
+		}
+	}
+
+	public delegate void DelegateType(string strTemp);
+	public class 메인
+	{
+		public static void Main(string[] args)
+		{
+			DelegateType dt = new DelegateType(테스트.StaticMethod);
+		    dt("델리게이트");
+
+			테스트 t = new 테스트();
+			dt = new DelegateType(t.InstanceMethod);
+			dt("대리자");
+		}
+	}
+}

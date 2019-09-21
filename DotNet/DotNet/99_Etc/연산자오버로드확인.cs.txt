@@ -1,0 +1,26 @@
+using System;
+
+namespace 연산자오버로드확인
+{
+	public class 연산자오버로드확인
+	{
+		public static void Main(string[] args)
+		{
+			integer int1 = 10;
+			integer int2 = 20;
+
+			// int1 변수를 1 증가시킨다.
+			int1++; 
+		
+			// int1 변수와 int2 변수를 더해서 int3 변수에 대입한다.
+			integer int3 = int1 + int2;
+
+			Console.WriteLine(
+				"integer MinValue: {0} ~ Maxvalue: {1}"
+				, integer.Minvalue, integer.Maxvalue);
+			Console.WriteLine("int1 = {0}", int1.value);
+			Console.WriteLine("int2 = {0}", int2.value);
+			Console.WriteLine("int3 = {0}", int3.value);
+		}
+	}
+}

@@ -1,0 +1,45 @@
+using System;
+
+namespace 정적메서드를사용한이벤트처리
+{
+	//델리게이트 선언
+	public delegate void EventHandler();
+
+	public class Button
+	{
+		//이벤트 선언
+		public event EventHandler Push;
+		//이벤트 발생 메서드
+		public void OnPush()
+		{
+			if(Push != null)
+				Push();
+		}
+	}
+
+	public class Watch
+	{
+		public static void Now()
+		{
+			Console.WriteLine("Time: {0}", DateTime.Now.ToString());
+		}
+		public static void Today()
+		{
+			Console.WriteLine("Date: {0}", DateTime.Today.ToString());
+		}
+	}
+
+	public class WatchTest
+	{
+		public static void Main()
+		{
+			Button button = new Button();
+			button.Push += new EventHandler(Watch.Now);
+			button.Push += new EventHandler(Watch.Today);
+			button.OnPush();
+			button.Push -= new EventHandler(Watch.Now);
+			button.Push -= new EventHandler(Watch.Today);
+			button.OnPush();
+		}
+	}
+}

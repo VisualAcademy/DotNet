@@ -1,0 +1,26 @@
+//정적 객체를 생성하는 생성자(constructor)
+using System;
+
+namespace 정적객체를생성하는생성자
+{
+	public class 기억
+	{
+		private static object 뇌세포;
+		static 기억()     // 생성자(매개변수 없음)
+		{
+			뇌세포 = "생성자에 의해 " +
+				"객체를 초기화 시킵니다.";
+		}
+		public static void 기억해내다()
+		{
+			Console.WriteLine("{0}", 뇌세포);
+		}
+	}
+	public class 경험
+	{
+		public static void Main()
+		{
+			기억.기억해내다();
+		}
+	} 
+}

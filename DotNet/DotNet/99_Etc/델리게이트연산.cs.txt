@@ -1,0 +1,35 @@
+using System;
+
+namespace 델리게이트연산{
+	public class 델리게이트연산{
+		//델리게이트 선언
+		public delegate void DelegateFunction();
+		//메서드1 선언
+		public static void Function1(){
+			Console.WriteLine("메서드1 실행");
+		}
+		//메서드2 선언
+		public static void Function2(){
+			Console.WriteLine("메서드2 실행");
+		}
+		//Main 메서드
+		public static void Main(string[] args){
+			//델리게이트 생성
+			DelegateFunction d1, d2, d3, d4;
+
+			//델리게이트에 메서드 지정
+			d1 = new DelegateFunction(Function1);
+			d2 = new DelegateFunction(Function2);
+
+			//델리게이트 연산
+			d3 = d1 + d2;
+			d4 = d3 - d1;
+
+			//델리게이트 실행
+			Console.WriteLine("델리게이트3 실행");
+			d3();
+			Console.WriteLine("델리게이트4 실행");
+			d4();
+		}
+	}
+}

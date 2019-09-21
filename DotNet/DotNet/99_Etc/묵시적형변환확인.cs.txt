@@ -1,0 +1,20 @@
+using System;
+
+namespace 묵시적형변환확인
+{
+	public class 묵시적형변환확인
+	{
+		public static void Main(string[] args)
+		{
+			integer int1 = 1;
+			integer int2;
+			int2 = 2;
+
+			Console.WriteLine(
+				"integer Minvalue : {0} ~ Maxvalue : {1}"
+				, integer.Minvalue, integer.Maxvalue);			
+			Console.WriteLine("int1 = {0}", int1.value);
+			Console.WriteLine("int2 = {0}", int2.value);
+		}
+	}
+}

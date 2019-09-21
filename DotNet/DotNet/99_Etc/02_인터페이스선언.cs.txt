@@ -1,0 +1,43 @@
+using System;
+
+namespace 인터페이스선언
+{
+//	public abstract class Account : Object
+//	{
+//		public abstract void Deposit(int Amount);
+//		public abstract void Withdraw(int Amount);
+//	}          
+	public interface IAccountD
+	{
+		void Deposit(int Amount);
+	}
+
+	public interface IAccountW
+	{
+		void Withdraw(int Amount);
+	}
+
+	public class Checking : IAccountD, IAccountW // 다중 상속
+	{
+		private int _Balance;
+		public void Deposit(int Amount)//public 메서드
+		{
+			_Balance += Amount;
+			Console.WriteLine("[Deposit]현재 잔액 : {0}", _Balance);
+		}                      	
+		public void Withdraw(int Amount)//public 메서드
+		{
+			_Balance -= Amount;
+			Console.WriteLine("[Withdraw]현재 잔액 : {0}", _Balance);
+		}                               
+	}
+
+	public class Banking : object
+	{
+		public static void Main(string[] args)
+		{
+			Checking c = new Checking();
+			c.Deposit(100);
+		}	
+	}
+}

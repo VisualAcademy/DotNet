@@ -1,0 +1,24 @@
+using System;
+
+namespace 다중메서드호출
+{
+	public class Hello
+	{
+		public static void 안녕하세요()
+		{
+			Console.WriteLine("안녕하세요");
+		}
+		public static void 반갑습니다()
+		{
+			Console.WriteLine("반갑습니다");
+		}
+	}  
+	public class 다중메서드호출
+	{
+		public static void Main()
+		{
+			Hello.안녕하세요();
+			Hello.반갑습니다();
+		}
+	}
+}

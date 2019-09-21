@@ -1,0 +1,45 @@
+using System;
+
+namespace 기본클래스의인스턴스를사용한메서드호출
+{
+	public class Memory
+	{
+		protected object BrainCell;
+		public virtual void Memorize(object Experience)
+		{
+			Console.WriteLine("[Memory.Memorize()]");
+			BrainCell = Experience;
+		}
+		public virtual object Remember()
+		{
+			Console.WriteLine("[Memory.Remember()]");
+			return BrainCell;
+		}
+	}
+
+	public class MemoryD : Memory
+	{
+		public override void Memorize(object Experience)
+		{
+			Console.WriteLine("[MemoryD.Memorize()]");
+			BrainCell = Experience;
+		}
+		public override object Remember()
+		{
+			Console.WriteLine("[MemoryD.Remember()]");
+			return BrainCell; 
+		}
+	}
+
+	public class Experience
+	{
+		public static void Main()
+		{
+			Console.Write("무엇을 기억했습니까? ");
+			string Experience = Console.ReadLine();
+			Memory xp = new Memory();
+			xp.Memorize(Experience);
+			Console.WriteLine("기억한 내용은 : {0}", xp.Remember());
+		}
+	}
+}

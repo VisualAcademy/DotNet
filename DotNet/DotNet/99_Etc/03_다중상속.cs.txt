@@ -1,0 +1,35 @@
+using System;
+
+namespace 다중상속
+{
+	public interface IAccount
+	{
+		void Deposit(int Amount);
+		void Withdraw(int Amount);
+	}
+
+	public class Checking : IAccount
+	{
+		private int _Balance;
+		public void Deposit(int Amount)
+		{
+			_Balance += Amount;
+			Console.WriteLine("[Deposit]현재 잔액 : {0}", _Balance);
+		}                      	
+		public void Withdraw(int Amount)
+		{
+			_Balance -= Amount;
+			Console.WriteLine("[Withdraw]현재 잔액 : {0}", _Balance);
+		}                               
+	}
+
+	public class Banking : object
+	{
+		public static void Main(string[] args)
+		{
+			Checking c = new Checking();
+			c.Deposit(100);
+			c.Withdraw(50);
+		}	
+	}
+}

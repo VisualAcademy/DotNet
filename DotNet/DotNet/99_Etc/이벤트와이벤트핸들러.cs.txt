@@ -1,0 +1,37 @@
+//자바스크립트의 <input type="button" OnClick="Hi1();Hi2();"> 모방
+using System;
+
+namespace 이벤트와이벤트핸들러{
+	//이벤트 생성을 위한 델리게이트형 하나 생성
+	public delegate void EventHandler();
+	public class Button{
+		//이벤트 선언 : click 이벤트 생성 : 이벤트 필드
+		public event EventHandler Click;
+		//이벤트 발생 메서드 : OnClick EventHandler(핸들러) 생성
+		public void OnClick(){                    
+			if(Click != null){
+				Click();
+			}
+		}
+	}
+	public class Hello{
+		public static void Hi1(){
+			Console.WriteLine("안녕하세요");
+		}
+		public static void Hi2(){
+			Console.WriteLine("반갑습니다");
+		}
+	}
+	public class CMain{
+		public static void Main(){
+			Button button = new Button();
+
+			//이벤트에 메서드 설정
+			button.Click += new EventHandler(Hello.Hi1);
+			button.Click += new EventHandler(Hello.Hi2);
+
+			//이벤트 발생
+			button.OnClick();          
+		}
+	}
+}

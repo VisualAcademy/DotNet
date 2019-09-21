@@ -1,0 +1,19 @@
+using System;
+
+public class 메인클래스
+{
+	public static string 안녕변수 = "안녕하세요";
+	public static void Main(string [] args)
+	{
+		또다른클래스.합(3, 8);
+	}
+}
+
+public class 또다른클래스
+{
+	public static void 합(int a, int b)
+	{
+		Console.WriteLine("{0}", a + b);
+		Console.WriteLine(메인클래스.안녕변수);
+	}
+} 

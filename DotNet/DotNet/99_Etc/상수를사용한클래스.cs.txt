@@ -1,0 +1,32 @@
+using System;
+
+namespace 상수를사용한클래스{
+	public class 기억{
+		public const int 뇌세포번호=3;
+		private static object [] 뇌세포 = 
+			new object [뇌세포번호];
+		public static void 기억하다(
+			int 요소번호, object 경험){
+			뇌세포 [요소번호] = 경험;
+		}
+		public static void 기억해내다(){
+			foreach(object 경험 in 뇌세포){
+				Console.Write("{0} ", 경험);
+			}
+			Console.WriteLine();
+		}
+	}
+	public class 경험{
+		public static void Main(){
+			for(int i = 0;i < 기억.뇌세포번호;i++){
+				Console.Write(
+					"무엇을 기억했습니까 ({0}번째)? "
+					, i + 1);
+				string 경험 = Console.ReadLine();
+				기억.기억하다(i, 경험);
+			}
+			Console.Write("기억한 내용은 : ");
+			기억.기억해내다();
+		}
+	} 
+}
