@@ -787,7 +787,7 @@
     <Compile Include="36_Field\LocalVariable\LocalVariable.cs" />
     <Compile Include="36_Field\PublicField\PublicField.cs" />
     <Compile Include="36_Field\VariableScope\VariableScope.cs" />
-    <Compile Include="Pattern\RepositoryPatternDemo\RepositoryPatternDemo.cs" />
+    <Compile Include="75_Pattern\RepositoryPatternDemo\RepositoryPatternDemo.cs" />
     <Compile Include="66_Email\SendMailTest.cs" />
     <Compile Include="68_Pattern\SignBaseSignRepository\SignBaseSignRepository.cs" />
     <Compile Include="26_Class\SquareClass\SquareClass.cs" />
@@ -856,7 +856,7 @@
     <Compile Include="40_Property\PropertyValidation\PropertyValidation.cs" />
     <Compile Include="40_Property\Property\Property.cs" />
     <Compile Include="40_Property\PropertyAutoImplemented\PropertyAutoImplemented.cs" />
-    <Compile Include="51_Generic\_\제네릭_장점.cs" />
+    <Compile Include="30_GenericClass\_\제네릭_장점\제네릭_장점.cs" />
     <Compile Include="73_Network\WebClientDemo\WebClientDemo.cs" />
     <Compile Include="07_BoolCharString\WrapperType\WrapperType.cs" />
     <Compile Include="56_XmlAndJSON\XElementDemo\XElementDemo.cs" />
@@ -902,7 +902,7 @@
     <Compile Include="99_Etc\이름입력받기\이름입력받기.cs" />
     <Compile Include="99_Etc\인덱서\인덱서.cs" />
     <Compile Include="99_Etc\자료구조_스택\자료구조_스택.cs" />
-    <Compile Include="99_Etc\제네릭\제네릭.cs" />
+    <Compile Include="51_Generic\_\제네릭\제네릭.cs" />
     <Compile Include="99_Etc\제어문_조건문\제어문_조건문.cs" />
     <Compile Include="99_Etc\추상클래스\추상클래스.cs" />
     <Compile Include="99_Etc\추상클래스와추상메서드\추상클래스와추상메서드.cs" />
