@@ -790,7 +790,7 @@
     <Compile Include="Pattern\RepositoryPatternDemo\RepositoryPatternDemo.cs" />
     <Compile Include="66_Email\SendMailTest.cs" />
     <Compile Include="68_Pattern\SignBaseSignRepository\SignBaseSignRepository.cs" />
-    <Compile Include="26_Class\_\SquareClass.cs" />
+    <Compile Include="26_Class\SquareClass\SquareClass.cs" />
     <Compile Include="66_Tips\StringConverterDemo\StringConverterDemo.cs" />
     <Compile Include="68_Pattern\SingleResponsibilityPrinciple.cs" />
     <Compile Include="64_Async\SyncDemo\SyncDemo.cs" />
