@@ -10,7 +10,7 @@ class NullConditionalWithCollection
         List<string> list = null;
         int? numberOfList;
 
-        // [1] 리스트가 null이면 null 반환
+        //[1] 리스트가 null이면 null 반환
         numberOfList = list?.Count; // null
         if (numberOfList == null)
         {
@@ -20,7 +20,7 @@ class NullConditionalWithCollection
         list = new List<string>();
         list.Add("안녕하세요."); list.Add("반갑습니다.");
 
-        // [2] 리스트가 null이 아니므로 Count 속성의 값인 2 반환
+        //[2] 리스트가 null이 아니므로 Count 속성의 값인 2 반환
         numberOfList = list?.Count; // 2
         if (numberOfList != null)
         {

@@ -1031,7 +1031,7 @@
     <Compile Include="08_ReadLine\RadixTransformation\RadixTransformation.cs" />
     <Compile Include="50_OOP\_\클래스복습.cs" />
     <Compile Include="50_OOP\_\클래스설계연습.cs" />
-    <Compile Include="34_Object\_\클래스와개체.cs" />
+    <Compile Include="26_Class\_\클래스와개체\클래스와개체.cs" />
     <Compile Include="34_Object\_\클래스와객체.cs" />
     <Compile Include="03_HelloWorld\ClassSimple\ClassSimple.cs" />
     <Compile Include="03_HelloWorld\_\클래스이름.cs" />
