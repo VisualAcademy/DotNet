@@ -666,7 +666,7 @@
     <Compile Include="63_PatternMatching\PatternMatchingWithSwitch.cs" />
     <Compile Include="13_ConditionalOperator\AbsoluteValue\AbsoluteValue.cs" />
     <Compile Include="09_Operator\AdditionOperator\AdditionOperator.cs" />
-    <Compile Include="26_Class\_\가위바위보_CS.cs" />
+    <Compile Include="26_Class\_\가위바위보_CS\가위바위보_CS.cs" />
     <Compile Include="33_Algorithms\13_01_Etc\Algorithm_Count_Money.cs" />
     <Compile Include="33_Algorithms\10_01_MergeAlgorithm\_\Algorithm_Merge.cs" />
     <Compile Include="33_Algorithms\02_01_CountAlgorithm\_\02_04_Algorithm_PerfectNumber.cs" />
@@ -908,7 +908,7 @@
     <Compile Include="99_Etc\추상클래스와추상메서드\추상클래스와추상메서드.cs" />
     <Compile Include="50_OOP\_\캡슐화\캡슐화.cs" />
     <Compile Include="45_Inheritance\_\클래스상속\클래스상속.cs" />
-    <Compile Include="99_Etc\클래스와멤버\클래스와멤버.cs" />
+    <Compile Include="26_Class\_\클래스와멤버\클래스와멤버.cs" />
     <Compile Include="40_Property\_\프로퍼티\프로퍼티.cs" />
     <Compile Include="99_Etc\필드은폐\필드은폐.cs" />
     <Compile Include="99_Etc\함수_정의_호출\함수_정의_호출.cs" />
@@ -957,7 +957,7 @@
     <Compile Include="44_ClassEtc\_\변환연산자.cs" />
     <Compile Include="44_ClassEtc\_\분할클래스.cs" />
     <Compile Include="69_Thread\_\스레드.cs" />
-    <Compile Include="26_Class\_\스태틱과인스턴스.cs" />
+    <Compile Include="26_Class\_\스태틱과인스턴스\스태틱과인스턴스.cs" />
     <Compile Include="03_HelloWorld\_\안녕하세요.cs" />
     <Compile Include="33_Algorithms\06_01_NearAlgorithm\06_02_NearAll\06_02_NearAll.cs" />
     <Compile Include="33_Algorithms\08_01_SortAlgorithm\_\선택정렬복습.cs" />
@@ -1006,7 +1006,7 @@
     <Compile Include="30_GenericClass\_\자료구조_제네릭리스트.cs" />
     <Compile Include="63_PlaceHolder\_\자리표시자.cs" />
     <Compile Include="99_Etc\전처리기지시문_조건부컴파일기호.cs" />
-    <Compile Include="26_Class\_\정적과인스턴스.cs" />
+    <Compile Include="26_Class\_\정적과인스턴스\정적과인스턴스.cs" />
     <Compile Include="44_ClassEtc\_\정적클래스와정적클래스멤버.cs" />
     <Compile Include="30_GenericClass\GenericPros\GenericPros.cs" />
     <Compile Include="51_Generic\_\제네릭메서드.cs" />
