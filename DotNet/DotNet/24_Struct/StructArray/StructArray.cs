@@ -5,8 +5,8 @@ namespace StructArray
     //[1] 구조체 선언
     struct BusinessCard
     {
-        public string Name;     // 이름
-        public int Age;         // 나이
+        public string Name; // 이름
+        public int Age; // 나이
     }
 
     class StructArray
@@ -17,7 +17,7 @@ namespace StructArray
 
         static void Main()
         {
-            //[A] 구조체 변수: 하나의 이름으로 하나 이상의 데이터 형식을 하나 보관, 
+            //[A] 구조체 변수: 하나의 이름으로 하나 이상의 데이터 형식을 하나 보관
             BusinessCard biz; // 구조체 형식 변수 선언
             biz.Name = "홍길동";
             biz.Age = 17;
