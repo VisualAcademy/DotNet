@@ -18,7 +18,7 @@ class DictionaryGenericClassDemo
         //[4] 인덱서를 사용해서 데이터 입력
         data["cshtml"] = "ASP.NET MVC";
 
-        //[5] 키값 중복 불가: 에러 발생
+        //[5] 키 값 중복 불가: 에러 발생
         try
         {
             data.Add("cs", "CSharp");
@@ -37,7 +37,7 @@ class DictionaryGenericClassDemo
         //[7] 인덱서를 사용해서 출력 가능
         Console.WriteLine(data["cs"]);
 
-        //[8] 없는 키 출력: 에러 발생
+        //[8] 없는 키 요청: 에러 발생
         try
         {
             Console.WriteLine(data["vb"]);
@@ -57,21 +57,21 @@ class DictionaryGenericClassDemo
             Console.WriteLine("cs 키가 없습니다.");
         }
 
-        //[10] 키값이 없으면 입력하고 출력
+        //[10] 키 값이 없으면 입력하고 출력
         if (!data.ContainsKey("json"))
         {
             data.Add("json", "JSON");
             Console.WriteLine(data["json"]);
         }
 
-        //[11] Value 들만 따로 뽑아서 출력
+        //[11] Value 값을 따로 뽑아서 출력
         var values = data.Values;
         foreach (string item in values)
         {
             Console.WriteLine(item);
         }
 
-        //[12] Key 들만 따로 뽑아서 출력
+        //[12] Key 값을 따로 뽑아서 출력
         var keys = data.Keys;
         foreach (string item in keys)
         {

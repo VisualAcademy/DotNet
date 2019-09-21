@@ -725,7 +725,7 @@
     <Compile Include="53_IO\_\파일처리_폴더정보얻기.cs" />
     <Compile Include="53_IO\FileAndFileInfo.cs" />
     <Compile Include="53_IO\DirectoryAndDirectoryInfo.cs" />
-    <Compile Include="51_Generic\DictionaryGenericClassDemo\DictionaryGenericClassDemo.cs" />
+    <Compile Include="30_GenericClass\DictionaryGenericClassDemo\DictionaryGenericClassDemo.cs" />
     <Compile Include="14_If\OutVariable\OutVariable.cs" />
     <Compile Include="24_Struct\OutVariableDemo\OutVariableDemo.cs" />
     <Compile Include="08_ReadLine\BinaryLiteral\BinaryLiteral.cs" />
