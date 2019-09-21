@@ -674,7 +674,7 @@
     <Compile Include="11_RelationalLogical\AndOperator\AndOperator.cs" />
     <Compile Include="09_Operator\ArithmeticExam\ArithmeticExam.cs" />
     <Compile Include="10_AssignmentIncrement\AssignmentOperator\AssignmentOperator.cs" />
-    <Compile Include="64_Async\AsyncAwaitDemo.cs" />
+    <Compile Include="64_Async\AsyncAwaitDemo\AsyncAwaitDemo.cs" />
     <Compile Include="64_Async\AsyncAwaitDescription.cs" />
     <Compile Include="64_Async\AsyncAwaitSimple\AsyncAwaitSimple.cs" />
     <Compile Include="64_Async\AsyncAwaitWithHttpClient.cs" />
