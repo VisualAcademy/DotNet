@@ -22,5 +22,6 @@ class ConvertClass
         {
             WriteLine("변환 불가");
         }
+        Console.WriteLine(r); // if 문에서 생성된 r 값을 사용 가능
     }
 }

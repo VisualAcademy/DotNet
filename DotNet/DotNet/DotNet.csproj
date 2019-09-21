@@ -232,7 +232,7 @@
     <Compile Include="35_Namespace\_\새로운클래스.cs" />
     <Compile Include="42_Delegate\IntParameterAndIntReturnClass\IntParameterAndIntReturnClass.cs" />
     <Compile Include="44_ClassEtc\OperatorOverload\OperatorOverload.cs" />
-    <Compile Include="58_Modern\RefReturn.cs" />
+    <Compile Include="59_Modern\RefReturn.cs" />
     <Compile Include="64_Debug\DebugDemo.cs" />
     <Compile Include="64_Debug\디버깅.cs" />
     <Compile Include="12_BitAndShift\BitAnd\BitAnd.cs" />
@@ -692,7 +692,7 @@
     <Compile Include="51_ExtensionMethod\ExtensionMethodDescription\ExtensionMethodDescription.cs" />
     <Compile Include="09_Operator\CastingOperator\CastingOperator.cs" />
     <Compile Include="07_BoolCharString\CharacterEscapeSequence\CharacterEscapeSequence.cs" />
-    <Compile Include="65_New\ConvertClass\ConvertClass.cs" />
+    <Compile Include="15_Else\ConvertClass\ConvertClass.cs" />
     <Compile Include="08_ReadLine\DefaultExpression\DefaultExpression.cs" />
     <Compile Include="66_Tips\DefineDemo\DefineDemo.cs" />
     <Compile Include="07_BoolCharString\EscapeSequenceDemo\EscapeSequenceDemo.cs" />
