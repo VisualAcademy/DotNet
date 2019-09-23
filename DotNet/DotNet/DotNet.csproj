@@ -874,7 +874,7 @@
     <Compile Include="24_Struct\TimeSpanDemo\TimeSpanDemo.cs" />
     <Compile Include="21_Function\CommandLineDemo\CommandLineDemo.cs" />
     <Compile Include="32_LINQ\_\LINQ_Select\LINQ_Select.cs" />
-    <Compile Include="99_Etc\개체이니셜라이저\개체이니셜라이저.cs" />
+    <Compile Include="40_Property\_\개체이니셜라이저\개체이니셜라이저.cs" />
     <Compile Include="24_Struct\_\구조체배열\구조체배열.cs" />
     <Compile Include="31_Null\_\널병합연산자\널병합연산자.cs" />
     <Compile Include="35_Namespace\_\네임스페이스\네임스페이스.cs" />

@@ -1,4 +1,5 @@
-﻿using System;
+﻿// DelegateNote.cs
+using System;
 
 class DelegateNote
 {
