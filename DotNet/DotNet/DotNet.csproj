@@ -218,7 +218,7 @@
     <Compile Include="08_ReadLine\VarInput\VarInput.cs" />
     <Compile Include="08_ReadLine\Var\Var.cs" />
     <Compile Include="28_Exception\_\예외발생.cs" />
-    <Compile Include="28_Exception\_\예외처리.cs" />
+    <Compile Include="28_Exception\_\예외처리\예외처리.cs" />
     <Compile Include="28_Exception\_\오버플로우.cs" />
     <Compile Include="31_Null\NullableTypes\NullableTypes.cs" />
     <Compile Include="32_LINQ\LinqWhereMethod\LinqWhereMethod.cs" />

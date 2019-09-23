@@ -30,12 +30,12 @@ namespace ConstructorNote
             //[1] 매개변수가 없는 기본 생성자 호출
             Person saram1 = new Person();
             Console.WriteLine(saram1.GetName()); // 홍길동
-            Person saram2 = new Person();
+            var saram2 = new Person();
             Console.WriteLine(saram2.GetName()); // 홍길동
             //[2] 매개변수가 있는 생성자 호출
             Person person1 = new Person("백두산");
             Console.WriteLine(person1.GetName()); // 백두산
-            Person person2 = new Person("임꺽정");
+            var person2 = new Person("임꺽정");
             Console.WriteLine(person2.GetName()); // 임꺽정
         }
     }
