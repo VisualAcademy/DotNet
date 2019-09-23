@@ -1045,7 +1045,7 @@
     <Compile Include="53_IO\_\파일처리_폴더의_모든파일명_일괄변경.cs" />
     <Compile Include="63_PlaceHolder\_\플레이스홀더.cs" />
     <Compile Include="51_Generic\TypeConstraint\TypeConstraint.cs" />
-    <Compile Include="34_Object\_\환경변수.cs" />
+    <Compile Include="26_Class\_\환경변수\환경변수.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="33_Algorithms\알고리즘강의소개.pdf" />
