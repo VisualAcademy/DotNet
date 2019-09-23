@@ -575,7 +575,7 @@
     <Compile Include="36_Field\_\필드\필드.cs" />
     <Compile Include="38_Destructor\ConstructorMethodDestructor\ConstructorMethodDestructor.cs" />
     <Compile Include="38_Destructor\ConstructorToDestructor\ConstructorToDestructor.cs" />
-    <Compile Include="38_Destructor\_\생성자_메서드_소멸자.cs" />
+    <Compile Include="38_Destructor\_\생성자_메서드_소멸자\생성자_메서드_소멸자.cs" />
     <Compile Include="37_Constructor\_\생성자_필드초기화\생성자_필드초기화.cs" />
     <Compile Include="38_Destructor\DestructorDemo\DestructorDemo.cs" />
     <Compile Include="39_Method\DateTimeTryParse\DateTimeTryParse.cs" />
