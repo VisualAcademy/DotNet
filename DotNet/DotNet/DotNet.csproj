@@ -1039,7 +1039,7 @@
     <Compile Include="03_HelloWorld\_\클래스이름.cs" />
     <Compile Include="34_Object\_\클래스와인스턴스\클래스와인스턴스.cs" />
     <Compile Include="08_ReadLine\_\키보드입력.cs" />
-    <Compile Include="49_Attribute\_\특성.cs" />
+    <Compile Include="49_Attribute\_\특성\특성.cs" />
     <Compile Include="53_IO\_\파일처리_파일리스트_특정폴더.cs" />
     <Compile Include="53_IO\_\파일처리_파일처리관련.cs" />
     <Compile Include="53_IO\_\파일처리_폴더의_모든파일명_일괄변경.cs" />
