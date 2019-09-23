@@ -14,12 +14,14 @@ namespace ClassAndInstance
         {
             this.name = name; // 넘겨온 name을 name 필드에 임시 저장
         }
+
         //[4] name 필드의 값을 출력하는 반환값이 있는 메서드
         public string Cry()
         {
             return name + "이(가) 멍멍멍";
         }
     }
+
     class Program
     {
         static void Main(string[] args)
@@ -30,6 +32,6 @@ namespace ClassAndInstance
             Console.WriteLine(happy.Cry());
             Dog worry = new Dog("워리");
             Console.WriteLine(worry.Cry());
-        }
+        }        
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 인스턴스 메서드 만들기
+using System;
 
 namespace ClassMethod
 {

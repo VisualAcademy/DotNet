@@ -12,6 +12,8 @@ class ClassAndObject
     {
         //[2] 특정 클래스로부터 objectCode1, objectCode2 이름의 개체(Object) 만들기
         ClassCode objectCode1 = new ClassCode();
-        ClassCode objectCode2 = new ClassCode();
+        Console.WriteLine(objectCode1.GetHashCode());
+        var objectCode2 = new ClassCode();
+        Console.WriteLine(objectCode2.GetHashCode());
     }
 }

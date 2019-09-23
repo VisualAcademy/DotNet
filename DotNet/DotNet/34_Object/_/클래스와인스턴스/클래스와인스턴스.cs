@@ -36,5 +36,4 @@ namespace 클래스와인스턴스
             worry.Cry();
         }
     }
-
 }
