@@ -593,7 +593,7 @@
     <Compile Include="39_Method\ParameterRef\ParameterRef.cs" />
     <Compile Include="39_Method\ParamsDemo\ParamsDemo.cs" />
     <Compile Include="39_Method\SingleExpression\SingleExpression.cs" />
-    <Compile Include="39_Method\_\GreeterDemo.cs" />
+    <Compile Include="39_Method\_\GreeterDemo\GreeterDemo.cs" />
     <Compile Include="39_Method\_\명명된매개변수.cs" />
     <Compile Include="39_Method\_\선택적매개변수.cs" />
     <Compile Include="39_Method\OptionalParameterDemo\OptionalParameterDemo.cs" />
