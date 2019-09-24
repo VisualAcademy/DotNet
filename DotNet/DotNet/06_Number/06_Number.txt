@@ -1,0 +1,1 @@
+﻿// 숫자 데이터 형식: int, long, float, double, decimal 등의 키워드로 숫자 데이터 저장

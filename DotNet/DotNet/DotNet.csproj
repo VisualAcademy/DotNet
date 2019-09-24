@@ -1065,6 +1065,8 @@
     <Content Include="03_HelloWorld\03_HelloWorld.txt" />
     <Content Include="04_Syntax\04_Syntax.txt" />
     <Content Include="05_Variable\05_Variable.txt" />
+    <Content Include="06_Number\06_Number.txt" />
+    <Content Include="07_BoolCharString\07_BoolCharString.txt" />
     <Content Include="22_Interactive\복습.txt" />
     <Content Include="33_Algorithms\학습용 쉬운 알고리즘 12개.txt" />
     <Content Include="53_IO\TextToCollection\Src.txt" />
