@@ -17,5 +17,8 @@ class StringInterpolationDemo
 
         // 문자열 보간법(String Interpolation) 사용
         Console.WriteLine($"{name} {version}");
+
+        // C# Interactive에서는 Console.WriteLine() 생략 가능
+        // $"{name} {version}"
     }
 }

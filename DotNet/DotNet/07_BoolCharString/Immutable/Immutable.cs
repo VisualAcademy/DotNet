@@ -6,6 +6,7 @@ class Immutable
     {
         // 상수: 변하지 않는 값
         const string name = "박용준";
+
         // 변수: 변하는 값
         int age = 45;
 
