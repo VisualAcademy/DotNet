@@ -1058,10 +1058,13 @@
     <Folder Include="62_TODO\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="01_DotNet\SeeSharp.txt" />
+    <Content Include="01_DotNet\01_SeeSharp.txt" />
     <Content Include="01_DotNet\_\DOS명령어.txt" />
     <Content Include="01_DotNet\DotNet.txt" />
-    <Content Include="02_VisualStudio\VisualStudio.txt" />
+    <Content Include="02_VisualStudio\00_VisualStudio.txt" />
+    <Content Include="03_HelloWorld\03_HelloWorld.txt" />
+    <Content Include="04_Syntax\04_Syntax.txt" />
+    <Content Include="05_Variable\05_Variable.txt" />
     <Content Include="22_Interactive\복습.txt" />
     <Content Include="33_Algorithms\학습용 쉬운 알고리즘 12개.txt" />
     <Content Include="53_IO\TextToCollection\Src.txt" />
