@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] Environment 클래스
+using System;
 
 class EnvironmentDemo
 {

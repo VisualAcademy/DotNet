@@ -1058,6 +1058,7 @@
     <Folder Include="62_TODO\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="01_DotNet\SeeSharp.txt" />
     <Content Include="01_DotNet\_\DOS명령어.txt" />
     <Content Include="01_DotNet\DotNet.txt" />
     <Content Include="02_VisualStudio\VisualStudio.txt" />
