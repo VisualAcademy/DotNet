@@ -4,7 +4,7 @@ class SingleMultiple
 {
     static void Main()
     {
-        // 단문: 3가지 스타일
+        //[1] 단문: 3가지 스타일
         if (1 == 1) Console.WriteLine("단문 1");
         if (1 == 1)
             Console.WriteLine("단문 2");
@@ -13,11 +13,11 @@ class SingleMultiple
             Console.WriteLine("단문 3");
         }
 
-        // 복문: 반드시 중괄호 사용
+        //[2] 복문: 반드시 중괄호 사용
         if (1 == 1)
         {
-            Console.WriteLine("복문 a");
-            Console.WriteLine("복문 b");
+            Console.WriteLine("복문 A");
+            Console.WriteLine("복문 B");
         }
     }
 }
