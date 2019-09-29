@@ -1070,6 +1070,7 @@
     <Content Include="08_ReadLine\08_ReadLine.txt" />
     <Content Include="09_Operator\09_Operator.txt" />
     <Content Include="10_AssignmentIncrement\10_AssignmentIncrement.txt" />
+    <Content Include="11_RelationalLogical\11_RelationalLogical.txt" />
     <Content Include="22_Interactive\복습.txt" />
     <Content Include="33_Algorithms\학습용 쉬운 알고리즘 12개.txt" />
     <Content Include="53_IO\TextToCollection\Src.txt" />
