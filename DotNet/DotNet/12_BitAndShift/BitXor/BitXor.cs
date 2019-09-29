@@ -6,8 +6,8 @@ class BitXor
 {
     static void Main()
     {
-        byte x = 0b1010; // 10
-        byte y = 0b1100; // 12
+        byte x = 0b_1010; // 10
+        byte y = 0b_1100; // 12
 
         // x를 이진수로 표현 -> 십진수로 표현
         WriteLine($"  {Convert.ToString(x, 2)} -> {x}");

@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 들어오는 값이 20 이상이면 20으로 초기화, 20 미만이면 해당 값으로 초기화
+using System;
 
 class OperatorMaxSize
 {

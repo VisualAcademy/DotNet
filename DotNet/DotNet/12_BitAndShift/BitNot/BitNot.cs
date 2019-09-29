@@ -6,7 +6,7 @@ class BitNot
 {
     static void Main()
     {
-        byte x = 0b00001010; // 10
+        byte x = 0b_0000_1010; // 10
 
         // x를 8자리 이진수로 표현 -> 십진수로 3자리 잡고 표현
         WriteLine($"~ {Convert.ToString(x, 2).PadLeft(8, '0')} -> {x, 3}");
