@@ -1,0 +1,2 @@
+﻿// 선택문(switch 문): switch와 case 그리고 default 키워드를 사용하여 다양한 조건 처리
+

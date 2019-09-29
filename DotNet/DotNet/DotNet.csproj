@@ -1075,6 +1075,9 @@
     <Content Include="13_ConditionalOperator\13_ConditionalOperator.txt" />
     <Content Include="14_If\14_If.txt" />
     <Content Include="15_Else\15_Else.txt" />
+    <Content Include="16_Switch\16_Switch.txt" />
+    <Content Include="17_For\17_For.txt" />
+    <Content Include="18_WhileDoForEach\18_WhileDoForEach.txt" />
     <Content Include="22_Interactive\복습.txt" />
     <Content Include="33_Algorithms\학습용 쉬운 알고리즘 12개.txt" />
     <Content Include="53_IO\TextToCollection\Src.txt" />
