@@ -1082,6 +1082,9 @@
     <Content Include="20_Array\20_Array.txt" />
     <Content Include="21_Function\21_Function.txt" />
     <Content Include="22_Interactive\22_Interactive.txt" />
+    <Content Include="23_API\23_API.txt" />
+    <Content Include="24_Struct\24_Struct.txt" />
+    <Content Include="25_Enum\25_Enum.txt" />
     <Content Include="33_Algorithms\학습용 쉬운 알고리즘 12개.txt" />
     <Content Include="53_IO\TextToCollection\Src.txt" />
     <Content Include="53_IO\_\텍스트데이터를컬렉션데이터로\Src.txt" />
