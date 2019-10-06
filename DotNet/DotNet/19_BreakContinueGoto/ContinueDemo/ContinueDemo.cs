@@ -15,6 +15,6 @@ class ContinueDemo
             }
             sum += i;
         }
-        Console.WriteLine("합: {0}", sum); // 3367
+        Console.WriteLine("SUM: {0}", sum); // 3367
     }
 }
