@@ -1,6 +1,6 @@
-﻿using System;
+﻿//[?] foreach문으로 배열의 값을 반복해서 사용
+using System;
 
-//[!] foreach문으로 배열의 값을 반복해서 사용
 class ArrayForEach
 {
     static void Main()
@@ -18,3 +18,13 @@ class ArrayForEach
         Console.WriteLine(sum); // 60.8
     }
 }
+//decimal[] arr = { 10.5M, 20.1M, 30.2M };
+//decimal sum = 0.0M;
+//foreach (decimal d in arr)
+//{
+//    sum += d;
+//}
+//sum
+//60.8
+//Console.WriteLine(sum);
+//60.8

@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 1차원 배열에 문자열 저장하기
+using System;
 
 class ArrayDemo
 {
