@@ -1,4 +1,4 @@
-﻿//[?] 문자열 변수에 대한 유효성 검사 진행하는 3가지 방법 정리
+﻿//[?] 문자열 변수에 대한 유효성 검사를 진행하는 3가지 방법 정리
 class StringValidation
 {
     static void Main()

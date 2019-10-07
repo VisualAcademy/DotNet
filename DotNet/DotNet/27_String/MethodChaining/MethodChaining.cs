@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 메서드 체이닝으로 StringBuilder 클래스의 여러 메서드 호출하기
+using System;
 using System.Text;
 
 class MethodChaining

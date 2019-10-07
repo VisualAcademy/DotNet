@@ -5,11 +5,12 @@ class StringToCharArray
 {
     static void Main()
     {
-        string s = "안녕하세요.";
-        char[] ch = s.ToCharArray();
+        string s = "Hello.";
+        char[] ch = s.ToCharArray(); // 문자열을 문자 배열로 변환
         for (int i = 0; i < ch.Length; i++)
         {
-            Console.WriteLine(ch[i]); // '안', ..., '.'
+            Console.Write($"{ch[i]}\t"); 
         }
+        Console.WriteLine();
     }
 }

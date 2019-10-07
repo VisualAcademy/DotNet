@@ -1,11 +1,11 @@
-﻿// 문자열 관련 주요 메서드
+﻿//[?] 문자열 관련 메서드 사용하기
 using System;
 
 class StringFunction
 {
     static void Main()
     {
-        string message = "hello World";
+        string message = "hello, World!";
 
         Console.WriteLine(message.ToUpper()); // 대문자
         Console.WriteLine(message.ToLower()); // 소문자

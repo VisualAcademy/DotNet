@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 정수를 문자열로 표현시 +, - 기호 붙이기 
+using System;
 
 class ToStringFormat
 {
