@@ -1089,6 +1089,7 @@
     <Content Include="27_String\27_String.txt" />
     <Content Include="28_Exception\28_Exception.txt" />
     <Content Include="29_Collection\29_Collection.txt" />
+    <Content Include="30_GenericClass\30_GenericClass.txt" />
     <Content Include="33_Algorithms\학습용 쉬운 알고리즘 12개.txt" />
     <Content Include="53_IO\TextToCollection\Src.txt" />
     <Content Include="53_IO\_\텍스트데이터를컬렉션데이터로\Src.txt" />
