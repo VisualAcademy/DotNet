@@ -62,6 +62,7 @@
     <Compile Include="03_HelloWorld\UsingDemo\UsingDemo.cs" />
     <Compile Include="03_HelloWorld\Whitespace\Whitespace.cs" />
     <Compile Include="03_HelloWorld\WriteLineDemo\WriteLineDemo.cs" />
+    <Compile Include="03_HelloWorld\_\HelloWorld201804.cs" />
     <Compile Include="03_HelloWorld\_\HelloWorldCSharp.cs" />
     <Compile Include="03_HelloWorld\_\중괄호위치.cs" />
     <Compile Include="03_HelloWorld\BraceLocation\BraceLocation.cs" />
