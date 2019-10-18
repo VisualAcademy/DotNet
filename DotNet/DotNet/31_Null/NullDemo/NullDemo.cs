@@ -1,4 +1,5 @@
-﻿// null: 아무런 가치가 없음. 참조형 변수에 아무런 값을 설정하지 않음.
+﻿// null: 아무 것도 없음을 의미하는 리터럴, 개체가 아무 것도 참조하지 않음을 null 참조라 함
+// null: 아무런 가치가 없음. 참조형 변수에 아무런 값을 설정하지 않음.
 using static System.Console;
 
 class NullDemo

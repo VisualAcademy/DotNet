@@ -1,4 +1,6 @@
-﻿// ?? 연산자: 컬렉션이 null이 아니면 해당 값 반환, null이면 뒤에 지정한 값 반환
+﻿// 널 병합 연산자와 널 조건부 연산자 함께 사용하기 
+// ?? 연산자: 컬렉션이 null이 아니면 해당 값 반환, null이면 뒤에 지정한 값 반환
+// ?. 연산자: 컬렉션이 null이면 null, 그렇지 않으면 뒤에 오는 속성 값 반환
 using System;
 using System.Collections.Generic;
 

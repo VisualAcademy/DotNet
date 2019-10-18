@@ -1,4 +1,5 @@
-﻿class QuestionMarkDot
+﻿// 널 조건부 연산자(Null Conditional)
+class QuestionMarkDot
 {
     static void Main()
     {
