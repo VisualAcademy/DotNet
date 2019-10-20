@@ -1095,6 +1095,7 @@
     <Content Include="32_LINQ\32_LINQ.txt" />
     <Content Include="33_Algorithms\33_Algorithms.txt" />
     <Content Include="33_Algorithms\학습용 쉬운 알고리즘 12개.txt" />
+    <Content Include="34_Object\34_Object.txt" />
     <Content Include="53_IO\TextToCollection\Src.txt" />
     <Content Include="53_IO\_\텍스트데이터를컬렉션데이터로\Src.txt" />
     <Content Include="33_Algorithms\13_01_Etc\07.선택정렬.cs.txt" />
