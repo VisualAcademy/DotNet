@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] public과 private 액세스 한정자  
+using System;
 
 public class TestClass
 {
@@ -6,8 +7,10 @@ public class TestClass
     // 접근 한정자(Access Modifier): public, private, protected, ...
     // private(비공개): 해당 클래스내에서만 사용
     private static string name = "홍길동";
+
     // public(공개;제한없음): 다른 클래스에서도 사용 가능
     public static string siteName = "길벗"; // public 필드는 권장하지 않음
+
     // 메서드 선언
     public static string GetName()
     {
