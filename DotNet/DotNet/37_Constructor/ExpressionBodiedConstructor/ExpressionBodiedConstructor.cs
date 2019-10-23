@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 식 본문 생성자(Expression Bodied Constructor) 
+using System;
 
 namespace ExpressionBodiedConstructor
 {

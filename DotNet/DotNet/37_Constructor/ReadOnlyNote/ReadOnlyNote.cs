@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 생성자를 사용하여 읽기 전용 필드 초기화
+using System;
 
 public class WhitchService
 {
