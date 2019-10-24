@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 자동으로 구현된 속성 사용하기 
+using System;
 
 namespace AutomaticallyImplementedProperty
 {
@@ -8,6 +9,7 @@ namespace AutomaticallyImplementedProperty
         //[1] 필드와 속성을 함께 사용하는 전체 속성
         // 필드
         private string name;
+
         // 속성(Property)
         public string Name
         {

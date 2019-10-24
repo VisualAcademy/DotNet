@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 선택적 매개 변수와 명명된 매개 변수
+using System;
 
 class OptionalParameter
 {

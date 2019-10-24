@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 전체 속성 사용하기 
+using System;
 
 namespace PropertyFull
 {
@@ -19,7 +20,7 @@ namespace PropertyFull
     {
         static void Main()
         {
-            Person person = new Person();
+            var person = new Person();
             person.Name = "Gilbut"; // set
             Console.WriteLine(person.Name); // get
         }

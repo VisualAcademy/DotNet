@@ -10,8 +10,8 @@ class ExpressionBodiedFunction
 
     static void Work()
     {
-        Console.WriteLine("일을 합니다."); // [1] 기본 형식
+        Console.WriteLine("Work"); // [1] 기본 형식
     }
 
-    static void Walk() => Console.WriteLine("산책을 합니다."); // [2] 축약 형식
+    static void Walk() => Console.WriteLine("Walk"); // [2] 축약 형식
 }
