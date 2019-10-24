@@ -1100,6 +1100,7 @@
     <Content Include="36_Field\36_Field.txt" />
     <Content Include="37_Constructor\37_Constructor.txt" />
     <Content Include="38_Destructor\38_Destructor.txt" />
+    <Content Include="39_Method\39_Method.txt" />
     <Content Include="53_IO\TextToCollection\Src.txt" />
     <Content Include="53_IO\_\텍스트데이터를컬렉션데이터로\Src.txt" />
     <Content Include="33_Algorithms\13_01_Etc\07.선택정렬.cs.txt" />
