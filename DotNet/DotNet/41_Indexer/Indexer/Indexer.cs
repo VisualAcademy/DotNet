@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 인덱서를 사용하여 여러 값을 주고 받기
+using System;
 
 namespace Indexer
 {
@@ -17,7 +18,7 @@ namespace Indexer
     {
         static void Main()
         {
-            Developer developers = new Developer();
+            var developers = new Developer();
             developers[0] = "홍길동"; // 인덱스와 상관없이 name 필드에 문자열이 저장된다. 
             Console.WriteLine(developers[0]); // 홍길동
             developers[1] = "백두산";
