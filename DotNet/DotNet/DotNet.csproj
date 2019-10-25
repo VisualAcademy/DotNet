@@ -1132,7 +1132,7 @@
     <Content Include="33_Algorithms\13_01_Etc\합계알고리즘적용.cs.txt" />
     <Content Include="33_Algorithms\13_01_Etc\합계카운트평균.cs.txt" />
     <Content Include="59_ClassLibrary\59_ClassLibrary.txt" />
-    <Content Include="60_TestProject\60_TestProject.txt" />
+    <Content Include="61_TestProject\61_TestProject.txt" />
     <Content Include="61_NuGet\61_NuGet.txt" />
     <Content Include="99_Etc\01_기본클래스와파생클래스.cs.txt" />
     <Content Include="99_Etc\01_추상클래스와추상메서드.cs.txt" />
