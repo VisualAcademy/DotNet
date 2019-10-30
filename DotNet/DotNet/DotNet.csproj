@@ -1134,6 +1134,7 @@
     <Content Include="59_ClassLibrary\59_ClassLibrary.txt" />
     <Content Include="61_TestProject\61_TestProject.txt" />
     <Content Include="61_NuGet\61_NuGet.txt" />
+    <Content Include="64_Async\64_Async.txt" />
     <Content Include="99_Etc\01_기본클래스와파생클래스.cs.txt" />
     <Content Include="99_Etc\01_추상클래스와추상메서드.cs.txt" />
     <Content Include="99_Etc\02_기본클래스의메서드실행하기.cs.txt" />
