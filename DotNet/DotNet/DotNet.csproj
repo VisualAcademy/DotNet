@@ -236,6 +236,7 @@
     <Compile Include="44_ClassEtc\OperatorOverload\OperatorOverload.cs" />
     <Compile Include="59_Modern\CSharpSeven\CSharpSeven.cs" />
     <Compile Include="59_Modern\RefReturn.cs" />
+    <Compile Include="64_Async\AsyncAwaitWithTask\AsyncAwaitWithTask.cs" />
     <Compile Include="64_Debug\DebugDemo.cs" />
     <Compile Include="64_Debug\디버깅.cs" />
     <Compile Include="12_BitAndShift\BitAnd\BitAnd.cs" />
@@ -678,13 +679,13 @@
     <Compile Include="09_Operator\ArithmeticExam\ArithmeticExam.cs" />
     <Compile Include="10_AssignmentIncrement\AssignmentOperator\AssignmentOperator.cs" />
     <Compile Include="64_Async\AsyncAwaitDemo\AsyncAwaitDemo.cs" />
-    <Compile Include="64_Async\AsyncAwaitDescription.cs" />
+    <Compile Include="64_Async\AsyncAwaitDescription\AsyncAwaitDescription.cs" />
     <Compile Include="64_Async\AsyncAwaitSimple\AsyncAwaitSimple.cs" />
-    <Compile Include="64_Async\AsyncAwaitWithHttpClient.cs" />
-    <Compile Include="64_Async\AsyncAwaitWithHttpClient2.cs" />
-    <Compile Include="64_Async\AsyncMain.cs" />
-    <Compile Include="64_Async\AsyncVoidDemo.cs" />
-    <Compile Include="64_Async\AwaitWithTryCatchFinally.cs" />
+    <Compile Include="64_Async\_\AsyncAwaitWithHttpClient.cs" />
+    <Compile Include="64_Async\_\AsyncAwaitWithHttpClient2.cs" />
+    <Compile Include="64_Async\AsyncMain\AsyncMain.cs" />
+    <Compile Include="64_Async\_\AsyncVoidDemo.cs" />
+    <Compile Include="64_Async\AwaitWithTryCatchFinally\AwaitWithTryCatchFinally.cs" />
     <Compile Include="51_Generic\CollectionInitializer.cs" />
     <Compile Include="51_Generic\CollectionInitializers.cs" />
     <Compile Include="51_Generic\CollectionMerge\CollectionMerge.cs" />
@@ -743,7 +744,7 @@
     <Compile Include="32_LINQ\LinqSelect\LinqSelect.cs" />
     <Compile Include="56_XmlAndJSON\JsonConvertDemo\JsonConvertDemo.cs" />
     <Compile Include="51_Generic\ListOfTypeSimpleMerge\ListOfTypeSimpleMerge.cs" />
-    <Compile Include="64_Async\MainMethodAsync.cs" />
+    <Compile Include="64_Async\_\MainMethodAsync.cs" />
     <Compile Include="44_ClassEtc\PartialClassDemo\FirstDeveloper.cs" />
     <Compile Include="44_ClassEtc\PartialClassDemo\PartialClassDemo.cs" />
     <Compile Include="44_ClassEtc\PartialClassDemo\SecondDeveloper.cs" />
@@ -799,7 +800,7 @@
     <Compile Include="64_Async\SyncDemo\SyncDemo.cs" />
     <Compile Include="08_ReadLine\TypeAssertion\TypeAssertion.cs" />
     <Compile Include="24_Struct\_\UserRegister\UserRegister.cs" />
-    <Compile Include="64_Async\_\WeatherForecastApp.cs" />
+    <Compile Include="64_Async\WeatherForecastApp\WeatherForecastApp.cs" />
     <Compile Include="51_Generic\GenericClass\GenericClass.cs" />
     <Compile Include="51_Generic\GenericNote\GenericNote.cs" />
     <Compile Include="51_Generic\GenericsDemo\GenericsDemo.cs" />
