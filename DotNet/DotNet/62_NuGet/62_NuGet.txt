@@ -1,0 +1,7 @@
+﻿// NuGet: 닷넷용 패키지 관리자로 NuGet 갤러리를 통해서 전세계 개발자/소비자와 공유
+
+NuGet 패키지 관련 소스는 다음 경로의 Dul 솔루션에 있습니다. 
+
+Dul 솔루션 및 프로젝트
+
+https://github.com/VisualAcademy/Dul
