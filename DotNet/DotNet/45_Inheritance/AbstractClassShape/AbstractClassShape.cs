@@ -12,7 +12,7 @@ namespace AbstractClassShape
         public abstract double GetArea();
     }
 
-    // 추상 클래스를 상속하는 클래스
+    //[3] 추상 클래스를 상속하는 클래스
     public class Square : Shape
     {
         private int _size;

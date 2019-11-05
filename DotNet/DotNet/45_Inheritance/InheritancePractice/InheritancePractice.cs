@@ -24,10 +24,10 @@ namespace InheritancePractice
     {
         static void Main()
         {
-            Developer web = new WebDeveloper();
+            var web = new WebDeveloper();
             Console.WriteLine(web); // 웹 개발자
 
-            Developer mobile = new MobileDeveloper();
+            var mobile = new MobileDeveloper();
             Console.WriteLine(mobile); // 모바일 개발자
         }
     }

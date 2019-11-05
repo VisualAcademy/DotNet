@@ -23,7 +23,7 @@ namespace MustInheritDemo
     {
         static void Main()
         {
-            Person person = new Person();
+            var person = new Person();
             person.SayHumor();
         }
     } 
