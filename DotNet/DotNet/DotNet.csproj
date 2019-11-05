@@ -1107,6 +1107,7 @@
     <Content Include="42_Delegate\42_Delegate.txt" />
     <Content Include="43_Event\43_Event.txt" />
     <Content Include="44_ClassEtc\44_ClassEtc.txt" />
+    <Content Include="45_Inheritance\45_Inheritance.txt" />
     <Content Include="53_IO\TextToCollection\Src.txt" />
     <Content Include="53_IO\_\텍스트데이터를컬렉션데이터로\Src.txt" />
     <Content Include="33_Algorithms\13_01_Etc\07.선택정렬.cs.txt" />
