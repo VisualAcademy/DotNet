@@ -5,6 +5,6 @@ namespace PartialClassDemo
 {
     public partial class Hello
     {
-        public void Bye() => Console.WriteLine("또 만나요.");
+        public void Bye() => Console.WriteLine("SecondDeveloper.cs");
     }
 }
