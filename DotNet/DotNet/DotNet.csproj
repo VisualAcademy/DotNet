@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PartialClassDemo.PartialClassDemo</StartupObject>
+    <StartupObject>RepositoryPatternDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -791,7 +791,7 @@
     <Compile Include="36_Field\LocalVariable\LocalVariable.cs" />
     <Compile Include="36_Field\PublicField\PublicField.cs" />
     <Compile Include="36_Field\VariableScope\VariableScope.cs" />
-    <Compile Include="75_Pattern\RepositoryPatternDemo\RepositoryPatternDemo.cs" />
+    <Compile Include="55_InMemory\RepositoryPatternDemo\RepositoryPatternDemo.cs" />
     <Compile Include="66_Email\SendMailTest.cs" />
     <Compile Include="55_InMemory\SignBaseSignRepository\SignBaseSignRepository.cs" />
     <Compile Include="26_Class\SquareClass\SquareClass.cs" />
@@ -1057,6 +1057,7 @@
   <ItemGroup>
     <Folder Include="39_Method\_\메서드의매개변수형식\" />
     <Folder Include="62_TODO\" />
+    <Folder Include="75_Pattern\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="01_DotNet\01_SeeSharp.txt" />
