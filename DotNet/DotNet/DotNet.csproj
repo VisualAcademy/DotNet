@@ -793,7 +793,7 @@
     <Compile Include="36_Field\VariableScope\VariableScope.cs" />
     <Compile Include="75_Pattern\RepositoryPatternDemo\RepositoryPatternDemo.cs" />
     <Compile Include="66_Email\SendMailTest.cs" />
-    <Compile Include="68_Pattern\SignBaseSignRepository\SignBaseSignRepository.cs" />
+    <Compile Include="55_InMemory\SignBaseSignRepository\SignBaseSignRepository.cs" />
     <Compile Include="26_Class\SquareClass\SquareClass.cs" />
     <Compile Include="66_Tips\StringConverterDemo\StringConverterDemo.cs" />
     <Compile Include="68_Pattern\SingleResponsibilityPrinciple.cs" />
@@ -1056,7 +1056,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="39_Method\_\메서드의매개변수형식\" />
-    <Folder Include="55_InMemory\" />
     <Folder Include="62_TODO\" />
   </ItemGroup>
   <ItemGroup>
@@ -1140,6 +1139,7 @@
     <Compile Include="33_Algorithms\03_01_AverageAlgorithm\_\03_04_합계알고리즘.cs" />
     <Content Include="33_Algorithms\13_01_Etc\합계알고리즘적용.cs.txt" />
     <Content Include="33_Algorithms\13_01_Etc\합계카운트평균.cs.txt" />
+    <Content Include="55_InMemory\55_InMemory.txt" />
     <Content Include="59_ClassLibrary\59_ClassLibrary.txt" />
     <Content Include="61_TestProject\61_TestProject.txt" />
     <Content Include="62_NuGet\62_NuGet.txt" />
