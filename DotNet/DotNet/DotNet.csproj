@@ -636,9 +636,9 @@
     <Compile Include="46_Override\VirtualOverrideBase\VirtualOverrideBase.cs" />
     <Compile Include="46_Override\VirtualOverride\VirtualOverride.cs" />
     <Compile Include="46_Override\_\메서드오버라이드\메서드오버라이드.cs" />
-    <Compile Include="48_AbstractAndInterface\InterfaceFriends\InterfaceFriends.cs" />
-    <Compile Include="48_AbstractAndInterface\IDisposableDemo\IDisposableDemo.cs" />
-    <Compile Include="48_AbstractAndInterface\IEnumeratorDemo\IEnumeratorDemo.cs" />
+    <Compile Include="47_Interface\InterfaceFriends\InterfaceFriends.cs" />
+    <Compile Include="47_Interface\IDisposableDemo\IDisposableDemo.cs" />
+    <Compile Include="47_Interface\IEnumeratorDemo\IEnumeratorDemo.cs" />
     <Compile Include="49_Attribute\AttributeNote.cs" />
     <Compile Include="49_Attribute\AttributePractice.cs" />
     <Compile Include="49_Attribute\CallerInformation.cs" />
