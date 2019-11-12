@@ -1,4 +1,4 @@
-﻿// [?] 수작업으로 First, Second 컬렉션을 Merge 컬렉션에 포함하기
+﻿//[?] 수작업으로 First, Second 컬렉션을 Merge 컬렉션에 포함하기
 using System;
 using System.Collections.Generic;
 
@@ -32,6 +32,7 @@ namespace CollectionMerge
                 new First() { A = "F1A", B = "F1B" },
                 new First() { A = "F2A", B = "F2B" }
             };
+
             var second = new List<Second>()
             {
                 new Second() { B = "S1B", C = "S1C" },
