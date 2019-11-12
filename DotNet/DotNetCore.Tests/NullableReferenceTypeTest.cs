@@ -5,7 +5,7 @@ namespace DotNetCore.Tests
 {
     class Person
     {
-        public string Name { get; set; } 
+        public string? Name { get; set; } 
     }
 
     [TestClass]
