@@ -18,14 +18,14 @@ namespace ListNote
         /// </summary>
         public float Value { get; set; }
     }
+
     class ListNote
     {
         static void Main()
         {
             //[1] 개체 형식의 리스트 생성: 컬렉션 이니셜라이저로 값 초기화 
             List<Insolation> insolations = new List<Insolation>()
-            {
-                
+            {                
                 new Insolation { Month = 1, Value = 0.3f },
                 new Insolation { Month = 2, Value = 0.6f },
                 new Insolation { Month = 3, Value = 0.9f },

@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 컬렉션 이니셜라이저를 사용하여 개체 여러 개를 초기화
+using System;
 using System.Collections.Generic;
 
 namespace CollectionInitializers
@@ -12,7 +13,6 @@ namespace CollectionInitializers
     {
         static void Main()
         {
-            // 컬렉션 이니셜라이저를 사용하여 개체 여러 개를 초기화
             List<Person> people = new List<Person>
             {
                 new Person { Name = "홍길동" },

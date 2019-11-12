@@ -687,9 +687,9 @@
     <Compile Include="64_Async\_\AsyncVoidDemo.cs" />
     <Compile Include="64_Async\AwaitWithTryCatchFinally\AwaitWithTryCatchFinally.cs" />
     <Compile Include="51_Generic\CollectionInitializer.cs" />
-    <Compile Include="51_Generic\CollectionInitializers.cs" />
+    <Compile Include="51_Generic\CollectionInitializers\CollectionInitializers.cs" />
     <Compile Include="51_Generic\CollectionMerge\CollectionMerge.cs" />
-    <Compile Include="51_Generic\ListOfCategory.cs" />
+    <Compile Include="51_Generic\ListOfCategory\ListOfCategory.cs" />
     <Compile Include="51_Generic\StringArray\StringArray.cs" />
     <Compile Include="51_ExtensionMethod\ExtensionFunction\ExtensionFunction.cs" />
     <Compile Include="51_ExtensionMethod\ExtensionMethodDemo\ExtensionMethodDemo.cs" />
