@@ -1113,6 +1113,7 @@
     <Content Include="48_Attribute\48_Attribute.txt" />
     <Content Include="49_OOP\49_OOP.txt" />
     <Content Include="51_ExtensionMethod\51_ExtensionMethod.txt" />
+    <Content Include="51_Generic\50_Generic.txt" />
     <Content Include="53_IO\TextToCollection\Src.txt" />
     <Content Include="53_IO\_\텍스트데이터를컬렉션데이터로\Src.txt" />
     <Content Include="33_Algorithms\13_01_Etc\07.선택정렬.cs.txt" />
