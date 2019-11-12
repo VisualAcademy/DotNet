@@ -1,0 +1,5 @@
+﻿// 모던 C#: 검색 엔진에서 "C# New Features" 등으로 검색하여 Microsoft Docs의 자료 참조
+
+C# 8.0의 새로운 기능: https://docs.microsoft.com/ko-kr/dotnet/csharp/whats-new/csharp-8
+
+

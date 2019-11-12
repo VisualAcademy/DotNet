@@ -664,10 +664,10 @@
     <Compile Include="53_IO\_\텍스트데이터를컬렉션데이터로\Record.cs" />
     <Compile Include="53_IO\_\텍스트데이터를컬렉션데이터로\텍스트데이터를컬렉션데이터로.cs" />
     <Compile Include="54_Tuple\LocalFunctionDescription\LocalFunctionDescription.cs" />
-    <Compile Include="63_PatternMatching\PatternMatchingIf\PatternMatchingIf.cs" />
-    <Compile Include="63_PatternMatching\PatternMatchingSwitch.cs" />
+    <Compile Include="59_Modern\PatternMatchingIf\PatternMatchingIf.cs" />
+    <Compile Include="59_Modern\PatternMatchingSwitch\PatternMatchingSwitch.cs" />
     <Compile Include="26_Class\PatternMatchingWithIf\PatternMatchingWithIf.cs" />
-    <Compile Include="63_PatternMatching\PatternMatchingWithSwitch.cs" />
+    <Compile Include="59_Modern\PatternMatchingWithSwitch\PatternMatchingWithSwitch.cs" />
     <Compile Include="13_ConditionalOperator\AbsoluteValue\AbsoluteValue.cs" />
     <Compile Include="09_Operator\AdditionOperator\AdditionOperator.cs" />
     <Compile Include="26_Class\_\가위바위보_CS\가위바위보_CS.cs" />
@@ -1142,6 +1142,7 @@
     <Content Include="33_Algorithms\13_01_Etc\합계카운트평균.cs.txt" />
     <Content Include="55_InMemory\55_InMemory.txt" />
     <Content Include="59_ClassLibrary\59_ClassLibrary.txt" />
+    <Content Include="59_Modern\59_Modern.txt" />
     <Content Include="61_TestProject\61_TestProject.txt" />
     <Content Include="62_NuGet\62_NuGet.txt" />
     <Content Include="64_Async\64_Async.txt" />
