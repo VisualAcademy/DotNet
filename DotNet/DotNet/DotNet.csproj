@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DynamicBinding</StartupObject>
+    <StartupObject>DynamicExtensionMethod</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -237,6 +237,7 @@
     <Compile Include="42_Delegate\IntParameterAndIntReturnClass\IntParameterAndIntReturnClass.cs" />
     <Compile Include="44_ClassEtc\OperatorOverload\OperatorOverload.cs" />
     <Compile Include="52_Dynamic\DynamicBinding\DynamicBinding.cs" />
+    <Compile Include="52_Dynamic\DynamicExtensionMethod\DynamicExtensionMethod.cs" />
     <Compile Include="59_Modern\CSharpSeven\CSharpSeven.cs" />
     <Compile Include="59_Modern\RefReturn.cs" />
     <Compile Include="64_Async\AsyncAwaitWithTask\AsyncAwaitWithTask.cs" />
