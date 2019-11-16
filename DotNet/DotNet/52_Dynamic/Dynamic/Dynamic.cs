@@ -10,8 +10,8 @@ class Dynamic
         Console.WriteLine(x); // 1234
         Console.WriteLine(x.GetType()); // System.Int32
 
-        x = "안녕하세요."; // [2] string
-        Console.WriteLine(x); // "안녕하세요."
+        x = "Dynamic Type!"; // [2] string
+        Console.WriteLine(x); // "Dynamic Type!"
         Console.WriteLine(x.GetType()); // System.String
     }
 }

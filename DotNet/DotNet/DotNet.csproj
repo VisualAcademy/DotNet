@@ -658,9 +658,9 @@
     <Compile Include="49_OOP\_\자동차클래스\자동차클래스.cs" />
     <Compile Include="49_OOP\CarWorld.cs" />
     <Compile Include="51_ExtensionMethod\확장메서드.cs" />
-    <Compile Include="52_Dynamic\Dynamic.cs" />
-    <Compile Include="52_Dynamic\DynamicallyTypedObjects.cs" />
-    <Compile Include="52_Dynamic\DynamicDemo.cs" />
+    <Compile Include="52_Dynamic\Dynamic\Dynamic.cs" />
+    <Compile Include="52_Dynamic\DynamicallyTypedObjects\DynamicallyTypedObjects.cs" />
+    <Compile Include="52_Dynamic\DynamicDemo\DynamicDemo.cs" />
     <Compile Include="53_IO\_\텍스트데이터를컬렉션데이터로\Record.cs" />
     <Compile Include="53_IO\_\텍스트데이터를컬렉션데이터로\텍스트데이터를컬렉션데이터로.cs" />
     <Compile Include="54_Tuple\LocalFunctionDescription\LocalFunctionDescription.cs" />
@@ -1114,6 +1114,7 @@
     <Content Include="49_OOP\49_OOP.txt" />
     <Content Include="51_ExtensionMethod\51_ExtensionMethod.txt" />
     <Content Include="51_Generic\50_Generic.txt" />
+    <Content Include="52_Dynamic\52_Dynamic.txt" />
     <Content Include="53_IO\TextToCollection\Src.txt" />
     <Content Include="53_IO\_\텍스트데이터를컬렉션데이터로\Src.txt" />
     <Content Include="33_Algorithms\13_01_Etc\07.선택정렬.cs.txt" />
