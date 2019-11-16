@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>RepositoryPatternDemo</StartupObject>
+    <StartupObject>HelloWorldCore.HelloWorldCore</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -55,6 +55,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="03_HelloWorld\CaseSensitive\CaseSensitive.cs" />
+    <Compile Include="03_HelloWorld\HelloWorldCli\HelloWorldCli.cs" />
+    <Compile Include="03_HelloWorld\HelloWorldCore\HelloWorldCore.cs" />
     <Compile Include="03_HelloWorld\_\FileNew.cs" />
     <Compile Include="03_HelloWorld\HelloWorld\HelloWorld.cs" />
     <Compile Include="03_HelloWorld\HelloWorldExam\HelloWorldExam.cs" />
