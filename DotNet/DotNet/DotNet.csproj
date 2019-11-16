@@ -387,8 +387,8 @@
     <Compile Include="42_Delegate\LambdaExpressionWithPredicate\LambdaExpressionWithPredicate.cs" />
     <Compile Include="42_Delegate\PredicateDemo\PredicateDemo.cs" />
     <Compile Include="42_Delegate\StronglyTypedDelegate\StronglyTypedDelegate.cs" />
-    <Compile Include="51_Generic\GenericMethod.cs" />
-    <Compile Include="51_Generic\LinqCollectionDemo\LinqCollectionDemo.cs" />
+    <Compile Include="50_Generic\GenericMethod\GenericMethod.cs" />
+    <Compile Include="50_Generic\LinqCollectionDemo\LinqCollectionDemo.cs" />
     <Compile Include="32_LINQ\LinqAnyNumber\LinqAnyNumber.cs" />
     <Compile Include="32_LINQ\LinqDistinct\LinqDistinct.cs" />
     <Compile Include="32_LINQ\LinqFirst\LinqFirst.cs" />
@@ -654,9 +654,9 @@
     <Compile Include="48_Attribute\ReflectionGetProperty.cs" />
     <Compile Include="48_Attribute\ReflectionGetMembers.cs" />
     <Compile Include="48_Attribute\ReflectionGetMethod.cs" />
-    <Compile Include="51_Generic\GenericClassPractice\GenericClassPractice.cs" />
-    <Compile Include="51_Generic\ListOfObject\ListOfObject.cs" />
-    <Compile Include="51_Generic\_\Generic_PairOfType\Generic_PairOfType.cs" />
+    <Compile Include="50_Generic\GenericClassPractice\GenericClassPractice.cs" />
+    <Compile Include="50_Generic\ListOfObject\ListOfObject.cs" />
+    <Compile Include="50_Generic\_\Generic_PairOfType\Generic_PairOfType.cs" />
     <Compile Include="40_Property\NullWithObject\NullWithObject.cs" />
     <Compile Include="49_OOP\POCO\POCO.cs" />
     <Compile Include="49_OOP\_\자동차클래스\자동차클래스.cs" />
@@ -690,11 +690,11 @@
     <Compile Include="64_Async\AsyncMain\AsyncMain.cs" />
     <Compile Include="64_Async\_\AsyncVoidDemo.cs" />
     <Compile Include="64_Async\AwaitWithTryCatchFinally\AwaitWithTryCatchFinally.cs" />
-    <Compile Include="51_Generic\CollectionInitializer.cs" />
-    <Compile Include="51_Generic\CollectionInitializers\CollectionInitializers.cs" />
-    <Compile Include="51_Generic\CollectionMerge\CollectionMerge.cs" />
-    <Compile Include="51_Generic\ListOfCategory\ListOfCategory.cs" />
-    <Compile Include="51_Generic\StringArray\StringArray.cs" />
+    <Compile Include="50_Generic\_\CollectionInitializer.cs" />
+    <Compile Include="50_Generic\CollectionInitializers\CollectionInitializers.cs" />
+    <Compile Include="50_Generic\CollectionMerge\CollectionMerge.cs" />
+    <Compile Include="50_Generic\ListOfCategory\ListOfCategory.cs" />
+    <Compile Include="50_Generic\StringArray\StringArray.cs" />
     <Compile Include="51_ExtensionMethod\ExtensionFunction\ExtensionFunction.cs" />
     <Compile Include="51_ExtensionMethod\ExtensionMethodDemo\ExtensionMethodDemo.cs" />
     <Compile Include="51_ExtensionMethod\ExtensionMethodDescription\ExtensionMethodDescription.cs" />
@@ -718,7 +718,7 @@
     <Compile Include="42_Delegate\LambdaExpressionTypeDeclare\LambdaExpressionTypeDeclare.cs" />
     <Compile Include="42_Delegate\LambdaExpressionWithFunc\LambdaExpressionWithFunc.cs" />
     <Compile Include="57_Functional\LicenseResult\LicenseResult.cs" />
-    <Compile Include="51_Generic\ListDictionaryDemo\ListDictionaryDemo.cs" />
+    <Compile Include="50_Generic\ListDictionaryDemo\ListDictionaryDemo.cs" />
     <Compile Include="08_ReadLine\KeyboardInput\KeyboardInput.cs" />
     <Compile Include="32_LINQ\_\LinqDemo.cs" />
     <Compile Include="47_Interface\ListOfChildToListOfParent\ListOfChildToListOfParent.cs" />
@@ -741,13 +741,13 @@
     <Compile Include="20_Array\BinaryLiteralNote\BinaryLiteralNote.cs" />
     <Compile Include="08_ReadLine\BinaryString\BinaryString.cs" />
     <Compile Include="22_Interactive\CsharpInteractive.cs" />
-    <Compile Include="51_Generic\DictionaryOfString\DictionaryOfString.cs" />
-    <Compile Include="51_Generic\DictionaryOfTypeNote\DictionaryOfTypeNote.cs" />
+    <Compile Include="50_Generic\DictionaryOfString\DictionaryOfString.cs" />
+    <Compile Include="50_Generic\DictionaryOfTypeNote\DictionaryOfTypeNote.cs" />
     <Compile Include="06_Number\DigitSeparatorNote\DigitSeparatorNote.cs" />
     <Compile Include="32_LINQ\FromWhereSelect\FromWhereSelect.cs" />
     <Compile Include="32_LINQ\LinqSelect\LinqSelect.cs" />
     <Compile Include="56_XmlAndJSON\JsonConvertDemo\JsonConvertDemo.cs" />
-    <Compile Include="51_Generic\ListOfTypeSimpleMerge\ListOfTypeSimpleMerge.cs" />
+    <Compile Include="50_Generic\ListOfTypeSimpleMerge\ListOfTypeSimpleMerge.cs" />
     <Compile Include="64_Async\_\MainMethodAsync.cs" />
     <Compile Include="44_ClassEtc\PartialClassDemo\FirstDeveloper.cs" />
     <Compile Include="44_ClassEtc\PartialClassDemo\PartialClassDemo.cs" />
@@ -805,10 +805,10 @@
     <Compile Include="08_ReadLine\TypeAssertion\TypeAssertion.cs" />
     <Compile Include="24_Struct\_\UserRegister\UserRegister.cs" />
     <Compile Include="64_Async\WeatherForecastApp\WeatherForecastApp.cs" />
-    <Compile Include="51_Generic\GenericClass\GenericClass.cs" />
-    <Compile Include="51_Generic\GenericNote\GenericNote.cs" />
-    <Compile Include="51_Generic\GenericsDemo\GenericsDemo.cs" />
-    <Compile Include="51_Generic\ListNote\ListNote.cs" />
+    <Compile Include="50_Generic\GenericClass\GenericClass.cs" />
+    <Compile Include="50_Generic\GenericNote\GenericNote.cs" />
+    <Compile Include="50_Generic\GenericsDemo\GenericsDemo.cs" />
+    <Compile Include="50_Generic\ListNote\ListNote.cs" />
     <Compile Include="41_Indexer\IndexerDemo\IndexerDemo.cs" />
     <Compile Include="41_Indexer\IndexerNote\IndexerNote.cs" />
     <Compile Include="41_Indexer\Indexer\Indexer.cs" />
@@ -910,7 +910,7 @@
     <Compile Include="99_Etc\이름입력받기\이름입력받기.cs" />
     <Compile Include="99_Etc\인덱서\인덱서.cs" />
     <Compile Include="99_Etc\자료구조_스택\자료구조_스택.cs" />
-    <Compile Include="51_Generic\_\제네릭\제네릭.cs" />
+    <Compile Include="50_Generic\_\제네릭\제네릭.cs" />
     <Compile Include="99_Etc\제어문_조건문\제어문_조건문.cs" />
     <Compile Include="99_Etc\추상클래스\추상클래스.cs" />
     <Compile Include="99_Etc\추상클래스와추상메서드\추상클래스와추상메서드.cs" />
@@ -1017,8 +1017,8 @@
     <Compile Include="26_Class\_\정적과인스턴스\정적과인스턴스.cs" />
     <Compile Include="44_ClassEtc\_\정적클래스와정적클래스멤버.cs" />
     <Compile Include="30_GenericClass\GenericPros\GenericPros.cs" />
-    <Compile Include="51_Generic\_\제네릭메서드\제네릭메서드.cs" />
-    <Compile Include="51_Generic\_\제네릭클래스\제네릭클래스.cs" />
+    <Compile Include="50_Generic\_\제네릭메서드\제네릭메서드.cs" />
+    <Compile Include="50_Generic\_\제네릭클래스\제네릭클래스.cs" />
     <Compile Include="17_For\_\구구단_가로출력.cs" />
     <Compile Include="16_Switch\_\선택문\선택문.cs" />
     <Compile Include="18_WhileDoForEach\_\선행반복.cs" />
@@ -1050,7 +1050,7 @@
     <Compile Include="53_IO\_\파일처리_파일처리관련.cs" />
     <Compile Include="53_IO\_\파일처리_폴더의_모든파일명_일괄변경.cs" />
     <Compile Include="63_PlaceHolder\_\플레이스홀더.cs" />
-    <Compile Include="51_Generic\TypeConstraint\TypeConstraint.cs" />
+    <Compile Include="50_Generic\TypeConstraint\TypeConstraint.cs" />
     <Compile Include="26_Class\_\환경변수\환경변수.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1117,7 +1117,7 @@
     <Content Include="48_Attribute\48_Attribute.txt" />
     <Content Include="49_OOP\49_OOP.txt" />
     <Content Include="51_ExtensionMethod\51_ExtensionMethod.txt" />
-    <Content Include="51_Generic\50_Generic.txt" />
+    <Content Include="50_Generic\50_Generic.txt" />
     <Content Include="52_Dynamic\52_Dynamic.txt" />
     <Content Include="53_IO\TextToCollection\Src.txt" />
     <Content Include="53_IO\_\텍스트데이터를컬렉션데이터로\Src.txt" />
