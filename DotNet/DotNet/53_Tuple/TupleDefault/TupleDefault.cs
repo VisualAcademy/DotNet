@@ -12,5 +12,6 @@ class TupleDefault
     // {
     //     return default((int, int));
     // }
-    static (int, int) ZeroZero() => default((int, int));
+    //static (int, int) ZeroZero() => default((int, int));
+    static (int, int) ZeroZero() => default;
 }

@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DynamicExtensionMethod</StartupObject>
+    <StartupObject>TupleDeconstructionDescription</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -238,6 +238,9 @@
     <Compile Include="44_ClassEtc\OperatorOverload\OperatorOverload.cs" />
     <Compile Include="52_Dynamic\DynamicBinding\DynamicBinding.cs" />
     <Compile Include="52_Dynamic\DynamicExtensionMethod\DynamicExtensionMethod.cs" />
+    <Compile Include="53_Tuple\TupleDeconstructionDescription\TupleDeconstructionDescription.cs" />
+    <Compile Include="53_Tuple\TupleDefault\TupleDefault.cs" />
+    <Compile Include="53_Tuple\TupleReturnName\TupleReturnName.cs" />
     <Compile Include="59_Modern\CSharpSeven\CSharpSeven.cs" />
     <Compile Include="59_Modern\RefReturn.cs" />
     <Compile Include="64_Async\AsyncAwaitWithTask\AsyncAwaitWithTask.cs" />
@@ -667,7 +670,7 @@
     <Compile Include="52_Dynamic\DynamicDemo\DynamicDemo.cs" />
     <Compile Include="53_IO\_\텍스트데이터를컬렉션데이터로\Record.cs" />
     <Compile Include="53_IO\_\텍스트데이터를컬렉션데이터로\텍스트데이터를컬렉션데이터로.cs" />
-    <Compile Include="54_Tuple\LocalFunctionDescription\LocalFunctionDescription.cs" />
+    <Compile Include="53_Tuple\LocalFunctionDescription\LocalFunctionDescription.cs" />
     <Compile Include="59_Modern\PatternMatchingIf\PatternMatchingIf.cs" />
     <Compile Include="59_Modern\PatternMatchingSwitch\PatternMatchingSwitch.cs" />
     <Compile Include="26_Class\PatternMatchingWithIf\PatternMatchingWithIf.cs" />
@@ -1026,15 +1029,12 @@
     <Compile Include="17_For\_\제어문_배수의합.cs" />
     <Compile Include="18_WhileDoForEach\_\제어문_조건반복.cs" />
     <Compile Include="17_For\_\제어문_짝수의합.cs" />
-    <Compile Include="54_Tuple\TupleClass\TupleClass.cs" />
-    <Compile Include="54_Tuple\TupleClassDemo\TupleClassDemo.cs" />
-    <Compile Include="54_Tuple\TupleDeconstructionDescription.cs" />
-    <Compile Include="54_Tuple\TupleDefault.cs" />
-    <Compile Include="54_Tuple\TupleLiteral\TupleLiteral.cs" />
-    <Compile Include="54_Tuple\TupleLiteralDescription.cs" />
-    <Compile Include="54_Tuple\TupleNamed\TupleNamed.cs" />
-    <Compile Include="54_Tuple\TupleReturnDescription\TupleReturnDescription.cs" />
-    <Compile Include="54_Tuple\TupleReturnName.cs" />
+    <Compile Include="53_Tuple\TupleClass\TupleClass.cs" />
+    <Compile Include="53_Tuple\TupleClassDemo\TupleClassDemo.cs" />
+    <Compile Include="53_Tuple\TupleLiteral\TupleLiteral.cs" />
+    <Compile Include="53_Tuple\TupleLiteralDescription\TupleLiteralDescription.cs" />
+    <Compile Include="53_Tuple\TupleNamed\TupleNamed.cs" />
+    <Compile Include="53_Tuple\TupleReturnDescription\TupleReturnDescription.cs" />
     <Compile Include="04_Syntax\_\주석문.cs" />
     <Compile Include="08_ReadLine\RadixTransformation\RadixTransformation.cs" />
     <Compile Include="49_OOP\_\클래스복습.cs" />
@@ -1146,6 +1146,7 @@
     <Compile Include="33_Algorithms\03_01_AverageAlgorithm\_\03_04_합계알고리즘.cs" />
     <Content Include="33_Algorithms\13_01_Etc\합계알고리즘적용.cs.txt" />
     <Content Include="33_Algorithms\13_01_Etc\합계카운트평균.cs.txt" />
+    <Content Include="53_Tuple\53_Tuple.txt" />
     <Content Include="55_InMemory\55_InMemory.txt" />
     <Content Include="59_ClassLibrary\59_ClassLibrary.txt" />
     <Content Include="59_Modern\59_Modern.txt" />

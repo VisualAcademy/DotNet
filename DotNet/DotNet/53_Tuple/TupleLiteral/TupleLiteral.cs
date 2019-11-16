@@ -12,6 +12,6 @@ class TupleLiteral
 
         (ushort Width, ushort Height) hd = (1366, 768); //[3] 이름과 형식 지정
         Write($"HD: {hd.Width} * {hd.Height}");
-        WriteLine($" -> 형식({hd.Width.GetType()}, {hd.Height.GetType()})");
+        WriteLine($"Type({hd.Width.GetType()}, {hd.Height.GetType()})");
     }
 }
