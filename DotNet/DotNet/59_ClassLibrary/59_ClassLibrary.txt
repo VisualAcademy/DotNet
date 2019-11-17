@@ -1,4 +1,5 @@
-﻿
+﻿// 클래스 라이브러리: 하나 이상의 앱에서 호출되는 형식 및 메서드 등을 정의하여 DLL로 제공
+
 Dul 프로젝트
 
 https://github.com/VisualAcademy/Dul
