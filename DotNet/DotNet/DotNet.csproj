@@ -710,8 +710,8 @@
     <Compile Include="39_Method\GreetingPage\GreetingPage.cs" />
     <Compile Include="26_Class\EnvironmentVariable\EnvironmentVariable.cs" />
     <Compile Include="57_Functional\HigherOrderFunction\HigherOrderFunction.cs" />
-    <Compile Include="69_Thread\ConcurrencyFor.cs" />
-    <Compile Include="69_Thread\ParallelFor.cs" />
+    <Compile Include="69_Thread\ConcurrencyFor\ConcurrencyFor.cs" />
+    <Compile Include="69_Thread\ParallelFor\ParallelFor.cs" />
     <Compile Include="69_Thread\ThreadDemo\ThreadDemo.cs" />
     <Compile Include="73_Network\HttpWebRequestDemo\HttpWebRequestDemo.cs" />
     <Compile Include="07_BoolCharString\Immutable\Immutable.cs" />
@@ -1149,11 +1149,13 @@
     <Content Include="33_Algorithms\13_01_Etc\합계카운트평균.cs.txt" />
     <Content Include="53_Tuple\53_Tuple.txt" />
     <Content Include="54_InMemory\54_InMemory.txt" />
+    <Content Include="56_XmlAndJSON\56_XmlAndJSON.txt" />
     <Content Include="59_ClassLibrary\59_ClassLibrary.txt" />
     <Content Include="59_Modern\59_Modern.txt" />
     <Content Include="61_TestProject\61_TestProject.txt" />
     <Content Include="62_NuGet\62_NuGet.txt" />
     <Content Include="64_Async\64_Async.txt" />
+    <Content Include="69_Thread\69_Thread.txt" />
     <Content Include="99_Etc\01_기본클래스와파생클래스.cs.txt" />
     <Content Include="99_Etc\01_추상클래스와추상메서드.cs.txt" />
     <Content Include="99_Etc\02_기본클래스의메서드실행하기.cs.txt" />
