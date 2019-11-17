@@ -1,4 +1,4 @@
-﻿// 고차 함수(Higher-Order Function): 함수 자체를 매개 변수 또는 반환값으로 가지는 함수
+﻿//[?] 고차 함수(Higher-Order Function): 함수 자체를 매개 변수 또는 반환값으로 가지는 함수
 using System;
 
 class HigherOrderFunction
