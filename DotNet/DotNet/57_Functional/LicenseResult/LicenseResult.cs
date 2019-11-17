@@ -23,7 +23,10 @@ class LicenseResult
 
     static void Main()
     {
+        //[A] 문 호출
         Console.WriteLine(GetResultWithStatement(60)); // 합격
+
+        //[B] 식 호출
         Console.WriteLine(GetResultWithExpression(60)); // 합격
     }
 }
