@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DirectoryAndDirectoryInfo</StartupObject>
+    <StartupObject>ThreadPractice</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -241,6 +241,7 @@
     <Compile Include="53_Tuple\TupleDeconstructionDescription\TupleDeconstructionDescription.cs" />
     <Compile Include="53_Tuple\TupleDefault\TupleDefault.cs" />
     <Compile Include="53_Tuple\TupleReturnName\TupleReturnName.cs" />
+    <Compile Include="54_Thread\ThreadPractice\ThreadPractice.cs" />
     <Compile Include="59_Modern\CSharpSeven\CSharpSeven.cs" />
     <Compile Include="59_Modern\RefReturn.cs" />
     <Compile Include="64_Async\AsyncAwaitWithTask\AsyncAwaitWithTask.cs" />
