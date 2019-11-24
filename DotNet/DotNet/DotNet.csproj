@@ -1156,6 +1156,7 @@
     <Content Include="59_Modern\59_Modern.txt" />
     <Content Include="61_TestProject\61_TestProject.txt" />
     <Content Include="58_NuGet\62_NuGet.txt" />
+    <Content Include="62_Network\62_Network.txt" />
     <Content Include="64_Async\64_Async.txt" />
     <Content Include="54_Thread\54_Thread.txt" />
     <Content Include="99_Etc\01_기본클래스와파생클래스.cs.txt" />
