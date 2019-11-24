@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ThreadPractice</StartupObject>
+    <StartupObject>WebClientDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -714,7 +714,8 @@
     <Compile Include="54_Thread\ConcurrencyFor\ConcurrencyFor.cs" />
     <Compile Include="54_Thread\ParallelFor\ParallelFor.cs" />
     <Compile Include="54_Thread\ThreadDemo\ThreadDemo.cs" />
-    <Compile Include="73_Network\HttpWebRequestDemo\HttpWebRequestDemo.cs" />
+    <Compile Include="62_Network\HttpClientDemo\HttpClientDemo.cs" />
+    <Compile Include="62_Network\HttpWebRequestDemo\HttpWebRequestDemo.cs" />
     <Compile Include="07_BoolCharString\Immutable\Immutable.cs" />
     <Compile Include="42_Delegate\LambdaExpression\LambdaExpression.cs" />
     <Compile Include="42_Delegate\LambdaExpressionArgs\LambdaExpressionArgs.cs" />
@@ -869,7 +870,7 @@
     <Compile Include="40_Property\Property\Property.cs" />
     <Compile Include="40_Property\PropertyAutoImplemented\PropertyAutoImplemented.cs" />
     <Compile Include="30_GenericClass\_\제네릭_장점\제네릭_장점.cs" />
-    <Compile Include="73_Network\WebClientDemo\WebClientDemo.cs" />
+    <Compile Include="62_Network\WebClientDemo\WebClientDemo.cs" />
     <Compile Include="07_BoolCharString\WrapperType\WrapperType.cs" />
     <Compile Include="56_XmlAndJSON\XElementDemo\XElementDemo.cs" />
     <Compile Include="48_Attribute\TypeAndActivator\TypeAndActivator.cs" />
@@ -1154,7 +1155,7 @@
     <Content Include="59_ClassLibrary\59_ClassLibrary.txt" />
     <Content Include="59_Modern\59_Modern.txt" />
     <Content Include="61_TestProject\61_TestProject.txt" />
-    <Content Include="62_NuGet\62_NuGet.txt" />
+    <Content Include="58_NuGet\62_NuGet.txt" />
     <Content Include="64_Async\64_Async.txt" />
     <Content Include="54_Thread\54_Thread.txt" />
     <Content Include="99_Etc\01_기본클래스와파생클래스.cs.txt" />
