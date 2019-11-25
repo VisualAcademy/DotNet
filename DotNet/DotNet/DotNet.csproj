@@ -245,7 +245,7 @@
     <Compile Include="54_Thread\ThreadPractice\ThreadPractice.cs" />
     <Compile Include="63_Functional\AggregateDemo\AggregateDemo.cs" />
     <Compile Include="64_Modern\CSharpSeven\CSharpSeven.cs" />
-    <Compile Include="64_Modern\RefReturn.cs" />
+    <Compile Include="64_Modern\_\RefReturn.cs" />
     <Compile Include="55_Async\AsyncAwaitWithTask\AsyncAwaitWithTask.cs" />
     <Compile Include="67_Debuger\DebugDemo.cs" />
     <Compile Include="67_Debuger\디버깅.cs" />
@@ -1155,7 +1155,8 @@
     <Content Include="59_InMemory\54_InMemory.txt" />
     <Content Include="61_XmlAndJSON\56_XmlAndJSON.txt" />
     <Content Include="56_ClassLibrary\59_ClassLibrary.txt" />
-    <Content Include="64_Modern\59_Modern.txt" />
+    <Content Include="63_Functional\63_Functional.txt" />
+    <Content Include="64_Modern\64_Modern.txt" />
     <Content Include="57_TestProject\61_TestProject.txt" />
     <Content Include="58_NuGet\62_NuGet.txt" />
     <Content Include="62_Network\62_Network.txt" />

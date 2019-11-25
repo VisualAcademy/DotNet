@@ -5,16 +5,17 @@ using System.Threading.Tasks;
 
 namespace SeeSharp.Eight
 {
-    // Interface
+    //[1] 인터페이스(Interface) 만들기 
     public interface IEmployee
     {
         public string Name { get; }
         public decimal Salary { get; }
-        //[!] C# 8.0: Default interface members
+
+        //[1][1] C# 8.0: Default interface members
         public string Id { get => $"{Name}[{this.GetHashCode()}]"; }
     }
 
-    // Class
+    //[2] 기본 클래스(Class) 만들기
     public class Person
     {
 #nullable disable
@@ -42,13 +43,14 @@ namespace SeeSharp.Eight
         }
     }
 
-    // Abstract Class
+    //[3] 추상 클래스(Abstract Class) 만들기 
     public abstract class Employee : Person, IEmployee
     {
         public Employee(string name, decimal salary)
             : base(name) => Salary = salary;
         public decimal Salary { get; protected set; }
     }
+
 
     public class Professor : Employee, IEmployee
     {
