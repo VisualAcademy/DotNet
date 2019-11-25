@@ -1064,7 +1064,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="39_Method\_\메서드의매개변수형식\" />
-    <Folder Include="65_TODO\" />
     <Folder Include="75_Pattern\" />
   </ItemGroup>
   <ItemGroup>
@@ -1162,6 +1161,7 @@
     <Content Include="62_Network\62_Network.txt" />
     <Content Include="55_Async\64_Async.txt" />
     <Content Include="54_Thread\54_Thread.txt" />
+    <Content Include="65_TODO\65_TODO.txt" />
     <Content Include="99_Etc\01_기본클래스와파생클래스.cs.txt" />
     <Content Include="99_Etc\01_추상클래스와추상메서드.cs.txt" />
     <Content Include="99_Etc\02_기본클래스의메서드실행하기.cs.txt" />
