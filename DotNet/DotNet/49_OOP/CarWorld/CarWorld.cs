@@ -1,13 +1,17 @@
 ﻿using System;
 using System.Collections;
 
-//[1] 네임스페이스: 클래스명 충돌 방지
+/*
+ *[1] 네임스페이스: 클래스명 충돌 방지 
+ */
 namespace CarWorld
 {
     //[2] 인터페이스: 표준, 다중상속
     interface IStandard { void Run(); }
 
-    //[3] 클래스: 설계도
+    /// <summary>
+    /// [3] 클래스: 설계도
+    /// </summary>
     class Car : IStandard
     {
         #region [4] 필드: Private Member Variables
