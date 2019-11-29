@@ -1,4 +1,4 @@
-﻿// 3항 연산자(조건 연산자) 사용하기 
+﻿//[?] 3항 연산자(조건 연산자) 사용하기 
 using System;
 
 class ConditionalOperator
