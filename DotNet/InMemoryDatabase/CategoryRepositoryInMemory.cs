@@ -6,7 +6,7 @@ namespace InMemoryDatabase
 {
     public class CategoryRepositoryInMemory : ICategoryRepository
     {
-        // 인메모리 데이터베이스 역할을 하는 정적 컬렉션 개체 생성
+        //[!] 인메모리 데이터베이스 역할을 하는 정적 컬렉션 개체 생성
         private static List<Category> _categories = new List<Category>();
 
         public CategoryRepositoryInMemory()
@@ -21,18 +21,19 @@ namespace InMemoryDatabase
         }
 
         /// <summary>
-        /// 입력
+        /// 입력: 데이터베이스에 데이터를 저장
         /// </summary>
         public Category Add(Category model)
         {
             // 가장 큰 CategoryId에 1 더한 값으로 새로운 CategoryId 생성
+            // 실제 데이터베이스에서는 자동 증가값(시퀀스)을 사용
             model.CategoryId = _categories.Max(c => c.CategoryId) + 1; 
             _categories.Add(model);
             return model;
         }
 
         /// <summary>
-        /// 상세
+        /// 상세: 단일 데이터 출력
         /// </summary>
         public Category Browse(int id)
         {
@@ -40,7 +41,7 @@ namespace InMemoryDatabase
         }
 
         /// <summary>
-        /// 삭제
+        /// 삭제: 특정 키값(Id)에 해당하는 데이터 지우기 
         /// </summary>
         public bool Delete(int id)
         {
@@ -53,7 +54,7 @@ namespace InMemoryDatabase
         }
 
         /// <summary>
-        /// 수정
+        /// 수정: 지정한 모델로 데이터 수정하기 
         /// </summary>
         public bool Edit(Category model)
         {
@@ -70,7 +71,7 @@ namespace InMemoryDatabase
         }
 
         /// <summary>
-        /// 건수
+        /// 개수, 건수
         /// </summary>
         public int Has()
         {
@@ -78,7 +79,7 @@ namespace InMemoryDatabase
         }
 
         /// <summary>
-        /// 정렬
+        /// 정렬: OrderOption 열거형의 데이터에 따른 정렬 조건 처리 
         /// </summary>
         /// <param name="orderOption">OrderOption 열거형</param>
         /// <returns>읽기전용(IEnumerable)으로 정렬된 레코드셋</returns>
@@ -108,7 +109,7 @@ namespace InMemoryDatabase
         }
 
         /// <summary>
-        /// 페이징
+        /// 페이징: PageSize만큼 나눠서 필요한 페이지의 데이터 조회
         /// </summary>
         /// <param name="pageNumber">페이지 번호: 1, 2, 3, ...</param>
         /// <param name="pageSize">페이지 크기: 한 페이지 당 10개씩 표시</param>
@@ -123,7 +124,7 @@ namespace InMemoryDatabase
         }
 
         /// <summary>
-        /// 출력
+        /// 출력: 전체 데이터 출력, GetAll() 메서드
         /// </summary>
         public List<Category> Read()
         {
@@ -131,7 +132,7 @@ namespace InMemoryDatabase
         }
 
         /// <summary>
-        /// 검색
+        /// 검색: 지정한 매개 변수에 해당하는 데이터만 조회
         /// </summary>
         public List<Category> Search(string query)
         {
