@@ -16,6 +16,6 @@ class ForSumEven
             }
         }
 
-        Console.WriteLine($"1부터 {n}까지 짝수의 합 : {sum}");
+        Console.WriteLine($"1부터 {n}까지 짝수의 합: {sum}");
     }
 }

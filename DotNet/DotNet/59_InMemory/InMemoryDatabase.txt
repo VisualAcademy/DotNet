@@ -1,0 +1,3 @@
+﻿DotNet.InMemoryDatabase 프로젝트에 
+
+인메모리 데이터베이스 만들고 CRUD 작업 수행하기 실습 코드가 들어있습니다.

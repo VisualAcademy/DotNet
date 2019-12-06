@@ -1121,6 +1121,7 @@
     <Content Include="51_ExtensionMethod\51_ExtensionMethod.txt" />
     <Content Include="50_Generic\50_Generic.txt" />
     <Content Include="52_Dynamic\52_Dynamic.txt" />
+    <Content Include="59_InMemory\InMemoryDatabase.txt" />
     <Content Include="60_IO\55_IO.txt" />
     <Content Include="60_IO\TextToCollection\Src.txt" />
     <Content Include="60_IO\_\텍스트데이터를컬렉션데이터로\Src.txt" />
