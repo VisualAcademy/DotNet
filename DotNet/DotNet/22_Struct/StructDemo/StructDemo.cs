@@ -1,10 +1,9 @@
-﻿// StructDemo.cs
-//[?] 구조체: 하나 이상의 변수 또는 배열을 묶어서 관리
+﻿//[예제] 구조체를 사용해 변수나 배열 묶어서 관리: StructDemo.cs
 using System;
 
 struct Point
 {
-    public int X; // public 키워드를 사용하여 외부에서 int X 변수를 사용하도록 설정
+    public int X; // public 키워드로 외부에서 int X 변수를 사용하도록 설정
     public int Y;
 }
 

@@ -22,7 +22,7 @@ class StructVariable
 struct Product
 {
     // 구조체의 멤버가 되는 변수들은
-    // public 접근 한정자(Access Modifier)를 붙여서 외부에서 사용 가능하도록 설정
+    // public 액세스 한정자(Access Modifier)를 붙여서 외부에서 사용 가능하도록 설정
     public int Id; // 상품번호
     public string Title; // 상품명
     public decimal Price; // 가격
