@@ -926,7 +926,7 @@
     <Compile Include="26_Class\_\클래스와멤버\클래스와멤버.cs" />
     <Compile Include="40_Property\_\프로퍼티\프로퍼티.cs" />
     <Compile Include="45_Inheritance\_\필드은폐\필드은폐.cs" />
-    <Compile Include="99_Etc\함수_정의_호출\함수_정의_호출.cs" />
+    <Compile Include="21_Function\_\01_함수_정의_호출.cs" />
     <Compile Include="99_Etc\형식변환\형식변환.cs" />
     <Compile Include="34_Object\_\개체.cs" />
     <Compile Include="13_ConditionalOperator\_\괄호연산자\괄호연산자.cs" />
@@ -1064,6 +1064,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="39_Method\_\메서드의매개변수형식\" />
+    <Folder Include="99_Etc\함수_정의_호출\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="01_DotNet\01_SeeSharp.txt" />

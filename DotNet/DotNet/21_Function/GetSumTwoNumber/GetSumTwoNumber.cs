@@ -1,4 +1,5 @@
-﻿using System;
+﻿// GetSumTwoNumber.cs
+using System;
 
 class GetSumTwoNumber
 {

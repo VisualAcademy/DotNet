@@ -1,4 +1,5 @@
-﻿// 함수를 사용하여 큰 값과 작은 값 구하기 
+﻿// MaxMinFunction.cs
+// 함수를 사용하여 큰 값과 작은 값 구하기 
 using System;
 
 class MaxMinFunction

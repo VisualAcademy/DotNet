@@ -1,4 +1,5 @@
-﻿// 매개 변수(Parameter)가 있는 함수 만들고 호출하기 
+﻿// FunctionParameter.cs
+// 매개 변수(Parameter)가 있는 함수 만들고 호출하기 
 using System;
 
 class FunctionParameter
