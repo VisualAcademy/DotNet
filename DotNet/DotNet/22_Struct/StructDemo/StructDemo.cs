@@ -1,4 +1,5 @@
-﻿//[?] 구조체: 하나 이상의 변수 또는 배열을 묶어서 관리
+﻿// StructDemo.cs
+//[?] 구조체: 하나 이상의 변수 또는 배열을 묶어서 관리
 using System;
 
 struct Point
