@@ -1,4 +1,5 @@
-﻿using System;
+﻿// <예제> 열거형과 switch 문 함께 사용: EnumSwitch.cs
+using System;
 
 namespace EnumSwitch
 {

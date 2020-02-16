@@ -1,4 +1,5 @@
-﻿using System;
+﻿// <예제> 지정된 열거형의 상수 리스트를 배열로 가져오기: EnumGetNames.cs
+using System;
 
 class EnumGetNames
 {

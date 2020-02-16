@@ -1,4 +1,5 @@
-﻿using System;
+﻿// <예제>열거형으로 관련 있는 항목 묶기 : EnumAnimal.cs
+using System;
 
 class EnumAnimal
 {

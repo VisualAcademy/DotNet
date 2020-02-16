@@ -1,4 +1,5 @@
-﻿using System;
+﻿// <예제> 문자열을 특정 열거형으로 변환하기: EnumParse.cs
+using System;
 
 class EnumParse
 {
