@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>WebClientDemo</StartupObject>
+    <StartupObject>ReadLineCharacter</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -126,7 +126,7 @@
     <Compile Include="06_Number\05_DoubleMinMax\DoubleMinMax.cs" />
     <Compile Include="06_Number\06_FloatDemo\FloatDemo.cs" />
     <Compile Include="06_Number\07_FloatMinMax\FloatMinMax.cs" />
-    <Compile Include="08_ReadLine\IntToByte\IntToByte.cs" />
+    <Compile Include="08_ReadLine\06_IntToByte\IntToByte.cs" />
     <Compile Include="06_Number\NumberDemo\NumberDemo.cs" />
     <Compile Include="06_Number\RealNumberExam\RealNumberExam.cs" />
     <Compile Include="06_Number\RealNumberPractice\RealNumberPractice.cs" />
@@ -136,7 +136,7 @@
     <Compile Include="07_BoolCharString\07_StringInterpolationDemo\StringInterpolationDemo.cs" />
     <Compile Include="07_BoolCharString\04_StringInterpolationDescription\StringInterpolationDescription.cs" />
     <Compile Include="07_BoolCharString\02_StringKeyword\StringKeyword.cs" />
-    <Compile Include="08_ReadLine\ReadLineDemo\ReadLineDemo.cs" />
+    <Compile Include="08_ReadLine\01_ReadLineDemo\ReadLineDemo.cs" />
     <Compile Include="09_Operator\OperatorAdd\OperatorAdd.cs" />
     <Compile Include="09_Operator\OperatorDescription\OperatorDescription.cs" />
     <Compile Include="09_Operator\OperatorDivide\OperatorDivide.cs" />
@@ -207,17 +207,17 @@
     <Compile Include="06_Number\02_SignedInteger\SignedInteger.cs" />
     <Compile Include="06_Number\03_UnsignedInteger\UnsignedInteger.cs" />
     <Compile Include="07_BoolCharString\08_BooleanDemo\BooleanDemo.cs" />
-    <Compile Include="08_ReadLine\ConsoleReadDemo\ConsoleReadDemo.cs" />
-    <Compile Include="08_ReadLine\ConsoleReadLineDemo\ConsoleReadLineDemo.cs" />
-    <Compile Include="08_ReadLine\GetTypeDemo\GetTypeDemo.cs" />
-    <Compile Include="08_ReadLine\InputName\InputName.cs" />
-    <Compile Include="08_ReadLine\ReadLineCharacter\ReadLineCharacter.cs" />
+    <Compile Include="08_ReadLine\04_ConsoleReadDemo\ConsoleReadDemo.cs" />
+    <Compile Include="08_ReadLine\02_ConsoleReadLineDemo\ConsoleReadLineDemo.cs" />
+    <Compile Include="08_ReadLine\08_GetTypeDemo\GetTypeDemo.cs" />
+    <Compile Include="08_ReadLine\03_InputName\InputName.cs" />
+    <Compile Include="08_ReadLine\11_ReadLineCharacter\ReadLineCharacter.cs" />
     <Compile Include="08_ReadLine\ReadLineIntegerExam\ReadLineIntegerExam.cs" />
     <Compile Include="08_ReadLine\ReadLineIntegerPractice\ReadLineIntegerPractice.cs" />
-    <Compile Include="08_ReadLine\ReadLineInteger\ReadLineInteger.cs" />
-    <Compile Include="08_ReadLine\ReadLineRealNumber\ReadLineRealNumber.cs" />
-    <Compile Include="08_ReadLine\TypeConversionError\TypeConversionError.cs" />
-    <Compile Include="08_ReadLine\TypeConversion\TypeConversion.cs" />
+    <Compile Include="08_ReadLine\09_ReadLineInteger\ReadLineInteger.cs" />
+    <Compile Include="08_ReadLine\10_ReadLineRealNumber\ReadLineRealNumber.cs" />
+    <Compile Include="08_ReadLine\05_TypeConversionError\TypeConversionError.cs" />
+    <Compile Include="08_ReadLine\07_TypeConversion\TypeConversion.cs" />
     <Compile Include="08_ReadLine\VarInput\VarInput.cs" />
     <Compile Include="08_ReadLine\Var\Var.cs" />
     <Compile Include="28_Exception\_\예외발생.cs" />
