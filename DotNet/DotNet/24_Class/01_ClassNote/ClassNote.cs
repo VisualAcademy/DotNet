@@ -1,4 +1,5 @@
-﻿using System;
+﻿// <예제> 클래스 레벨의 메서드 호출: ClassNote.cs
+using System;
 
 class ClassNote
 {

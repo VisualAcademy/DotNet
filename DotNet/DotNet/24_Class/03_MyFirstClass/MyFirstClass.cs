@@ -1,4 +1,5 @@
-﻿using System;
+﻿// <예제> 정적 메서드와 인스턴스 메서드: MyFirstClass.cs
+using System;
 
 class MyFirstClass
 {
