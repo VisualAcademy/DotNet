@@ -1081,8 +1081,7 @@
     <Content Include="10_AssignmentIncrement\10_AssignmentIncrement.txt" />
     <Content Include="11_RelationalLogical\11_RelationalLogical.txt" />
     <Content Include="12_BitShiftConditional\12_BitShiftConditional.txt" />
-    <Content Include="13_IfElse\14_If.txt" />
-    <Content Include="15_Else\15_Else.txt" />
+    <Content Include="13_IfElse\13_IfElse.txt" />
     <Content Include="16_Switch\16_Switch.txt" />
     <Content Include="17_For\17_For.txt" />
     <Content Include="18_WhileDoForEach\18_WhileDoForEach.txt" />

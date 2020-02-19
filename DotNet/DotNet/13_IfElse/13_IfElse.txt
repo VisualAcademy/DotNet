@@ -1,0 +1,2 @@
+﻿// 제어문: if, else, for, foreach, while, do, break, continue, goto
+// if ~ else 문: 만약 조건식이 참이면 if 문을 실행하고 그렇지 않으면 else 문을 실행
