@@ -1,4 +1,5 @@
-﻿using System;
+﻿// 초깃값을 감소시켜서 반복시키기   
+using System;
 
 class WhileDecrement
 {
