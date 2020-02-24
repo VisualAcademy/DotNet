@@ -1086,7 +1086,7 @@
     <Content Include="15_For\15_For.txt" />
     <Content Include="16_WhileDoForEach\16_WhileDoForEach.txt" />
     <Content Include="17_BreakContinueGoto\17_BreakContinueGoto.txt" />
-    <Content Include="18_Array\20_Array.txt" />
+    <Content Include="18_Array\18_Array.txt" />
     <Content Include="19_Function\19_Function.txt" />
     <Content Include="22_Interactive\22_Interactive.txt" />
     <Content Include="23_API\23_API.txt" />
