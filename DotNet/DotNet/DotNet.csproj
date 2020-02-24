@@ -484,9 +484,9 @@
     <Compile Include="19_Function\_\재귀함수.cs" />
     <Compile Include="19_Function\_\함수.cs" />
     <Compile Include="19_Function\_\함수오버로드.cs" />
-    <Compile Include="23_API\MathDemo\MathDemo.cs" />
-    <Compile Include="23_API\UsingStaticClassesDemo\UsingStaticClassesDemo.cs" />
-    <Compile Include="23_API\UsingStaticExample\UsingStaticExample.cs" />
+    <Compile Include="21_API\01_MathDemo\MathDemo.cs" />
+    <Compile Include="21_API\02_UsingStaticClassesDemo\UsingStaticClassesDemo.cs" />
+    <Compile Include="21_API\UsingStaticExample\UsingStaticExample.cs" />
     <Compile Include="22_Struct\StructDemo\StructDemo.cs" />
     <Compile Include="22_Struct\StructVariable\StructVariable.cs" />
     <Compile Include="23_Enum\01_ConsoleColorDemo\ConsoleColorDemo.cs" />
@@ -1089,7 +1089,7 @@
     <Content Include="18_Array\18_Array.txt" />
     <Content Include="19_Function\19_Function.txt" />
     <Content Include="20_Interactive\20_Interactive.txt" />
-    <Content Include="23_API\23_API.txt" />
+    <Content Include="21_API\21_API.txt" />
     <Content Include="22_Struct\24_Struct.txt" />
     <Content Include="23_Enum\25_Enum.txt" />
     <Content Include="24_Class\26_Class.txt" />
