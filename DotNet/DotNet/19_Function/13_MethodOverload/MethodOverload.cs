@@ -4,7 +4,6 @@ using System;
 
 class MethodOverload
 {
-
     // 매개 변수가 없는 Hi() 함수
     static void Hi()
     {

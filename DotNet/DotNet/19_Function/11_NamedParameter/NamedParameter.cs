@@ -15,7 +15,7 @@ class NamedParameter
         Sum(second: 20, first: 10); // 30
     }
 
-    // 명명된 인수(Named Parameter)
+    // 명명된 매개 변수(Named Parameter)
     static void Sum(int first, int second)
     {
         Console.WriteLine(first + second);
