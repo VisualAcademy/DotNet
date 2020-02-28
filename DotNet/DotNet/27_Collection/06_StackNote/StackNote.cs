@@ -16,7 +16,7 @@ class StackNote
         //[2] 데이터 입력
         stack.Push("첫 번째");
         stack.Push("두 번째");
-        stack.Push("세 번째"); // Max개(?) 이상 입력시 오버플로우 에러
+        stack.Push("세 번째"); 
 
         //[3] 데이터 출력
         Console.WriteLine(stack.Pop()); // 세 번째
