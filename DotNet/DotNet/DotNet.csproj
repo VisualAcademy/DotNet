@@ -706,7 +706,7 @@
     <Compile Include="49_ExtensionMethod\ExtensionMethodDescription\ExtensionMethodDescription.cs" />
     <Compile Include="09_Operator\03_CastingOperator\CastingOperator.cs" />
     <Compile Include="07_BoolCharString\CharacterEscapeSequence\CharacterEscapeSequence.cs" />
-    <Compile Include="13_IfElse\ConvertClass\ConvertClass.cs" />
+    <Compile Include="13_IfElse\24_ConvertClass\ConvertClass.cs" />
     <Compile Include="08_ReadLine\21_DefaultExpression\DefaultExpression.cs" />
     <Compile Include="64_Tips\DefineDemo\DefineDemo.cs" />
     <Compile Include="07_BoolCharString\EscapeSequenceDemo\EscapeSequenceDemo.cs" />
