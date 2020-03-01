@@ -262,13 +262,13 @@
     <Compile Include="12_BitShiftConditional\06_ShiftOperatorDemo\ShiftOperatorDemo.cs" />
     <Compile Include="12_BitShiftConditional\ShiftPractice\ShiftPractice.cs" />
     <Compile Include="12_BitShiftConditional\ShiftRight\ShiftRight.cs" />
-    <Compile Include="12_BitShiftConditional\ConditionalOperator\ConditionalOperator.cs" />
-    <Compile Include="12_BitShiftConditional\OperatorPrecedence\OperatorPrecedence.cs" />
-    <Compile Include="12_BitShiftConditional\OperatorMaxSize\OperatorMaxSize.cs" />
+    <Compile Include="12_BitShiftConditional\08_ConditionalOperator\ConditionalOperator.cs" />
+    <Compile Include="12_BitShiftConditional\13_OperatorPrecedence\OperatorPrecedence.cs" />
+    <Compile Include="12_BitShiftConditional\09_OperatorMaxSize\OperatorMaxSize.cs" />
     <Compile Include="12_BitShiftConditional\PrecedenceQuiz\PrecedenceQuiz.cs" />
-    <Compile Include="12_BitShiftConditional\SizeOf\SizeOf.cs" />
+    <Compile Include="12_BitShiftConditional\12_SizeOf\SizeOf.cs" />
     <Compile Include="12_BitShiftConditional\TernaryExam\TernaryExam.cs" />
-    <Compile Include="12_BitShiftConditional\TernaryOperator\TernaryOperator.cs" />
+    <Compile Include="12_BitShiftConditional\10_TernaryOperator\TernaryOperator.cs" />
     <Compile Include="12_BitShiftConditional\TernaryPractice\TernaryPractice.cs" />
     <Compile Include="12_BitShiftConditional\TernaryQuiz\TernaryQuiz.cs" />
     <Compile Include="13_IfElse\03_If\If.cs" />
@@ -678,7 +678,7 @@
     <Compile Include="62_Modern\PatternMatchingSwitch\PatternMatchingSwitch.cs" />
     <Compile Include="24_Class\PatternMatchingWithIf\PatternMatchingWithIf.cs" />
     <Compile Include="62_Modern\PatternMatchingWithSwitch\PatternMatchingWithSwitch.cs" />
-    <Compile Include="12_BitShiftConditional\AbsoluteValue\AbsoluteValue.cs" />
+    <Compile Include="12_BitShiftConditional\11_AbsoluteValue\AbsoluteValue.cs" />
     <Compile Include="09_Operator\13_AdditionOperator\AdditionOperator.cs" />
     <Compile Include="24_Class\_\가위바위보_CS\가위바위보_CS.cs" />
     <Compile Include="31_Algorithms\13_01_Etc\Algorithm_Count_Money.cs" />
