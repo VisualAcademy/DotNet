@@ -9,6 +9,6 @@ class LinqCount
 
         int count = numbers.Count();
 
-        Console.WriteLine($"{nameof(numbers)} 배열 요소의 건수: {count}");
+        Console.WriteLine($"{nameof(numbers)} 배열 개수: {count}");
     }
 }
