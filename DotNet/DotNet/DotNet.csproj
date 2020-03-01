@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ReadLineCharacter</StartupObject>
+    <StartupObject>RadixTransformation</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -102,7 +102,7 @@
     <Compile Include="06_Number\09_DecimalMinMax\DecimalMinMax.cs" />
     <Compile Include="07_BoolCharString\09_ConstDoubleString\ConstDoubleString.cs" />
     <Compile Include="08_ReadLine\IntParse\IntParse.cs" />
-    <Compile Include="08_ReadLine\VariableDefault\VariableDefault.cs" />
+    <Compile Include="08_ReadLine\20_VariableDefault\VariableDefault.cs" />
     <Compile Include="09_Operator\12_NumberToString\NumberToString.cs" />
     <Compile Include="09_Operator\_\관계연산자.cs" />
     <Compile Include="09_Operator\_\논리연산자.cs" />
@@ -120,7 +120,7 @@
     <Compile Include="13_IfElse\10_ElseNote\ElseNote.cs" />
     <Compile Include="18_Array\22_ArraySumAverage\ArraySumAverage.cs" />
     <Compile Include="18_Array\08_DigitSeparator\DigitSeparator.cs" />
-    <Compile Include="08_ReadLine\DigitSeparatorDemo\DigitSeparatorDemo.cs" />
+    <Compile Include="08_ReadLine\15_DigitSeparatorDemo\DigitSeparatorDemo.cs" />
     <Compile Include="18_Array\11_DigitSeparatorDescription\DigitSeparatorDescription.cs" />
     <Compile Include="06_Number\04_DoubleDemo\DoubleDemo.cs" />
     <Compile Include="06_Number\05_DoubleMinMax\DoubleMinMax.cs" />
@@ -218,8 +218,8 @@
     <Compile Include="08_ReadLine\10_ReadLineRealNumber\ReadLineRealNumber.cs" />
     <Compile Include="08_ReadLine\05_TypeConversionError\TypeConversionError.cs" />
     <Compile Include="08_ReadLine\07_TypeConversion\TypeConversion.cs" />
-    <Compile Include="08_ReadLine\VarInput\VarInput.cs" />
-    <Compile Include="08_ReadLine\Var\Var.cs" />
+    <Compile Include="08_ReadLine\18_VarInput\VarInput.cs" />
+    <Compile Include="08_ReadLine\16_Var\Var.cs" />
     <Compile Include="26_Exception\_\예외발생.cs" />
     <Compile Include="26_Exception\_\예외처리\예외처리.cs" />
     <Compile Include="26_Exception\_\오버플로우.cs" />
@@ -707,7 +707,7 @@
     <Compile Include="09_Operator\03_CastingOperator\CastingOperator.cs" />
     <Compile Include="07_BoolCharString\CharacterEscapeSequence\CharacterEscapeSequence.cs" />
     <Compile Include="13_IfElse\ConvertClass\ConvertClass.cs" />
-    <Compile Include="08_ReadLine\DefaultExpression\DefaultExpression.cs" />
+    <Compile Include="08_ReadLine\21_DefaultExpression\DefaultExpression.cs" />
     <Compile Include="64_Tips\DefineDemo\DefineDemo.cs" />
     <Compile Include="07_BoolCharString\EscapeSequenceDemo\EscapeSequenceDemo.cs" />
     <Compile Include="37_Method\GreetingPage\GreetingPage.cs" />
@@ -726,7 +726,7 @@
     <Compile Include="40_Delegate\LambdaExpressionWithFunc\LambdaExpressionWithFunc.cs" />
     <Compile Include="61_Functional\LicenseResult\LicenseResult.cs" />
     <Compile Include="48_Generic\ListDictionaryDemo\ListDictionaryDemo.cs" />
-    <Compile Include="08_ReadLine\KeyboardInput\KeyboardInput.cs" />
+    <Compile Include="08_ReadLine\19_KeyboardInput\KeyboardInput.cs" />
     <Compile Include="30_LINQ\_\LinqDemo.cs" />
     <Compile Include="45_Interface\07_ListOfChildToListOfParent\ListOfChildToListOfParent.cs" />
     <Compile Include="58_IO\PathClassDemo\PathClassDemo.cs" />
@@ -743,10 +743,10 @@
     <Compile Include="28_GenericClass\DictionaryGenericClassDemo\DictionaryGenericClassDemo.cs" />
     <Compile Include="13_IfElse\09_OutVariable\OutVariable.cs" />
     <Compile Include="22_Struct\OutVariableDemo\OutVariableDemo.cs" />
-    <Compile Include="08_ReadLine\BinaryLiteral\BinaryLiteral.cs" />
+    <Compile Include="08_ReadLine\14_BinaryLiteral\BinaryLiteral.cs" />
     <Compile Include="18_Array\09_BinaryLiteralDemo\BinaryLiteralDemo.cs" />
     <Compile Include="18_Array\10_BinaryLiteralNote\BinaryLiteralNote.cs" />
-    <Compile Include="08_ReadLine\BinaryString\BinaryString.cs" />
+    <Compile Include="08_ReadLine\12_BinaryString\BinaryString.cs" />
     <Compile Include="20_Interactive\CsharpInteractive.cs" />
     <Compile Include="48_Generic\DictionaryOfString\DictionaryOfString.cs" />
     <Compile Include="48_Generic\DictionaryOfTypeNote\DictionaryOfTypeNote.cs" />
@@ -809,7 +809,7 @@
     <Compile Include="64_Tips\StringConverterDemo\StringConverterDemo.cs" />
     <Compile Include="66_Etc\SingleResponsibilityPrinciple.cs" />
     <Compile Include="53_Async\SyncDemo\SyncDemo.cs" />
-    <Compile Include="08_ReadLine\TypeAssertion\TypeAssertion.cs" />
+    <Compile Include="08_ReadLine\17_TypeAssertion\TypeAssertion.cs" />
     <Compile Include="22_Struct\_\UserRegister\UserRegister.cs" />
     <Compile Include="53_Async\WeatherForecastApp\WeatherForecastApp.cs" />
     <Compile Include="48_Generic\GenericClass\GenericClass.cs" />
@@ -1040,7 +1040,7 @@
     <Compile Include="51_Tuple\TupleNamed\TupleNamed.cs" />
     <Compile Include="51_Tuple\TupleReturnDescription\TupleReturnDescription.cs" />
     <Compile Include="04_Syntax\_\주석문.cs" />
-    <Compile Include="08_ReadLine\RadixTransformation\RadixTransformation.cs" />
+    <Compile Include="08_ReadLine\13_RadixTransformation\RadixTransformation.cs" />
     <Compile Include="47_OOP\_\클래스복습.cs" />
     <Compile Include="47_OOP\_\클래스설계연습.cs" />
     <Compile Include="24_Class\_\클래스와개체\클래스와개체.cs" />
