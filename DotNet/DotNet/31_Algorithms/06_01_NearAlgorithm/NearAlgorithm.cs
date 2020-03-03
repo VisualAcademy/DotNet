@@ -14,7 +14,7 @@ class NearAlgorithm
         int Abs(int number) => (number < 0) ? -number : number;
 
         //[1] Initialize
-        int min = int.MaxValue; // 차잇값의 절댓값의 최솟값이 담길 그릇
+        int min = int.MaxValue; // 차잇값의 절댓값 중 최솟값이 담길 그릇
 
         //[2] Input: 2진수와 16진수로 표현({ 10, 20, 30, 27, 17 }) 
         int[] numbers = { 0b1010, 0x14, 0b11110, 0x1B, 0b10001 }; 
@@ -28,7 +28,7 @@ class NearAlgorithm
             if (abs < min)
             {
                 min = abs; // MIN: 최솟값 알고리즘
-                near = numbers[i]; // NEAR: 차잇값의 절댓값의 최솟값일 때의 값
+                near = numbers[i]; // NEAR: 차잇값의 절댓값 중 최솟값일 때의 값
             }
         }
 

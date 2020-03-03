@@ -1099,7 +1099,7 @@
     <Content Include="28_GenericClass\28_GenericClass.txt" />
     <Content Include="29_Null\29_Null.txt" />
     <Content Include="30_LINQ\30_LINQ.txt" />
-    <Content Include="31_Algorithms\33_Algorithms.txt" />
+    <Content Include="31_Algorithms\31_Algorithms.txt" />
     <Content Include="31_Algorithms\학습용 쉬운 알고리즘 12개.txt" />
     <Content Include="32_Object\34_Object.txt" />
     <Content Include="33_Namespace\35_Namespace.txt" />
