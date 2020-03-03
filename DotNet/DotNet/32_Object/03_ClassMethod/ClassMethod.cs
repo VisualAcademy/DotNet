@@ -19,7 +19,7 @@ namespace ClassMethod
         {
             //[2] MyMath 클래스의 인스턴스 생성
             MyMath myMath = new MyMath();
-            //[3] 개체.인스턴스멤버 형태로 호출
+            //[3] 개체.인스턴스메서드이름 형태로 호출
             myMath.Sum(3, 5);
         }
     }
