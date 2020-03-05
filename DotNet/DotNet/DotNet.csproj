@@ -639,12 +639,12 @@
     <Compile Include="42_ClassEtc\PointFunctional\PointFunctional.cs" />
     <Compile Include="42_ClassEtc\PointImperative\PointImperative.cs" />
     <Compile Include="43_Inheritance\12_MustInheritDemo\MustInheritDemo.cs" />
-    <Compile Include="44_Override\ClassToString\ClassToString.cs" />
-    <Compile Include="44_Override\MethodOverloading\MethodOverloading.cs" />
-    <Compile Include="44_Override\MethodOverridePractice\MethodOverridePractice.cs" />
-    <Compile Include="44_Override\VirtualMethod\VirtualMethod.cs" />
-    <Compile Include="44_Override\VirtualOverrideBase\VirtualOverrideBase.cs" />
-    <Compile Include="44_Override\VirtualOverride\VirtualOverride.cs" />
+    <Compile Include="44_Override\06_ClassToString\ClassToString.cs" />
+    <Compile Include="44_Override\02_MethodOverloading\MethodOverloading.cs" />
+    <Compile Include="44_Override\07_MethodOverridePractice\MethodOverridePractice.cs" />
+    <Compile Include="44_Override\04_VirtualMethod\VirtualMethod.cs" />
+    <Compile Include="44_Override\05_VirtualOverrideBase\VirtualOverrideBase.cs" />
+    <Compile Include="44_Override\03_VirtualOverride\VirtualOverride.cs" />
     <Compile Include="44_Override\_\메서드오버라이드\메서드오버라이드.cs" />
     <Compile Include="45_Interface\10_InterfaceFriends\InterfaceFriends.cs" />
     <Compile Include="45_Interface\09_IDisposableDemo\IDisposableDemo.cs" />
@@ -830,7 +830,7 @@
     <Compile Include="43_Inheritance\09_ConstructorInheritance\ConstructorInheritance.cs" />
     <Compile Include="43_Inheritance\14_FieldHiding\FieldHiding.cs" />
     <Compile Include="43_Inheritance\01_IhheritanceDemo\InheritanceDemo.cs" />
-    <Compile Include="44_Override\InheritanceMethodOverride\InheritanceMethodOverride.cs" />
+    <Compile Include="44_Override\01_InheritanceMethodOverride\InheritanceMethodOverride.cs" />
     <Compile Include="43_Inheritance\04_InheritancePractice\InheritancePractice.cs" />
     <Compile Include="43_Inheritance\05_IsAn\IsAn.cs" />
     <Compile Include="43_Inheritance\15_MethodNew\MethodNew.cs" />
@@ -1113,7 +1113,7 @@
     <Content Include="41_Event\43_Event.txt" />
     <Content Include="42_ClassEtc\44_ClassEtc.txt" />
     <Content Include="43_Inheritance\45_Inheritance.txt" />
-    <Content Include="44_Override\46_Override.txt" />
+    <Content Include="44_Override\44_Override.txt" />
     <Content Include="45_Interface\47_Interface.txt" />
     <Content Include="46_Attribute\48_Attribute.txt" />
     <Content Include="47_OOP\49_OOP.txt" />
