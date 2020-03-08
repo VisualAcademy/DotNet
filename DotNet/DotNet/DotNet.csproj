@@ -585,11 +585,11 @@
     <Compile Include="24_Class\RandomDemo\RandomDemo.cs" />
     <Compile Include="24_Class\RandomClassDemo\RandomClassDemo.cs" />
     <Compile Include="34_Field\_\필드\필드.cs" />
-    <Compile Include="36_Destructor\ConstructorMethodDestructor\ConstructorMethodDestructor.cs" />
-    <Compile Include="36_Destructor\ConstructorToDestructor\ConstructorToDestructor.cs" />
+    <Compile Include="36_Destructor\03_ConstructorMethodDestructor\ConstructorMethodDestructor.cs" />
+    <Compile Include="36_Destructor\01_ConstructorToDestructor\ConstructorToDestructor.cs" />
     <Compile Include="36_Destructor\_\생성자_메서드_소멸자\생성자_메서드_소멸자.cs" />
     <Compile Include="35_Constructor\_\생성자_필드초기화\생성자_필드초기화.cs" />
-    <Compile Include="36_Destructor\DestructorDemo\DestructorDemo.cs" />
+    <Compile Include="36_Destructor\02_DestructorDemo\DestructorDemo.cs" />
     <Compile Include="37_Method\DateTimeTryParse\DateTimeTryParse.cs" />
     <Compile Include="37_Method\ExpressionBodiedFunction\ExpressionBodiedFunction.cs" />
     <Compile Include="37_Method\ExpressionBodiedMethodDemo\ExpressionBodiedMethodDemo.cs" />
@@ -1105,7 +1105,7 @@
     <Content Include="33_Namespace\33_Namespace.txt" />
     <Content Include="34_Field\34_Field.txt" />
     <Content Include="35_Constructor\35_Constructor.txt" />
-    <Content Include="36_Destructor\38_Destructor.txt" />
+    <Content Include="36_Destructor\36_Destructor.txt" />
     <Content Include="37_Method\39_Method.txt" />
     <Content Include="38_Property\40_Property.txt" />
     <Content Include="39_Indexer\41_Indexer.txt" />
