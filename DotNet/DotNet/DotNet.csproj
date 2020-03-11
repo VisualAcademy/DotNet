@@ -664,9 +664,9 @@
     <Compile Include="48_Generic\ListOfObject\ListOfObject.cs" />
     <Compile Include="48_Generic\_\Generic_PairOfType\Generic_PairOfType.cs" />
     <Compile Include="38_Property\27_NullWithObject\NullWithObject.cs" />
-    <Compile Include="47_OOP\POCO\POCO.cs" />
+    <Compile Include="47_OOP\00_POCO\POCO.cs" />
     <Compile Include="47_OOP\_\자동차클래스\자동차클래스.cs" />
-    <Compile Include="47_OOP\CarWorld\CarWorld.cs" />
+    <Compile Include="47_OOP\03_CarWorld\CarWorld.cs" />
     <Compile Include="49_ExtensionMethod\확장메서드.cs" />
     <Compile Include="50_Dynamic\Dynamic\Dynamic.cs" />
     <Compile Include="50_Dynamic\DynamicallyTypedObjects\DynamicallyTypedObjects.cs" />
@@ -847,8 +847,8 @@
     <Compile Include="33_Namespace\03_NamespaceDescription\NamespaceDescription.cs" />
     <Compile Include="33_Namespace\01_NamespaceNote\NamespaceNote.cs" />
     <Compile Include="33_Namespace\04_TypeDefinitionWithUsing\TypeDefinitionWithUsing.cs" />
-    <Compile Include="47_OOP\EncapsulationNote\EncapsulationNote.cs" />
-    <Compile Include="47_OOP\PolymorphismDemo\PolymorphismDemo.cs" />
+    <Compile Include="47_OOP\01_EncapsulationNote\EncapsulationNote.cs" />
+    <Compile Include="47_OOP\02_PolymorphismDemo\PolymorphismDemo.cs" />
     <Compile Include="38_Property\21_AnonymousClass\AnonymousClass.cs" />
     <Compile Include="38_Property\20_AnonymousType\AnonymousType.cs" />
     <Compile Include="38_Property\03_AutomaticallyImplementedProperty\AutomaticallyImplementedProperty.cs" />
@@ -1116,7 +1116,7 @@
     <Content Include="44_Override\44_Override.txt" />
     <Content Include="45_Interface\45_Interface.txt" />
     <Content Include="46_Attribute\46_Attribute.txt" />
-    <Content Include="47_OOP\49_OOP.txt" />
+    <Content Include="47_OOP\47_OOP.txt" />
     <Content Include="49_ExtensionMethod\51_ExtensionMethod.txt" />
     <Content Include="48_Generic\50_Generic.txt" />
     <Content Include="50_Dynamic\52_Dynamic.txt" />
