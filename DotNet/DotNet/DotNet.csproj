@@ -1090,11 +1090,11 @@
     <Content Include="19_Function\19_Function.txt" />
     <Content Include="20_Interactive\20_Interactive.txt" />
     <Content Include="21_API\21_API.txt" />
-    <Content Include="22_Struct\24_Struct.txt" />
+    <Content Include="22_Struct\22_Struct.txt" />
     <Content Include="23_Enum\23_Enum.txt" />
     <Content Include="24_Class\24_Class.txt" />
     <Content Include="25_String\25_String.txt" />
-    <Content Include="26_Exception\28_Exception.txt" />
+    <Content Include="26_Exception\26_Exception.txt" />
     <Content Include="27_Collection\27_Collection.txt" />
     <Content Include="28_GenericClass\28_GenericClass.txt" />
     <Content Include="29_Null\29_Null.txt" />
