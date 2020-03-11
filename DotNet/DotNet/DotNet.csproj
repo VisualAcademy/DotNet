@@ -622,7 +622,7 @@
     <Compile Include="39_Indexer\_\인덱서설명.cs" />
     <Compile Include="39_Indexer\_\인덱서확장.cs" />
     <Compile Include="41_Event\_\이벤트\이벤트.cs" />
-    <Compile Include="41_Event\EventDemo.cs" />
+    <Compile Include="41_Event\01_EventDemo\EventDemo.cs" />
     <Compile Include="40_Delegate\04_AnonymousDelegate\AnonymousDelegate.cs" />
     <Compile Include="40_Delegate\01_DelegateDemo\DelegateDemo.cs" />
     <Compile Include="40_Delegate\14_DelegateParameter\DelegateParameter.cs" />
@@ -635,9 +635,9 @@
     <Compile Include="40_Delegate\07_DelegatePractice\DelegatePractice.cs" />
     <Compile Include="40_Delegate\_\대리자설명.cs" />
     <Compile Include="40_Delegate\08_AnonymousMethod\AnonymousMethod.cs" />
-    <Compile Include="42_ClassEtc\ImmutableTypeDemo\ImmutableTypeDemo.cs" />
-    <Compile Include="42_ClassEtc\PointFunctional\PointFunctional.cs" />
-    <Compile Include="42_ClassEtc\PointImperative\PointImperative.cs" />
+    <Compile Include="42_ClassEtc\05_ImmutableTypeDemo\ImmutableTypeDemo.cs" />
+    <Compile Include="42_ClassEtc\04_PointFunctional\PointFunctional.cs" />
+    <Compile Include="42_ClassEtc\03_PointImperative\PointImperative.cs" />
     <Compile Include="43_Inheritance\12_MustInheritDemo\MustInheritDemo.cs" />
     <Compile Include="44_Override\06_ClassToString\ClassToString.cs" />
     <Compile Include="44_Override\02_MethodOverloading\MethodOverloading.cs" />
@@ -756,10 +756,10 @@
     <Compile Include="59_XmlAndJSON\JsonConvertDemo\JsonConvertDemo.cs" />
     <Compile Include="48_Generic\ListOfTypeSimpleMerge\ListOfTypeSimpleMerge.cs" />
     <Compile Include="53_Async\_\MainMethodAsync.cs" />
-    <Compile Include="42_ClassEtc\PartialClassDemo\FirstDeveloper.cs" />
-    <Compile Include="42_ClassEtc\PartialClassDemo\PartialClassDemo.cs" />
-    <Compile Include="42_ClassEtc\PartialClassDemo\SecondDeveloper.cs" />
-    <Compile Include="42_ClassEtc\PartialClass\PartialClass.cs" />
+    <Compile Include="42_ClassEtc\01_PartialClassDemo\FirstDeveloper.cs" />
+    <Compile Include="42_ClassEtc\01_PartialClassDemo\PartialClassDemo.cs" />
+    <Compile Include="42_ClassEtc\01_PartialClassDemo\SecondDeveloper.cs" />
+    <Compile Include="42_ClassEtc\02_PartialClass\PartialClass.cs" />
     <Compile Include="24_Class\ProcessStartDemo\ProcessStartDemo.cs" />
     <Compile Include="06_Number\10_NullableDemo\NullableDemo.cs" />
     <Compile Include="29_Null\02_NullableOf\NullableOf.cs" />
@@ -1110,8 +1110,8 @@
     <Content Include="38_Property\38_Property.txt" />
     <Content Include="39_Indexer\39_Indexer.txt" />
     <Content Include="40_Delegate\40_Delegate.txt" />
-    <Content Include="41_Event\43_Event.txt" />
-    <Content Include="42_ClassEtc\44_ClassEtc.txt" />
+    <Content Include="41_Event\41_Event.txt" />
+    <Content Include="42_ClassEtc\42_ClassEtc.txt" />
     <Content Include="43_Inheritance\45_Inheritance.txt" />
     <Content Include="44_Override\44_Override.txt" />
     <Content Include="45_Interface\47_Interface.txt" />
