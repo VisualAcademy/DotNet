@@ -416,8 +416,8 @@
     <Compile Include="38_Property\08_PropertyPrivateSet\PropertyPrivateSet.cs" />
     <Compile Include="39_Indexer\_\반복기.cs" />
     <Compile Include="42_ClassEtc\PartialClassPerson\PartialClassPerson.cs" />
-    <Compile Include="49_ExtensionMethod\ExtensionMethodNote.cs" />
-    <Compile Include="49_ExtensionMethod\RelatedArticleOptionDemo.cs" />
+    <Compile Include="49_ExtensionMethod\03_ExtensionMethodNote\ExtensionMethodNote.cs" />
+    <Compile Include="49_ExtensionMethod\_\RelatedArticleOptionDemo.cs" />
     <Compile Include="64_Tips\PlaceHolderEtc\PlaceHolderEtc.cs" />
     <Compile Include="58_IO\TextToCollection\TextToCollection.cs" />
     <Compile Include="64_Tips\IntelliSenseDemo\IntelliSenseDemo.cs" />
@@ -667,7 +667,7 @@
     <Compile Include="47_OOP\00_POCO\POCO.cs" />
     <Compile Include="47_OOP\_\자동차클래스\자동차클래스.cs" />
     <Compile Include="47_OOP\03_CarWorld\CarWorld.cs" />
-    <Compile Include="49_ExtensionMethod\확장메서드.cs" />
+    <Compile Include="49_ExtensionMethod\_\확장메서드.cs" />
     <Compile Include="50_Dynamic\Dynamic\Dynamic.cs" />
     <Compile Include="50_Dynamic\DynamicallyTypedObjects\DynamicallyTypedObjects.cs" />
     <Compile Include="50_Dynamic\DynamicDemo\DynamicDemo.cs" />
@@ -701,9 +701,9 @@
     <Compile Include="48_Generic\06_CollectionMerge\CollectionMerge.cs" />
     <Compile Include="48_Generic\02_ListOfCategory\ListOfCategory.cs" />
     <Compile Include="48_Generic\10_StringArray\StringArray.cs" />
-    <Compile Include="49_ExtensionMethod\ExtensionFunction\ExtensionFunction.cs" />
-    <Compile Include="49_ExtensionMethod\ExtensionMethodDemo\ExtensionMethodDemo.cs" />
-    <Compile Include="49_ExtensionMethod\ExtensionMethodDescription\ExtensionMethodDescription.cs" />
+    <Compile Include="49_ExtensionMethod\01_ExtensionFunction\ExtensionFunction.cs" />
+    <Compile Include="49_ExtensionMethod\02_ExtensionMethodDemo\ExtensionMethodDemo.cs" />
+    <Compile Include="49_ExtensionMethod\_\ExtensionMethodDescription.cs" />
     <Compile Include="09_Operator\03_CastingOperator\CastingOperator.cs" />
     <Compile Include="07_BoolCharString\CharacterEscapeSequence\CharacterEscapeSequence.cs" />
     <Compile Include="13_IfElse\24_ConvertClass\ConvertClass.cs" />
@@ -1117,9 +1117,9 @@
     <Content Include="45_Interface\45_Interface.txt" />
     <Content Include="46_Attribute\46_Attribute.txt" />
     <Content Include="47_OOP\47_OOP.txt" />
-    <Content Include="49_ExtensionMethod\51_ExtensionMethod.txt" />
+    <Content Include="49_ExtensionMethod\49_ExtensionMethod.txt" />
     <Content Include="48_Generic\48_Generic.txt" />
-    <Content Include="50_Dynamic\52_Dynamic.txt" />
+    <Content Include="50_Dynamic\50_Dynamic.txt" />
     <Content Include="57_InMemory\InMemoryDatabase.txt" />
     <Content Include="58_IO\55_IO.txt" />
     <Content Include="58_IO\TextToCollection\Src.txt" />
