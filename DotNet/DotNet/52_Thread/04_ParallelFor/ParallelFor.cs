@@ -6,6 +6,6 @@ class ParallelFor
 {
     static void Main()
     {
-        Parallel.For(0, 200000, (i) => { Console.WriteLine(i); });
+        Parallel.For(0, 200_000, (i) => { Console.WriteLine(i); });
     }
 }
