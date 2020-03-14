@@ -716,8 +716,8 @@
     <Compile Include="55_Thread\03_ConcurrencyFor\ConcurrencyFor.cs" />
     <Compile Include="55_Thread\04_ParallelFor\ParallelFor.cs" />
     <Compile Include="55_Thread\01_ThreadDemo\ThreadDemo.cs" />
-    <Compile Include="60_Network\HttpClientDemo\HttpClientDemo.cs" />
-    <Compile Include="60_Network\HttpWebRequestDemo\HttpWebRequestDemo.cs" />
+    <Compile Include="60_Network\01_HttpClientDemo\HttpClientDemo.cs" />
+    <Compile Include="60_Network\03_HttpWebRequestDemo\HttpWebRequestDemo.cs" />
     <Compile Include="07_BoolCharString\Immutable\Immutable.cs" />
     <Compile Include="40_Delegate\10_LambdaExpression\LambdaExpression.cs" />
     <Compile Include="40_Delegate\11_LambdaExpressionArgs\LambdaExpressionArgs.cs" />
@@ -753,7 +753,7 @@
     <Compile Include="06_Number\DigitSeparatorNote\DigitSeparatorNote.cs" />
     <Compile Include="30_LINQ\31_FromWhereSelect\FromWhereSelect.cs" />
     <Compile Include="30_LINQ\34_LinqSelect\LinqSelect.cs" />
-    <Compile Include="59_XmlAndJSON\JsonConvertDemo\JsonConvertDemo.cs" />
+    <Compile Include="59_XmlAndJSON\02_JsonConvertDemo\JsonConvertDemo.cs" />
     <Compile Include="48_Generic\_\ListOfTypeSimpleMerge\ListOfTypeSimpleMerge.cs" />
     <Compile Include="56_Async\_\MainMethodAsync.cs" />
     <Compile Include="42_ClassEtc\01_PartialClassDemo\FirstDeveloper.cs" />
@@ -872,9 +872,9 @@
     <Compile Include="38_Property\01_Property\Property.cs" />
     <Compile Include="38_Property\04_PropertyAutoImplemented\PropertyAutoImplemented.cs" />
     <Compile Include="28_GenericClass\_\제네릭_장점\제네릭_장점.cs" />
-    <Compile Include="60_Network\WebClientDemo\WebClientDemo.cs" />
+    <Compile Include="60_Network\02_WebClientDemo\WebClientDemo.cs" />
     <Compile Include="07_BoolCharString\12_WrapperType\WrapperType.cs" />
-    <Compile Include="59_XmlAndJSON\XElementDemo\XElementDemo.cs" />
+    <Compile Include="59_XmlAndJSON\01_XElementDemo\XElementDemo.cs" />
     <Compile Include="46_Attribute\10_TypeAndActivator\TypeAndActivator.cs" />
     <Compile Include="22_Struct\CharStruct\CharStruct.cs" />
     <Compile Include="22_Struct\DateTimeDemo\DateTimeDemo.cs" />

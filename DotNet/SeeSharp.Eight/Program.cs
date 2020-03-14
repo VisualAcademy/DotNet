@@ -58,11 +58,11 @@ namespace SeeSharp.Eight
         public Professor(string name, decimal salary, string topic)
             : base(name, salary) => Topic = topic;
 
-        // TODO: Deconstruct() Method => C# 7.0 User-Defined Types Deconstructing
+        // Deconstruct Method: TODO: Deconstruct() Method => C# 7.0 User-Defined Types Deconstructing
         public void Deconstruct(out string name, out string topic)
             => (name, topic) = (Name, Topic);
 
-        //[?] Indices and ranges
+        // 인덱스 및 범위(Indices and ranges)
         //public string Id => $"{Name}[{Topic[0..3]}]";
         public string Id => $"{Name}[{Topic[..3]}~{Topic[^3..^0]}]";
     }
@@ -82,7 +82,7 @@ namespace SeeSharp.Eight
 
         static Service()
         {
-            //[?] Null Coalescing Assignment Operator: ??= 
+            //[?] null 병합 할당(Null Coalescing Assignment) Operator: ??= 
             people ??= new Person[]
             {
                 new Professor("RedPlus", 1______000, "Computer Science"),
@@ -102,7 +102,7 @@ namespace SeeSharp.Eight
             }
         }
 
-        //[?] C# 8.0 Asynchronous streams
+        //[?] C# 8.0 비동기 스트림(Asynchronous streams)
         public static async IAsyncEnumerable<IEmployee> GetEmployeesAsync()
         {
             foreach (var person in people)
@@ -117,7 +117,7 @@ namespace SeeSharp.Eight
     {
         static async Task Main(string[] args)
         {
-            //[?] C# 8.0 - Static Local Function
+            //[?] C# 8.0 - 정적 로컬 함수(Static Local Function)
             static void Print(string message) => Console.WriteLine(message);
 
             //[A] Synchronous 
@@ -140,7 +140,7 @@ namespace SeeSharp.Eight
             //[B] Asynchronous
             await foreach (var employee in Service.GetEmployeesAsync())
             {
-                //[?] Pattern Matching: C# 8.0 Property Pattern, Var Pattern 
+                //[?] 패턴 매칭: C# 8.0 속성 패턴, Var Pattern 
                 if (employee is Professor
                 {
                     Topic: "Computer Science", Name: var name
@@ -151,19 +151,19 @@ namespace SeeSharp.Eight
             }
             await foreach (var employee in Service.GetEmployeesAsync())
             {
-                //[?] Pattern Matching: C# 8.0 Location Pattern
+                //[?]패턴 매칭: C# 8.0 위치 패턴(Location Pattern)
                 if (employee is Professor(var name, "Computer Science") professor)
                 {
                     Print($"Professor: {name} ({professor.Id})");
                 }
             }
 
-            //[?] C# 8.0 - Nullable Reference Type
+            //[?] C# 8.0 - nullable 참조 형식
             var red = new Person("YJ", "Park");
             var length = GetMiddleNameLength(red);
             Console.WriteLine(length); // 0 
 
-            //[?] Switch Expression
+            //[?] Switch 식
             Print("========================================");
             await foreach (var employee in Service.GetEmployeesAsync())
             {
@@ -184,7 +184,7 @@ namespace SeeSharp.Eight
 
         static int GetMiddleNameLength(Person? person)
         {
-            //[?] is somthing
+            //[?] is { } (somthing, 사례)
             if (person?.MiddleName is { } middle) return middle.Length;
             return 0; // is null 
         }
