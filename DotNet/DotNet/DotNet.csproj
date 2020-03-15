@@ -405,7 +405,7 @@
     <Compile Include="30_LINQ\17_LinqTake\LinqTake.cs" />
     <Compile Include="30_LINQ\26_LinqWhereContains\LinqWhereContains.cs" />
     <Compile Include="30_LINQ\36_LinqZip\LinqZip.cs" />
-    <Compile Include="34_Field\_\읽기전용필드\읽기전용필드.cs" />
+    <Compile Include="35_Constructor\_\읽기전용필드\읽기전용필드.cs" />
     <Compile Include="35_Constructor\05_CircleClass\CircleClass.cs" />
     <Compile Include="35_Constructor\12_ExpressionBodiedConstructor\ExpressionBodiedConstructor.cs" />
     <Compile Include="19_Function\19_ExpressionBodiedMethod\ExpressionBodiedMethod.cs" />
