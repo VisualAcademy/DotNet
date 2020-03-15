@@ -928,7 +928,7 @@
     <Compile Include="43_Inheritance\_\필드은폐\필드은폐.cs" />
     <Compile Include="19_Function\_\01_함수_정의_호출.cs" />
     <Compile Include="66_Etc\형식변환\형식변환.cs" />
-    <Compile Include="32_Object\_\개체.cs" />
+    <Compile Include="32_Object\_\01_개체\개체.cs" />
     <Compile Include="12_BitShiftConditional\_\괄호연산자\괄호연산자.cs" />
     <Compile Include="22_Struct\_\구조체\구조체.cs" />
     <Compile Include="22_Struct\_\구조체_날짜관련\구조체_날짜관련.cs" />
@@ -1044,10 +1044,10 @@
     <Compile Include="47_OOP\_\클래스복습.cs" />
     <Compile Include="47_OOP\_\클래스설계연습.cs" />
     <Compile Include="24_Class\_\클래스와개체\클래스와개체.cs" />
-    <Compile Include="32_Object\_\클래스와객체\클래스와객체.cs" />
+    <Compile Include="32_Object\_\02_클래스와객체\클래스와객체.cs" />
     <Compile Include="04_Syntax\01_ClassSimple\ClassSimple.cs" />
     <Compile Include="03_HelloWorld\_\클래스이름.cs" />
-    <Compile Include="32_Object\_\클래스와인스턴스\클래스와인스턴스.cs" />
+    <Compile Include="32_Object\_\03_클래스와인스턴스\클래스와인스턴스.cs" />
     <Compile Include="08_ReadLine\_\키보드입력.cs" />
     <Compile Include="46_Attribute\_\특성\특성.cs" />
     <Compile Include="58_IO\_\파일처리_파일리스트_특정폴더.cs" />
