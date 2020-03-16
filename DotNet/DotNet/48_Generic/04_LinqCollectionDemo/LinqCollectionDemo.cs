@@ -53,7 +53,7 @@ namespace LinqCollectionDemo
             // LINQ 식을 통해서 새로운 개체 형식으로 반환
             var newObjects = from car in cars
                              orderby car.Year ascending
-                             select new NewType { Maker = car.Make }; // 익명타입
+                             select new NewType { Maker = car.Make }; 
             foreach (var c in newObjects)
             {
                 Console.WriteLine("{0}", c.Maker);
