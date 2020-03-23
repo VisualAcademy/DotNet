@@ -1041,8 +1041,8 @@
     <Compile Include="51_Tuple\03_TupleReturnDescription\TupleReturnDescription.cs" />
     <Compile Include="04_Syntax\_\주석문.cs" />
     <Compile Include="08_ReadLine\13_RadixTransformation\RadixTransformation.cs" />
-    <Compile Include="47_OOP\_\클래스복습.cs" />
-    <Compile Include="47_OOP\_\클래스설계연습.cs" />
+    <Compile Include="47_OOP\_\클래스복습\클래스복습.cs" />
+    <Compile Include="47_OOP\_\클래스설계연습\클래스설계연습.cs" />
     <Compile Include="24_Class\_\클래스와개체\클래스와개체.cs" />
     <Compile Include="32_Object\_\02_클래스와객체\클래스와객체.cs" />
     <Compile Include="04_Syntax\01_ClassSimple\ClassSimple.cs" />

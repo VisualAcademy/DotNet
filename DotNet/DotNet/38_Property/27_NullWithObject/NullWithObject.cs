@@ -35,7 +35,7 @@ namespace NullWithObject
             var otherPeople = null as Person[];
 
             // [2] ?[0] 형태로 인덱서에 대해서 널 값 확인 가능
-            WriteLine($"첫 번째 사람: {otherPeople?[0]?.Name ?? "없음" }");
+            WriteLine($"첫 번째 사람: {otherPeople?[0]?.Name ?? "없음"}");
         }
     }
 }
