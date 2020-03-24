@@ -10,7 +10,7 @@ class AsyncAwaitSimple
         using (var client = new HttpClient())
         {
             //[2] .NET API의 비동기 메서드 호출할 때 await 키워드 붙임
-            var r = await client.GetAsync("http://dotnetnote.com/api/WebApiDemo");
+            var r = await client.GetAsync("https://dotnetnote.azurewebsites.net/api/WebApiDemo");
             var c = await r.Content.ReadAsStringAsync();
 
             Console.WriteLine(c);
