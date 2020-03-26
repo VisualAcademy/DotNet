@@ -25,7 +25,8 @@ namespace ListOfObject
             seoul.AreaName = "서울";
 
             //[3][2] 개체 이니셜라이저로 개체 초기화
-            AreaCode sejong = new AreaCode() {
+            AreaCode sejong = new AreaCode
+            {
                 Number = "044", AreaName = "세종"
             };            
 
