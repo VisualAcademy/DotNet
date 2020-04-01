@@ -1,7 +1,7 @@
 ﻿//[?] 클래스의 정적 멤버 호출
 using System;
 
-//[1] Squre.cs
+//[1] Square.cs
 public class Square
 {
     public static string GetName()
