@@ -926,7 +926,7 @@
     <Compile Include="24_Class\_\02_클래스와멤버\클래스와멤버.cs" />
     <Compile Include="38_Property\_\프로퍼티\프로퍼티.cs" />
     <Compile Include="43_Inheritance\_\필드은폐\필드은폐.cs" />
-    <Compile Include="19_Function\_\01_함수_정의_호출.cs" />
+    <Compile Include="19_Function\_\01_함수_정의_호출\01_함수_정의_호출.cs" />
     <Compile Include="66_Etc\형식변환\형식변환.cs" />
     <Compile Include="32_Object\_\01_개체\개체.cs" />
     <Compile Include="12_BitShiftConditional\_\괄호연산자\괄호연산자.cs" />

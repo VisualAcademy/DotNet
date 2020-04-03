@@ -1,3 +1,4 @@
+// 명령줄 인수(애플리케이션 인수)
 using System; 
 
 public class CommandLineDemo
