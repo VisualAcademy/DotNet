@@ -920,7 +920,7 @@
     <Compile Include="48_Generic\_\제네릭\제네릭.cs" />
     <Compile Include="66_Etc\제어문_조건문\제어문_조건문.cs" />
     <Compile Include="66_Etc\추상클래스\추상클래스.cs" />
-    <Compile Include="66_Etc\추상클래스와추상메서드\추상클래스와추상메서드.cs" />
+    <Compile Include="43_Inheritance\_\추상클래스와추상메서드\추상클래스와추상메서드.cs" />
     <Compile Include="47_OOP\_\캡슐화\캡슐화.cs" />
     <Compile Include="43_Inheritance\_\클래스상속\클래스상속.cs" />
     <Compile Include="24_Class\_\02_클래스와멤버\클래스와멤버.cs" />
