@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FuncDelegate</StartupObject>
+    <StartupObject>DotNet.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -70,7 +70,7 @@
     <Compile Include="03_HelloWorld\BraceLocation\BraceLocation.cs" />
     <Compile Include="04_Syntax\05_Comment\Comment.cs" />
     <Compile Include="04_Syntax\03_ConsoleWrite\ConsoleWrite.cs" />
-    <Compile Include="04_Syntax\EmptyStatement\EmptyStatement.cs" />
+    <Compile Include="04_Syntax\00_EmptyStatement\EmptyStatement.cs" />
     <Compile Include="04_Syntax\EscapeSequence\EscapeSequence.cs" />
     <Compile Include="04_Syntax\FormatExam\FormatExam.cs" />
     <Compile Include="04_Syntax\FormatPractice\FormatPractice.cs" />
@@ -79,10 +79,10 @@
     <Compile Include="04_Syntax\Indent\IndentTab.cs" />
     <Compile Include="04_Syntax\05_Comment\MultiLineComment.cs" />
     <Compile Include="04_Syntax\04_NewLine\NewLine.cs" />
-    <Compile Include="04_Syntax\PlaceHolderChange\PlaceHolderChange.cs" />
-    <Compile Include="04_Syntax\PlaceHolderMulti\PlaceHolderMulti.cs" />
-    <Compile Include="04_Syntax\PlaceHolderTwice\PlaceHolderTwice.cs" />
-    <Compile Include="04_Syntax\PlaceHolder\PlaceHolder.cs" />
+    <Compile Include="04_Syntax\12_PlaceHolderChange\PlaceHolderChange.cs" />
+    <Compile Include="04_Syntax\11_PlaceHolderMulti\PlaceHolderMulti.cs" />
+    <Compile Include="04_Syntax\10_PlaceHolderTwice\PlaceHolderTwice.cs" />
+    <Compile Include="04_Syntax\09_PlaceHolder\PlaceHolder.cs" />
     <Compile Include="04_Syntax\08_Quotes\Quotes.cs" />
     <Compile Include="04_Syntax\05_Comment\SingleLineComment.cs" />
     <Compile Include="04_Syntax\SquarePractice\SquarePractice.cs" />
