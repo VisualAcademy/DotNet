@@ -1,4 +1,5 @@
-﻿using System;
+﻿// 공문
+using System;
 
 class EmptyStatement
 {
