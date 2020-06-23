@@ -12,7 +12,7 @@ class DoWhileSum
         {
             sum += i;                   // 실행문
             i++;                        // 증감식
-        } while (i <= 5);             // 조건식
+        } while (i <= 5);               // 조건식
 
         Console.WriteLine($"합계: {sum}"); // 15
     }
