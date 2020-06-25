@@ -3,7 +3,7 @@ using System;
 
 class FunctionDemo
 {
-    //[1] Show 메서드(함수)
+    //[1] Show 메서드(함수) 선언
     static void Show()
     {
         Console.WriteLine("Hello World");
