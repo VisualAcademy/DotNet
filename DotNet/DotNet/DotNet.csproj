@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FunctionNote</StartupObject>
+    <StartupObject>EnumerationTextbook</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -170,6 +170,7 @@
     <Compile Include="19_Function\_\매개변수개수가가변인함수.cs" />
     <Compile Include="19_Function\_\반환값이있는함수.cs" />
     <Compile Include="22_Struct\_\구조체형.cs" />
+    <Compile Include="23_Enum\EnumerationTextbook.cs" />
     <Compile Include="24_Class\18_ObjectToString\ObjectToString.cs" />
     <Compile Include="25_String\03_CharArrayToString\CharArrayToString.cs" />
     <Compile Include="07_BoolCharString\11_CharStringBoolean\CharStringBoolean.cs" />
