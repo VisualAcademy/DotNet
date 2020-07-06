@@ -378,7 +378,7 @@
     <Compile Include="19_Function\_\명령줄인수_짝수의합.cs" />
     <Compile Include="24_Class\RandomPractice\RandomPractice.cs" />
     <Compile Include="27_Collection\01_ListDemo\ListDemo.cs" />
-    <Compile Include="28_GenericClass\ListOfInt\ListOfInt.cs" />
+    <Compile Include="28_GenericClass\03_ListOfInt\ListOfInt.cs" />
     <Compile Include="29_Null\03_NullableTypeDemo\NullableTypeDemo.cs" />
     <Compile Include="30_LINQ\35_LinqForEach\LinqForEach.cs" />
     <Compile Include="30_LINQ\_\LINQ_Distinct.cs" />
@@ -546,7 +546,7 @@
     <Compile Include="27_Collection\05_StackClass\StackClass.cs" />
     <Compile Include="27_Collection\07_StackDemo\StackDemo.cs" />
     <Compile Include="27_Collection\06_StackNote\StackNote.cs" />
-    <Compile Include="28_GenericClass\StackOfType\StackOfType.cs" />
+    <Compile Include="28_GenericClass\01_StackOfType\StackOfType.cs" />
     <Compile Include="27_Collection\08_QueueDemo\QueueDemo.cs" />
     <Compile Include="27_Collection\10_HashtableDemo\HashtableDemo.cs" />
     <Compile Include="29_Null\07_NullableTypeCheck\NullableTypeCheck.cs" />
@@ -555,8 +555,8 @@
     <Compile Include="29_Null\06_NullCoalescingOperator\NullCoalescingOperator.cs" />
     <Compile Include="29_Null\10_NullConditional\NullConditional.cs" />
     <Compile Include="29_Null\09_QuestionMarkDot\QuestionMarkDot.cs" />
-    <Compile Include="28_GenericClass\EnumerableDemo\EnumerableDemo.cs" />
-    <Compile Include="28_GenericClass\ListOfString\ListOfString.cs" />
+    <Compile Include="28_GenericClass\05_EnumerableDemo\EnumerableDemo.cs" />
+    <Compile Include="28_GenericClass\04_ListOfString\ListOfString.cs" />
     <Compile Include="29_Null\12_NullCoalescingWithCollection\NullCoalescingWithCollection.cs" />
     <Compile Include="29_Null\11_NullConditionalWithCollection\NullConditionalWithCollection.cs" />
     <Compile Include="30_LINQ\13_CountFunc\CountFunc.cs" />
@@ -742,7 +742,7 @@
     <Compile Include="58_IO\_\파일처리_폴더정보얻기.cs" />
     <Compile Include="58_IO\05_FileAndFileInfo\FileAndFileInfo.cs" />
     <Compile Include="58_IO\06_DirectoryAndDirectoryInfo\DirectoryAndDirectoryInfo.cs" />
-    <Compile Include="28_GenericClass\DictionaryGenericClassDemo\DictionaryGenericClassDemo.cs" />
+    <Compile Include="28_GenericClass\06_DictionaryGenericClassDemo\DictionaryGenericClassDemo.cs" />
     <Compile Include="13_IfElse\09_OutVariable\OutVariable.cs" />
     <Compile Include="22_Struct\08_OutVariableDemo\OutVariableDemo.cs" />
     <Compile Include="08_ReadLine\14_BinaryLiteral\BinaryLiteral.cs" />
@@ -1025,7 +1025,7 @@
     <Compile Include="66_Etc\전처리기지시문_조건부컴파일기호.cs" />
     <Compile Include="24_Class\_\정적과인스턴스\정적과인스턴스.cs" />
     <Compile Include="42_ClassEtc\_\정적클래스와정적클래스멤버.cs" />
-    <Compile Include="28_GenericClass\GenericPros\GenericPros.cs" />
+    <Compile Include="28_GenericClass\02_GenericPros\GenericPros.cs" />
     <Compile Include="48_Generic\_\제네릭메서드\제네릭메서드.cs" />
     <Compile Include="48_Generic\_\제네릭클래스\제네릭클래스.cs" />
     <Compile Include="15_For\_\구구단_가로출력.cs" />
