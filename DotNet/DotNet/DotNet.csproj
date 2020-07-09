@@ -1102,6 +1102,7 @@
     <Content Include="29_Null\29_Null.txt" />
     <Content Include="30_LINQ\30_LINQ.txt" />
     <Content Include="31_Algorithms\31_Algorithms.txt" />
+    <Content Include="31_Algorithms\씨샵 교과서 알고리즘 설명_선택 정렬.txt" />
     <Content Include="31_Algorithms\학습용 쉬운 알고리즘 12개.txt" />
     <Content Include="32_Object\32_Object.txt" />
     <Content Include="33_Namespace\33_Namespace.txt" />
