@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IndexerAndIteratorDemo.IndexerAndIterator</StartupObject>
+    <StartupObject>DelegateSample</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -239,6 +239,7 @@
     <Compile Include="39_Indexer\IndexerAndIterator.cs" />
     <Compile Include="40_Delegate\03_DelegateGetArea\DelegateGetArea.cs" />
     <Compile Include="40_Delegate\09_IntParameterAndIntReturnClass\IntParameterAndIntReturnClass.cs" />
+    <Compile Include="40_Delegate\DelegateSample.cs" />
     <Compile Include="42_ClassEtc\OperatorOverload\OperatorOverload.cs" />
     <Compile Include="50_Dynamic\04_DynamicBinding\DynamicBinding.cs" />
     <Compile Include="50_Dynamic\05_DynamicExtensionMethod\DynamicExtensionMethod.cs" />
