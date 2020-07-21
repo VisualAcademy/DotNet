@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>EventAndDelegateDemo.EventAndDelegate</StartupObject>
+    <StartupObject>OperatorOverload.OperatorOverload</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -242,7 +242,7 @@
     <Compile Include="40_Delegate\DelegateSample.cs" />
     <Compile Include="41_Event\EventAndDelegateDemo.Car.cs" />
     <Compile Include="41_Event\EventAndDelegate.cs" />
-    <Compile Include="42_ClassEtc\OperatorOverload\OperatorOverload.cs" />
+    <Compile Include="42_ClassEtc\06_OperatorOverload\OperatorOverload.cs" />
     <Compile Include="50_Dynamic\04_DynamicBinding\DynamicBinding.cs" />
     <Compile Include="50_Dynamic\05_DynamicExtensionMethod\DynamicExtensionMethod.cs" />
     <Compile Include="51_Tuple\07_TupleDeconstructionDescription\TupleDeconstructionDescription.cs" />
@@ -421,7 +421,7 @@
     <Compile Include="38_Property\26_ClassPropertyMethod\ClassPropertyMethod.cs" />
     <Compile Include="38_Property\08_PropertyPrivateSet\PropertyPrivateSet.cs" />
     <Compile Include="39_Indexer\_\반복기.cs" />
-    <Compile Include="42_ClassEtc\PartialClassPerson\PartialClassPerson.cs" />
+    <Compile Include="42_ClassEtc\_\PartialClassPerson\PartialClassPerson.cs" />
     <Compile Include="49_ExtensionMethod\03_ExtensionMethodNote\ExtensionMethodNote.cs" />
     <Compile Include="49_ExtensionMethod\_\RelatedArticleOptionDemo.cs" />
     <Compile Include="64_Tips\PlaceHolderEtc\PlaceHolderEtc.cs" />
