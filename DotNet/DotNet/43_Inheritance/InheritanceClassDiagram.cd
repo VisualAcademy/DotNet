@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DotNet.CarBase">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAEAAAAA=</HashCode>
+      <FileName>43_Inheritance\InheritanceNote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNet.Car">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAADAAAAAAAAAA=</HashCode>
+      <FileName>43_Inheritance\InheritanceNote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNet.Benz">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>43_Inheritance\InheritanceNote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNet.Tesla">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>43_Inheritance\InheritanceNote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNet.Future">
+    <Position X="5" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>43_Inheritance\InheritanceNote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNet.InheritanceNote" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>43_Inheritance\InheritanceNote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DotNet.CarType" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>43_Inheritance\InheritanceNote.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Malgun Gothic" Size="9" />
+</ClassDiagram>
