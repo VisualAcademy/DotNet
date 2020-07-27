@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>InterfaceDescription.InterfaceDescription</StartupObject>
+    <StartupObject>GetExecutingAssemblyDemo.GetExecutingAssemblyDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -251,6 +251,7 @@
     <Compile Include="51_Tuple\07_TupleDeconstructionDescription\TupleDeconstructionDescription.cs" />
     <Compile Include="51_Tuple\05_TupleDefault\TupleDefault.cs" />
     <Compile Include="51_Tuple\06_TupleReturnName\TupleReturnName.cs" />
+    <Compile Include="52_ClassLibrary\_\GetExecutingAssemblyDemo.cs" />
     <Compile Include="55_Thread\02_ThreadPractice\ThreadPractice.cs" />
     <Compile Include="61_Functional\AggregateDemo\AggregateDemo.cs" />
     <Compile Include="62_Modern\CSharpSeven\CSharpSeven.cs" />
