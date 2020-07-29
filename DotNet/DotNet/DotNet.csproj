@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CarWorldDemo.CarWorld</StartupObject>
+    <StartupObject>MyExtensions.MyExtensionsDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -248,6 +248,7 @@
     <Compile Include="45_Interface\InterfaceDescription.cs" />
     <Compile Include="46_Attribute\AttributeDemo.cs" />
     <Compile Include="47_OOP\CarWorldDemo.cs" />
+    <Compile Include="49_ExtensionMethod\MyExtensions.cs" />
     <Compile Include="50_Dynamic\04_DynamicBinding\DynamicBinding.cs" />
     <Compile Include="50_Dynamic\05_DynamicExtensionMethod\DynamicExtensionMethod.cs" />
     <Compile Include="51_Tuple\07_TupleDeconstructionDescription\TupleDeconstructionDescription.cs" />
