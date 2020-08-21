@@ -9,7 +9,7 @@ class Constant
         name = "레드플러스"; // 변경 가능
 
         // 상수(Constant)
-        const int age = 20; // j는 20으로 고정
+        const int age = 20; // age는 20으로 고정
         // age = 45; // age를 45로 변경하려고하면 에러가 발생
 
         // 변수와 상수 사용
