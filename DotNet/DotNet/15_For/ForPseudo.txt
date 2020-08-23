@@ -1,0 +1,64 @@
+﻿<코드>
+> var result = "";
+
+> for (var i = 0; i < 3; i++)
+. {
+.     result += "Hello\n";
+. }
+> 
+> result
+"Hello\nHello\nHello\n"
+>
+</코드>
+
+<코드>
+> var result = "";
+> 
+> for (var i = 1; i <= 3; i++)
+. {
+.     result += "Hello\n";
+. }
+> 
+> result
+"Hello\nHello\nHello\n"
+>
+</코드>
+
+<코드>
+> var result = "";
+> 
+> for (var i = 0; i < 3; i++)
+. {
+.     result += "Hello " + (i + 1) + "\n";
+. }
+> 
+> result
+"Hello 1\nHello 2\nHello 3\n"
+>
+</코드>
+
+<코드>
+> var sum = 0;
+> 
+> for (var i = 1; i <= 100; i++)
+. {
+.     sum += i; 
+. }
+> 
+> sum
+5050
+> 
+> var sum = 0;
+> 
+> for (var i = 1; i <= 100; i++)
+. {
+.     if (i % 2 == 0)
+.     {
+.         sum += i;
+.     }
+. }
+> 
+> sum
+2550
+>
+</코드>
