@@ -1,0 +1,36 @@
+﻿<코드>
+> // 반복문: for 문(구간반복), while 문(조건반복), do 문(실행반복)
+> 
+> var result = "";
+
+> var count = 0; //[1] 초기식
+> while (count < 3) //[2] 조건식
+. {
+.     result += "Hello\n"; //[!] 실행문
+.     count++; //[3] 증감식
+. }
+> 
+> result
+"Hello\nHello\nHello\n"
+>
+</코드>
+
+<코드>
+> //[!] while 문을 사용하여 짝수의 합
+> 
+> var sum = 0;
+> 
+> var i = 1; 
+> while (i <= 100)
+. {
+.     if (i % 2 == 0)
+.     {
+.         sum += i;
+.     }
+.     i++;
+. }
+> 
+> sum
+2550
+>
+</코드>
