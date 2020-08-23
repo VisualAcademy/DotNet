@@ -1,0 +1,41 @@
+﻿< 코드 >
+> var result = "";
+>
+> switch (3)
+. {
+.     case 1:
+.         result = "1을 선택하셨군요.";
+.         break;
+.     case 2:
+.         result = "2를 선택하셨군요.";
+.         break;
+.     default:
+.         result = "1과 2 이외의 다른 값을 선택하셨군요.";
+.         break;
+. }
+>
+> result
+"1과 2 이외의 다른 값을 선택하셨군요."
+>
+</ 코드 >
+
+< 코드 >
+> var result = "";
+>
+> switch ('A')
+. {
+.     case 'A':
+.         result = "'A'를 선택하셨군요.";
+.         break;
+.     case 'B':
+.         result = "'B'를 선택하셨군요.";
+.         break;
+.     default:
+.         result = "'A', 'B' 이외의 다른 값을 선택하셨군요.";
+.         break;
+. }
+>
+> result
+"'A'를 선택하셨군요."
+>
+</ 코드 >

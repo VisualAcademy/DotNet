@@ -118,6 +118,7 @@
     <Compile Include="13_IfElse\_\제어문.cs" />
     <Compile Include="13_IfElse\_\조건문.cs" />
     <Compile Include="13_IfElse\10_ElseNote\ElseNote.cs" />
+    <Content Include="14_Switch\SwitchPseudo.txt" />
     <Compile Include="18_Array\22_ArraySumAverage\ArraySumAverage.cs" />
     <Compile Include="18_Array\08_DigitSeparator\DigitSeparator.cs" />
     <Compile Include="08_ReadLine\15_DigitSeparatorDemo\DigitSeparatorDemo.cs" />
