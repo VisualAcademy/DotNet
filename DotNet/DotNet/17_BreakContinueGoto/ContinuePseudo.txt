@@ -1,18 +1,17 @@
-﻿> // 점프 문: break 문: break로 반복문 끝내기
+﻿> // 점프 문: continue 문: continue 문으로 반복문 코드 건너뛰기 
+> // 1부터 100까지 정수 중 7의 배수를 제외한 수들의 합계
 > 
-> var goal = 3;
+> var sum = 0;
 > 
-> var result = "";
-> 
-> for (var i = 0; i < 100; i++)
+> for (var i = 1; i <= 100; i++)
 . {
-.     if (i == goal)
+.     if (i % 7 == 0)
 .     {
-.         break; 
+.         continue;
 .     }
-.     result += "Hello\n";
+.     sum += i; 
 . }
 > 
-> result
-"Hello\nHello\nHello\n"
->
+> sum
+4315
+> 
