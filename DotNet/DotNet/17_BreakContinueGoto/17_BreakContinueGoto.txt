@@ -1,1 +1,3 @@
 ﻿// 점프 문: break 문, continue 문, goto 문, ..., throw, return, yield
+// 점프 문: break 문: break로 반복문 끝내기
+// 점프 문: continue 문: continue 문으로 반복문 코드 건너뛰기 

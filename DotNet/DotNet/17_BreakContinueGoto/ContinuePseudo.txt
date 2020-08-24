@@ -1,0 +1,18 @@
+﻿> // 점프 문: break 문: break로 반복문 끝내기
+> 
+> var goal = 3;
+> 
+> var result = "";
+> 
+> for (var i = 0; i < 100; i++)
+. {
+.     if (i == goal)
+.     {
+.         break; 
+.     }
+.     result += "Hello\n";
+. }
+> 
+> result
+"Hello\nHello\nHello\n"
+>

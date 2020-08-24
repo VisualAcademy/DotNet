@@ -1104,6 +1104,8 @@
     <Content Include="16_WhileDoForEach\16_WhileDoForEach.txt" />
     <Content Include="16_WhileDoForEach\WhilePseudo.txt" />
     <Content Include="17_BreakContinueGoto\17_BreakContinueGoto.txt" />
+    <Content Include="17_BreakContinueGoto\ContinuePseudo.txt" />
+    <Content Include="17_BreakContinueGoto\BreakPseudo.txt" />
     <Content Include="18_Array\18_Array.txt" />
     <Content Include="19_Function\19_Function.txt" />
     <Content Include="20_Interactive\20_Interactive.txt" />
