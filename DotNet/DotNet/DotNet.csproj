@@ -91,6 +91,7 @@
     <Compile Include="04_Syntax\TriangleExam\TriangleExam.cs" />
     <Compile Include="04_Syntax\02_WriteLineDemo\WriteLineDemo2.cs" />
     <Compile Include="04_Syntax\02_WriteLineDemo\WriteLineDemo1.cs" />
+    <Compile Include="05_Variable\ConstPseudo.cs" />
     <Compile Include="05_Variable\VariablePseudo.cs" />
     <Compile Include="05_Variable\_\데이터형과변수\데이터형과변수.cs" />
     <Compile Include="06_Number\NumberMaxMin\NumberMaxMin.cs" />
