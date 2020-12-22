@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNet.ThreadNote</StartupObject>
+    <StartupObject>NumberPseudo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -94,6 +94,7 @@
     <Compile Include="05_Variable\VariablePseudo.cs" />
     <Compile Include="05_Variable\_\데이터형과변수\데이터형과변수.cs" />
     <Compile Include="06_Number\NumberMaxMin\NumberMaxMin.cs" />
+    <Compile Include="06_Number\NumberPseudo.cs" />
     <Compile Include="06_Number\UnsignedNumber\UnsignedNumber.cs" />
     <Compile Include="07_BoolCharString\10_Constant\Constant.cs" />
     <Compile Include="07_BoolCharString\ConstantExam\ConstantExam.cs" />
