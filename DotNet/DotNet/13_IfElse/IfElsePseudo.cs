@@ -1,17 +1,17 @@
-﻿//[?] if와 else로 두 수의 차이를 양의 정수로 구하기 
+﻿//[?] if와 else로 두 수의 차이를 양의 정수로 구하기
 using System;
 
 class IfElsePseudo
 {
     static void Main()
     {
-        int diff = 0; // 두 수의 차이
+        var diff = 0; // 두 수의 차이
 
-        int first = 5;
-        int second = 3;
+        var first = 5;
+        var second = 3;
 
-        //int first = 3;
-        //int second = 5;
+        //var first = 3;
+        //var second = 5;
 
         if (first > second)
         {
