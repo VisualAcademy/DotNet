@@ -11,3 +11,10 @@ C# 교과서에 대한 자세한 내용은 다음 링크를 참고하세요.
 
 https://www.dotnetkorea.com/MyBook
 
+## C# 교과서 마스터하기 무료 강좌 (30시간)
+
+DotNet 리포지토리의 주요 코드를 만드는 내용은 다음 링크의 강좌를 통해서 무료로 학습할 수 있습니다. 
+
+https://www.youtube.com/playlist?list=PLO56HZSjrPTB4NxAsEP8HRk6YKBDLbp7m
+
+
