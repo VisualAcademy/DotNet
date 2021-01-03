@@ -934,7 +934,7 @@
     <Compile Include="10_AssignmentIncrement\_\연산자_할당연산자\연산자_할당연산자.cs" />
     <Compile Include="66_Etc\예외처리\예외처리.cs" />
     <Compile Include="66_Etc\이름입력받기\이름입력받기.cs" />
-    <Compile Include="66_Etc\인덱서\인덱서.cs" />
+    <Compile Include="39_Indexer\_\인덱서.cs" />
     <Compile Include="66_Etc\자료구조_스택\자료구조_스택.cs" />
     <Compile Include="48_Generic\_\제네릭\제네릭.cs" />
     <Compile Include="66_Etc\제어문_조건문\제어문_조건문.cs" />
