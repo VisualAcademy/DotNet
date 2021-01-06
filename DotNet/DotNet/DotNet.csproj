@@ -104,6 +104,7 @@
     <Compile Include="06_Number\08_DecimalDemo\DecimalDemo.cs" />
     <Compile Include="06_Number\09_DecimalMinMax\DecimalMinMax.cs" />
     <Compile Include="07_BoolCharString\09_ConstDoubleString\ConstDoubleString.cs" />
+    <Compile Include="08_ReadLine\VarPseudo.cs" />
     <Compile Include="08_ReadLine\DigitSeparatorPseudo.cs" />
     <Compile Include="08_ReadLine\IntParse\IntParse.cs" />
     <Compile Include="08_ReadLine\20_VariableDefault\VariableDefault.cs" />
