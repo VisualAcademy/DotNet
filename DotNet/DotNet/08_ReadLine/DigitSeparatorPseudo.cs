@@ -1,7 +1,6 @@
-﻿// Digit Separator
-using System;
+﻿using System;
 
-class DigitSeparatorPseudo
+class DigitSeparatorDemo
 {
     static void Main()
     {
