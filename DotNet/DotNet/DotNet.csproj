@@ -940,7 +940,7 @@
     <Compile Include="39_Indexer\_\인덱서.cs" />
     <Compile Include="66_Etc\자료구조_스택\자료구조_스택.cs" />
     <Compile Include="48_Generic\_\제네릭\제네릭.cs" />
-    <Compile Include="66_Etc\제어문_조건문\제어문_조건문.cs" />
+    <Compile Include="13_IfElse\_\제어문_조건문.cs" />
     <Compile Include="66_Etc\추상클래스\추상클래스.cs" />
     <Compile Include="43_Inheritance\_\추상클래스와추상메서드\추상클래스와추상메서드.cs" />
     <Compile Include="47_OOP\_\캡슐화\캡슐화.cs" />
