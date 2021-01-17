@@ -1,0 +1,13 @@
+﻿// 배열(Array): 하나의 이름으로 같은 데이터 형식을 여러 개 보관해 놓는 그릇
+
+// 완전수(Perfect Number) 최초 네 개 보관
+int[] perfectNumbers = { 6, 28, 496, 8128 };
+
+// 완전수: 양의 약수를 더했을 때 자기 자신이 되는 양의 정수
+int[] perfectNumbers = { (1 + 2 + 3), (1 + 2 + 4 + 7 + 14), 496, 8128 };
+
+perfectNumbers[0]
+perfectNumbers[3]
+perfectNumbers[4] // Exception java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
+
+/save -history c:\temp\ArrayPseudo.txt
