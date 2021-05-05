@@ -19,7 +19,7 @@ class YieldDemo
         //[2] IEnumerable 반환값을 갖는 반복기는 foreach 문으로 호출해서 반복 사용
         foreach (int num in GetNumbers())
         {
-            Console.Write($"{num}\t", num);
+            Console.Write($"{num}\t");
         }
         Console.WriteLine();
     }

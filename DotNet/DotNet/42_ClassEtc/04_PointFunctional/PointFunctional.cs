@@ -14,7 +14,7 @@ namespace PointFunctional
             this.y = y;
         }
 
-        //[1] 생성자의 반환값을 나 자신(Point)으로 지정 
+        //[1] 메서드의 반환값을 나 자신(Point)으로 지정 
         public Point MoveBy(int dx, int dy)
         {
             return new Point(x + dx, y + dy);

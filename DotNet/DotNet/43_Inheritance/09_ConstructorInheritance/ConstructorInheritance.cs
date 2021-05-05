@@ -18,7 +18,7 @@ namespace ConstructorInheritance
 
         //[2] base() 형태로, 매개변수 값을 부모 클래스의 매개변수가 있는 생성자에게 전달 
         public Child(string message) : base(message) { }
-        public void Say() => Console.WriteLine(base.Word); // 부모의 World 속성 출력
+        public void Say() => Console.WriteLine(base.Word); // 부모의 Word 속성 출력
     }
 
     class ConstructorInheritance
