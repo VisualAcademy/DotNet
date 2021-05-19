@@ -1,4 +1,5 @@
-﻿using System;
+﻿//[?] 대입 연산자 축약형 사용하기  
+using System;
 
 class ShortcutOperator
 {
