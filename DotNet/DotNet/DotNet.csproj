@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ArithmeticSequenceSum</StartupObject>
+    <StartupObject>RatingAverage</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -247,6 +247,7 @@
     <Compile Include="31_Algorithms\AverageExceptMaxAndMin\AverageExceptMaxAndMin.cs" />
     <Compile Include="31_Algorithms\PrimeNumberCount\PrimeNumberCount.cs" />
     <Compile Include="31_Algorithms\PrimeNumber\PrimeNumber.cs" />
+    <Compile Include="31_Algorithms\RatingAverage\RatingAverage.cs" />
     <Compile Include="32_Object\01_ClassAndObject\ClassAndObject.cs" />
     <Compile Include="33_Namespace\_\새로운클래스.cs" />
     <Compile Include="39_Indexer\IndexerAndIterator.cs" />
