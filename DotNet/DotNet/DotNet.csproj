@@ -795,6 +795,7 @@
     <Compile Include="29_Null\01_NullDemo\NullDemo.cs" />
     <Compile Include="24_Class\09_ProcessGetCurrentProcess\ProcessGetCurrentProcess.cs" />
     <Compile Include="66_Etc\데이터구조\데이터구조_배열리스트.cs" />
+    <Compile Include="66_Etc\데이터구조\데이터구조_큐설명%28닷넷%29.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="24_Class\05_ClassAndMember\ClassAndMember.cs" />
