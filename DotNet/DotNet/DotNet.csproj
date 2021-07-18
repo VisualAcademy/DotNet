@@ -248,6 +248,7 @@
     <Compile Include="31_Algorithms\PrimeNumberCount\PrimeNumberCount.cs" />
     <Compile Include="31_Algorithms\PrimeNumber\PrimeNumber.cs" />
     <Compile Include="31_Algorithms\RatingAverage\RatingAverage.cs" />
+    <Compile Include="31_Algorithms\_\알고리즘기능사20060827.cs" />
     <Compile Include="32_Object\01_ClassAndObject\ClassAndObject.cs" />
     <Compile Include="33_Namespace\_\새로운클래스.cs" />
     <Compile Include="39_Indexer\IndexerAndIterator.cs" />
