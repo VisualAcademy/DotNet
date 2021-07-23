@@ -798,6 +798,7 @@
     <Compile Include="66_Etc\데이터구조\데이터구조_배열리스트.cs" />
     <Compile Include="66_Etc\데이터구조\데이터구조_스택설명%28닷넷%29.cs" />
     <Compile Include="66_Etc\데이터구조\데이터구조_큐설명%28닷넷%29.cs" />
+    <Compile Include="66_Etc\데이터구조\데이터구조_해시테이블%28닷넷%29.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="24_Class\05_ClassAndMember\ClassAndMember.cs" />
