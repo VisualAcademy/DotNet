@@ -799,6 +799,7 @@
     <Compile Include="66_Etc\데이터구조\데이터구조_스택설명%28닷넷%29.cs" />
     <Compile Include="66_Etc\데이터구조\데이터구조_큐설명%28닷넷%29.cs" />
     <Compile Include="66_Etc\데이터구조\데이터구조_해시테이블%28닷넷%29.cs" />
+    <Compile Include="66_Etc\데이터구조\자료구조_스택%28닷넷클래스사용%29.cs" />
     <Compile Include="66_Etc\데이터구조\자료구조_큐%28닷넷클래스사용%29.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
