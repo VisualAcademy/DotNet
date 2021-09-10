@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>RatingAverage</StartupObject>
+    <StartupObject>BubbleSort</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -239,6 +239,7 @@
     <Compile Include="29_Null\08_NullableTypes\NullableTypes.cs" />
     <Compile Include="30_LINQ\LinqAggregate\LinqAggregate.cs" />
     <Compile Include="30_LINQ\11_LinqWhereMethod\LinqWhereMethod.cs" />
+    <Compile Include="31_Algorithms\08_01_SortAlgorithm\BubbleSort.cs" />
     <Compile Include="31_Algorithms\09_01_SearchAlgorithm\_\알고리즘_이진검색.cs" />
     <Compile Include="31_Algorithms\10_01_MergeAlgorithm\_\알고리즘_병합알고리즘.cs" />
     <Compile Include="31_Algorithms\ArithmeticSequence\ArithmeticSequence.cs" />
