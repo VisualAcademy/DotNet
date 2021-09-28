@@ -22,7 +22,9 @@ class StringReverse
         for (i = 0, j = target2.Length - 1; i < j; i++, j--)
         {
             // 교환(SWAP)
-            temp = target2[i]; target2[i] = target2[j]; target2[j] = temp;
+            temp = target2[i]; 
+            target2[i] = target2[j]; 
+            target2[j] = temp;
         }
 
         Console.WriteLine($"출력: {new string(target2)}");
