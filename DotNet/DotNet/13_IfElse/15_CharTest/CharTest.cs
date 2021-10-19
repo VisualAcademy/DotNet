@@ -1,4 +1,5 @@
-﻿using System;
+﻿// 대소문자 구분하기 
+using System;
 
 class CharTest
 {
