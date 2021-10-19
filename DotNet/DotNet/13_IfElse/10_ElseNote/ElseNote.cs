@@ -1,4 +1,5 @@
-﻿using System;
+﻿// else 문 사용하기 
+using System;
 
 class ElseNote
 {
