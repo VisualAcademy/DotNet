@@ -1,4 +1,5 @@
-﻿using System;
+﻿// 관계형 연산자
+using System;
 
 class RelationalOperator
 {
@@ -6,6 +7,7 @@ class RelationalOperator
     {
         // 3이 5보다 작은지?
         Console.WriteLine(3 < 5); // True
+
         // 3이 5보다 큰지? 
         Console.WriteLine(3 > 5); // False
     }
