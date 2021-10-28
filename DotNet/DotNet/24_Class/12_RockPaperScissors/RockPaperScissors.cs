@@ -13,7 +13,7 @@ class RockPaperScissors
         // 컴퓨터의 랜덤값 지정
         iRandom = (new Random()).Next(1, 4);
 
-        Console.Write("1(가위), 2(바위), 3(보) 입력 : _\b");
+        Console.Write("1(가위), 2(바위), 3(보) 입력: _\b");
         iSelection = Convert.ToInt32(Console.ReadLine());
 
         //[!] 사용자로부터 입력받은 값에서 1을 빼야 배열의 인덱스에 위치하는 문자열과 일치 
