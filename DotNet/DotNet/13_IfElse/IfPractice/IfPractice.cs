@@ -1,4 +1,5 @@
-﻿using System;
+﻿// 음수 판별 
+using System;
 
 class IfPractice
 {
