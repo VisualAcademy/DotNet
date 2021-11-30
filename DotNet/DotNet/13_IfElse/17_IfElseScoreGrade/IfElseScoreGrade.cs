@@ -6,7 +6,9 @@ class IfElseScoreGrade
     {
         Console.Write("점수: ");
         int score = Convert.ToInt32(Console.ReadLine());
-        string grade = "";
+
+        //string grade = String.Empty;
+        string grade = ""; // 상장 이름 담을 그릇 
 
         if (score >= 90)
         {
