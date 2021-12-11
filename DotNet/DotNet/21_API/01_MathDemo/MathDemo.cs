@@ -18,7 +18,7 @@ class MathDemo
         WriteLine(Math.Min(3, 5)); // 3
 
         //[4] 거듭제곱
-        Console.WriteLine($"거듭제곱: 2의 10승: {Math.Pow(2, 10)}");
+        Console.WriteLine($"거듭제곱: 2의 10제곱: {Math.Pow(2, 10)}");
         Console.WriteLine(Math.Pow(2, 10));// 2의 10승 1024Byte -> 1KB
 
         //[5] 반올림
