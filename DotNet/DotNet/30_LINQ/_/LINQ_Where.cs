@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Where() 확장 메서드로 조건 처리하기 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
