@@ -1,4 +1,5 @@
-﻿// LINQ(Language INtegrate Query): 마치 SQL문을 사용하는 것처럼 프로그램에서 사용하는 쿼리문
+﻿// 48_17_LinqDemo_제네릭 클래스와 LINQ_LINQ와 사용자 정의 클래스 함께 사용하기
+// LINQ(Language INtegrate Query): 마치 SQL문을 사용하는 것처럼 프로그램에서 사용하는 쿼리문
 using System;
 using System.Collections.Generic;
 using System.Linq;
