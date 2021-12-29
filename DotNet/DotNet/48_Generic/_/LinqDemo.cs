@@ -10,7 +10,8 @@ namespace LinqDemo
         static void Main()
         {
             // 컬렉션에 담기
-            List<Car> cars = new List<Car>() {
+            List<Car> cars = new List<Car>() 
+            {
                 new Car() { Make = "BMW", Model = "BMW1", Year = 2010 },
                 new Car() { Make = "BMW", Model = "BMW3", Year = 2011 },
                 new Car() { Make = "Benz", Model = "C", Year = 2012 },
