@@ -1,8 +1,9 @@
-﻿// 산술 연산자(Arithmetic Operator)
+﻿// ArithmeticPseudo.*
+// 산술 연산자(Arithmetic Operator)
 // +, -, *, /, %
 using System;
 
-class OperatorArithmetic
+class ArithmeticPseudo
 {
     static void Main()
     {
