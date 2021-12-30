@@ -1,4 +1,6 @@
-﻿using System;
+﻿// C# 교과서 598 페이지 실습 예제 소스
+// (코드에서 사용된 주석은 코드 실행 결과가 아닌 설명입니다.)
+using System;
 
 namespace MethodOverridePractice
 {
