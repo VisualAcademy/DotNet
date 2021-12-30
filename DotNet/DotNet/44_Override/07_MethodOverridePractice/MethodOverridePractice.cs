@@ -45,9 +45,9 @@ namespace MethodOverridePractice
             child.Hi3(); // X <- base
 
             Child baby = new Child();
-            baby.Say(); // 자식이 예의가 없다.
-            baby.Hi(); // 자식이 예의바르다.
-            baby.Walk(); // 부모가 관대하다.
+            baby.Say(); // "자식이 예의가 없다." 의미
+            baby.Hi(); // "자식이 예의바르다." 의미
+            baby.Walk(); // "부모가 관대하다." 의미
         }
     }
 }
