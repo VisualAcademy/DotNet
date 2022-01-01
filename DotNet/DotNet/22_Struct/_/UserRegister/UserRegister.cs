@@ -7,7 +7,8 @@ class UserRegister
     static void Main(string[] args)
     {
         Console.WriteLine(IsBelow14(2002, 2, 2)); // false
-        Console.WriteLine(IsBelow14(2005, 2, 2)); // true 
+        Console.WriteLine(IsBelow14(2005, 2, 2)); // flase 
+        Console.WriteLine(IsBelow14(2022, 1, 1)); // true 
     }
 
     //[!] 만 14세 미만 체크 by (년, 월, 일)
