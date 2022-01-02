@@ -1,4 +1,5 @@
-﻿// 널 병합 연산자(Null Coalescing Operator): ?? 
+﻿// https://youtu.be/RndvuuxqTKg
+// 널 병합 연산자(Null Coalescing Operator): ?? 
 using System;
 
 class NullCoalescing
