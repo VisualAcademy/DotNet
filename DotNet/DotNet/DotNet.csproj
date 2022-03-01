@@ -35,7 +35,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IfExam</StartupObject>
+    <StartupObject>UserRegister</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -760,7 +760,7 @@
     <Compile Include="61_Functional\LicenseResult\LicenseResult.cs" />
     <Compile Include="48_Generic\07_ListDictionaryDemo\ListDictionaryDemo.cs" />
     <Compile Include="08_ReadLine\19_KeyboardInput\KeyboardInput.cs" />
-    <Compile Include="30_LINQ\_\LinqDemo.cs" />
+    <Compile Include="48_Generic\_\LinqDemo.cs" />
     <Compile Include="45_Interface\07_ListOfChildToListOfParent\ListOfChildToListOfParent.cs" />
     <Compile Include="58_IO\02_PathClassDemo\PathClassDemo.cs" />
     <Compile Include="58_IO\04_StreamReaderReadToEndDemo\StreamReaderReadToEndDemo.cs" />

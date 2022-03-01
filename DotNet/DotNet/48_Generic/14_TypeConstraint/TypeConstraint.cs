@@ -13,9 +13,14 @@ public class TypeConstraint
     public static void Main()
     {
         CarValue<int> c = new CarValue<int>(); // struct 성공
+        //CarValue<string> c = new CarValue<string>();
         CarReference<string> cs = new CarReference<string>(); // class 성공   
+        //CarReference<decimal> cs = new CarReference<decimal>();
         CarNew<GoodCar> cn = new CarNew<GoodCar>(); // new() 성공
+        //CarNew<BadCar> bad = new CarNew<BadCar>(); 
         CarClass<OfficeCamper> cc = new CarClass<OfficeCamper>(); // 사용자 정의 타입
+        //CarClass<BadCar> badCar;
         CarInterface<IKs> h = new CarInterface<IKs>(); // 인터페이스 지정
+        //CarInterface<object> ie;
     }
 }

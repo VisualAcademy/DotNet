@@ -1,4 +1,5 @@
-﻿// 널 조건부 연산자(Null Conditional Operator): ?. 
+﻿// https://youtu.be/uv9hVBLGga4
+// 널 조건부 연산자(Null Conditional Operator): ?. 
 using System;
 
 class NullConditional

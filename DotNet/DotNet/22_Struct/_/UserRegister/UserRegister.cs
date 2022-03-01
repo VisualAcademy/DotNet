@@ -1,10 +1,16 @@
-﻿using System;
+﻿// UserRegister.cs
+// IsBelow14_연습문제_만 14세 미만 체크 메서드 구현
+using System;
 
-class UserRegister {
-    static void Main(string[] args) {
+class UserRegister
+{
+    static void Main(string[] args)
+    {
         Console.WriteLine(IsBelow14(2002, 2, 2)); // false
-        Console.WriteLine(IsBelow14(2005, 2, 2)); // true 
+        Console.WriteLine(IsBelow14(2005, 2, 2)); // flase 
+        Console.WriteLine(IsBelow14(2022, 1, 1)); // true 
     }
+
     //[!] 만 14세 미만 체크 by (년, 월, 일)
     public static bool IsBelow14(int year, int month, int day)
     {
@@ -14,27 +20,35 @@ class UserRegister {
         var dayDiff = DateTime.Now.Day - day;
 
         // 년도 차이가 14이면 월과 일 차이도 체크
-        if (yearDiff == 14) {
+        if (yearDiff == 14)
+        {
             // 월 차이가 마이너스면 아직 생일이 지나지 않은 상태
-            if (monthDiff < 0) {
+            if (monthDiff < 0)
+            {
                 return true; // 만 14세 미만
             }
-            else if (monthDiff == 0) {
-                if (dayDiff < 0) {
+            else if (monthDiff == 0)
+            {
+                if (dayDiff < 0)
+                {
                     return true; // 만 14세 미만
                 }
-                else {
+                else
+                {
                     return false; // 만 14세 이상 
                 }
             }
-            else {
-                return false; 
+            else
+            {
+                return false;
             }
         }
-        else if (yearDiff < 14) {            
+        else if (yearDiff < 14)
+        {
             return true; // 아직 14세 미만
         }
-        else {
+        else
+        {
             return false; // 14세 이상
         }
     } // </만 14세 미만 체크> 

@@ -1,4 +1,6 @@
-﻿using System;
+﻿// C# 교과서 598 페이지 실습 예제 소스
+// (코드에서 사용된 주석은 코드 실행 결과가 아닌 설명입니다.)
+using System;
 
 namespace MethodOverridePractice
 {
@@ -43,9 +45,9 @@ namespace MethodOverridePractice
             child.Hi3(); // X <- base
 
             Child baby = new Child();
-            baby.Say(); // 자식이 예의가 없다.
-            baby.Hi(); // 자식이 예의바르다.
-            baby.Walk(); // 부모가 관대하다.
+            baby.Say(); // "자식이 예의가 없다." 의미
+            baby.Hi(); // "자식이 예의바르다." 의미
+            baby.Walk(); // "부모가 관대하다." 의미
         }
     }
 }
