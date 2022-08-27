@@ -35,7 +35,8 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>UserRegister</StartupObject>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -134,6 +135,7 @@
     <Compile Include="15_For\ArithmeticSequenceSum\ArithmeticSequenceSum.cs" />
     <Compile Include="15_For\ForSquare.cs" />
     <Compile Include="17_BreakContinueGoto\05_ForIfContinue\ForIfContinuePicture.cs" />
+    <Compile Include="17_BreakContinueGoto\BreakStatement.cs" />
     <Compile Include="18_Array\22_ArraySumAverage\ArraySumAverage.cs" />
     <Compile Include="18_Array\08_DigitSeparator\DigitSeparator.cs" />
     <Compile Include="08_ReadLine\15_DigitSeparatorDemo\DigitSeparatorDemo.cs" />
