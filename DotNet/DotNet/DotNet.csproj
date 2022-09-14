@@ -133,6 +133,7 @@
     <Compile Include="13_IfElse\10_ElseNote\ElseNote.cs" />
     <Content Include="14_Switch\SwitchPseudo.txt" />
     <Compile Include="15_For\ArithmeticSequenceSum\ArithmeticSequenceSum.cs" />
+    <Compile Include="15_For\ForNestedPseudo.cs" />
     <Compile Include="15_For\ForSquare.cs" />
     <Compile Include="17_BreakContinueGoto\05_ForIfContinue\ForIfContinuePicture.cs" />
     <Compile Include="17_BreakContinueGoto\BreakStatement.cs" />
