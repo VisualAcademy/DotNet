@@ -12,9 +12,8 @@ class PrimeNumber
     static void Main()
     {
         //[1] Input
-        var number = 0;
         Console.Write("수 입력: _\b");
-        number = Convert.ToInt32(Console.ReadLine());
+        int number = Convert.ToInt32(Console.ReadLine());
 
         //[2] Process: Prime Number: 2부터 n까지 나누어 떨어지는 수가 발생할 때가지 반복
         var i = 1;
