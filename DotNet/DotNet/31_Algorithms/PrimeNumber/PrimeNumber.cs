@@ -19,7 +19,7 @@ class PrimeNumber
         var i = 1;
         do
         {
-            i = i + 1; // 2부터 n까지 비교            
+            i++; // 2부터 n까지 비교            
             Console.WriteLine($"{number} % {i} = {number % i}");
         } while (number % i != 0); // 소수는 number로만 나누어 떨어짐
 
