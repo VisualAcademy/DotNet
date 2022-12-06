@@ -1,6 +1,6 @@
 ﻿using System;
 
-class If
+class If // 클래스 이름은 다른 이름 사용 가능
 {
     static void Main()
     {
