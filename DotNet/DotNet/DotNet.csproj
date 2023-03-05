@@ -125,6 +125,7 @@
     <Compile Include="08_ReadLine\DigitSeparatorPseudo.cs" />
     <Compile Include="08_ReadLine\IntParse\IntParse.cs" />
     <Compile Include="08_ReadLine\20_VariableDefault\VariableDefault.cs" />
+    <Compile Include="08_ReadLine\_\예제_원의넓이와둘레길이.cs" />
     <Compile Include="08_ReadLine\_\진법변환.cs" />
     <Compile Include="09_Operator\14_NumberToString\NumberToString.cs" />
     <Compile Include="09_Operator\ArithmeticPseudo.cs" />
