@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28917.181
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet", "DotNet\DotNet.csproj", "{0F9D793B-BE42-4F69-9608-913A1A21719F}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeeSharp.Eight", "SeeSharp.Eight\SeeSharp.Eight.csproj", "{45E676FC-A612-4E46-A35B-CA901E8293BB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClientDemo", "HttpClientDemo\HttpClientDemo.csproj", "{84ABE224-3AE4-4F5F-838C-CCB8472E9C90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetEightTest", "DotNetEightTest\DotNetEightTest.csproj", "{FBE1DA95-3F1E-4621-BA26-34FF568D3A7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{84ABE224-3AE4-4F5F-838C-CCB8472E9C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84ABE224-3AE4-4F5F-838C-CCB8472E9C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84ABE224-3AE4-4F5F-838C-CCB8472E9C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE1DA95-3F1E-4621-BA26-34FF568D3A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE1DA95-3F1E-4621-BA26-34FF568D3A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE1DA95-3F1E-4621-BA26-34FF568D3A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE1DA95-3F1E-4621-BA26-34FF568D3A7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
