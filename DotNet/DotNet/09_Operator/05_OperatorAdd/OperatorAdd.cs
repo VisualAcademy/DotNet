@@ -1,4 +1,4 @@
-﻿//[?] 더하기(+) 연산자
+﻿//[?] 덧셈(+) 연산자
 using System;
 
 class OperatorAdd
