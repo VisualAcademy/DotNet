@@ -1,4 +1,4 @@
-﻿//[?] 문자열 연결: 더하기 연산자, String.Concat() 메서드
+﻿//[?] 문자열 연결: 덧셈 연산자, String.Concat() 메서드
 using System;
 
 class StringConcat
