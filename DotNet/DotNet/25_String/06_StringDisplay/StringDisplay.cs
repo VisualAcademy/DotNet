@@ -9,7 +9,7 @@ class StringDisplay
         var firstName = "길동";
         var lastName = "홍";
 
-        //[1] 더하기(+) 연산자 사용
+        //[1] 덧셈(+) 연산자 사용
         displayName = "이름: " + lastName + firstName;
         Console.WriteLine(displayName); // 이름: 홍길동
 
