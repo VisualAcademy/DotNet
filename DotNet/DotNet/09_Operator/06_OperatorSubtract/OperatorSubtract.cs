@@ -1,4 +1,4 @@
-﻿//[?] 빼기(-) 연산자
+﻿//[?] 뺄셈(-) 연산자
 using System;
 
 class OperatorSubtract

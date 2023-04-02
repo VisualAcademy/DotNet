@@ -1,4 +1,4 @@
-﻿//[?] 곱하기(*) 연산자
+﻿//[?] 곱셈(*) 연산자
 using System;
 
 class OperatorMultiply

@@ -18,7 +18,7 @@ public class 평균알고리즘
         count++; // COUNT
       }  
     }
-    avg = sum / (double)count; // 실수형으로 나누기
+    avg = sum / (double)count; // 실수형으로 나눗셈
     //[3] Output
     Console.WriteLine("짝수의 평균 : {0}", avg);
   }

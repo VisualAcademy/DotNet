@@ -1,4 +1,4 @@
-﻿//[?] 나누기(/) 연산자
+﻿//[?] 나눗셈(/) 연산자
 using System;
 
 class OperatorDivide
