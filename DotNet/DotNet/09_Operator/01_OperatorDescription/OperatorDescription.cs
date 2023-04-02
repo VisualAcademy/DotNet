@@ -1,4 +1,4 @@
-﻿//[?] 연산자(Operator): 더하기, 빼기와 같은 연산을 진행하는 키워드
+﻿//[?] 연산자(Operator): 덧셈, 뺄셈과 같은 연산을 진행하는 키워드
 using System;
 
 class OperatorDescription
