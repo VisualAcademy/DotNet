@@ -1123,6 +1123,7 @@
     <Compile Include="24_Class\_\환경변수\환경변수.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="31_Algorithms\ReadMe.md" />
     <None Include="31_Algorithms\알고리즘강의소개.pdf" />
     <None Include="43_Inheritance\InheritanceClassDiagram.cd" />
     <None Include="App.config" />
