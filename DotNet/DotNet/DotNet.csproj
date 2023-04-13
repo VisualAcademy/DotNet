@@ -830,6 +830,7 @@
     <Compile Include="66_Etc\데이터구조\데이터구조_해시테이블%28닷넷%29.cs" />
     <Compile Include="66_Etc\데이터구조\자료구조_스택%28닷넷클래스사용%29.cs" />
     <Compile Include="66_Etc\데이터구조\자료구조_큐%28닷넷클래스사용%29.cs" />
+    <Compile Include="66_Etc\스택.cs" />
     <Compile Include="67_Challenge\StringReverse.cs" />
     <Compile Include="99_Examples\ReverseTriangle.cs" />
     <Compile Include="Program.cs" />
