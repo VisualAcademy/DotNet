@@ -4,23 +4,26 @@
 using System;
 using System.Collections;
 
-public class 스택
+namespace 자료구조
 {
-    public static void Main()
+    public class 스택
     {
-        //[1] 스택 인스턴스 생성
-        Stack stack = new Stack();
+        public static void Main()
+        {
+            //[1] 스택 인스턴스 생성
+            Stack stack = new Stack();
 
-        //[2] Push
-        Console.WriteLine("Push : C언어");
-        stack.Push("C언어");
-        Console.WriteLine("Push : C#");
-        stack.Push("C#");
+            //[2] Push
+            Console.WriteLine("Push : C언어");
+            stack.Push("C언어");
+            Console.WriteLine("Push : C#");
+            stack.Push("C#");
 
-        Console.WriteLine("===============");
+            Console.WriteLine("===============");
 
-        //[3] Pop
-        Console.WriteLine("Pop : {0}", stack.Pop());
-        Console.WriteLine("Pop : {0}", stack.Pop());
-    }
+            //[3] Pop
+            Console.WriteLine("Pop : {0}", stack.Pop());
+            Console.WriteLine("Pop : {0}", stack.Pop());
+        }
+    } 
 }
