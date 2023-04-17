@@ -50,7 +50,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>NumberLiteral</StartupObject>
+    <StartupObject>NumberDataTypesPractice</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -110,6 +110,7 @@
     <Compile Include="05_Variable\ConstPseudo.cs" />
     <Compile Include="05_Variable\VariablePseudo.cs" />
     <Compile Include="05_Variable\_\데이터형과변수\데이터형과변수.cs" />
+    <Compile Include="06_Number\NumberDataTypesPractice.cs" />
     <Compile Include="06_Number\NumberLiteral.cs" />
     <Compile Include="06_Number\NumberMaxMin\NumberMaxMin.cs" />
     <Compile Include="06_Number\NumberLiteralPseudo.cs" />

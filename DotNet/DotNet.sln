@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetEightTest", "DotNetEi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dojang", "Dojang\Dojang.csproj", "{B66A97ED-9C31-4E1B-9639-83022F1ECF6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eleven", "Eleven\Eleven.csproj", "{80B4862F-0950-431A-80F4-8F8EE0209CDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eleven", "Eleven\Eleven.csproj", "{80B4862F-0950-431A-80F4-8F8EE0209CDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
