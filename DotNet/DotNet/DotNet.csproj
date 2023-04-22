@@ -50,7 +50,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>NumberDataTypesPractice</StartupObject>
+    <StartupObject>CelsiusToFahrenheitWithFunction</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -201,6 +201,7 @@
     <Compile Include="07_BoolCharString\01_CharacterDemo\CharacterDemo.cs" />
     <Compile Include="07_BoolCharString\CharacterExam\CharacterExam.cs" />
     <Compile Include="07_BoolCharString\CharacterPractice\CharacterPractice.cs" />
+    <Compile Include="19_Function\CelsiusToFahrenheitWithFunction.cs" />
     <Compile Include="19_Function\FunctionNote.cs" />
     <Compile Include="19_Function\_\내장함수.cs" />
     <Compile Include="19_Function\_\매개변수가없는함수.cs" />
