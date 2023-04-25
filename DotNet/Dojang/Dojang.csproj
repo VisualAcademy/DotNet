@@ -5,7 +5,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SumOfTwoIntegers</StartupObject>
+    <StartupObject>LeastCommonMultipleCalculator</StartupObject>
   </PropertyGroup>
 
 </Project>
