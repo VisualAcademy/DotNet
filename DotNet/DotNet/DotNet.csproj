@@ -51,7 +51,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FileWriteString</StartupObject>
+    <StartupObject>CountLinesInTextFile</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -307,6 +307,7 @@
     <Compile Include="52_ClassLibrary\_\GetExecutingAssemblyDemo.cs" />
     <Compile Include="55_Thread\02_ThreadPractice\ThreadPractice.cs" />
     <Compile Include="55_Thread\ThreadNote.cs" />
+    <Compile Include="58_IO\CountLinesInTextFile\CountLinesInTextFile.cs" />
     <Compile Include="58_IO\FileReadString\FileReadString.cs" />
     <Compile Include="58_IO\FileWriteString\FileWriteString.cs" />
     <Compile Include="61_Functional\AggregateDemo\AggregateDemo.cs" />
