@@ -23,7 +23,7 @@ class StopwatchDemo
 
     static void LongTimeProcess()
     {
-        // 3초간 대기: Thread.Sleep() 메서드로 현재 프로그램 3초가 대기
+        // 3초간 대기: Thread.Sleep() 메서드로 현재 프로그램 3초간 대기
         Thread.Sleep(3000);
     }
 }
