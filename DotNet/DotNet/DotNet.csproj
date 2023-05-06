@@ -51,7 +51,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CountLinesInTextFile</StartupObject>
+    <StartupObject>StringInputLength</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -263,6 +263,7 @@
     <Compile Include="08_ReadLine\07_TypeConversion\TypeConversion.cs" />
     <Compile Include="08_ReadLine\18_VarInput\VarInput.cs" />
     <Compile Include="08_ReadLine\16_Var\Var.cs" />
+    <Compile Include="25_String\StringInputLength\StringInputLength.cs" />
     <Compile Include="26_Exception\_\예외발생.cs" />
     <Compile Include="26_Exception\_\예외처리\예외처리.cs" />
     <Compile Include="26_Exception\_\오버플로우.cs" />
