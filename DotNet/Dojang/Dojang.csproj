@@ -5,7 +5,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>MinMax</StartupObject>
+    <StartupObject>NestedStructures.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
