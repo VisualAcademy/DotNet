@@ -34,7 +34,7 @@ namespace InterfaceDemo
 
     class InterfaceDemo
     {
-        static void Main(string[] args)
+        static void Main()
         {
             //[A] 넘겨주는 개체에 따라서 배터리 이름이 다르게 표시 
             var good = new Car(new Good()); good.Run();
