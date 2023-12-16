@@ -14,7 +14,9 @@ class ArrayWithVarKeyword
 
         // 배열 형식
         var numbers = new int[] { 1, 2, 3 };
-        foreach (var item in numbers) // var item에서 item은 numbers 형식
+
+        // 여기서 var item은 numbers 배열의 요소의 형식, 즉 int 형식임
+        foreach (var item in numbers) 
         {
             Console.WriteLine("item : {0}, 타입 : {1}", item, item.GetType());
         }
