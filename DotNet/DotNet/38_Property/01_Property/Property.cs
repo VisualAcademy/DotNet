@@ -10,7 +10,7 @@ class Property
 {
     static void Main()
     {
-        //[1] 클래스의 인스턴스 새성
+        //[1] 클래스의 인스턴스 생성
         Developer developer = new Developer();
 
         //[2] 속성에 값 설정(set)
