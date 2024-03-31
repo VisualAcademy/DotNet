@@ -51,7 +51,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>BitwiseLogicalOperations</StartupObject>
+    <StartupObject>SumOfMultiplesOfSeven</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -158,6 +158,7 @@
     <Compile Include="15_For\FizzBuzz.cs" />
     <Compile Include="15_For\ForNestedPseudo.cs" />
     <Compile Include="15_For\ForSquare.cs" />
+    <Compile Include="16_WhileDoForEach\SumOfMultiplesOfSeven\SumOfMultiplesOfSeven.cs" />
     <Compile Include="17_BreakContinueGoto\05_ForIfContinue\ForIfContinuePicture.cs" />
     <Compile Include="17_BreakContinueGoto\BreakStatement.cs" />
     <Compile Include="18_Array\22_ArraySumAverage\ArraySumAverage.cs" />
