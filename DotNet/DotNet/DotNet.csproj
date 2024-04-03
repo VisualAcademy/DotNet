@@ -51,7 +51,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SumOfMultiplesOfSeven</StartupObject>
+    <StartupObject>DotNetInheritance.ClassInheritanceDemo</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -299,6 +299,7 @@
     <Compile Include="41_Event\EventAndDelegateDemo.Car.cs" />
     <Compile Include="41_Event\EventAndDelegate.cs" />
     <Compile Include="42_ClassEtc\06_OperatorOverload\OperatorOverload.cs" />
+    <Compile Include="43_Inheritance\ClassInheritanceDemo\ClassInheritanceDemo.cs" />
     <Compile Include="43_Inheritance\InheritanceNote.cs" />
     <Compile Include="44_Override\OverrideDemo.cs" />
     <Compile Include="45_Interface\InterfaceDescription.cs" />
