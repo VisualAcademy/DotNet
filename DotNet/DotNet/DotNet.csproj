@@ -51,7 +51,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DotNetInheritance.ClassInheritanceDemo</StartupObject>
+    <StartupObject>Enrollment.QuantumIndianBloodCalculator</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -849,6 +849,7 @@
     <Compile Include="66_Etc\스택.cs" />
     <Compile Include="66_Etc\큐.cs" />
     <Compile Include="67_Challenge\StringReverse.cs" />
+    <Compile Include="99_Examples\Enrollment\QuantumIndianBloodCalculator.cs" />
     <Compile Include="99_Examples\ReverseTriangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
