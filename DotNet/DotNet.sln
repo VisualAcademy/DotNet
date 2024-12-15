@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dojang", "Dojang\Dojang.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eleven", "Eleven\Eleven.csproj", "{80B4862F-0950-431A-80F4-8F8EE0209CDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopLevelStatements", "TopLevelStatements\TopLevelStatements.csproj", "{A728220F-F734-4F0E-BD52-C0B458C56F78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{80B4862F-0950-431A-80F4-8F8EE0209CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80B4862F-0950-431A-80F4-8F8EE0209CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80B4862F-0950-431A-80F4-8F8EE0209CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A728220F-F734-4F0E-BD52-C0B458C56F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A728220F-F734-4F0E-BD52-C0B458C56F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A728220F-F734-4F0E-BD52-C0B458C56F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A728220F-F734-4F0E-BD52-C0B458C56F78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
