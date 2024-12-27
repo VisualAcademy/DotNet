@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Unboxing: 언박싱은 참조 형식 데이터를 값 형식 데이터로 변환하는 작업
+using System;
 
 class Unboxing
 {
