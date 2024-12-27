@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Boxing: 박싱은 값 형식 데이터를 참조 형식 데이터로 변환하는 작업
+using System;
 
 class Boxing
 {
