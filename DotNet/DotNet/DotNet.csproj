@@ -218,7 +218,8 @@
     <Compile Include="22_Struct\_\구조체형.cs" />
     <Compile Include="23_Enum\EnumerationTextbook.cs" />
     <Compile Include="24_Class\18_ObjectToString\ObjectToString.cs" />
-    <Compile Include="24_Class\BoxingDemo\Boxing.cs" />
+    <Compile Include="24_Class\BoxingUnboxing\Unboxing.cs" />
+    <Compile Include="24_Class\BoxingUnboxing\Boxing.cs" />
     <Compile Include="25_String\03_CharArrayToString\CharArrayToString.cs" />
     <Compile Include="07_BoolCharString\11_CharStringBoolean\CharStringBoolean.cs" />
     <Compile Include="07_BoolCharString\03_MultiLineString\MultiLineString.cs" />
