@@ -272,6 +272,7 @@
     <Compile Include="08_ReadLine\07_TypeConversion\TypeConversion.cs" />
     <Compile Include="08_ReadLine\18_VarInput\VarInput.cs" />
     <Compile Include="08_ReadLine\16_Var\Var.cs" />
+    <Compile Include="25_String\StringAndCharArrayConverter\StringAndCharArrayConverter.cs" />
     <Compile Include="25_String\StringInputLength\StringInputLength.cs" />
     <Compile Include="26_Exception\_\예외발생.cs" />
     <Compile Include="26_Exception\_\예외처리\예외처리.cs" />
