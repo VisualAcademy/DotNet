@@ -51,7 +51,7 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>UppercaseChecker</StartupObject>
+    <StartupObject>AggregateMethod</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -279,6 +279,7 @@
     <Compile Include="26_Exception\_\오버플로우.cs" />
     <Compile Include="29_Null\08_NullableTypes\NullableTypes.cs" />
     <Compile Include="30_LINQ\14_LinqAll\UppercaseChecker.cs" />
+    <Compile Include="30_LINQ\LinqAggregate\AggregateMethod.cs" />
     <Compile Include="30_LINQ\LinqAggregate\LinqAggregate.cs" />
     <Compile Include="30_LINQ\11_LinqWhereMethod\LinqWhereMethod.cs" />
     <Compile Include="31_Algorithms\08_01_SortAlgorithm\BubbleSort.cs" />
