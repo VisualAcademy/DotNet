@@ -53,7 +53,7 @@ namespace CarWorldDemo
         #endregion
 
         #region [8] 소멸자: Destructor
-        ~Car()  // 소멸자: 폐차, 만들어진 객체 소멸될 때
+        ~Car()  // 소멸자: 폐차, 만들어진 개체 소멸될 때
         {
             Console.WriteLine("{0} 자동차가 폐차됨.", name);
         }
