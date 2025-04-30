@@ -25,7 +25,7 @@ namespace PartialClass
 
             //[B] 멤버가 함께 노출되는 것 확인
             person.Name = "C#";
-            person.Age = 20;
+            person.Age = 25;
 
             //[C] 출력
             person.Print();
