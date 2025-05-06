@@ -14,6 +14,6 @@ class GetDateTimeFromYearlyHour
     /// </summary>
     static DateTime GetDateTimeFromYearlyHourNumber(int number)
     {
-        return (new DateTime(2019, 1, 1, 0, 0, 0)).AddHours(--number);        
+        return (new DateTime(2025, 1, 1, 0, 0, 0)).AddHours(--number);        
     }
 }
