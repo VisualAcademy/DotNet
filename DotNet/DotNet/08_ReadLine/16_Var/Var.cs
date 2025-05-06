@@ -8,7 +8,7 @@ class Var
         var name = "C#"; // string 형식으로 변환해줌
         Console.WriteLine(name); // C#
 
-        var version = 12.0; // double 형식으로 변환해줌
+        var version = 14.0; // double 형식으로 변환해줌
         Console.WriteLine("{0:0.0}", version); // 12.0
     }
 }
