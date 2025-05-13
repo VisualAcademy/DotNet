@@ -4,7 +4,7 @@ class WhileEven
 {
     static void Main()
     {
-        //[!] while 문을 사용하여 짝수의 합
+        // while 문을 사용한 1부터 100까지의 짝수 합 계산
         int sum = 0;
 
         int i = 1;                  // 초기식
