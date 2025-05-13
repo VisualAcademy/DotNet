@@ -6,7 +6,7 @@ class GetterSetter
     public DateTime BirthDate { get; set; }
     public int Age
     {
-        get => (DateTime.Now - BirthDate).Days / 365 + 1; 
+        get => (DateTime.Now - BirthDate).Days / 365; 
     }
 
     static void Main()
